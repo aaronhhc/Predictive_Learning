@@ -20,16 +20,18 @@ CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 KATEX = "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9"
 
 CSS = """
-@page { size: A4; margin: 18mm 16mm; }
-body { font-family: 'Times New Roman', Times, serif; font-size: 11pt; line-height: 1.38; color: #111; }
+@page { size: A4; margin: 15mm 16mm; }
+body { font-family: 'Times New Roman', Times, serif; font-size: 11pt; line-height: 1.3; color: #111; }
 h1 { font-size: 24pt; margin: 0 0 10pt; }
 h2 { font-size: 15pt; margin: 18pt 0 6pt; break-after: avoid; }
 h3 { font-size: 12.5pt; margin: 14pt 0 4pt; break-after: avoid; }
 p { margin: 0 0 8pt; }
 a { color: #1a4f9c; }
 table { border-collapse: collapse; width: 100%; margin: 6pt 0 10pt; font-size: 9.5pt; break-inside: avoid; }
-th, td { padding: 3pt 8pt; border-bottom: 0.5pt solid #cbd2d9; }
+th, td { padding: 2pt 8pt; border-bottom: 0.5pt solid #cbd2d9; }
 thead th { border-top: 0.5pt solid #718096; border-bottom: 0.5pt solid #718096; background: #f0f3f5; }
+tr { break-inside: avoid; }
+.page-break { break-before: page; }
 .katex-display { margin: 8pt 0; break-inside: avoid; }
 """
 
@@ -44,6 +46,9 @@ def render(text):
     text = re.sub(r"\$\$.+?\$\$", stash, text, flags=re.S)
     body = markdown.markdown(text, extensions=["tables"])
     body = re.sub(r"@@MATH(\d+)@@", lambda m: html.escape(math[int(m.group(1))]), body)
+    # start the algebraic-polynomial subsection (heading, equation, table) on a new page
+    body = body.replace("<h3>Algebraic polynomial</h3>", '<h3 class="page-break">Algebraic polynomial</h3>')
+    body = body.replace("<p>I used the Schwartz criterion", '<p class="page-break">I used the Schwartz criterion')
     # right-align numeric columns declared with ---: in the Markdown source
     return body
 
