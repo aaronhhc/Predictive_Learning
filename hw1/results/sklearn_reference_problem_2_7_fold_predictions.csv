@@ -1,0 +1,2551 @@
+k,held_out_index,csv_row,state,code,obesity_percent,actual,sklearn_prediction,custom_policy_prediction,sklearn_mistake,custom_mistake,sklearn_D_votes,sklearn_R_votes,custom_D_votes,custom_R_votes,algorithm_used
+1,0,1,Alabama,AL,27.7,R,R,R,0,0,0,1,0,1,kd_tree
+1,1,2,Alaska,AK,23.5,R,R,R,0,0,0,1,0,1,kd_tree
+1,2,3,Arizona,AZ,20.3,R,D,D,1,1,1,0,1,0,kd_tree
+1,3,4,Arkansas,AR,25.0,R,R,R,0,0,0,1,0,1,kd_tree
+1,4,5,California,CA,21.5,D,D,D,0,0,1,0,1,0,kd_tree
+1,5,6,Colorado,CO,16.4,R,R,R,0,0,0,1,0,1,kd_tree
+1,6,7,Connecticut,CT,18.9,D,R,R,1,1,0,1,0,1,kd_tree
+1,7,8,Delaware,DE,22.5,D,D,D,0,0,1,0,1,0,kd_tree
+1,8,9,DC,DC,21.2,D,D,D,0,0,1,0,1,0,kd_tree
+1,9,10,Florida,FL,20.7,R,R,R,0,0,0,1,0,1,kd_tree
+1,10,11,Georgia,GA,24.5,R,R,R,0,0,0,1,0,1,kd_tree
+1,11,12,Hawaii,HI,15.7,R,R,R,0,0,0,1,0,1,kd_tree
+1,12,13,Idaho,ID,20.9,R,D,D,1,1,1,0,1,0,kd_tree
+1,13,14,Illinois,IL,22.9,D,R,R,1,1,0,1,0,1,kd_tree
+1,14,15,Indiana,IN,25.2,R,R,R,0,0,0,1,0,1,kd_tree
+1,15,16,Iowa,IA,23.4,R,R,R,0,0,0,1,0,1,kd_tree
+1,16,17,Kansas,KS,22.9,R,D,D,1,1,1,0,1,0,kd_tree
+1,17,18,Kentucky,KY,25.3,R,D,D,1,1,1,0,1,0,kd_tree
+1,18,19,Louisiana,LA,25.8,R,R,R,0,0,0,1,0,1,kd_tree
+1,19,20,Maine,ME,21.3,D,R,R,1,1,0,1,0,1,kd_tree
+1,20,21,Maryland,MD,21.7,D,D,D,0,0,1,0,1,0,kd_tree
+1,21,22,Massachusetts,MA,17.8,D,D,D,0,0,1,0,1,0,kd_tree
+1,22,23,Michigan,MI,25.3,D,R,R,1,1,0,1,0,1,kd_tree
+1,23,24,Minnesota,MN,22.6,D,R,R,1,1,0,1,0,1,kd_tree
+1,24,25,Mississippi,MS,28.1,R,R,R,0,0,0,1,0,1,kd_tree
+1,25,26,Missouri,MO,23.9,R,R,R,0,0,0,1,0,1,kd_tree
+1,26,27,Montana,MT,19.1,R,D,D,1,1,1,0,1,0,kd_tree
+1,27,28,Nebraska,NE,23.4,R,R,R,0,0,0,1,0,1,kd_tree
+1,28,29,Nevada,NV,21.3,R,D,D,1,1,1,0,1,0,kd_tree
+1,29,30,New Hampshire,NH,19.9,D,R,R,1,1,0,1,0,1,kd_tree
+1,30,31,New Jersey,NJ,20.3,D,R,R,1,1,0,1,0,1,kd_tree
+1,31,32,New Mexico,NM,20.5,R,R,R,0,0,0,1,0,1,kd_tree
+1,32,33,New York,NY,21.2,D,D,D,0,0,1,0,1,0,kd_tree
+1,33,34,North Carolina,NC,23.9,R,R,R,0,0,0,1,0,1,kd_tree
+1,34,35,North Dakota,ND,23.9,R,R,R,0,0,0,1,0,1,kd_tree
+1,35,36,Ohio,OH,24.4,R,R,R,0,0,0,1,0,1,kd_tree
+1,36,37,Oklahoma,OK,24.1,R,D,D,1,1,1,0,1,0,kd_tree
+1,37,38,Oregon,OR,21.0,D,R,R,1,1,0,1,0,1,kd_tree
+1,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,0,1,0,1,kd_tree
+1,39,40,Rhode Island,RI,18.6,D,D,D,0,0,1,0,1,0,kd_tree
+1,40,41,South Carolina,SC,25.1,R,R,R,0,0,0,1,0,1,kd_tree
+1,41,42,South Dakota,SD,22.6,R,D,D,1,1,1,0,1,0,kd_tree
+1,42,43,Tennessee,TN,25.6,R,R,R,0,0,0,1,0,1,kd_tree
+1,43,44,Texas,TX,25.3,R,R,R,0,0,0,1,0,1,kd_tree
+1,44,45,Utah,UT,19.6,R,D,D,1,1,1,0,1,0,kd_tree
+1,45,46,Vermont,VT,19.1,D,R,R,1,1,0,1,0,1,kd_tree
+1,46,47,Virginia,VA,22.9,R,D,D,1,1,1,0,1,0,kd_tree
+1,47,48,Washington,WA,21.7,D,D,D,0,0,1,0,1,0,kd_tree
+1,48,49,West Virginia,WV,27.6,R,R,R,0,0,0,1,0,1,kd_tree
+1,49,50,Wisconsin,WI,21.9,D,D,D,0,0,1,0,1,0,kd_tree
+1,50,51,Wyoming,WY,20.1,R,R,R,0,0,0,1,0,1,kd_tree
+2,0,1,Alabama,AL,27.7,R,R,R,0,0,0,2,0,2,kd_tree
+2,1,2,Alaska,AK,23.5,R,R,R,0,0,0,2,0,2,kd_tree
+2,2,3,Arizona,AZ,20.3,R,D,R,1,0,1,1,1,1,kd_tree
+2,3,4,Arkansas,AR,25.0,R,R,R,0,0,0,2,0,2,kd_tree
+2,4,5,California,CA,21.5,D,D,D,0,0,2,0,2,0,kd_tree
+2,5,6,Colorado,CO,16.4,R,D,R,1,0,1,1,1,1,kd_tree
+2,6,7,Connecticut,CT,18.9,D,D,R,0,1,1,1,1,1,kd_tree
+2,7,8,Delaware,DE,22.5,D,D,R,0,1,1,1,1,1,kd_tree
+2,8,9,DC,DC,21.2,D,D,D,0,0,2,0,2,0,kd_tree
+2,9,10,Florida,FL,20.7,R,R,R,0,0,0,2,0,2,kd_tree
+2,10,11,Georgia,GA,24.5,R,R,R,0,0,0,2,0,2,kd_tree
+2,11,12,Hawaii,HI,15.7,R,D,R,1,0,1,1,1,1,kd_tree
+2,12,13,Idaho,ID,20.9,R,D,R,1,0,1,1,1,1,kd_tree
+2,13,14,Illinois,IL,22.9,D,R,R,1,1,0,2,0,2,kd_tree
+2,14,15,Indiana,IN,25.2,R,R,R,0,0,0,2,1,1,kd_tree
+2,15,16,Iowa,IA,23.4,R,R,R,0,0,0,2,0,2,kd_tree
+2,16,17,Kansas,KS,22.9,R,D,R,1,0,1,1,1,1,kd_tree
+2,17,18,Kentucky,KY,25.3,R,D,R,1,0,1,1,1,1,kd_tree
+2,18,19,Louisiana,LA,25.8,R,R,R,0,0,0,2,0,2,kd_tree
+2,19,20,Maine,ME,21.3,D,D,R,0,1,1,1,1,1,kd_tree
+2,20,21,Maryland,MD,21.7,D,D,D,0,0,2,0,2,0,kd_tree
+2,21,22,Massachusetts,MA,17.8,D,D,D,0,0,2,0,2,0,kd_tree
+2,22,23,Michigan,MI,25.3,D,R,R,1,1,0,2,0,2,kd_tree
+2,23,24,Minnesota,MN,22.6,D,D,R,0,1,1,1,1,1,kd_tree
+2,24,25,Mississippi,MS,28.1,R,R,R,0,0,0,2,0,2,kd_tree
+2,25,26,Missouri,MO,23.9,R,R,R,0,0,0,2,0,2,kd_tree
+2,26,27,Montana,MT,19.1,R,D,D,1,1,2,0,2,0,kd_tree
+2,27,28,Nebraska,NE,23.4,R,R,R,0,0,0,2,0,2,kd_tree
+2,28,29,Nevada,NV,21.3,R,D,D,1,1,2,0,2,0,kd_tree
+2,29,30,New Hampshire,NH,19.9,D,R,R,1,1,0,2,0,2,kd_tree
+2,30,31,New Jersey,NJ,20.3,D,R,R,1,1,0,2,0,2,kd_tree
+2,31,32,New Mexico,NM,20.5,R,R,R,0,0,0,2,0,2,kd_tree
+2,32,33,New York,NY,21.2,D,D,D,0,0,2,0,2,0,kd_tree
+2,33,34,North Carolina,NC,23.9,R,R,R,0,0,0,2,0,2,kd_tree
+2,34,35,North Dakota,ND,23.9,R,R,R,0,0,0,2,0,2,kd_tree
+2,35,36,Ohio,OH,24.4,R,R,R,0,0,0,2,0,2,kd_tree
+2,36,37,Oklahoma,OK,24.1,R,D,R,1,0,1,1,1,1,kd_tree
+2,37,38,Oregon,OR,21.0,D,D,R,0,1,1,1,1,1,kd_tree
+2,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,0,2,0,2,kd_tree
+2,39,40,Rhode Island,RI,18.6,D,D,R,0,1,1,1,1,1,kd_tree
+2,40,41,South Carolina,SC,25.1,R,R,R,0,0,0,2,0,2,kd_tree
+2,41,42,South Dakota,SD,22.6,R,D,D,1,1,2,0,2,0,kd_tree
+2,42,43,Tennessee,TN,25.6,R,R,R,0,0,0,2,0,2,kd_tree
+2,43,44,Texas,TX,25.3,R,D,R,1,0,1,1,1,1,kd_tree
+2,44,45,Utah,UT,19.6,R,D,R,1,0,1,1,1,1,kd_tree
+2,45,46,Vermont,VT,19.1,D,D,R,0,1,1,1,1,1,kd_tree
+2,46,47,Virginia,VA,22.9,R,D,R,1,0,1,1,1,1,kd_tree
+2,47,48,Washington,WA,21.7,D,D,D,0,0,2,0,2,0,kd_tree
+2,48,49,West Virginia,WV,27.6,R,R,R,0,0,0,2,0,2,kd_tree
+2,49,50,Wisconsin,WI,21.9,D,D,D,0,0,2,0,2,0,kd_tree
+2,50,51,Wyoming,WY,20.1,R,D,R,1,0,1,1,1,1,kd_tree
+3,0,1,Alabama,AL,27.7,R,R,R,0,0,0,3,0,3,kd_tree
+3,1,2,Alaska,AK,23.5,R,R,R,0,0,0,3,0,3,kd_tree
+3,2,3,Arizona,AZ,20.3,R,R,R,0,0,1,2,1,2,kd_tree
+3,3,4,Arkansas,AR,25.0,R,R,R,0,0,0,3,0,3,kd_tree
+3,4,5,California,CA,21.5,D,D,D,0,0,2,1,2,1,kd_tree
+3,5,6,Colorado,CO,16.4,R,D,D,1,1,2,1,2,1,kd_tree
+3,6,7,Connecticut,CT,18.9,D,D,D,0,0,2,1,2,1,kd_tree
+3,7,8,Delaware,DE,22.5,D,R,D,1,0,1,2,2,1,kd_tree
+3,8,9,DC,DC,21.2,D,D,D,0,0,2,1,2,1,kd_tree
+3,9,10,Florida,FL,20.7,R,R,R,0,0,1,2,1,2,kd_tree
+3,10,11,Georgia,GA,24.5,R,R,R,0,0,0,3,0,3,kd_tree
+3,11,12,Hawaii,HI,15.7,R,D,D,1,1,2,1,2,1,kd_tree
+3,12,13,Idaho,ID,20.9,R,D,D,1,1,2,1,2,1,kd_tree
+3,13,14,Illinois,IL,22.9,D,R,R,1,1,1,2,1,2,kd_tree
+3,14,15,Indiana,IN,25.2,R,R,R,0,0,1,2,1,2,kd_tree
+3,15,16,Iowa,IA,23.4,R,R,R,0,0,1,2,1,2,kd_tree
+3,16,17,Kansas,KS,22.9,R,D,D,1,1,2,1,2,1,kd_tree
+3,17,18,Kentucky,KY,25.3,R,R,R,0,0,1,2,1,2,kd_tree
+3,18,19,Louisiana,LA,25.8,R,R,R,0,0,1,2,1,2,kd_tree
+3,19,20,Maine,ME,21.3,D,D,D,0,0,2,1,2,1,kd_tree
+3,20,21,Maryland,MD,21.7,D,D,D,0,0,3,0,3,0,kd_tree
+3,21,22,Massachusetts,MA,17.8,D,D,D,0,0,2,1,2,1,kd_tree
+3,22,23,Michigan,MI,25.3,D,R,R,1,1,0,3,0,3,kd_tree
+3,23,24,Minnesota,MN,22.6,D,D,D,0,0,2,1,2,1,kd_tree
+3,24,25,Mississippi,MS,28.1,R,R,R,0,0,0,3,0,3,kd_tree
+3,25,26,Missouri,MO,23.9,R,R,R,0,0,1,2,1,2,kd_tree
+3,26,27,Montana,MT,19.1,R,D,D,1,1,3,0,3,0,kd_tree
+3,27,28,Nebraska,NE,23.4,R,R,R,0,0,1,2,1,2,kd_tree
+3,28,29,Nevada,NV,21.3,R,D,D,1,1,3,0,3,0,kd_tree
+3,29,30,New Hampshire,NH,19.9,D,R,R,1,1,1,2,0,3,kd_tree
+3,30,31,New Jersey,NJ,20.3,D,R,R,1,1,0,3,0,3,kd_tree
+3,31,32,New Mexico,NM,20.5,R,R,R,0,0,1,2,1,2,kd_tree
+3,32,33,New York,NY,21.2,D,D,D,0,0,2,1,2,1,kd_tree
+3,33,34,North Carolina,NC,23.9,R,R,R,0,0,1,2,1,2,kd_tree
+3,34,35,North Dakota,ND,23.9,R,R,R,0,0,1,2,1,2,kd_tree
+3,35,36,Ohio,OH,24.4,R,R,R,0,0,1,2,1,2,kd_tree
+3,36,37,Oklahoma,OK,24.1,R,R,R,0,0,1,2,1,2,kd_tree
+3,37,38,Oregon,OR,21.0,D,D,D,0,0,2,1,2,1,kd_tree
+3,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,0,3,0,3,kd_tree
+3,39,40,Rhode Island,RI,18.6,D,D,D,0,0,2,1,2,1,kd_tree
+3,40,41,South Carolina,SC,25.1,R,R,R,0,0,0,3,0,3,kd_tree
+3,41,42,South Dakota,SD,22.6,R,D,D,1,1,3,0,3,0,kd_tree
+3,42,43,Tennessee,TN,25.6,R,R,R,0,0,1,2,1,2,kd_tree
+3,43,44,Texas,TX,25.3,R,R,R,0,0,1,2,1,2,kd_tree
+3,44,45,Utah,UT,19.6,R,D,D,1,1,2,1,2,1,kd_tree
+3,45,46,Vermont,VT,19.1,D,D,D,0,0,2,1,2,1,kd_tree
+3,46,47,Virginia,VA,22.9,R,D,D,1,1,2,1,2,1,kd_tree
+3,47,48,Washington,WA,21.7,D,D,D,0,0,3,0,3,0,kd_tree
+3,48,49,West Virginia,WV,27.6,R,R,R,0,0,0,3,0,3,kd_tree
+3,49,50,Wisconsin,WI,21.9,D,D,D,0,0,3,0,3,0,kd_tree
+3,50,51,Wyoming,WY,20.1,R,D,D,1,1,2,1,2,1,kd_tree
+4,0,1,Alabama,AL,27.7,R,R,R,0,0,0,4,0,4,kd_tree
+4,1,2,Alaska,AK,23.5,R,R,R,0,0,0,4,0,4,kd_tree
+4,2,3,Arizona,AZ,20.3,R,R,R,0,0,1,3,1,3,kd_tree
+4,3,4,Arkansas,AR,25.0,R,R,R,0,0,1,3,1,3,kd_tree
+4,4,5,California,CA,21.5,D,D,D,0,0,3,1,3,1,kd_tree
+4,5,6,Colorado,CO,16.4,R,D,D,1,1,3,1,3,1,kd_tree
+4,6,7,Connecticut,CT,18.9,D,D,R,0,1,2,2,2,2,kd_tree
+4,7,8,Delaware,DE,22.5,D,D,R,0,1,2,2,2,2,kd_tree
+4,8,9,DC,DC,21.2,D,D,D,0,0,3,1,3,1,kd_tree
+4,9,10,Florida,FL,20.7,R,R,R,0,0,1,3,1,3,kd_tree
+4,10,11,Georgia,GA,24.5,R,R,R,0,0,1,3,1,3,kd_tree
+4,11,12,Hawaii,HI,15.7,R,D,D,1,1,3,1,3,1,kd_tree
+4,12,13,Idaho,ID,20.9,R,D,D,1,1,3,1,3,1,kd_tree
+4,13,14,Illinois,IL,22.9,D,R,R,1,1,1,3,1,3,kd_tree
+4,14,15,Indiana,IN,25.2,R,R,R,0,0,1,3,1,3,kd_tree
+4,15,16,Iowa,IA,23.4,R,R,R,0,0,1,3,1,3,kd_tree
+4,16,17,Kansas,KS,22.9,R,D,R,1,0,2,2,2,2,kd_tree
+4,17,18,Kentucky,KY,25.3,R,R,R,0,0,1,3,1,3,kd_tree
+4,18,19,Louisiana,LA,25.8,R,R,R,0,0,1,3,1,3,kd_tree
+4,19,20,Maine,ME,21.3,D,D,D,0,0,3,1,3,1,kd_tree
+4,20,21,Maryland,MD,21.7,D,D,D,0,0,3,1,4,0,kd_tree
+4,21,22,Massachusetts,MA,17.8,D,D,D,0,0,3,1,3,1,kd_tree
+4,22,23,Michigan,MI,25.3,D,R,R,1,1,0,4,0,4,kd_tree
+4,23,24,Minnesota,MN,22.6,D,D,R,0,1,2,2,2,2,kd_tree
+4,24,25,Mississippi,MS,28.1,R,R,R,0,0,0,4,0,4,kd_tree
+4,25,26,Missouri,MO,23.9,R,R,R,0,0,1,3,1,3,kd_tree
+4,26,27,Montana,MT,19.1,R,D,D,1,1,3,1,3,1,kd_tree
+4,27,28,Nebraska,NE,23.4,R,R,R,0,0,1,3,1,3,kd_tree
+4,28,29,Nevada,NV,21.3,R,D,D,1,1,4,0,4,0,kd_tree
+4,29,30,New Hampshire,NH,19.9,D,R,R,1,1,1,3,1,3,kd_tree
+4,30,31,New Jersey,NJ,20.3,D,R,R,1,1,0,4,0,4,kd_tree
+4,31,32,New Mexico,NM,20.5,R,R,R,0,0,1,3,1,3,kd_tree
+4,32,33,New York,NY,21.2,D,D,D,0,0,3,1,3,1,kd_tree
+4,33,34,North Carolina,NC,23.9,R,R,R,0,0,1,3,1,3,kd_tree
+4,34,35,North Dakota,ND,23.9,R,R,R,0,0,1,3,1,3,kd_tree
+4,35,36,Ohio,OH,24.4,R,R,R,0,0,1,3,1,3,kd_tree
+4,36,37,Oklahoma,OK,24.1,R,R,R,0,0,1,3,1,3,kd_tree
+4,37,38,Oregon,OR,21.0,D,D,R,0,1,2,2,2,2,kd_tree
+4,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,0,4,0,4,kd_tree
+4,39,40,Rhode Island,RI,18.6,D,D,D,0,0,3,1,3,1,kd_tree
+4,40,41,South Carolina,SC,25.1,R,R,R,0,0,1,3,1,3,kd_tree
+4,41,42,South Dakota,SD,22.6,R,D,D,1,1,3,1,3,1,kd_tree
+4,42,43,Tennessee,TN,25.6,R,R,R,0,0,1,3,1,3,kd_tree
+4,43,44,Texas,TX,25.3,R,R,R,0,0,1,3,1,3,kd_tree
+4,44,45,Utah,UT,19.6,R,D,R,1,0,2,2,2,2,kd_tree
+4,45,46,Vermont,VT,19.1,D,D,R,0,1,2,2,2,2,kd_tree
+4,46,47,Virginia,VA,22.9,R,D,R,1,0,2,2,2,2,kd_tree
+4,47,48,Washington,WA,21.7,D,D,D,0,0,4,0,4,0,kd_tree
+4,48,49,West Virginia,WV,27.6,R,R,R,0,0,0,4,0,4,kd_tree
+4,49,50,Wisconsin,WI,21.9,D,D,D,0,0,4,0,4,0,kd_tree
+4,50,51,Wyoming,WY,20.1,R,D,R,1,0,2,2,2,2,kd_tree
+5,0,1,Alabama,AL,27.7,R,R,R,0,0,0,5,0,5,kd_tree
+5,1,2,Alaska,AK,23.5,R,R,R,0,0,0,5,0,5,kd_tree
+5,2,3,Arizona,AZ,20.3,R,R,R,0,0,2,3,2,3,kd_tree
+5,3,4,Arkansas,AR,25.0,R,R,R,0,0,1,4,1,4,kd_tree
+5,4,5,California,CA,21.5,D,D,D,0,0,4,1,4,1,kd_tree
+5,5,6,Colorado,CO,16.4,R,D,D,1,1,3,2,3,2,kd_tree
+5,6,7,Connecticut,CT,18.9,D,D,D,0,0,3,2,3,2,kd_tree
+5,7,8,Delaware,DE,22.5,D,R,R,1,1,2,3,2,3,kd_tree
+5,8,9,DC,DC,21.2,D,D,D,0,0,4,1,4,1,kd_tree
+5,9,10,Florida,FL,20.7,R,R,R,0,0,2,3,2,3,kd_tree
+5,10,11,Georgia,GA,24.5,R,R,R,0,0,1,4,1,4,kd_tree
+5,11,12,Hawaii,HI,15.7,R,D,D,1,1,3,2,3,2,kd_tree
+5,12,13,Idaho,ID,20.9,R,D,D,1,1,3,2,4,1,kd_tree
+5,13,14,Illinois,IL,22.9,D,R,R,1,1,2,3,2,3,kd_tree
+5,14,15,Indiana,IN,25.2,R,R,R,0,0,1,4,1,4,kd_tree
+5,15,16,Iowa,IA,23.4,R,R,R,0,0,1,4,1,4,kd_tree
+5,16,17,Kansas,KS,22.9,R,D,D,1,1,3,2,3,2,kd_tree
+5,17,18,Kentucky,KY,25.3,R,R,R,0,0,1,4,1,4,kd_tree
+5,18,19,Louisiana,LA,25.8,R,R,R,0,0,1,4,1,4,kd_tree
+5,19,20,Maine,ME,21.3,D,D,D,0,0,4,1,4,1,kd_tree
+5,20,21,Maryland,MD,21.7,D,D,D,0,0,4,1,4,1,kd_tree
+5,21,22,Massachusetts,MA,17.8,D,D,D,0,0,3,2,3,2,kd_tree
+5,22,23,Michigan,MI,25.3,D,R,R,1,1,0,5,0,5,kd_tree
+5,23,24,Minnesota,MN,22.6,D,R,R,1,1,2,3,2,3,kd_tree
+5,24,25,Mississippi,MS,28.1,R,R,R,0,0,0,5,0,5,kd_tree
+5,25,26,Missouri,MO,23.9,R,R,R,0,0,1,4,1,4,kd_tree
+5,26,27,Montana,MT,19.1,R,D,D,1,1,4,1,4,1,kd_tree
+5,27,28,Nebraska,NE,23.4,R,R,R,0,0,1,4,1,4,kd_tree
+5,28,29,Nevada,NV,21.3,R,D,D,1,1,5,0,5,0,kd_tree
+5,29,30,New Hampshire,NH,19.9,D,R,R,1,1,1,4,1,4,kd_tree
+5,30,31,New Jersey,NJ,20.3,D,R,R,1,1,1,4,1,4,kd_tree
+5,31,32,New Mexico,NM,20.5,R,R,R,0,0,1,4,1,4,kd_tree
+5,32,33,New York,NY,21.2,D,D,D,0,0,4,1,4,1,kd_tree
+5,33,34,North Carolina,NC,23.9,R,R,R,0,0,1,4,1,4,kd_tree
+5,34,35,North Dakota,ND,23.9,R,R,R,0,0,1,4,1,4,kd_tree
+5,35,36,Ohio,OH,24.4,R,R,R,0,0,1,4,1,4,kd_tree
+5,36,37,Oklahoma,OK,24.1,R,R,R,0,0,1,4,1,4,kd_tree
+5,37,38,Oregon,OR,21.0,D,D,D,0,0,3,2,3,2,kd_tree
+5,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,0,5,0,5,kd_tree
+5,39,40,Rhode Island,RI,18.6,D,D,D,0,0,3,2,3,2,kd_tree
+5,40,41,South Carolina,SC,25.1,R,R,R,0,0,1,4,1,4,kd_tree
+5,41,42,South Dakota,SD,22.6,R,D,D,1,1,3,2,3,2,kd_tree
+5,42,43,Tennessee,TN,25.6,R,R,R,0,0,1,4,1,4,kd_tree
+5,43,44,Texas,TX,25.3,R,R,R,0,0,1,4,1,4,kd_tree
+5,44,45,Utah,UT,19.6,R,R,R,0,0,2,3,2,3,kd_tree
+5,45,46,Vermont,VT,19.1,D,D,D,0,0,3,2,3,2,kd_tree
+5,46,47,Virginia,VA,22.9,R,D,D,1,1,3,2,3,2,kd_tree
+5,47,48,Washington,WA,21.7,D,D,D,0,0,4,1,4,1,kd_tree
+5,48,49,West Virginia,WV,27.6,R,R,R,0,0,0,5,0,5,kd_tree
+5,49,50,Wisconsin,WI,21.9,D,D,D,0,0,4,1,5,0,kd_tree
+5,50,51,Wyoming,WY,20.1,R,R,R,0,0,2,3,2,3,kd_tree
+6,0,1,Alabama,AL,27.7,R,R,R,0,0,1,5,1,5,kd_tree
+6,1,2,Alaska,AK,23.5,R,R,R,0,0,1,5,1,5,kd_tree
+6,2,3,Arizona,AZ,20.3,R,R,R,0,0,2,4,2,4,kd_tree
+6,3,4,Arkansas,AR,25.0,R,R,R,0,0,1,5,1,5,kd_tree
+6,4,5,California,CA,21.5,D,D,D,0,0,5,1,5,1,kd_tree
+6,5,6,Colorado,CO,16.4,R,D,D,1,1,4,2,4,2,kd_tree
+6,6,7,Connecticut,CT,18.9,D,D,D,0,0,4,2,4,2,kd_tree
+6,7,8,Delaware,DE,22.5,D,D,R,0,1,3,3,3,3,kd_tree
+6,8,9,DC,DC,21.2,D,D,D,0,0,4,2,4,2,kd_tree
+6,9,10,Florida,FL,20.7,R,D,R,1,0,3,3,3,3,kd_tree
+6,10,11,Georgia,GA,24.5,R,R,R,0,0,1,5,1,5,kd_tree
+6,11,12,Hawaii,HI,15.7,R,D,D,1,1,4,2,4,2,kd_tree
+6,12,13,Idaho,ID,20.9,R,D,D,1,1,4,2,4,2,kd_tree
+6,13,14,Illinois,IL,22.9,D,R,R,1,1,2,4,2,4,kd_tree
+6,14,15,Indiana,IN,25.2,R,R,R,0,0,1,5,1,5,kd_tree
+6,15,16,Iowa,IA,23.4,R,R,R,0,0,1,5,1,5,kd_tree
+6,16,17,Kansas,KS,22.9,R,D,R,1,0,3,3,3,3,kd_tree
+6,17,18,Kentucky,KY,25.3,R,R,R,0,0,1,5,1,5,kd_tree
+6,18,19,Louisiana,LA,25.8,R,R,R,0,0,1,5,1,5,kd_tree
+6,19,20,Maine,ME,21.3,D,D,D,0,0,5,1,4,2,kd_tree
+6,20,21,Maryland,MD,21.7,D,D,D,0,0,5,1,5,1,kd_tree
+6,21,22,Massachusetts,MA,17.8,D,D,R,0,1,3,3,3,3,kd_tree
+6,22,23,Michigan,MI,25.3,D,R,R,1,1,0,6,0,6,kd_tree
+6,23,24,Minnesota,MN,22.6,D,D,R,0,1,3,3,3,3,kd_tree
+6,24,25,Mississippi,MS,28.1,R,R,R,0,0,1,5,1,5,kd_tree
+6,25,26,Missouri,MO,23.9,R,R,R,0,0,1,5,1,5,kd_tree
+6,26,27,Montana,MT,19.1,R,D,D,1,1,4,2,4,2,kd_tree
+6,27,28,Nebraska,NE,23.4,R,R,R,0,0,1,5,1,5,kd_tree
+6,28,29,Nevada,NV,21.3,R,D,D,1,1,6,0,5,1,kd_tree
+6,29,30,New Hampshire,NH,19.9,D,R,R,1,1,1,5,1,5,kd_tree
+6,30,31,New Jersey,NJ,20.3,D,R,R,1,1,1,5,1,5,kd_tree
+6,31,32,New Mexico,NM,20.5,R,R,R,0,0,2,4,2,4,kd_tree
+6,32,33,New York,NY,21.2,D,D,D,0,0,4,2,4,2,kd_tree
+6,33,34,North Carolina,NC,23.9,R,R,R,0,0,1,5,1,5,kd_tree
+6,34,35,North Dakota,ND,23.9,R,R,R,0,0,1,5,1,5,kd_tree
+6,35,36,Ohio,OH,24.4,R,R,R,0,0,1,5,1,5,kd_tree
+6,36,37,Oklahoma,OK,24.1,R,R,R,0,0,1,5,1,5,kd_tree
+6,37,38,Oregon,OR,21.0,D,D,R,0,1,3,3,3,3,kd_tree
+6,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,0,6,0,6,kd_tree
+6,39,40,Rhode Island,RI,18.6,D,D,D,0,0,4,2,4,2,kd_tree
+6,40,41,South Carolina,SC,25.1,R,R,R,0,0,1,5,1,5,kd_tree
+6,41,42,South Dakota,SD,22.6,R,D,D,1,1,4,2,4,2,kd_tree
+6,42,43,Tennessee,TN,25.6,R,R,R,0,0,1,5,1,5,kd_tree
+6,43,44,Texas,TX,25.3,R,R,R,0,0,1,5,1,5,kd_tree
+6,44,45,Utah,UT,19.6,R,D,R,1,0,3,3,3,3,kd_tree
+6,45,46,Vermont,VT,19.1,D,D,R,0,1,3,3,3,3,kd_tree
+6,46,47,Virginia,VA,22.9,R,D,R,1,0,3,3,3,3,kd_tree
+6,47,48,Washington,WA,21.7,D,D,D,0,0,5,1,5,1,kd_tree
+6,48,49,West Virginia,WV,27.6,R,R,R,0,0,1,5,1,5,kd_tree
+6,49,50,Wisconsin,WI,21.9,D,D,D,0,0,5,1,5,1,kd_tree
+6,50,51,Wyoming,WY,20.1,R,R,R,0,0,2,4,2,4,kd_tree
+7,0,1,Alabama,AL,27.7,R,R,R,0,0,1,6,1,6,kd_tree
+7,1,2,Alaska,AK,23.5,R,R,R,0,0,1,6,2,5,kd_tree
+7,2,3,Arizona,AZ,20.3,R,R,R,0,0,3,4,3,4,kd_tree
+7,3,4,Arkansas,AR,25.0,R,R,R,0,0,1,6,1,6,kd_tree
+7,4,5,California,CA,21.5,D,D,D,0,0,6,1,6,1,kd_tree
+7,5,6,Colorado,CO,16.4,R,D,D,1,1,4,3,4,3,kd_tree
+7,6,7,Connecticut,CT,18.9,D,D,D,0,0,4,3,4,3,kd_tree
+7,7,8,Delaware,DE,22.5,D,D,D,0,0,4,3,4,3,kd_tree
+7,8,9,DC,DC,21.2,D,D,D,0,0,4,3,4,3,kd_tree
+7,9,10,Florida,FL,20.7,R,D,D,1,1,4,3,4,3,kd_tree
+7,10,11,Georgia,GA,24.5,R,R,R,0,0,1,6,1,6,kd_tree
+7,11,12,Hawaii,HI,15.7,R,D,D,1,1,4,3,4,3,kd_tree
+7,12,13,Idaho,ID,20.9,R,D,D,1,1,4,3,4,3,kd_tree
+7,13,14,Illinois,IL,22.9,D,R,R,1,1,2,5,2,5,kd_tree
+7,14,15,Indiana,IN,25.2,R,R,R,0,0,1,6,1,6,kd_tree
+7,15,16,Iowa,IA,23.4,R,R,R,0,0,1,6,1,6,kd_tree
+7,16,17,Kansas,KS,22.9,R,R,R,0,0,3,4,3,4,kd_tree
+7,17,18,Kentucky,KY,25.3,R,R,R,0,0,1,6,1,6,kd_tree
+7,18,19,Louisiana,LA,25.8,R,R,R,0,0,1,6,1,6,kd_tree
+7,19,20,Maine,ME,21.3,D,D,D,0,0,6,1,5,2,kd_tree
+7,20,21,Maryland,MD,21.7,D,D,D,0,0,6,1,6,1,kd_tree
+7,21,22,Massachusetts,MA,17.8,D,D,R,0,1,4,3,3,4,kd_tree
+7,22,23,Michigan,MI,25.3,D,R,R,1,1,0,7,0,7,kd_tree
+7,23,24,Minnesota,MN,22.6,D,R,R,1,1,3,4,3,4,kd_tree
+7,24,25,Mississippi,MS,28.1,R,R,R,0,0,1,6,1,6,kd_tree
+7,25,26,Missouri,MO,23.9,R,R,R,0,0,1,6,1,6,kd_tree
+7,26,27,Montana,MT,19.1,R,D,D,1,1,5,2,4,3,kd_tree
+7,27,28,Nebraska,NE,23.4,R,R,R,0,0,1,6,1,6,kd_tree
+7,28,29,Nevada,NV,21.3,R,D,D,1,1,7,0,6,1,kd_tree
+7,29,30,New Hampshire,NH,19.9,D,R,R,1,1,2,5,1,6,kd_tree
+7,30,31,New Jersey,NJ,20.3,D,R,R,1,1,2,5,2,5,kd_tree
+7,31,32,New Mexico,NM,20.5,R,R,R,0,0,3,4,3,4,kd_tree
+7,32,33,New York,NY,21.2,D,D,D,0,0,4,3,4,3,kd_tree
+7,33,34,North Carolina,NC,23.9,R,R,R,0,0,1,6,1,6,kd_tree
+7,34,35,North Dakota,ND,23.9,R,R,R,0,0,1,6,1,6,kd_tree
+7,35,36,Ohio,OH,24.4,R,R,R,0,0,1,6,1,6,kd_tree
+7,36,37,Oklahoma,OK,24.1,R,R,R,0,0,1,6,1,6,kd_tree
+7,37,38,Oregon,OR,21.0,D,D,D,0,0,4,3,4,3,kd_tree
+7,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,0,7,0,7,kd_tree
+7,39,40,Rhode Island,RI,18.6,D,D,D,0,0,4,3,4,3,kd_tree
+7,40,41,South Carolina,SC,25.1,R,R,R,0,0,1,6,1,6,kd_tree
+7,41,42,South Dakota,SD,22.6,R,D,D,1,1,4,3,4,3,kd_tree
+7,42,43,Tennessee,TN,25.6,R,R,R,0,0,1,6,1,6,kd_tree
+7,43,44,Texas,TX,25.3,R,R,R,0,0,1,6,1,6,kd_tree
+7,44,45,Utah,UT,19.6,R,D,D,1,1,4,3,4,3,kd_tree
+7,45,46,Vermont,VT,19.1,D,D,R,0,1,4,3,3,4,kd_tree
+7,46,47,Virginia,VA,22.9,R,R,R,0,0,3,4,3,4,kd_tree
+7,47,48,Washington,WA,21.7,D,D,D,0,0,6,1,6,1,kd_tree
+7,48,49,West Virginia,WV,27.6,R,R,R,0,0,1,6,1,6,kd_tree
+7,49,50,Wisconsin,WI,21.9,D,D,D,0,0,6,1,6,1,kd_tree
+7,50,51,Wyoming,WY,20.1,R,R,R,0,0,2,5,2,5,kd_tree
+8,0,1,Alabama,AL,27.7,R,R,R,0,0,1,7,1,7,kd_tree
+8,1,2,Alaska,AK,23.5,R,R,R,0,0,2,6,2,6,kd_tree
+8,2,3,Arizona,AZ,20.3,R,R,R,0,0,3,5,3,5,kd_tree
+8,3,4,Arkansas,AR,25.0,R,R,R,0,0,1,7,1,7,kd_tree
+8,4,5,California,CA,21.5,D,D,D,0,0,7,1,7,1,kd_tree
+8,5,6,Colorado,CO,16.4,R,D,D,1,1,5,3,5,3,kd_tree
+8,6,7,Connecticut,CT,18.9,D,D,R,0,1,4,4,4,4,kd_tree
+8,7,8,Delaware,DE,22.5,D,D,D,0,0,5,3,5,3,kd_tree
+8,8,9,DC,DC,21.2,D,D,D,0,0,5,3,5,3,kd_tree
+8,9,10,Florida,FL,20.7,R,D,D,1,1,4,4,5,3,kd_tree
+8,10,11,Georgia,GA,24.5,R,R,R,0,0,1,7,1,7,kd_tree
+8,11,12,Hawaii,HI,15.7,R,D,D,1,1,5,3,5,3,kd_tree
+8,12,13,Idaho,ID,20.9,R,D,R,1,0,5,3,4,4,kd_tree
+8,13,14,Illinois,IL,22.9,D,R,R,1,1,2,6,2,6,kd_tree
+8,14,15,Indiana,IN,25.2,R,R,R,0,0,1,7,1,7,kd_tree
+8,15,16,Iowa,IA,23.4,R,R,R,0,0,1,7,1,7,kd_tree
+8,16,17,Kansas,KS,22.9,R,R,R,0,0,3,5,3,5,kd_tree
+8,17,18,Kentucky,KY,25.3,R,R,R,0,0,1,7,1,7,kd_tree
+8,18,19,Louisiana,LA,25.8,R,R,R,0,0,1,7,1,7,kd_tree
+8,19,20,Maine,ME,21.3,D,D,D,0,0,6,2,6,2,kd_tree
+8,20,21,Maryland,MD,21.7,D,D,D,0,0,7,1,7,1,kd_tree
+8,21,22,Massachusetts,MA,17.8,D,D,R,0,1,4,4,4,4,kd_tree
+8,22,23,Michigan,MI,25.3,D,R,R,1,1,0,8,0,8,kd_tree
+8,23,24,Minnesota,MN,22.6,D,R,R,1,1,3,5,3,5,kd_tree
+8,24,25,Mississippi,MS,28.1,R,R,R,0,0,1,7,1,7,kd_tree
+8,25,26,Missouri,MO,23.9,R,R,R,0,0,1,7,1,7,kd_tree
+8,26,27,Montana,MT,19.1,R,D,D,1,1,5,3,5,3,kd_tree
+8,27,28,Nebraska,NE,23.4,R,R,R,0,0,1,7,1,7,kd_tree
+8,28,29,Nevada,NV,21.3,R,D,D,1,1,7,1,7,1,kd_tree
+8,29,30,New Hampshire,NH,19.9,D,R,R,1,1,2,6,2,6,kd_tree
+8,30,31,New Jersey,NJ,20.3,D,R,R,1,1,2,6,2,6,kd_tree
+8,31,32,New Mexico,NM,20.5,R,D,R,1,0,4,4,4,4,kd_tree
+8,32,33,New York,NY,21.2,D,D,D,0,0,5,3,5,3,kd_tree
+8,33,34,North Carolina,NC,23.9,R,R,R,0,0,1,7,1,7,kd_tree
+8,34,35,North Dakota,ND,23.9,R,R,R,0,0,1,7,1,7,kd_tree
+8,35,36,Ohio,OH,24.4,R,R,R,0,0,1,7,1,7,kd_tree
+8,36,37,Oklahoma,OK,24.1,R,R,R,0,0,1,7,1,7,kd_tree
+8,37,38,Oregon,OR,21.0,D,D,R,0,1,4,4,4,4,kd_tree
+8,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,0,8,0,8,kd_tree
+8,39,40,Rhode Island,RI,18.6,D,D,R,0,1,5,3,4,4,kd_tree
+8,40,41,South Carolina,SC,25.1,R,R,R,0,0,1,7,1,7,kd_tree
+8,41,42,South Dakota,SD,22.6,R,D,R,1,0,4,4,4,4,kd_tree
+8,42,43,Tennessee,TN,25.6,R,R,R,0,0,1,7,1,7,kd_tree
+8,43,44,Texas,TX,25.3,R,R,R,0,0,1,7,1,7,kd_tree
+8,44,45,Utah,UT,19.6,R,D,R,1,0,4,4,4,4,kd_tree
+8,45,46,Vermont,VT,19.1,D,D,R,0,1,4,4,4,4,kd_tree
+8,46,47,Virginia,VA,22.9,R,R,R,0,0,3,5,3,5,kd_tree
+8,47,48,Washington,WA,21.7,D,D,D,0,0,7,1,7,1,kd_tree
+8,48,49,West Virginia,WV,27.6,R,R,R,0,0,1,7,1,7,kd_tree
+8,49,50,Wisconsin,WI,21.9,D,D,D,0,0,7,1,7,1,kd_tree
+8,50,51,Wyoming,WY,20.1,R,R,R,0,0,3,5,3,5,kd_tree
+9,0,1,Alabama,AL,27.7,R,R,R,0,0,1,8,1,8,kd_tree
+9,1,2,Alaska,AK,23.5,R,R,R,0,0,2,7,2,7,kd_tree
+9,2,3,Arizona,AZ,20.3,R,R,R,0,0,4,5,4,5,kd_tree
+9,3,4,Arkansas,AR,25.0,R,R,R,0,0,1,8,1,8,kd_tree
+9,4,5,California,CA,21.5,D,D,D,0,0,7,2,7,2,kd_tree
+9,5,6,Colorado,CO,16.4,R,D,D,1,1,5,4,5,4,kd_tree
+9,6,7,Connecticut,CT,18.9,D,D,D,0,0,5,4,5,4,kd_tree
+9,7,8,Delaware,DE,22.5,D,D,D,0,0,5,4,5,4,kd_tree
+9,8,9,DC,DC,21.2,D,D,D,0,0,6,3,6,3,kd_tree
+9,9,10,Florida,FL,20.7,R,R,D,0,1,4,5,5,4,kd_tree
+9,10,11,Georgia,GA,24.5,R,R,R,0,0,1,8,1,8,kd_tree
+9,11,12,Hawaii,HI,15.7,R,D,D,1,1,5,4,5,4,kd_tree
+9,12,13,Idaho,ID,20.9,R,D,D,1,1,5,4,5,4,kd_tree
+9,13,14,Illinois,IL,22.9,D,R,R,1,1,2,7,2,7,kd_tree
+9,14,15,Indiana,IN,25.2,R,R,R,0,0,1,8,1,8,kd_tree
+9,15,16,Iowa,IA,23.4,R,R,R,0,0,2,7,2,7,kd_tree
+9,16,17,Kansas,KS,22.9,R,R,R,0,0,3,6,3,6,kd_tree
+9,17,18,Kentucky,KY,25.3,R,R,R,0,0,1,8,1,8,kd_tree
+9,18,19,Louisiana,LA,25.8,R,R,R,0,0,1,8,1,8,kd_tree
+9,19,20,Maine,ME,21.3,D,D,D,0,0,7,2,6,3,kd_tree
+9,20,21,Maryland,MD,21.7,D,D,D,0,0,8,1,8,1,kd_tree
+9,21,22,Massachusetts,MA,17.8,D,R,R,1,1,4,5,4,5,kd_tree
+9,22,23,Michigan,MI,25.3,D,R,R,1,1,0,9,0,9,kd_tree
+9,23,24,Minnesota,MN,22.6,D,R,R,1,1,3,6,3,6,kd_tree
+9,24,25,Mississippi,MS,28.1,R,R,R,0,0,1,8,1,8,kd_tree
+9,25,26,Missouri,MO,23.9,R,R,R,0,0,1,8,1,8,kd_tree
+9,26,27,Montana,MT,19.1,R,D,D,1,1,6,3,6,3,kd_tree
+9,27,28,Nebraska,NE,23.4,R,R,R,0,0,2,7,2,7,kd_tree
+9,28,29,Nevada,NV,21.3,R,D,D,1,1,8,1,7,2,kd_tree
+9,29,30,New Hampshire,NH,19.9,D,R,R,1,1,3,6,3,6,kd_tree
+9,30,31,New Jersey,NJ,20.3,D,R,R,1,1,3,6,3,6,kd_tree
+9,31,32,New Mexico,NM,20.5,R,D,D,1,1,5,4,5,4,kd_tree
+9,32,33,New York,NY,21.2,D,D,D,0,0,6,3,6,3,kd_tree
+9,33,34,North Carolina,NC,23.9,R,R,R,0,0,1,8,1,8,kd_tree
+9,34,35,North Dakota,ND,23.9,R,R,R,0,0,1,8,1,8,kd_tree
+9,35,36,Ohio,OH,24.4,R,R,R,0,0,1,8,1,8,kd_tree
+9,36,37,Oklahoma,OK,24.1,R,R,R,0,0,1,8,1,8,kd_tree
+9,37,38,Oregon,OR,21.0,D,D,R,0,1,5,4,4,5,kd_tree
+9,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,0,9,0,9,kd_tree
+9,39,40,Rhode Island,RI,18.6,D,D,D,0,0,5,4,5,4,kd_tree
+9,40,41,South Carolina,SC,25.1,R,R,R,0,0,1,8,1,8,kd_tree
+9,41,42,South Dakota,SD,22.6,R,R,R,0,0,4,5,4,5,kd_tree
+9,42,43,Tennessee,TN,25.6,R,R,R,0,0,1,8,1,8,kd_tree
+9,43,44,Texas,TX,25.3,R,R,R,0,0,1,8,1,8,kd_tree
+9,44,45,Utah,UT,19.6,R,D,D,1,1,5,4,5,4,kd_tree
+9,45,46,Vermont,VT,19.1,D,D,D,0,0,5,4,5,4,kd_tree
+9,46,47,Virginia,VA,22.9,R,R,R,0,0,3,6,3,6,kd_tree
+9,47,48,Washington,WA,21.7,D,D,D,0,0,8,1,8,1,kd_tree
+9,48,49,West Virginia,WV,27.6,R,R,R,0,0,1,8,1,8,kd_tree
+9,49,50,Wisconsin,WI,21.9,D,D,D,0,0,8,1,8,1,kd_tree
+9,50,51,Wyoming,WY,20.1,R,R,R,0,0,3,6,3,6,kd_tree
+10,0,1,Alabama,AL,27.7,R,R,R,0,0,1,9,1,9,kd_tree
+10,1,2,Alaska,AK,23.5,R,R,R,0,0,2,8,2,8,kd_tree
+10,2,3,Arizona,AZ,20.3,R,D,R,1,0,5,5,5,5,kd_tree
+10,3,4,Arkansas,AR,25.0,R,R,R,0,0,1,9,1,9,kd_tree
+10,4,5,California,CA,21.5,D,D,D,0,0,7,3,7,3,kd_tree
+10,5,6,Colorado,CO,16.4,R,D,R,1,0,6,4,5,5,kd_tree
+10,6,7,Connecticut,CT,18.9,D,D,R,0,1,5,5,5,5,kd_tree
+10,7,8,Delaware,DE,22.5,D,D,R,0,1,5,5,5,5,kd_tree
+10,8,9,DC,DC,21.2,D,D,D,0,0,6,4,6,4,kd_tree
+10,9,10,Florida,FL,20.7,R,D,R,1,0,5,5,5,5,kd_tree
+10,10,11,Georgia,GA,24.5,R,R,R,0,0,2,8,1,9,kd_tree
+10,11,12,Hawaii,HI,15.7,R,D,R,1,0,6,4,5,5,kd_tree
+10,12,13,Idaho,ID,20.9,R,D,D,1,1,6,4,6,4,kd_tree
+10,13,14,Illinois,IL,22.9,D,R,R,1,1,2,8,2,8,kd_tree
+10,14,15,Indiana,IN,25.2,R,R,R,0,0,1,9,1,9,kd_tree
+10,15,16,Iowa,IA,23.4,R,R,R,0,0,2,8,2,8,kd_tree
+10,16,17,Kansas,KS,22.9,R,R,R,0,0,3,7,3,7,kd_tree
+10,17,18,Kentucky,KY,25.3,R,R,R,0,0,1,9,1,9,kd_tree
+10,18,19,Louisiana,LA,25.8,R,R,R,0,0,1,9,1,9,kd_tree
+10,19,20,Maine,ME,21.3,D,D,D,0,0,7,3,7,3,kd_tree
+10,20,21,Maryland,MD,21.7,D,D,D,0,0,8,2,8,2,kd_tree
+10,21,22,Massachusetts,MA,17.8,D,D,R,0,1,5,5,4,6,kd_tree
+10,22,23,Michigan,MI,25.3,D,R,R,1,1,0,10,0,10,kd_tree
+10,23,24,Minnesota,MN,22.6,D,R,R,1,1,4,6,4,6,kd_tree
+10,24,25,Mississippi,MS,28.1,R,R,R,0,0,1,9,1,9,kd_tree
+10,25,26,Missouri,MO,23.9,R,R,R,0,0,1,9,2,8,kd_tree
+10,26,27,Montana,MT,19.1,R,D,D,1,1,6,4,6,4,kd_tree
+10,27,28,Nebraska,NE,23.4,R,R,R,0,0,2,8,2,8,kd_tree
+10,28,29,Nevada,NV,21.3,R,D,D,1,1,8,2,8,2,kd_tree
+10,29,30,New Hampshire,NH,19.9,D,R,R,1,1,3,7,3,7,kd_tree
+10,30,31,New Jersey,NJ,20.3,D,R,R,1,1,4,6,4,6,kd_tree
+10,31,32,New Mexico,NM,20.5,R,D,D,1,1,5,5,6,4,kd_tree
+10,32,33,New York,NY,21.2,D,D,D,0,0,6,4,6,4,kd_tree
+10,33,34,North Carolina,NC,23.9,R,R,R,0,0,1,9,2,8,kd_tree
+10,34,35,North Dakota,ND,23.9,R,R,R,0,0,1,9,2,8,kd_tree
+10,35,36,Ohio,OH,24.4,R,R,R,0,0,1,9,1,9,kd_tree
+10,36,37,Oklahoma,OK,24.1,R,R,R,0,0,1,9,1,9,kd_tree
+10,37,38,Oregon,OR,21.0,D,D,R,0,1,5,5,5,5,kd_tree
+10,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,0,10,0,10,kd_tree
+10,39,40,Rhode Island,RI,18.6,D,D,R,0,1,5,5,5,5,kd_tree
+10,40,41,South Carolina,SC,25.1,R,R,R,0,0,1,9,1,9,kd_tree
+10,41,42,South Dakota,SD,22.6,R,D,R,1,0,5,5,5,5,kd_tree
+10,42,43,Tennessee,TN,25.6,R,R,R,0,0,1,9,1,9,kd_tree
+10,43,44,Texas,TX,25.3,R,R,R,0,0,1,9,1,9,kd_tree
+10,44,45,Utah,UT,19.6,R,D,R,1,0,5,5,5,5,kd_tree
+10,45,46,Vermont,VT,19.1,D,D,R,0,1,5,5,5,5,kd_tree
+10,46,47,Virginia,VA,22.9,R,R,R,0,0,3,7,3,7,kd_tree
+10,47,48,Washington,WA,21.7,D,D,D,0,0,8,2,8,2,kd_tree
+10,48,49,West Virginia,WV,27.6,R,R,R,0,0,1,9,1,9,kd_tree
+10,49,50,Wisconsin,WI,21.9,D,D,D,0,0,8,2,8,2,kd_tree
+10,50,51,Wyoming,WY,20.1,R,R,R,0,0,4,6,4,6,kd_tree
+11,0,1,Alabama,AL,27.7,R,R,R,0,0,1,10,1,10,kd_tree
+11,1,2,Alaska,AK,23.5,R,R,R,0,0,3,8,3,8,kd_tree
+11,2,3,Arizona,AZ,20.3,R,D,D,1,1,6,5,6,5,kd_tree
+11,3,4,Arkansas,AR,25.0,R,R,R,0,0,2,9,2,9,kd_tree
+11,4,5,California,CA,21.5,D,D,D,0,0,7,4,8,3,kd_tree
+11,5,6,Colorado,CO,16.4,R,D,D,1,1,6,5,6,5,kd_tree
+11,6,7,Connecticut,CT,18.9,D,R,R,1,1,5,6,5,6,kd_tree
+11,7,8,Delaware,DE,22.5,D,D,R,0,1,6,5,5,6,kd_tree
+11,8,9,DC,DC,21.2,D,D,D,0,0,7,4,7,4,kd_tree
+11,9,10,Florida,FL,20.7,R,D,D,1,1,6,5,6,5,kd_tree
+11,10,11,Georgia,GA,24.5,R,R,R,0,0,2,9,2,9,kd_tree
+11,11,12,Hawaii,HI,15.7,R,D,D,1,1,6,5,6,5,kd_tree
+11,12,13,Idaho,ID,20.9,R,D,D,1,1,6,5,7,4,kd_tree
+11,13,14,Illinois,IL,22.9,D,R,R,1,1,2,9,2,9,kd_tree
+11,14,15,Indiana,IN,25.2,R,R,R,0,0,2,9,2,9,kd_tree
+11,15,16,Iowa,IA,23.4,R,R,R,0,0,3,8,3,8,kd_tree
+11,16,17,Kansas,KS,22.9,R,R,R,0,0,3,8,3,8,kd_tree
+11,17,18,Kentucky,KY,25.3,R,R,R,0,0,2,9,2,9,kd_tree
+11,18,19,Louisiana,LA,25.8,R,R,R,0,0,2,9,2,9,kd_tree
+11,19,20,Maine,ME,21.3,D,D,D,0,0,7,4,7,4,kd_tree
+11,20,21,Maryland,MD,21.7,D,D,D,0,0,8,3,9,2,kd_tree
+11,21,22,Massachusetts,MA,17.8,D,R,R,1,1,5,6,5,6,kd_tree
+11,22,23,Michigan,MI,25.3,D,R,R,1,1,1,10,1,10,kd_tree
+11,23,24,Minnesota,MN,22.6,D,R,R,1,1,5,6,5,6,kd_tree
+11,24,25,Mississippi,MS,28.1,R,R,R,0,0,1,10,1,10,kd_tree
+11,25,26,Missouri,MO,23.9,R,R,R,0,0,2,9,2,9,kd_tree
+11,26,27,Montana,MT,19.1,R,D,D,1,1,6,5,6,5,kd_tree
+11,27,28,Nebraska,NE,23.4,R,R,R,0,0,3,8,3,8,kd_tree
+11,28,29,Nevada,NV,21.3,R,D,D,1,1,8,3,8,3,kd_tree
+11,29,30,New Hampshire,NH,19.9,D,R,R,1,1,4,7,4,7,kd_tree
+11,30,31,New Jersey,NJ,20.3,D,R,R,1,1,4,7,5,6,kd_tree
+11,31,32,New Mexico,NM,20.5,R,D,D,1,1,6,5,6,5,kd_tree
+11,32,33,New York,NY,21.2,D,D,D,0,0,7,4,7,4,kd_tree
+11,33,34,North Carolina,NC,23.9,R,R,R,0,0,2,9,2,9,kd_tree
+11,34,35,North Dakota,ND,23.9,R,R,R,0,0,2,9,2,9,kd_tree
+11,35,36,Ohio,OH,24.4,R,R,R,0,0,1,10,1,10,kd_tree
+11,36,37,Oklahoma,OK,24.1,R,R,R,0,0,1,10,1,10,kd_tree
+11,37,38,Oregon,OR,21.0,D,D,D,0,0,6,5,6,5,kd_tree
+11,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,0,11,1,10,kd_tree
+11,39,40,Rhode Island,RI,18.6,D,R,R,1,1,5,6,5,6,kd_tree
+11,40,41,South Carolina,SC,25.1,R,R,R,0,0,2,9,2,9,kd_tree
+11,41,42,South Dakota,SD,22.6,R,D,D,1,1,6,5,6,5,kd_tree
+11,42,43,Tennessee,TN,25.6,R,R,R,0,0,2,9,2,9,kd_tree
+11,43,44,Texas,TX,25.3,R,R,R,0,0,2,9,2,9,kd_tree
+11,44,45,Utah,UT,19.6,R,R,R,0,0,5,6,5,6,kd_tree
+11,45,46,Vermont,VT,19.1,D,R,R,1,1,5,6,5,6,kd_tree
+11,46,47,Virginia,VA,22.9,R,R,R,0,0,3,8,3,8,kd_tree
+11,47,48,Washington,WA,21.7,D,D,D,0,0,9,2,9,2,kd_tree
+11,48,49,West Virginia,WV,27.6,R,R,R,0,0,1,10,1,10,kd_tree
+11,49,50,Wisconsin,WI,21.9,D,D,D,0,0,9,2,9,2,kd_tree
+11,50,51,Wyoming,WY,20.1,R,R,R,0,0,5,6,5,6,kd_tree
+12,0,1,Alabama,AL,27.7,R,R,R,0,0,1,11,1,11,kd_tree
+12,1,2,Alaska,AK,23.5,R,R,R,0,0,3,9,3,9,kd_tree
+12,2,3,Arizona,AZ,20.3,R,D,R,1,0,6,6,6,6,kd_tree
+12,3,4,Arkansas,AR,25.0,R,R,R,0,0,2,10,2,10,kd_tree
+12,4,5,California,CA,21.5,D,D,D,0,0,8,4,8,4,kd_tree
+12,5,6,Colorado,CO,16.4,R,D,R,1,0,6,6,6,6,kd_tree
+12,6,7,Connecticut,CT,18.9,D,R,R,1,1,5,7,5,7,kd_tree
+12,7,8,Delaware,DE,22.5,D,D,R,0,1,6,6,6,6,kd_tree
+12,8,9,DC,DC,21.2,D,D,D,0,0,8,4,7,5,kd_tree
+12,9,10,Florida,FL,20.7,R,D,D,1,1,7,5,7,5,kd_tree
+12,10,11,Georgia,GA,24.5,R,R,R,0,0,2,10,2,10,kd_tree
+12,11,12,Hawaii,HI,15.7,R,D,R,1,0,6,6,6,6,kd_tree
+12,12,13,Idaho,ID,20.9,R,D,D,1,1,7,5,8,4,kd_tree
+12,13,14,Illinois,IL,22.9,D,R,R,1,1,3,9,3,9,kd_tree
+12,14,15,Indiana,IN,25.2,R,R,R,0,0,2,10,2,10,kd_tree
+12,15,16,Iowa,IA,23.4,R,R,R,0,0,3,9,3,9,kd_tree
+12,16,17,Kansas,KS,22.9,R,R,R,0,0,4,8,4,8,kd_tree
+12,17,18,Kentucky,KY,25.3,R,R,R,0,0,2,10,2,10,kd_tree
+12,18,19,Louisiana,LA,25.8,R,R,R,0,0,2,10,2,10,kd_tree
+12,19,20,Maine,ME,21.3,D,D,D,0,0,8,4,7,5,kd_tree
+12,20,21,Maryland,MD,21.7,D,D,D,0,0,9,3,9,3,kd_tree
+12,21,22,Massachusetts,MA,17.8,D,R,R,1,1,5,7,5,7,kd_tree
+12,22,23,Michigan,MI,25.3,D,R,R,1,1,1,11,1,11,kd_tree
+12,23,24,Minnesota,MN,22.6,D,D,R,0,1,6,6,6,6,kd_tree
+12,24,25,Mississippi,MS,28.1,R,R,R,0,0,1,11,1,11,kd_tree
+12,25,26,Missouri,MO,23.9,R,R,R,0,0,2,10,2,10,kd_tree
+12,26,27,Montana,MT,19.1,R,D,R,1,0,6,6,6,6,kd_tree
+12,27,28,Nebraska,NE,23.4,R,R,R,0,0,3,9,3,9,kd_tree
+12,28,29,Nevada,NV,21.3,R,D,D,1,1,9,3,8,4,kd_tree
+12,29,30,New Hampshire,NH,19.9,D,R,R,1,1,5,7,5,7,kd_tree
+12,30,31,New Jersey,NJ,20.3,D,R,R,1,1,5,7,5,7,kd_tree
+12,31,32,New Mexico,NM,20.5,R,D,R,1,0,6,6,6,6,kd_tree
+12,32,33,New York,NY,21.2,D,D,D,0,0,7,5,7,5,kd_tree
+12,33,34,North Carolina,NC,23.9,R,R,R,0,0,2,10,2,10,kd_tree
+12,34,35,North Dakota,ND,23.9,R,R,R,0,0,2,10,2,10,kd_tree
+12,35,36,Ohio,OH,24.4,R,R,R,0,0,2,10,2,10,kd_tree
+12,36,37,Oklahoma,OK,24.1,R,R,R,0,0,1,11,1,11,kd_tree
+12,37,38,Oregon,OR,21.0,D,D,D,0,0,7,5,7,5,kd_tree
+12,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,1,11,1,11,kd_tree
+12,39,40,Rhode Island,RI,18.6,D,R,R,1,1,5,7,5,7,kd_tree
+12,40,41,South Carolina,SC,25.1,R,R,R,0,0,2,10,2,10,kd_tree
+12,41,42,South Dakota,SD,22.6,R,D,D,1,1,7,5,7,5,kd_tree
+12,42,43,Tennessee,TN,25.6,R,R,R,0,0,2,10,2,10,kd_tree
+12,43,44,Texas,TX,25.3,R,R,R,0,0,2,10,2,10,kd_tree
+12,44,45,Utah,UT,19.6,R,D,R,1,0,6,6,6,6,kd_tree
+12,45,46,Vermont,VT,19.1,D,R,R,1,1,5,7,5,7,kd_tree
+12,46,47,Virginia,VA,22.9,R,R,R,0,0,4,8,4,8,kd_tree
+12,47,48,Washington,WA,21.7,D,D,D,0,0,9,3,9,3,kd_tree
+12,48,49,West Virginia,WV,27.6,R,R,R,0,0,1,11,1,11,kd_tree
+12,49,50,Wisconsin,WI,21.9,D,D,D,0,0,9,3,9,3,kd_tree
+12,50,51,Wyoming,WY,20.1,R,D,R,1,0,6,6,6,6,kd_tree
+13,0,1,Alabama,AL,27.7,R,R,R,0,0,1,12,1,12,kd_tree
+13,1,2,Alaska,AK,23.5,R,R,R,0,0,3,10,3,10,kd_tree
+13,2,3,Arizona,AZ,20.3,R,R,D,0,1,6,7,7,6,kd_tree
+13,3,4,Arkansas,AR,25.0,R,R,R,0,0,2,11,2,11,kd_tree
+13,4,5,California,CA,21.5,D,D,D,0,0,9,4,9,4,kd_tree
+13,5,6,Colorado,CO,16.4,R,R,R,0,0,6,7,6,7,kd_tree
+13,6,7,Connecticut,CT,18.9,D,R,R,1,1,6,7,6,7,kd_tree
+13,7,8,Delaware,DE,22.5,D,R,D,1,0,6,7,7,6,kd_tree
+13,8,9,DC,DC,21.2,D,D,D,0,0,8,5,8,5,kd_tree
+13,9,10,Florida,FL,20.7,R,D,D,1,1,8,5,8,5,kd_tree
+13,10,11,Georgia,GA,24.5,R,R,R,0,0,2,11,2,11,kd_tree
+13,11,12,Hawaii,HI,15.7,R,R,R,0,0,6,7,6,7,kd_tree
+13,12,13,Idaho,ID,20.9,R,D,D,1,1,8,5,8,5,kd_tree
+13,13,14,Illinois,IL,22.9,D,R,R,1,1,4,9,4,9,kd_tree
+13,14,15,Indiana,IN,25.2,R,R,R,0,0,2,11,2,11,kd_tree
+13,15,16,Iowa,IA,23.4,R,R,R,0,0,4,9,4,9,kd_tree
+13,16,17,Kansas,KS,22.9,R,R,R,0,0,5,8,5,8,kd_tree
+13,17,18,Kentucky,KY,25.3,R,R,R,0,0,2,11,2,11,kd_tree
+13,18,19,Louisiana,LA,25.8,R,R,R,0,0,2,11,2,11,kd_tree
+13,19,20,Maine,ME,21.3,D,D,D,0,0,8,5,8,5,kd_tree
+13,20,21,Maryland,MD,21.7,D,D,D,0,0,9,4,9,4,kd_tree
+13,21,22,Massachusetts,MA,17.8,D,R,R,1,1,5,8,5,8,kd_tree
+13,22,23,Michigan,MI,25.3,D,R,R,1,1,1,12,1,12,kd_tree
+13,23,24,Minnesota,MN,22.6,D,R,D,1,0,6,7,7,6,kd_tree
+13,24,25,Mississippi,MS,28.1,R,R,R,0,0,1,12,1,12,kd_tree
+13,25,26,Missouri,MO,23.9,R,R,R,0,0,2,11,2,11,kd_tree
+13,26,27,Montana,MT,19.1,R,D,D,1,1,7,6,7,6,kd_tree
+13,27,28,Nebraska,NE,23.4,R,R,R,0,0,4,9,4,9,kd_tree
+13,28,29,Nevada,NV,21.3,R,D,D,1,1,9,4,9,4,kd_tree
+13,29,30,New Hampshire,NH,19.9,D,R,R,1,1,6,7,6,7,kd_tree
+13,30,31,New Jersey,NJ,20.3,D,R,R,1,1,5,8,6,7,kd_tree
+13,31,32,New Mexico,NM,20.5,R,D,D,1,1,7,6,7,6,kd_tree
+13,32,33,New York,NY,21.2,D,D,D,0,0,8,5,8,5,kd_tree
+13,33,34,North Carolina,NC,23.9,R,R,R,0,0,2,11,2,11,kd_tree
+13,34,35,North Dakota,ND,23.9,R,R,R,0,0,2,11,2,11,kd_tree
+13,35,36,Ohio,OH,24.4,R,R,R,0,0,2,11,2,11,kd_tree
+13,36,37,Oklahoma,OK,24.1,R,R,R,0,0,1,12,2,11,kd_tree
+13,37,38,Oregon,OR,21.0,D,D,D,0,0,8,5,8,5,kd_tree
+13,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,1,12,1,12,kd_tree
+13,39,40,Rhode Island,RI,18.6,D,R,R,1,1,5,8,5,8,kd_tree
+13,40,41,South Carolina,SC,25.1,R,R,R,0,0,2,11,2,11,kd_tree
+13,41,42,South Dakota,SD,22.6,R,D,D,1,1,7,6,8,5,kd_tree
+13,42,43,Tennessee,TN,25.6,R,R,R,0,0,2,11,2,11,kd_tree
+13,43,44,Texas,TX,25.3,R,R,R,0,0,2,11,2,11,kd_tree
+13,44,45,Utah,UT,19.6,R,D,D,1,1,7,6,7,6,kd_tree
+13,45,46,Vermont,VT,19.1,D,R,R,1,1,6,7,6,7,kd_tree
+13,46,47,Virginia,VA,22.9,R,R,R,0,0,5,8,5,8,kd_tree
+13,47,48,Washington,WA,21.7,D,D,D,0,0,9,4,9,4,kd_tree
+13,48,49,West Virginia,WV,27.6,R,R,R,0,0,1,12,1,12,kd_tree
+13,49,50,Wisconsin,WI,21.9,D,D,D,0,0,10,3,10,3,kd_tree
+13,50,51,Wyoming,WY,20.1,R,R,D,0,1,6,7,7,6,kd_tree
+14,0,1,Alabama,AL,27.7,R,R,R,0,0,2,12,2,12,kd_tree
+14,1,2,Alaska,AK,23.5,R,R,R,0,0,3,11,4,10,kd_tree
+14,2,3,Arizona,AZ,20.3,R,D,R,1,0,7,7,7,7,kd_tree
+14,3,4,Arkansas,AR,25.0,R,R,R,0,0,2,12,2,12,kd_tree
+14,4,5,California,CA,21.5,D,D,D,0,0,9,5,9,5,kd_tree
+14,5,6,Colorado,CO,16.4,R,R,R,0,0,6,8,6,8,kd_tree
+14,6,7,Connecticut,CT,18.9,D,D,R,0,1,7,7,7,7,kd_tree
+14,7,8,Delaware,DE,22.5,D,D,R,0,1,7,7,7,7,kd_tree
+14,8,9,DC,DC,21.2,D,D,D,0,0,8,6,8,6,kd_tree
+14,9,10,Florida,FL,20.7,R,D,D,1,1,9,5,9,5,kd_tree
+14,10,11,Georgia,GA,24.5,R,R,R,0,0,2,12,2,12,kd_tree
+14,11,12,Hawaii,HI,15.7,R,R,R,0,0,6,8,6,8,kd_tree
+14,12,13,Idaho,ID,20.9,R,D,D,1,1,9,5,9,5,kd_tree
+14,13,14,Illinois,IL,22.9,D,R,R,1,1,5,9,5,9,kd_tree
+14,14,15,Indiana,IN,25.2,R,R,R,0,0,2,12,2,12,kd_tree
+14,15,16,Iowa,IA,23.4,R,R,R,0,0,4,10,4,10,kd_tree
+14,16,17,Kansas,KS,22.9,R,R,R,0,0,6,8,6,8,kd_tree
+14,17,18,Kentucky,KY,25.3,R,R,R,0,0,2,12,2,12,kd_tree
+14,18,19,Louisiana,LA,25.8,R,R,R,0,0,2,12,2,12,kd_tree
+14,19,20,Maine,ME,21.3,D,D,D,0,0,9,5,9,5,kd_tree
+14,20,21,Maryland,MD,21.7,D,D,D,0,0,9,5,10,4,kd_tree
+14,21,22,Massachusetts,MA,17.8,D,R,R,1,1,5,9,5,9,kd_tree
+14,22,23,Michigan,MI,25.3,D,R,R,1,1,1,13,1,13,kd_tree
+14,23,24,Minnesota,MN,22.6,D,R,R,1,1,6,8,7,7,kd_tree
+14,24,25,Mississippi,MS,28.1,R,R,R,0,0,2,12,2,12,kd_tree
+14,25,26,Missouri,MO,23.9,R,R,R,0,0,2,12,2,12,kd_tree
+14,26,27,Montana,MT,19.1,R,D,D,1,1,8,6,8,6,kd_tree
+14,27,28,Nebraska,NE,23.4,R,R,R,0,0,4,10,4,10,kd_tree
+14,28,29,Nevada,NV,21.3,R,D,D,1,1,10,4,10,4,kd_tree
+14,29,30,New Hampshire,NH,19.9,D,D,R,0,1,7,7,7,7,kd_tree
+14,30,31,New Jersey,NJ,20.3,D,R,R,1,1,6,8,6,8,kd_tree
+14,31,32,New Mexico,NM,20.5,R,D,D,1,1,8,6,8,6,kd_tree
+14,32,33,New York,NY,21.2,D,D,D,0,0,8,6,8,6,kd_tree
+14,33,34,North Carolina,NC,23.9,R,R,R,0,0,2,12,2,12,kd_tree
+14,34,35,North Dakota,ND,23.9,R,R,R,0,0,2,12,2,12,kd_tree
+14,35,36,Ohio,OH,24.4,R,R,R,0,0,2,12,2,12,kd_tree
+14,36,37,Oklahoma,OK,24.1,R,R,R,0,0,2,12,2,12,kd_tree
+14,37,38,Oregon,OR,21.0,D,D,D,0,0,8,6,8,6,kd_tree
+14,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,1,13,1,13,kd_tree
+14,39,40,Rhode Island,RI,18.6,D,R,R,1,1,6,8,6,8,kd_tree
+14,40,41,South Carolina,SC,25.1,R,R,R,0,0,2,12,2,12,kd_tree
+14,41,42,South Dakota,SD,22.6,R,D,D,1,1,7,7,8,6,kd_tree
+14,42,43,Tennessee,TN,25.6,R,R,R,0,0,2,12,2,12,kd_tree
+14,43,44,Texas,TX,25.3,R,R,R,0,0,2,12,2,12,kd_tree
+14,44,45,Utah,UT,19.6,R,D,D,1,1,8,6,8,6,kd_tree
+14,45,46,Vermont,VT,19.1,D,D,R,0,1,7,7,7,7,kd_tree
+14,46,47,Virginia,VA,22.9,R,R,R,0,0,6,8,6,8,kd_tree
+14,47,48,Washington,WA,21.7,D,D,D,0,0,9,5,10,4,kd_tree
+14,48,49,West Virginia,WV,27.6,R,R,R,0,0,2,12,2,12,kd_tree
+14,49,50,Wisconsin,WI,21.9,D,D,D,0,0,10,4,10,4,kd_tree
+14,50,51,Wyoming,WY,20.1,R,D,D,1,1,7,7,8,6,kd_tree
+15,0,1,Alabama,AL,27.7,R,R,R,0,0,2,13,2,13,kd_tree
+15,1,2,Alaska,AK,23.5,R,R,R,0,0,4,11,4,11,kd_tree
+15,2,3,Arizona,AZ,20.3,R,D,D,1,1,8,7,8,7,kd_tree
+15,3,4,Arkansas,AR,25.0,R,R,R,0,0,2,13,2,13,kd_tree
+15,4,5,California,CA,21.5,D,D,D,0,0,10,5,9,6,kd_tree
+15,5,6,Colorado,CO,16.4,R,R,R,0,0,7,8,7,8,kd_tree
+15,6,7,Connecticut,CT,18.9,D,D,D,0,0,8,7,8,7,kd_tree
+15,7,8,Delaware,DE,22.5,D,D,D,0,0,8,7,8,7,kd_tree
+15,8,9,DC,DC,21.2,D,D,D,0,0,9,6,9,6,kd_tree
+15,9,10,Florida,FL,20.7,R,D,D,1,1,9,6,9,6,kd_tree
+15,10,11,Georgia,GA,24.5,R,R,R,0,0,2,13,2,13,kd_tree
+15,11,12,Hawaii,HI,15.7,R,R,R,0,0,7,8,7,8,kd_tree
+15,12,13,Idaho,ID,20.9,R,D,D,1,1,10,5,10,5,kd_tree
+15,13,14,Illinois,IL,22.9,D,R,R,1,1,6,9,5,10,kd_tree
+15,14,15,Indiana,IN,25.2,R,R,R,0,0,2,13,2,13,kd_tree
+15,15,16,Iowa,IA,23.4,R,R,R,0,0,4,11,4,11,kd_tree
+15,16,17,Kansas,KS,22.9,R,R,R,0,0,7,8,6,9,kd_tree
+15,17,18,Kentucky,KY,25.3,R,R,R,0,0,2,13,2,13,kd_tree
+15,18,19,Louisiana,LA,25.8,R,R,R,0,0,2,13,2,13,kd_tree
+15,19,20,Maine,ME,21.3,D,D,D,0,0,9,6,9,6,kd_tree
+15,20,21,Maryland,MD,21.7,D,D,D,0,0,10,5,10,5,kd_tree
+15,21,22,Massachusetts,MA,17.8,D,R,R,1,1,6,9,6,9,kd_tree
+15,22,23,Michigan,MI,25.3,D,R,R,1,1,1,14,1,14,kd_tree
+15,23,24,Minnesota,MN,22.6,D,R,R,1,1,6,9,7,8,kd_tree
+15,24,25,Mississippi,MS,28.1,R,R,R,0,0,2,13,2,13,kd_tree
+15,25,26,Missouri,MO,23.9,R,R,R,0,0,3,12,2,13,kd_tree
+15,26,27,Montana,MT,19.1,R,D,D,1,1,9,6,9,6,kd_tree
+15,27,28,Nebraska,NE,23.4,R,R,R,0,0,4,11,4,11,kd_tree
+15,28,29,Nevada,NV,21.3,R,D,D,1,1,10,5,10,5,kd_tree
+15,29,30,New Hampshire,NH,19.9,D,D,D,0,0,8,7,8,7,kd_tree
+15,30,31,New Jersey,NJ,20.3,D,R,R,1,1,7,8,7,8,kd_tree
+15,31,32,New Mexico,NM,20.5,R,D,D,1,1,9,6,9,6,kd_tree
+15,32,33,New York,NY,21.2,D,D,D,0,0,9,6,9,6,kd_tree
+15,33,34,North Carolina,NC,23.9,R,R,R,0,0,3,12,2,13,kd_tree
+15,34,35,North Dakota,ND,23.9,R,R,R,0,0,3,12,2,13,kd_tree
+15,35,36,Ohio,OH,24.4,R,R,R,0,0,2,13,2,13,kd_tree
+15,36,37,Oklahoma,OK,24.1,R,R,R,0,0,2,13,2,13,kd_tree
+15,37,38,Oregon,OR,21.0,D,D,D,0,0,9,6,9,6,kd_tree
+15,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,1,14,1,14,kd_tree
+15,39,40,Rhode Island,RI,18.6,D,R,R,1,1,7,8,7,8,kd_tree
+15,40,41,South Carolina,SC,25.1,R,R,R,0,0,2,13,2,13,kd_tree
+15,41,42,South Dakota,SD,22.6,R,R,D,0,1,7,8,8,7,kd_tree
+15,42,43,Tennessee,TN,25.6,R,R,R,0,0,2,13,2,13,kd_tree
+15,43,44,Texas,TX,25.3,R,R,R,0,0,2,13,2,13,kd_tree
+15,44,45,Utah,UT,19.6,R,D,D,1,1,9,6,9,6,kd_tree
+15,45,46,Vermont,VT,19.1,D,D,D,0,0,8,7,8,7,kd_tree
+15,46,47,Virginia,VA,22.9,R,R,R,0,0,7,8,6,9,kd_tree
+15,47,48,Washington,WA,21.7,D,D,D,0,0,10,5,10,5,kd_tree
+15,48,49,West Virginia,WV,27.6,R,R,R,0,0,2,13,2,13,kd_tree
+15,49,50,Wisconsin,WI,21.9,D,D,D,0,0,10,5,10,5,kd_tree
+15,50,51,Wyoming,WY,20.1,R,D,D,1,1,8,7,8,7,kd_tree
+16,0,1,Alabama,AL,27.7,R,R,R,0,0,2,14,2,14,kd_tree
+16,1,2,Alaska,AK,23.5,R,R,R,0,0,4,12,4,12,kd_tree
+16,2,3,Arizona,AZ,20.3,R,D,D,1,1,9,7,9,7,kd_tree
+16,3,4,Arkansas,AR,25.0,R,R,R,0,0,2,14,2,14,kd_tree
+16,4,5,California,CA,21.5,D,D,D,0,0,10,6,10,6,kd_tree
+16,5,6,Colorado,CO,16.4,R,D,R,1,0,8,8,8,8,kd_tree
+16,6,7,Connecticut,CT,18.9,D,D,D,0,0,9,7,9,7,kd_tree
+16,7,8,Delaware,DE,22.5,D,D,D,0,0,9,7,9,7,kd_tree
+16,8,9,DC,DC,21.2,D,D,D,0,0,10,6,10,6,kd_tree
+16,9,10,Florida,FL,20.7,R,D,D,1,1,10,6,10,6,kd_tree
+16,10,11,Georgia,GA,24.5,R,R,R,0,0,2,14,2,14,kd_tree
+16,11,12,Hawaii,HI,15.7,R,D,R,1,0,8,8,8,8,kd_tree
+16,12,13,Idaho,ID,20.9,R,D,D,1,1,10,6,10,6,kd_tree
+16,13,14,Illinois,IL,22.9,D,R,R,1,1,6,10,6,10,kd_tree
+16,14,15,Indiana,IN,25.2,R,R,R,0,0,2,14,2,14,kd_tree
+16,15,16,Iowa,IA,23.4,R,R,R,0,0,5,11,5,11,kd_tree
+16,16,17,Kansas,KS,22.9,R,R,R,0,0,7,9,7,9,kd_tree
+16,17,18,Kentucky,KY,25.3,R,R,R,0,0,2,14,2,14,kd_tree
+16,18,19,Louisiana,LA,25.8,R,R,R,0,0,2,14,2,14,kd_tree
+16,19,20,Maine,ME,21.3,D,D,D,0,0,9,7,10,6,kd_tree
+16,20,21,Maryland,MD,21.7,D,D,D,0,0,10,6,10,6,kd_tree
+16,21,22,Massachusetts,MA,17.8,D,R,R,1,1,7,9,7,9,kd_tree
+16,22,23,Michigan,MI,25.3,D,R,R,1,1,1,15,1,15,kd_tree
+16,23,24,Minnesota,MN,22.6,D,R,R,1,1,7,9,7,9,kd_tree
+16,24,25,Mississippi,MS,28.1,R,R,R,0,0,2,14,2,14,kd_tree
+16,25,26,Missouri,MO,23.9,R,R,R,0,0,3,13,3,13,kd_tree
+16,26,27,Montana,MT,19.1,R,D,D,1,1,9,7,10,6,kd_tree
+16,27,28,Nebraska,NE,23.4,R,R,R,0,0,5,11,5,11,kd_tree
+16,28,29,Nevada,NV,21.3,R,D,D,1,1,10,6,11,5,kd_tree
+16,29,30,New Hampshire,NH,19.9,D,D,R,0,1,8,8,8,8,kd_tree
+16,30,31,New Jersey,NJ,20.3,D,D,R,0,1,8,8,8,8,kd_tree
+16,31,32,New Mexico,NM,20.5,R,D,D,1,1,9,7,9,7,kd_tree
+16,32,33,New York,NY,21.2,D,D,D,0,0,10,6,10,6,kd_tree
+16,33,34,North Carolina,NC,23.9,R,R,R,0,0,3,13,3,13,kd_tree
+16,34,35,North Dakota,ND,23.9,R,R,R,0,0,3,13,3,13,kd_tree
+16,35,36,Ohio,OH,24.4,R,R,R,0,0,2,14,2,14,kd_tree
+16,36,37,Oklahoma,OK,24.1,R,R,R,0,0,3,13,3,13,kd_tree
+16,37,38,Oregon,OR,21.0,D,D,D,0,0,9,7,9,7,kd_tree
+16,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,2,14,1,15,kd_tree
+16,39,40,Rhode Island,RI,18.6,D,D,R,0,1,8,8,8,8,kd_tree
+16,40,41,South Carolina,SC,25.1,R,R,R,0,0,2,14,2,14,kd_tree
+16,41,42,South Dakota,SD,22.6,R,R,R,0,0,7,9,8,8,kd_tree
+16,42,43,Tennessee,TN,25.6,R,R,R,0,0,2,14,2,14,kd_tree
+16,43,44,Texas,TX,25.3,R,R,R,0,0,2,14,2,14,kd_tree
+16,44,45,Utah,UT,19.6,R,D,D,1,1,9,7,9,7,kd_tree
+16,45,46,Vermont,VT,19.1,D,D,D,0,0,8,8,9,7,kd_tree
+16,46,47,Virginia,VA,22.9,R,R,R,0,0,7,9,7,9,kd_tree
+16,47,48,Washington,WA,21.7,D,D,D,0,0,10,6,10,6,kd_tree
+16,48,49,West Virginia,WV,27.6,R,R,R,0,0,2,14,2,14,kd_tree
+16,49,50,Wisconsin,WI,21.9,D,D,D,0,0,10,6,10,6,kd_tree
+16,50,51,Wyoming,WY,20.1,R,D,D,1,1,9,7,9,7,kd_tree
+17,0,1,Alabama,AL,27.7,R,R,R,0,0,2,15,2,15,kd_tree
+17,1,2,Alaska,AK,23.5,R,R,R,0,0,4,13,4,13,kd_tree
+17,2,3,Arizona,AZ,20.3,R,D,D,1,1,10,7,10,7,kd_tree
+17,3,4,Arkansas,AR,25.0,R,R,R,0,0,2,15,2,15,kd_tree
+17,4,5,California,CA,21.5,D,D,D,0,0,11,6,11,6,kd_tree
+17,5,6,Colorado,CO,16.4,R,D,D,1,1,9,8,9,8,kd_tree
+17,6,7,Connecticut,CT,18.9,D,D,D,0,0,9,8,9,8,kd_tree
+17,7,8,Delaware,DE,22.5,D,D,D,0,0,9,8,9,8,kd_tree
+17,8,9,DC,DC,21.2,D,D,D,0,0,10,7,11,6,kd_tree
+17,9,10,Florida,FL,20.7,R,D,D,1,1,10,7,10,7,kd_tree
+17,10,11,Georgia,GA,24.5,R,R,R,0,0,2,15,2,15,kd_tree
+17,11,12,Hawaii,HI,15.7,R,D,D,1,1,9,8,9,8,kd_tree
+17,12,13,Idaho,ID,20.9,R,D,D,1,1,11,6,11,6,kd_tree
+17,13,14,Illinois,IL,22.9,D,R,R,1,1,7,10,7,10,kd_tree
+17,14,15,Indiana,IN,25.2,R,R,R,0,0,2,15,2,15,kd_tree
+17,15,16,Iowa,IA,23.4,R,R,R,0,0,5,12,5,12,kd_tree
+17,16,17,Kansas,KS,22.9,R,R,R,0,0,8,9,8,9,kd_tree
+17,17,18,Kentucky,KY,25.3,R,R,R,0,0,2,15,2,15,kd_tree
+17,18,19,Louisiana,LA,25.8,R,R,R,0,0,2,15,2,15,kd_tree
+17,19,20,Maine,ME,21.3,D,D,D,0,0,10,7,10,7,kd_tree
+17,20,21,Maryland,MD,21.7,D,D,D,0,0,10,7,10,7,kd_tree
+17,21,22,Massachusetts,MA,17.8,D,R,R,1,1,8,9,8,9,kd_tree
+17,22,23,Michigan,MI,25.3,D,R,R,1,1,1,16,1,16,kd_tree
+17,23,24,Minnesota,MN,22.6,D,R,R,1,1,7,10,7,10,kd_tree
+17,24,25,Mississippi,MS,28.1,R,R,R,0,0,2,15,2,15,kd_tree
+17,25,26,Missouri,MO,23.9,R,R,R,0,0,3,14,3,14,kd_tree
+17,26,27,Montana,MT,19.1,R,D,D,1,1,10,7,10,7,kd_tree
+17,27,28,Nebraska,NE,23.4,R,R,R,0,0,5,12,5,12,kd_tree
+17,28,29,Nevada,NV,21.3,R,D,D,1,1,11,6,11,6,kd_tree
+17,29,30,New Hampshire,NH,19.9,D,D,D,0,0,9,8,9,8,kd_tree
+17,30,31,New Jersey,NJ,20.3,D,D,D,0,0,9,8,9,8,kd_tree
+17,31,32,New Mexico,NM,20.5,R,D,D,1,1,10,7,10,7,kd_tree
+17,32,33,New York,NY,21.2,D,D,D,0,0,11,6,11,6,kd_tree
+17,33,34,North Carolina,NC,23.9,R,R,R,0,0,3,14,3,14,kd_tree
+17,34,35,North Dakota,ND,23.9,R,R,R,0,0,3,14,3,14,kd_tree
+17,35,36,Ohio,OH,24.4,R,R,R,0,0,2,15,2,15,kd_tree
+17,36,37,Oklahoma,OK,24.1,R,R,R,0,0,3,14,3,14,kd_tree
+17,37,38,Oregon,OR,21.0,D,D,D,0,0,10,7,10,7,kd_tree
+17,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,2,15,2,15,kd_tree
+17,39,40,Rhode Island,RI,18.6,D,D,D,0,0,9,8,9,8,kd_tree
+17,40,41,South Carolina,SC,25.1,R,R,R,0,0,2,15,2,15,kd_tree
+17,41,42,South Dakota,SD,22.6,R,R,R,0,0,8,9,8,9,kd_tree
+17,42,43,Tennessee,TN,25.6,R,R,R,0,0,2,15,2,15,kd_tree
+17,43,44,Texas,TX,25.3,R,R,R,0,0,2,15,2,15,kd_tree
+17,44,45,Utah,UT,19.6,R,D,D,1,1,10,7,10,7,kd_tree
+17,45,46,Vermont,VT,19.1,D,D,D,0,0,9,8,9,8,kd_tree
+17,46,47,Virginia,VA,22.9,R,R,R,0,0,8,9,8,9,kd_tree
+17,47,48,Washington,WA,21.7,D,D,D,0,0,10,7,10,7,kd_tree
+17,48,49,West Virginia,WV,27.6,R,R,R,0,0,2,15,2,15,kd_tree
+17,49,50,Wisconsin,WI,21.9,D,D,D,0,0,10,7,10,7,kd_tree
+17,50,51,Wyoming,WY,20.1,R,D,D,1,1,10,7,10,7,kd_tree
+18,0,1,Alabama,AL,27.7,R,R,R,0,0,2,16,2,16,kd_tree
+18,1,2,Alaska,AK,23.5,R,R,R,0,0,5,13,5,13,kd_tree
+18,2,3,Arizona,AZ,20.3,R,D,D,1,1,11,7,11,7,kd_tree
+18,3,4,Arkansas,AR,25.0,R,R,R,0,0,2,16,3,15,kd_tree
+18,4,5,California,CA,21.5,D,D,D,0,0,11,7,11,7,kd_tree
+18,5,6,Colorado,CO,16.4,R,D,D,1,1,10,8,10,8,kd_tree
+18,6,7,Connecticut,CT,18.9,D,D,R,0,1,9,9,9,9,kd_tree
+18,7,8,Delaware,DE,22.5,D,D,R,0,1,9,9,9,9,kd_tree
+18,8,9,DC,DC,21.2,D,D,D,0,0,11,7,11,7,kd_tree
+18,9,10,Florida,FL,20.7,R,D,D,1,1,11,7,11,7,kd_tree
+18,10,11,Georgia,GA,24.5,R,R,R,0,0,2,16,3,15,kd_tree
+18,11,12,Hawaii,HI,15.7,R,D,D,1,1,9,9,10,8,kd_tree
+18,12,13,Idaho,ID,20.9,R,D,D,1,1,12,6,12,6,kd_tree
+18,13,14,Illinois,IL,22.9,D,R,R,1,1,7,11,7,11,kd_tree
+18,14,15,Indiana,IN,25.2,R,R,R,0,0,3,15,3,15,kd_tree
+18,15,16,Iowa,IA,23.4,R,R,R,0,0,6,12,6,12,kd_tree
+18,16,17,Kansas,KS,22.9,R,R,R,0,0,8,10,8,10,kd_tree
+18,17,18,Kentucky,KY,25.3,R,R,R,0,0,2,16,2,16,kd_tree
+18,18,19,Louisiana,LA,25.8,R,R,R,0,0,2,16,2,16,kd_tree
+18,19,20,Maine,ME,21.3,D,D,D,0,0,11,7,11,7,kd_tree
+18,20,21,Maryland,MD,21.7,D,D,D,0,0,11,7,10,8,kd_tree
+18,21,22,Massachusetts,MA,17.8,D,R,R,1,1,8,10,9,9,kd_tree
+18,22,23,Michigan,MI,25.3,D,R,R,1,1,1,17,1,17,kd_tree
+18,23,24,Minnesota,MN,22.6,D,R,R,1,1,8,10,8,10,kd_tree
+18,24,25,Mississippi,MS,28.1,R,R,R,0,0,2,16,2,16,kd_tree
+18,25,26,Missouri,MO,23.9,R,R,R,0,0,4,14,4,14,kd_tree
+18,26,27,Montana,MT,19.1,R,D,D,1,1,11,7,11,7,kd_tree
+18,27,28,Nebraska,NE,23.4,R,R,R,0,0,6,12,6,12,kd_tree
+18,28,29,Nevada,NV,21.3,R,D,D,1,1,12,6,12,6,kd_tree
+18,29,30,New Hampshire,NH,19.9,D,D,D,0,0,10,8,10,8,kd_tree
+18,30,31,New Jersey,NJ,20.3,D,D,D,0,0,10,8,10,8,kd_tree
+18,31,32,New Mexico,NM,20.5,R,D,D,1,1,11,7,11,7,kd_tree
+18,32,33,New York,NY,21.2,D,D,D,0,0,11,7,11,7,kd_tree
+18,33,34,North Carolina,NC,23.9,R,R,R,0,0,4,14,4,14,kd_tree
+18,34,35,North Dakota,ND,23.9,R,R,R,0,0,4,14,4,14,kd_tree
+18,35,36,Ohio,OH,24.4,R,R,R,0,0,3,15,3,15,kd_tree
+18,36,37,Oklahoma,OK,24.1,R,R,R,0,0,3,15,3,15,kd_tree
+18,37,38,Oregon,OR,21.0,D,D,D,0,0,10,8,11,7,kd_tree
+18,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,2,16,2,16,kd_tree
+18,39,40,Rhode Island,RI,18.6,D,D,R,0,1,9,9,9,9,kd_tree
+18,40,41,South Carolina,SC,25.1,R,R,R,0,0,3,15,3,15,kd_tree
+18,41,42,South Dakota,SD,22.6,R,D,R,1,0,9,9,9,9,kd_tree
+18,42,43,Tennessee,TN,25.6,R,R,R,0,0,2,16,2,16,kd_tree
+18,43,44,Texas,TX,25.3,R,R,R,0,0,2,16,2,16,kd_tree
+18,44,45,Utah,UT,19.6,R,D,D,1,1,11,7,11,7,kd_tree
+18,45,46,Vermont,VT,19.1,D,D,D,0,0,10,8,10,8,kd_tree
+18,46,47,Virginia,VA,22.9,R,R,R,0,0,8,10,8,10,kd_tree
+18,47,48,Washington,WA,21.7,D,D,D,0,0,11,7,10,8,kd_tree
+18,48,49,West Virginia,WV,27.6,R,R,R,0,0,2,16,2,16,kd_tree
+18,49,50,Wisconsin,WI,21.9,D,D,D,0,0,10,8,10,8,kd_tree
+18,50,51,Wyoming,WY,20.1,R,D,D,1,1,11,7,11,7,kd_tree
+19,0,1,Alabama,AL,27.7,R,R,R,0,0,2,17,2,17,kd_tree
+19,1,2,Alaska,AK,23.5,R,R,R,0,0,5,14,5,14,kd_tree
+19,2,3,Arizona,AZ,20.3,R,D,D,1,1,12,7,12,7,kd_tree
+19,3,4,Arkansas,AR,25.0,R,R,R,0,0,3,16,3,16,kd_tree
+19,4,5,California,CA,21.5,D,D,D,0,0,11,8,11,8,kd_tree
+19,5,6,Colorado,CO,16.4,R,D,D,1,1,10,9,10,9,kd_tree
+19,6,7,Connecticut,CT,18.9,D,D,D,0,0,10,9,10,9,kd_tree
+19,7,8,Delaware,DE,22.5,D,R,R,1,1,9,10,9,10,kd_tree
+19,8,9,DC,DC,21.2,D,D,D,0,0,11,8,11,8,kd_tree
+19,9,10,Florida,FL,20.7,R,D,D,1,1,12,7,12,7,kd_tree
+19,10,11,Georgia,GA,24.5,R,R,R,0,0,3,16,3,16,kd_tree
+19,11,12,Hawaii,HI,15.7,R,D,D,1,1,10,9,10,9,kd_tree
+19,12,13,Idaho,ID,20.9,R,D,D,1,1,12,7,12,7,kd_tree
+19,13,14,Illinois,IL,22.9,D,R,R,1,1,8,11,7,12,kd_tree
+19,14,15,Indiana,IN,25.2,R,R,R,0,0,3,16,3,16,kd_tree
+19,15,16,Iowa,IA,23.4,R,R,R,0,0,7,12,6,13,kd_tree
+19,16,17,Kansas,KS,22.9,R,R,R,0,0,9,10,8,11,kd_tree
+19,17,18,Kentucky,KY,25.3,R,R,R,0,0,2,17,2,17,kd_tree
+19,18,19,Louisiana,LA,25.8,R,R,R,0,0,2,17,2,17,kd_tree
+19,19,20,Maine,ME,21.3,D,D,D,0,0,11,8,12,7,kd_tree
+19,20,21,Maryland,MD,21.7,D,D,D,0,0,11,8,11,8,kd_tree
+19,21,22,Massachusetts,MA,17.8,D,R,R,1,1,9,10,9,10,kd_tree
+19,22,23,Michigan,MI,25.3,D,R,R,1,1,1,18,1,18,kd_tree
+19,23,24,Minnesota,MN,22.6,D,R,R,1,1,9,10,9,10,kd_tree
+19,24,25,Mississippi,MS,28.1,R,R,R,0,0,2,17,2,17,kd_tree
+19,25,26,Missouri,MO,23.9,R,R,R,0,0,4,15,4,15,kd_tree
+19,26,27,Montana,MT,19.1,R,D,D,1,1,12,7,12,7,kd_tree
+19,27,28,Nebraska,NE,23.4,R,R,R,0,0,7,12,6,13,kd_tree
+19,28,29,Nevada,NV,21.3,R,D,D,1,1,12,7,13,6,kd_tree
+19,29,30,New Hampshire,NH,19.9,D,D,D,0,0,11,8,11,8,kd_tree
+19,30,31,New Jersey,NJ,20.3,D,D,D,0,0,11,8,11,8,kd_tree
+19,31,32,New Mexico,NM,20.5,R,D,D,1,1,12,7,12,7,kd_tree
+19,32,33,New York,NY,21.2,D,D,D,0,0,11,8,11,8,kd_tree
+19,33,34,North Carolina,NC,23.9,R,R,R,0,0,4,15,4,15,kd_tree
+19,34,35,North Dakota,ND,23.9,R,R,R,0,0,4,15,4,15,kd_tree
+19,35,36,Ohio,OH,24.4,R,R,R,0,0,3,16,3,16,kd_tree
+19,36,37,Oklahoma,OK,24.1,R,R,R,0,0,4,15,4,15,kd_tree
+19,37,38,Oregon,OR,21.0,D,D,D,0,0,11,8,11,8,kd_tree
+19,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,3,16,3,16,kd_tree
+19,39,40,Rhode Island,RI,18.6,D,D,D,0,0,10,9,10,9,kd_tree
+19,40,41,South Carolina,SC,25.1,R,R,R,0,0,3,16,3,16,kd_tree
+19,41,42,South Dakota,SD,22.6,R,D,D,1,1,10,9,10,9,kd_tree
+19,42,43,Tennessee,TN,25.6,R,R,R,0,0,2,17,2,17,kd_tree
+19,43,44,Texas,TX,25.3,R,R,R,0,0,2,17,2,17,kd_tree
+19,44,45,Utah,UT,19.6,R,D,D,1,1,12,7,12,7,kd_tree
+19,45,46,Vermont,VT,19.1,D,D,D,0,0,11,8,11,8,kd_tree
+19,46,47,Virginia,VA,22.9,R,R,R,0,0,8,11,8,11,kd_tree
+19,47,48,Washington,WA,21.7,D,D,D,0,0,11,8,11,8,kd_tree
+19,48,49,West Virginia,WV,27.6,R,R,R,0,0,2,17,2,17,kd_tree
+19,49,50,Wisconsin,WI,21.9,D,D,D,0,0,10,9,10,9,kd_tree
+19,50,51,Wyoming,WY,20.1,R,D,D,1,1,12,7,12,7,kd_tree
+20,0,1,Alabama,AL,27.7,R,R,R,0,0,2,18,2,18,kd_tree
+20,1,2,Alaska,AK,23.5,R,R,R,0,0,5,15,5,15,kd_tree
+20,2,3,Arizona,AZ,20.3,R,D,D,1,1,13,7,13,7,kd_tree
+20,3,4,Arkansas,AR,25.0,R,R,R,0,0,3,17,3,17,kd_tree
+20,4,5,California,CA,21.5,D,D,D,0,0,11,9,11,9,kd_tree
+20,5,6,Colorado,CO,16.4,R,D,D,1,1,11,9,11,9,kd_tree
+20,6,7,Connecticut,CT,18.9,D,D,D,0,0,11,9,11,9,kd_tree
+20,7,8,Delaware,DE,22.5,D,D,R,0,1,10,10,10,10,kd_tree
+20,8,9,DC,DC,21.2,D,D,D,0,0,11,9,12,8,kd_tree
+20,9,10,Florida,FL,20.7,R,D,D,1,1,13,7,13,7,kd_tree
+20,10,11,Georgia,GA,24.5,R,R,R,0,0,3,17,3,17,kd_tree
+20,11,12,Hawaii,HI,15.7,R,D,D,1,1,11,9,11,9,kd_tree
+20,12,13,Idaho,ID,20.9,R,D,D,1,1,13,7,12,8,kd_tree
+20,13,14,Illinois,IL,22.9,D,R,R,1,1,8,12,8,12,kd_tree
+20,14,15,Indiana,IN,25.2,R,R,R,0,0,3,17,3,17,kd_tree
+20,15,16,Iowa,IA,23.4,R,R,R,0,0,7,13,7,13,kd_tree
+20,16,17,Kansas,KS,22.9,R,R,R,0,0,9,11,9,11,kd_tree
+20,17,18,Kentucky,KY,25.3,R,R,R,0,0,2,18,3,17,kd_tree
+20,18,19,Louisiana,LA,25.8,R,R,R,0,0,2,18,2,18,kd_tree
+20,19,20,Maine,ME,21.3,D,D,D,0,0,11,9,12,8,kd_tree
+20,20,21,Maryland,MD,21.7,D,D,D,0,0,11,9,11,9,kd_tree
+20,21,22,Massachusetts,MA,17.8,D,D,R,0,1,10,10,10,10,kd_tree
+20,22,23,Michigan,MI,25.3,D,R,R,1,1,1,19,2,18,kd_tree
+20,23,24,Minnesota,MN,22.6,D,D,R,0,1,10,10,10,10,kd_tree
+20,24,25,Mississippi,MS,28.1,R,R,R,0,0,2,18,2,18,kd_tree
+20,25,26,Missouri,MO,23.9,R,R,R,0,0,5,15,5,15,kd_tree
+20,26,27,Montana,MT,19.1,R,D,D,1,1,13,7,13,7,kd_tree
+20,27,28,Nebraska,NE,23.4,R,R,R,0,0,7,13,7,13,kd_tree
+20,28,29,Nevada,NV,21.3,R,D,D,1,1,13,7,13,7,kd_tree
+20,29,30,New Hampshire,NH,19.9,D,D,D,0,0,12,8,12,8,kd_tree
+20,30,31,New Jersey,NJ,20.3,D,D,D,0,0,12,8,12,8,kd_tree
+20,31,32,New Mexico,NM,20.5,R,D,D,1,1,13,7,13,7,kd_tree
+20,32,33,New York,NY,21.2,D,D,D,0,0,11,9,12,8,kd_tree
+20,33,34,North Carolina,NC,23.9,R,R,R,0,0,5,15,5,15,kd_tree
+20,34,35,North Dakota,ND,23.9,R,R,R,0,0,5,15,5,15,kd_tree
+20,35,36,Ohio,OH,24.4,R,R,R,0,0,3,17,3,17,kd_tree
+20,36,37,Oklahoma,OK,24.1,R,R,R,0,0,4,16,4,16,kd_tree
+20,37,38,Oregon,OR,21.0,D,D,D,0,0,11,9,12,8,kd_tree
+20,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,3,17,3,17,kd_tree
+20,39,40,Rhode Island,RI,18.6,D,D,R,0,1,10,10,10,10,kd_tree
+20,40,41,South Carolina,SC,25.1,R,R,R,0,0,3,17,3,17,kd_tree
+20,41,42,South Dakota,SD,22.6,R,D,D,1,1,11,9,11,9,kd_tree
+20,42,43,Tennessee,TN,25.6,R,R,R,0,0,2,18,2,18,kd_tree
+20,43,44,Texas,TX,25.3,R,R,R,0,0,2,18,3,17,kd_tree
+20,44,45,Utah,UT,19.6,R,D,D,1,1,13,7,13,7,kd_tree
+20,45,46,Vermont,VT,19.1,D,D,D,0,0,12,8,12,8,kd_tree
+20,46,47,Virginia,VA,22.9,R,R,R,0,0,9,11,9,11,kd_tree
+20,47,48,Washington,WA,21.7,D,D,D,0,0,11,9,11,9,kd_tree
+20,48,49,West Virginia,WV,27.6,R,R,R,0,0,2,18,2,18,kd_tree
+20,49,50,Wisconsin,WI,21.9,D,D,R,0,1,11,9,10,10,kd_tree
+20,50,51,Wyoming,WY,20.1,R,D,D,1,1,13,7,13,7,kd_tree
+21,0,1,Alabama,AL,27.7,R,R,R,0,0,2,19,3,18,kd_tree
+21,1,2,Alaska,AK,23.5,R,R,R,0,0,6,15,6,15,kd_tree
+21,2,3,Arizona,AZ,20.3,R,D,D,1,1,14,7,14,7,kd_tree
+21,3,4,Arkansas,AR,25.0,R,R,R,0,0,4,17,4,17,kd_tree
+21,4,5,California,CA,21.5,D,D,D,0,0,12,9,12,9,kd_tree
+21,5,6,Colorado,CO,16.4,R,D,D,1,1,12,9,12,9,kd_tree
+21,6,7,Connecticut,CT,18.9,D,D,D,0,0,12,9,12,9,kd_tree
+21,7,8,Delaware,DE,22.5,D,D,D,0,0,11,10,11,10,kd_tree
+21,8,9,DC,DC,21.2,D,D,D,0,0,12,9,12,9,kd_tree
+21,9,10,Florida,FL,20.7,R,D,D,1,1,13,8,14,7,kd_tree
+21,10,11,Georgia,GA,24.5,R,R,R,0,0,3,18,4,17,kd_tree
+21,11,12,Hawaii,HI,15.7,R,D,D,1,1,12,9,12,9,kd_tree
+21,12,13,Idaho,ID,20.9,R,D,D,1,1,13,8,13,8,kd_tree
+21,13,14,Illinois,IL,22.9,D,R,R,1,1,8,13,8,13,kd_tree
+21,14,15,Indiana,IN,25.2,R,R,R,0,0,3,18,3,18,kd_tree
+21,15,16,Iowa,IA,23.4,R,R,R,0,0,7,14,7,14,kd_tree
+21,16,17,Kansas,KS,22.9,R,R,R,0,0,9,12,9,12,kd_tree
+21,17,18,Kentucky,KY,25.3,R,R,R,0,0,3,18,3,18,kd_tree
+21,18,19,Louisiana,LA,25.8,R,R,R,0,0,2,19,3,18,kd_tree
+21,19,20,Maine,ME,21.3,D,D,D,0,0,12,9,12,9,kd_tree
+21,20,21,Maryland,MD,21.7,D,D,D,0,0,11,10,11,10,kd_tree
+21,21,22,Massachusetts,MA,17.8,D,D,D,0,0,11,10,11,10,kd_tree
+21,22,23,Michigan,MI,25.3,D,R,R,1,1,2,19,2,19,kd_tree
+21,23,24,Minnesota,MN,22.6,D,R,R,1,1,10,11,10,11,kd_tree
+21,24,25,Mississippi,MS,28.1,R,R,R,0,0,2,19,3,18,kd_tree
+21,25,26,Missouri,MO,23.9,R,R,R,0,0,5,16,5,16,kd_tree
+21,26,27,Montana,MT,19.1,R,D,D,1,1,13,8,13,8,kd_tree
+21,27,28,Nebraska,NE,23.4,R,R,R,0,0,7,14,7,14,kd_tree
+21,28,29,Nevada,NV,21.3,R,D,D,1,1,13,8,13,8,kd_tree
+21,29,30,New Hampshire,NH,19.9,D,D,D,0,0,13,8,13,8,kd_tree
+21,30,31,New Jersey,NJ,20.3,D,D,D,0,0,13,8,13,8,kd_tree
+21,31,32,New Mexico,NM,20.5,R,D,D,1,1,14,7,14,7,kd_tree
+21,32,33,New York,NY,21.2,D,D,D,0,0,12,9,12,9,kd_tree
+21,33,34,North Carolina,NC,23.9,R,R,R,0,0,5,16,5,16,kd_tree
+21,34,35,North Dakota,ND,23.9,R,R,R,0,0,5,16,5,16,kd_tree
+21,35,36,Ohio,OH,24.4,R,R,R,0,0,3,18,4,17,kd_tree
+21,36,37,Oklahoma,OK,24.1,R,R,R,0,0,4,17,4,17,kd_tree
+21,37,38,Oregon,OR,21.0,D,D,D,0,0,11,10,12,9,kd_tree
+21,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,4,17,4,17,kd_tree
+21,39,40,Rhode Island,RI,18.6,D,D,D,0,0,11,10,11,10,kd_tree
+21,40,41,South Carolina,SC,25.1,R,R,R,0,0,4,17,4,17,kd_tree
+21,41,42,South Dakota,SD,22.6,R,D,D,1,1,11,10,11,10,kd_tree
+21,42,43,Tennessee,TN,25.6,R,R,R,0,0,2,19,3,18,kd_tree
+21,43,44,Texas,TX,25.3,R,R,R,0,0,3,18,3,18,kd_tree
+21,44,45,Utah,UT,19.6,R,D,D,1,1,14,7,14,7,kd_tree
+21,45,46,Vermont,VT,19.1,D,D,D,0,0,12,9,12,9,kd_tree
+21,46,47,Virginia,VA,22.9,R,R,R,0,0,9,12,9,12,kd_tree
+21,47,48,Washington,WA,21.7,D,D,D,0,0,11,10,11,10,kd_tree
+21,48,49,West Virginia,WV,27.6,R,R,R,0,0,2,19,3,18,kd_tree
+21,49,50,Wisconsin,WI,21.9,D,D,R,0,1,11,10,10,11,kd_tree
+21,50,51,Wyoming,WY,20.1,R,D,D,1,1,14,7,14,7,kd_tree
+22,0,1,Alabama,AL,27.7,R,R,R,0,0,3,19,3,19,kd_tree
+22,1,2,Alaska,AK,23.5,R,R,R,0,0,7,15,7,15,kd_tree
+22,2,3,Arizona,AZ,20.3,R,D,D,1,1,15,7,15,7,kd_tree
+22,3,4,Arkansas,AR,25.0,R,R,R,0,0,4,18,4,18,kd_tree
+22,4,5,California,CA,21.5,D,D,D,0,0,12,10,12,10,kd_tree
+22,5,6,Colorado,CO,16.4,R,D,D,1,1,13,9,13,9,kd_tree
+22,6,7,Connecticut,CT,18.9,D,D,D,0,0,13,9,13,9,kd_tree
+22,7,8,Delaware,DE,22.5,D,D,R,0,1,11,11,11,11,kd_tree
+22,8,9,DC,DC,21.2,D,D,D,0,0,12,10,12,10,kd_tree
+22,9,10,Florida,FL,20.7,R,D,D,1,1,14,8,14,8,kd_tree
+22,10,11,Georgia,GA,24.5,R,R,R,0,0,4,18,4,18,kd_tree
+22,11,12,Hawaii,HI,15.7,R,D,D,1,1,13,9,13,9,kd_tree
+22,12,13,Idaho,ID,20.9,R,D,D,1,1,13,9,14,8,kd_tree
+22,13,14,Illinois,IL,22.9,D,R,R,1,1,9,13,9,13,kd_tree
+22,14,15,Indiana,IN,25.2,R,R,R,0,0,3,19,3,19,kd_tree
+22,15,16,Iowa,IA,23.4,R,R,R,0,0,8,14,8,14,kd_tree
+22,16,17,Kansas,KS,22.9,R,R,R,0,0,10,12,10,12,kd_tree
+22,17,18,Kentucky,KY,25.3,R,R,R,0,0,3,19,3,19,kd_tree
+22,18,19,Louisiana,LA,25.8,R,R,R,0,0,3,19,3,19,kd_tree
+22,19,20,Maine,ME,21.3,D,D,D,0,0,12,10,12,10,kd_tree
+22,20,21,Maryland,MD,21.7,D,D,R,0,1,11,11,11,11,kd_tree
+22,21,22,Massachusetts,MA,17.8,D,D,D,0,0,12,10,12,10,kd_tree
+22,22,23,Michigan,MI,25.3,D,R,R,1,1,2,20,2,20,kd_tree
+22,23,24,Minnesota,MN,22.6,D,D,R,0,1,11,11,11,11,kd_tree
+22,24,25,Mississippi,MS,28.1,R,R,R,0,0,3,19,3,19,kd_tree
+22,25,26,Missouri,MO,23.9,R,R,R,0,0,5,17,5,17,kd_tree
+22,26,27,Montana,MT,19.1,R,D,D,1,1,14,8,14,8,kd_tree
+22,27,28,Nebraska,NE,23.4,R,R,R,0,0,8,14,8,14,kd_tree
+22,28,29,Nevada,NV,21.3,R,D,D,1,1,13,9,13,9,kd_tree
+22,29,30,New Hampshire,NH,19.9,D,D,D,0,0,14,8,14,8,kd_tree
+22,30,31,New Jersey,NJ,20.3,D,D,D,0,0,14,8,14,8,kd_tree
+22,31,32,New Mexico,NM,20.5,R,D,D,1,1,14,8,15,7,kd_tree
+22,32,33,New York,NY,21.2,D,D,D,0,0,12,10,12,10,kd_tree
+22,33,34,North Carolina,NC,23.9,R,R,R,0,0,5,17,5,17,kd_tree
+22,34,35,North Dakota,ND,23.9,R,R,R,0,0,5,17,5,17,kd_tree
+22,35,36,Ohio,OH,24.4,R,R,R,0,0,4,18,4,18,kd_tree
+22,36,37,Oklahoma,OK,24.1,R,R,R,0,0,5,17,5,17,kd_tree
+22,37,38,Oregon,OR,21.0,D,D,D,0,0,13,9,12,10,kd_tree
+22,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,4,18,4,18,kd_tree
+22,39,40,Rhode Island,RI,18.6,D,D,D,0,0,12,10,12,10,kd_tree
+22,40,41,South Carolina,SC,25.1,R,R,R,0,0,4,18,4,18,kd_tree
+22,41,42,South Dakota,SD,22.6,R,D,D,1,1,12,10,12,10,kd_tree
+22,42,43,Tennessee,TN,25.6,R,R,R,0,0,3,19,3,19,kd_tree
+22,43,44,Texas,TX,25.3,R,R,R,0,0,3,19,3,19,kd_tree
+22,44,45,Utah,UT,19.6,R,D,D,1,1,15,7,15,7,kd_tree
+22,45,46,Vermont,VT,19.1,D,D,D,0,0,13,9,13,9,kd_tree
+22,46,47,Virginia,VA,22.9,R,R,R,0,0,10,12,10,12,kd_tree
+22,47,48,Washington,WA,21.7,D,D,R,0,1,11,11,11,11,kd_tree
+22,48,49,West Virginia,WV,27.6,R,R,R,0,0,3,19,3,19,kd_tree
+22,49,50,Wisconsin,WI,21.9,D,D,R,0,1,11,11,11,11,kd_tree
+22,50,51,Wyoming,WY,20.1,R,D,D,1,1,15,7,15,7,kd_tree
+23,0,1,Alabama,AL,27.7,R,R,R,0,0,3,20,3,20,kd_tree
+23,1,2,Alaska,AK,23.5,R,R,R,0,0,7,16,7,16,kd_tree
+23,2,3,Arizona,AZ,20.3,R,D,D,1,1,15,8,15,8,kd_tree
+23,3,4,Arkansas,AR,25.0,R,R,R,0,0,5,18,5,18,kd_tree
+23,4,5,California,CA,21.5,D,D,D,0,0,12,11,12,11,kd_tree
+23,5,6,Colorado,CO,16.4,R,D,D,1,1,14,9,14,9,kd_tree
+23,6,7,Connecticut,CT,18.9,D,D,D,0,0,13,10,13,10,kd_tree
+23,7,8,Delaware,DE,22.5,D,R,R,1,1,11,12,11,12,kd_tree
+23,8,9,DC,DC,21.2,D,D,D,0,0,12,11,12,11,kd_tree
+23,9,10,Florida,FL,20.7,R,D,D,1,1,15,8,15,8,kd_tree
+23,10,11,Georgia,GA,24.5,R,R,R,0,0,5,18,5,18,kd_tree
+23,11,12,Hawaii,HI,15.7,R,D,D,1,1,14,9,14,9,kd_tree
+23,12,13,Idaho,ID,20.9,R,D,D,1,1,13,10,15,8,kd_tree
+23,13,14,Illinois,IL,22.9,D,R,R,1,1,10,13,10,13,kd_tree
+23,14,15,Indiana,IN,25.2,R,R,R,0,0,3,20,4,19,kd_tree
+23,15,16,Iowa,IA,23.4,R,R,R,0,0,9,14,8,15,kd_tree
+23,16,17,Kansas,KS,22.9,R,R,R,0,0,11,12,11,12,kd_tree
+23,17,18,Kentucky,KY,25.3,R,R,R,0,0,3,20,4,19,kd_tree
+23,18,19,Louisiana,LA,25.8,R,R,R,0,0,3,20,3,20,kd_tree
+23,19,20,Maine,ME,21.3,D,D,D,0,0,12,11,12,11,kd_tree
+23,20,21,Maryland,MD,21.7,D,D,R,0,1,12,11,11,12,kd_tree
+23,21,22,Massachusetts,MA,17.8,D,D,D,0,0,13,10,13,10,kd_tree
+23,22,23,Michigan,MI,25.3,D,R,R,1,1,2,21,3,20,kd_tree
+23,23,24,Minnesota,MN,22.6,D,R,R,1,1,11,12,11,12,kd_tree
+23,24,25,Mississippi,MS,28.1,R,R,R,0,0,3,20,3,20,kd_tree
+23,25,26,Missouri,MO,23.9,R,R,R,0,0,5,18,5,18,kd_tree
+23,26,27,Montana,MT,19.1,R,D,D,1,1,15,8,15,8,kd_tree
+23,27,28,Nebraska,NE,23.4,R,R,R,0,0,8,15,8,15,kd_tree
+23,28,29,Nevada,NV,21.3,R,D,D,1,1,13,10,13,10,kd_tree
+23,29,30,New Hampshire,NH,19.9,D,D,D,0,0,15,8,15,8,kd_tree
+23,30,31,New Jersey,NJ,20.3,D,D,D,0,0,14,9,14,9,kd_tree
+23,31,32,New Mexico,NM,20.5,R,D,D,1,1,15,8,15,8,kd_tree
+23,32,33,New York,NY,21.2,D,D,D,0,0,12,11,12,11,kd_tree
+23,33,34,North Carolina,NC,23.9,R,R,R,0,0,5,18,5,18,kd_tree
+23,34,35,North Dakota,ND,23.9,R,R,R,0,0,5,18,5,18,kd_tree
+23,35,36,Ohio,OH,24.4,R,R,R,0,0,5,18,5,18,kd_tree
+23,36,37,Oklahoma,OK,24.1,R,R,R,0,0,5,18,5,18,kd_tree
+23,37,38,Oregon,OR,21.0,D,D,D,0,0,13,10,12,11,kd_tree
+23,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,4,19,4,19,kd_tree
+23,39,40,Rhode Island,RI,18.6,D,D,D,0,0,13,10,13,10,kd_tree
+23,40,41,South Carolina,SC,25.1,R,R,R,0,0,4,19,4,19,kd_tree
+23,41,42,South Dakota,SD,22.6,R,D,D,1,1,12,11,12,11,kd_tree
+23,42,43,Tennessee,TN,25.6,R,R,R,0,0,3,20,3,20,kd_tree
+23,43,44,Texas,TX,25.3,R,R,R,0,0,4,19,4,19,kd_tree
+23,44,45,Utah,UT,19.6,R,D,D,1,1,16,7,16,7,kd_tree
+23,45,46,Vermont,VT,19.1,D,D,D,0,0,14,9,14,9,kd_tree
+23,46,47,Virginia,VA,22.9,R,R,R,0,0,11,12,11,12,kd_tree
+23,47,48,Washington,WA,21.7,D,D,R,0,1,12,11,11,12,kd_tree
+23,48,49,West Virginia,WV,27.6,R,R,R,0,0,3,20,3,20,kd_tree
+23,49,50,Wisconsin,WI,21.9,D,R,R,1,1,11,12,11,12,kd_tree
+23,50,51,Wyoming,WY,20.1,R,D,D,1,1,16,7,16,7,kd_tree
+24,0,1,Alabama,AL,27.7,R,R,R,0,0,4,20,4,20,kd_tree
+24,1,2,Alaska,AK,23.5,R,R,R,0,0,8,16,8,16,kd_tree
+24,2,3,Arizona,AZ,20.3,R,D,D,1,1,16,8,16,8,kd_tree
+24,3,4,Arkansas,AR,25.0,R,R,R,0,0,5,19,5,19,kd_tree
+24,4,5,California,CA,21.5,D,D,R,0,1,12,12,12,12,kd_tree
+24,5,6,Colorado,CO,16.4,R,D,D,1,1,15,9,15,9,kd_tree
+24,6,7,Connecticut,CT,18.9,D,D,D,0,0,14,10,14,10,kd_tree
+24,7,8,Delaware,DE,22.5,D,R,R,1,1,11,13,11,13,kd_tree
+24,8,9,DC,DC,21.2,D,D,D,0,0,13,11,13,11,kd_tree
+24,9,10,Florida,FL,20.7,R,D,D,1,1,15,9,16,8,kd_tree
+24,10,11,Georgia,GA,24.5,R,R,R,0,0,6,18,6,18,kd_tree
+24,11,12,Hawaii,HI,15.7,R,D,D,1,1,15,9,15,9,kd_tree
+24,12,13,Idaho,ID,20.9,R,D,D,1,1,14,10,15,9,kd_tree
+24,13,14,Illinois,IL,22.9,D,R,R,1,1,11,13,11,13,kd_tree
+24,14,15,Indiana,IN,25.2,R,R,R,0,0,4,20,4,20,kd_tree
+24,15,16,Iowa,IA,23.4,R,R,R,0,0,9,15,9,15,kd_tree
+24,16,17,Kansas,KS,22.9,R,D,R,1,0,12,12,12,12,kd_tree
+24,17,18,Kentucky,KY,25.3,R,R,R,0,0,4,20,4,20,kd_tree
+24,18,19,Louisiana,LA,25.8,R,R,R,0,0,4,20,4,20,kd_tree
+24,19,20,Maine,ME,21.3,D,D,R,0,1,12,12,12,12,kd_tree
+24,20,21,Maryland,MD,21.7,D,D,R,0,1,12,12,12,12,kd_tree
+24,21,22,Massachusetts,MA,17.8,D,D,D,0,0,14,10,14,10,kd_tree
+24,22,23,Michigan,MI,25.3,D,R,R,1,1,3,21,3,21,kd_tree
+24,23,24,Minnesota,MN,22.6,D,R,R,1,1,11,13,11,13,kd_tree
+24,24,25,Mississippi,MS,28.1,R,R,R,0,0,3,21,4,20,kd_tree
+24,25,26,Missouri,MO,23.9,R,R,R,0,0,6,18,6,18,kd_tree
+24,26,27,Montana,MT,19.1,R,D,D,1,1,15,9,15,9,kd_tree
+24,27,28,Nebraska,NE,23.4,R,R,R,0,0,9,15,9,15,kd_tree
+24,28,29,Nevada,NV,21.3,R,D,D,1,1,13,11,13,11,kd_tree
+24,29,30,New Hampshire,NH,19.9,D,D,D,0,0,15,9,15,9,kd_tree
+24,30,31,New Jersey,NJ,20.3,D,D,D,0,0,15,9,15,9,kd_tree
+24,31,32,New Mexico,NM,20.5,R,D,D,1,1,15,9,16,8,kd_tree
+24,32,33,New York,NY,21.2,D,D,D,0,0,13,11,13,11,kd_tree
+24,33,34,North Carolina,NC,23.9,R,R,R,0,0,6,18,6,18,kd_tree
+24,34,35,North Dakota,ND,23.9,R,R,R,0,0,6,18,6,18,kd_tree
+24,35,36,Ohio,OH,24.4,R,R,R,0,0,6,18,6,18,kd_tree
+24,36,37,Oklahoma,OK,24.1,R,R,R,0,0,6,18,6,18,kd_tree
+24,37,38,Oregon,OR,21.0,D,D,D,0,0,13,11,13,11,kd_tree
+24,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,5,19,5,19,kd_tree
+24,39,40,Rhode Island,RI,18.6,D,D,D,0,0,14,10,14,10,kd_tree
+24,40,41,South Carolina,SC,25.1,R,R,R,0,0,4,20,4,20,kd_tree
+24,41,42,South Dakota,SD,22.6,R,D,R,1,0,12,12,12,12,kd_tree
+24,42,43,Tennessee,TN,25.6,R,R,R,0,0,3,21,4,20,kd_tree
+24,43,44,Texas,TX,25.3,R,R,R,0,0,4,20,4,20,kd_tree
+24,44,45,Utah,UT,19.6,R,D,D,1,1,16,8,16,8,kd_tree
+24,45,46,Vermont,VT,19.1,D,D,D,0,0,14,10,14,10,kd_tree
+24,46,47,Virginia,VA,22.9,R,D,R,1,0,12,12,12,12,kd_tree
+24,47,48,Washington,WA,21.7,D,D,R,0,1,12,12,12,12,kd_tree
+24,48,49,West Virginia,WV,27.6,R,R,R,0,0,3,21,4,20,kd_tree
+24,49,50,Wisconsin,WI,21.9,D,D,R,0,1,12,12,11,13,kd_tree
+24,50,51,Wyoming,WY,20.1,R,D,D,1,1,16,8,16,8,kd_tree
+25,0,1,Alabama,AL,27.7,R,R,R,0,0,4,21,4,21,brute
+25,1,2,Alaska,AK,23.5,R,R,R,0,0,9,16,9,16,brute
+25,2,3,Arizona,AZ,20.3,R,D,D,1,1,16,9,17,8,brute
+25,3,4,Arkansas,AR,25.0,R,R,R,0,0,5,20,5,20,brute
+25,4,5,California,CA,21.5,D,R,R,1,1,12,13,12,13,brute
+25,5,6,Colorado,CO,16.4,R,D,D,1,1,16,9,16,9,brute
+25,6,7,Connecticut,CT,18.9,D,D,D,0,0,15,10,15,10,brute
+25,7,8,Delaware,DE,22.5,D,R,R,1,1,11,14,11,14,brute
+25,8,9,DC,DC,21.2,D,D,D,0,0,13,12,13,12,brute
+25,9,10,Florida,FL,20.7,R,D,D,1,1,16,9,16,9,brute
+25,10,11,Georgia,GA,24.5,R,R,R,0,0,7,18,7,18,brute
+25,11,12,Hawaii,HI,15.7,R,D,D,1,1,16,9,16,9,brute
+25,12,13,Idaho,ID,20.9,R,D,D,1,1,15,10,15,10,brute
+25,13,14,Illinois,IL,22.9,D,R,R,1,1,11,14,11,14,brute
+25,14,15,Indiana,IN,25.2,R,R,R,0,0,5,20,5,20,brute
+25,15,16,Iowa,IA,23.4,R,R,R,0,0,9,16,9,16,brute
+25,16,17,Kansas,KS,22.9,R,R,R,0,0,12,13,12,13,brute
+25,17,18,Kentucky,KY,25.3,R,R,R,0,0,4,21,5,20,brute
+25,18,19,Louisiana,LA,25.8,R,R,R,0,0,4,21,4,21,brute
+25,19,20,Maine,ME,21.3,D,D,R,0,1,13,12,12,13,brute
+25,20,21,Maryland,MD,21.7,D,R,R,1,1,12,13,12,13,brute
+25,21,22,Massachusetts,MA,17.8,D,D,D,0,0,15,10,15,10,brute
+25,22,23,Michigan,MI,25.3,D,R,R,1,1,3,22,4,21,brute
+25,23,24,Minnesota,MN,22.6,D,R,R,1,1,11,14,11,14,brute
+25,24,25,Mississippi,MS,28.1,R,R,R,0,0,4,21,4,21,brute
+25,25,26,Missouri,MO,23.9,R,R,R,0,0,7,18,7,18,brute
+25,26,27,Montana,MT,19.1,R,D,D,1,1,16,9,16,9,brute
+25,27,28,Nebraska,NE,23.4,R,R,R,0,0,9,16,9,16,brute
+25,28,29,Nevada,NV,21.3,R,D,D,1,1,14,11,13,12,brute
+25,29,30,New Hampshire,NH,19.9,D,D,D,0,0,15,10,16,9,brute
+25,30,31,New Jersey,NJ,20.3,D,D,D,0,0,15,10,16,9,brute
+25,31,32,New Mexico,NM,20.5,R,D,D,1,1,15,10,16,9,brute
+25,32,33,New York,NY,21.2,D,D,D,0,0,13,12,13,12,brute
+25,33,34,North Carolina,NC,23.9,R,R,R,0,0,7,18,7,18,brute
+25,34,35,North Dakota,ND,23.9,R,R,R,0,0,7,18,7,18,brute
+25,35,36,Ohio,OH,24.4,R,R,R,0,0,7,18,7,18,brute
+25,36,37,Oklahoma,OK,24.1,R,R,R,0,0,7,18,7,18,brute
+25,37,38,Oregon,OR,21.0,D,D,D,0,0,14,11,14,11,brute
+25,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,6,19,6,19,brute
+25,39,40,Rhode Island,RI,18.6,D,D,D,0,0,14,11,15,10,brute
+25,40,41,South Carolina,SC,25.1,R,R,R,0,0,5,20,5,20,brute
+25,41,42,South Dakota,SD,22.6,R,R,R,0,0,12,13,12,13,brute
+25,42,43,Tennessee,TN,25.6,R,R,R,0,0,4,21,4,21,brute
+25,43,44,Texas,TX,25.3,R,R,R,0,0,5,20,5,20,brute
+25,44,45,Utah,UT,19.6,R,D,D,1,1,16,9,16,9,brute
+25,45,46,Vermont,VT,19.1,D,D,D,0,0,15,10,15,10,brute
+25,46,47,Virginia,VA,22.9,R,R,R,0,0,12,13,12,13,brute
+25,47,48,Washington,WA,21.7,D,R,R,1,1,12,13,12,13,brute
+25,48,49,West Virginia,WV,27.6,R,R,R,0,0,4,21,4,21,brute
+25,49,50,Wisconsin,WI,21.9,D,R,R,1,1,11,14,11,14,brute
+25,50,51,Wyoming,WY,20.1,R,D,D,1,1,16,9,17,8,brute
+26,0,1,Alabama,AL,27.7,R,R,R,0,0,5,21,5,21,brute
+26,1,2,Alaska,AK,23.5,R,R,R,0,0,9,17,9,17,brute
+26,2,3,Arizona,AZ,20.3,R,D,D,1,1,17,9,17,9,brute
+26,3,4,Arkansas,AR,25.0,R,R,R,0,0,6,20,5,21,brute
+26,4,5,California,CA,21.5,D,R,R,1,1,12,14,12,14,brute
+26,5,6,Colorado,CO,16.4,R,D,D,1,1,16,10,16,10,brute
+26,6,7,Connecticut,CT,18.9,D,D,D,0,0,15,11,15,11,brute
+26,7,8,Delaware,DE,22.5,D,R,R,1,1,11,15,11,15,brute
+26,8,9,DC,DC,21.2,D,D,R,0,1,13,13,13,13,brute
+26,9,10,Florida,FL,20.7,R,D,D,1,1,16,10,16,10,brute
+26,10,11,Georgia,GA,24.5,R,R,R,0,0,8,18,8,18,brute
+26,11,12,Hawaii,HI,15.7,R,D,D,1,1,16,10,16,10,brute
+26,12,13,Idaho,ID,20.9,R,D,D,1,1,16,10,16,10,brute
+26,13,14,Illinois,IL,22.9,D,R,R,1,1,11,15,11,15,brute
+26,14,15,Indiana,IN,25.2,R,R,R,0,0,5,21,5,21,brute
+26,15,16,Iowa,IA,23.4,R,R,R,0,0,9,17,10,16,brute
+26,16,17,Kansas,KS,22.9,R,R,R,0,0,12,14,12,14,brute
+26,17,18,Kentucky,KY,25.3,R,R,R,0,0,5,21,5,21,brute
+26,18,19,Louisiana,LA,25.8,R,R,R,0,0,5,21,5,21,brute
+26,19,20,Maine,ME,21.3,D,R,R,1,1,12,14,12,14,brute
+26,20,21,Maryland,MD,21.7,D,R,R,1,1,12,14,12,14,brute
+26,21,22,Massachusetts,MA,17.8,D,D,D,0,0,15,11,15,11,brute
+26,22,23,Michigan,MI,25.3,D,R,R,1,1,4,22,4,22,brute
+26,23,24,Minnesota,MN,22.6,D,R,R,1,1,11,15,11,15,brute
+26,24,25,Mississippi,MS,28.1,R,R,R,0,0,5,21,5,21,brute
+26,25,26,Missouri,MO,23.9,R,R,R,0,0,8,18,8,18,brute
+26,26,27,Montana,MT,19.1,R,D,D,1,1,16,10,16,10,brute
+26,27,28,Nebraska,NE,23.4,R,R,R,0,0,9,17,10,16,brute
+26,28,29,Nevada,NV,21.3,R,D,R,1,0,13,13,13,13,brute
+26,29,30,New Hampshire,NH,19.9,D,D,D,0,0,15,11,16,10,brute
+26,30,31,New Jersey,NJ,20.3,D,D,D,0,0,15,11,16,10,brute
+26,31,32,New Mexico,NM,20.5,R,D,D,1,1,16,10,16,10,brute
+26,32,33,New York,NY,21.2,D,D,R,0,1,13,13,13,13,brute
+26,33,34,North Carolina,NC,23.9,R,R,R,0,0,8,18,8,18,brute
+26,34,35,North Dakota,ND,23.9,R,R,R,0,0,8,18,8,18,brute
+26,35,36,Ohio,OH,24.4,R,R,R,0,0,8,18,8,18,brute
+26,36,37,Oklahoma,OK,24.1,R,R,R,0,0,8,18,8,18,brute
+26,37,38,Oregon,OR,21.0,D,D,D,0,0,14,12,14,12,brute
+26,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,7,19,7,19,brute
+26,39,40,Rhode Island,RI,18.6,D,D,D,0,0,15,11,15,11,brute
+26,40,41,South Carolina,SC,25.1,R,R,R,0,0,5,21,5,21,brute
+26,41,42,South Dakota,SD,22.6,R,R,R,0,0,12,14,12,14,brute
+26,42,43,Tennessee,TN,25.6,R,R,R,0,0,5,21,5,21,brute
+26,43,44,Texas,TX,25.3,R,R,R,0,0,5,21,5,21,brute
+26,44,45,Utah,UT,19.6,R,D,D,1,1,16,10,17,9,brute
+26,45,46,Vermont,VT,19.1,D,D,D,0,0,15,11,15,11,brute
+26,46,47,Virginia,VA,22.9,R,R,R,0,0,12,14,12,14,brute
+26,47,48,Washington,WA,21.7,D,R,R,1,1,12,14,12,14,brute
+26,48,49,West Virginia,WV,27.6,R,R,R,0,0,5,21,5,21,brute
+26,49,50,Wisconsin,WI,21.9,D,R,R,1,1,11,15,11,15,brute
+26,50,51,Wyoming,WY,20.1,R,D,D,1,1,16,10,17,9,brute
+27,0,1,Alabama,AL,27.7,R,R,R,0,0,6,21,6,21,brute
+27,1,2,Alaska,AK,23.5,R,R,R,0,0,10,17,10,17,brute
+27,2,3,Arizona,AZ,20.3,R,D,D,1,1,17,10,17,10,brute
+27,3,4,Arkansas,AR,25.0,R,R,R,0,0,6,21,6,21,brute
+27,4,5,California,CA,21.5,D,R,R,1,1,12,15,12,15,brute
+27,5,6,Colorado,CO,16.4,R,D,D,1,1,16,11,17,10,brute
+27,6,7,Connecticut,CT,18.9,D,D,D,0,0,15,12,16,11,brute
+27,7,8,Delaware,DE,22.5,D,R,R,1,1,11,16,11,16,brute
+27,8,9,DC,DC,21.2,D,R,R,1,1,13,14,13,14,brute
+27,9,10,Florida,FL,20.7,R,D,D,1,1,16,11,16,11,brute
+27,10,11,Georgia,GA,24.5,R,R,R,0,0,9,18,9,18,brute
+27,11,12,Hawaii,HI,15.7,R,D,D,1,1,16,11,17,10,brute
+27,12,13,Idaho,ID,20.9,R,D,D,1,1,16,11,16,11,brute
+27,13,14,Illinois,IL,22.9,D,R,R,1,1,11,16,11,16,brute
+27,14,15,Indiana,IN,25.2,R,R,R,0,0,6,21,6,21,brute
+27,15,16,Iowa,IA,23.4,R,R,R,0,0,10,17,10,17,brute
+27,16,17,Kansas,KS,22.9,R,R,R,0,0,12,15,12,15,brute
+27,17,18,Kentucky,KY,25.3,R,R,R,0,0,6,21,6,21,brute
+27,18,19,Louisiana,LA,25.8,R,R,R,0,0,6,21,6,21,brute
+27,19,20,Maine,ME,21.3,D,R,R,1,1,13,14,13,14,brute
+27,20,21,Maryland,MD,21.7,D,R,R,1,1,12,15,12,15,brute
+27,21,22,Massachusetts,MA,17.8,D,D,D,0,0,15,12,16,11,brute
+27,22,23,Michigan,MI,25.3,D,R,R,1,1,5,22,5,22,brute
+27,23,24,Minnesota,MN,22.6,D,R,R,1,1,11,16,11,16,brute
+27,24,25,Mississippi,MS,28.1,R,R,R,0,0,6,21,6,21,brute
+27,25,26,Missouri,MO,23.9,R,R,R,0,0,9,18,9,18,brute
+27,26,27,Montana,MT,19.1,R,D,D,1,1,16,11,17,10,brute
+27,27,28,Nebraska,NE,23.4,R,R,R,0,0,10,17,10,17,brute
+27,28,29,Nevada,NV,21.3,R,D,D,1,1,14,13,14,13,brute
+27,29,30,New Hampshire,NH,19.9,D,D,D,0,0,16,11,16,11,brute
+27,30,31,New Jersey,NJ,20.3,D,D,D,0,0,16,11,16,11,brute
+27,31,32,New Mexico,NM,20.5,R,D,D,1,1,17,10,17,10,brute
+27,32,33,New York,NY,21.2,D,R,R,1,1,13,14,13,14,brute
+27,33,34,North Carolina,NC,23.9,R,R,R,0,0,9,18,9,18,brute
+27,34,35,North Dakota,ND,23.9,R,R,R,0,0,9,18,9,18,brute
+27,35,36,Ohio,OH,24.4,R,R,R,0,0,9,18,9,18,brute
+27,36,37,Oklahoma,OK,24.1,R,R,R,0,0,9,18,9,18,brute
+27,37,38,Oregon,OR,21.0,D,D,D,0,0,14,13,14,13,brute
+27,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,8,19,8,19,brute
+27,39,40,Rhode Island,RI,18.6,D,D,D,0,0,15,12,16,11,brute
+27,40,41,South Carolina,SC,25.1,R,R,R,0,0,6,21,6,21,brute
+27,41,42,South Dakota,SD,22.6,R,R,R,0,0,12,15,12,15,brute
+27,42,43,Tennessee,TN,25.6,R,R,R,0,0,6,21,6,21,brute
+27,43,44,Texas,TX,25.3,R,R,R,0,0,6,21,6,21,brute
+27,44,45,Utah,UT,19.6,R,D,D,1,1,17,10,17,10,brute
+27,45,46,Vermont,VT,19.1,D,D,D,0,0,15,12,16,11,brute
+27,46,47,Virginia,VA,22.9,R,R,R,0,0,12,15,12,15,brute
+27,47,48,Washington,WA,21.7,D,R,R,1,1,12,15,12,15,brute
+27,48,49,West Virginia,WV,27.6,R,R,R,0,0,6,21,6,21,brute
+27,49,50,Wisconsin,WI,21.9,D,R,R,1,1,12,15,12,15,brute
+27,50,51,Wyoming,WY,20.1,R,D,D,1,1,17,10,17,10,brute
+28,0,1,Alabama,AL,27.7,R,R,R,0,0,7,21,7,21,brute
+28,1,2,Alaska,AK,23.5,R,R,R,0,0,10,18,10,18,brute
+28,2,3,Arizona,AZ,20.3,R,D,D,1,1,17,11,17,11,brute
+28,3,4,Arkansas,AR,25.0,R,R,R,0,0,7,21,7,21,brute
+28,4,5,California,CA,21.5,D,R,R,1,1,12,16,12,16,brute
+28,5,6,Colorado,CO,16.4,R,D,D,1,1,17,11,17,11,brute
+28,6,7,Connecticut,CT,18.9,D,D,D,0,0,16,12,16,12,brute
+28,7,8,Delaware,DE,22.5,D,R,R,1,1,12,16,11,17,brute
+28,8,9,DC,DC,21.2,D,D,R,0,1,14,14,14,14,brute
+28,9,10,Florida,FL,20.7,R,D,D,1,1,16,12,16,12,brute
+28,10,11,Georgia,GA,24.5,R,R,R,0,0,9,19,9,19,brute
+28,11,12,Hawaii,HI,15.7,R,D,D,1,1,17,11,17,11,brute
+28,12,13,Idaho,ID,20.9,R,D,D,1,1,16,12,16,12,brute
+28,13,14,Illinois,IL,22.9,D,R,R,1,1,11,17,11,17,brute
+28,14,15,Indiana,IN,25.2,R,R,R,0,0,7,21,7,21,brute
+28,15,16,Iowa,IA,23.4,R,R,R,0,0,11,17,11,17,brute
+28,16,17,Kansas,KS,22.9,R,R,R,0,0,12,16,12,16,brute
+28,17,18,Kentucky,KY,25.3,R,R,R,0,0,7,21,7,21,brute
+28,18,19,Louisiana,LA,25.8,R,R,R,0,0,7,21,7,21,brute
+28,19,20,Maine,ME,21.3,D,D,R,0,1,14,14,14,14,brute
+28,20,21,Maryland,MD,21.7,D,R,R,1,1,12,16,12,16,brute
+28,21,22,Massachusetts,MA,17.8,D,D,D,0,0,15,13,16,12,brute
+28,22,23,Michigan,MI,25.3,D,R,R,1,1,6,22,6,22,brute
+28,23,24,Minnesota,MN,22.6,D,R,R,1,1,12,16,11,17,brute
+28,24,25,Mississippi,MS,28.1,R,R,R,0,0,7,21,7,21,brute
+28,25,26,Missouri,MO,23.9,R,R,R,0,0,10,18,10,18,brute
+28,26,27,Montana,MT,19.1,R,D,D,1,1,16,12,17,11,brute
+28,27,28,Nebraska,NE,23.4,R,R,R,0,0,11,17,11,17,brute
+28,28,29,Nevada,NV,21.3,R,D,D,1,1,15,13,15,13,brute
+28,29,30,New Hampshire,NH,19.9,D,D,D,0,0,16,12,16,12,brute
+28,30,31,New Jersey,NJ,20.3,D,D,D,0,0,16,12,16,12,brute
+28,31,32,New Mexico,NM,20.5,R,D,D,1,1,17,11,17,11,brute
+28,32,33,New York,NY,21.2,D,D,R,0,1,14,14,14,14,brute
+28,33,34,North Carolina,NC,23.9,R,R,R,0,0,10,18,10,18,brute
+28,34,35,North Dakota,ND,23.9,R,R,R,0,0,10,18,10,18,brute
+28,35,36,Ohio,OH,24.4,R,R,R,0,0,10,18,10,18,brute
+28,36,37,Oklahoma,OK,24.1,R,R,R,0,0,10,18,10,18,brute
+28,37,38,Oregon,OR,21.0,D,D,D,0,0,15,13,15,13,brute
+28,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,9,19,9,19,brute
+28,39,40,Rhode Island,RI,18.6,D,D,D,0,0,15,13,16,12,brute
+28,40,41,South Carolina,SC,25.1,R,R,R,0,0,7,21,7,21,brute
+28,41,42,South Dakota,SD,22.6,R,R,R,0,0,13,15,12,16,brute
+28,42,43,Tennessee,TN,25.6,R,R,R,0,0,7,21,7,21,brute
+28,43,44,Texas,TX,25.3,R,R,R,0,0,7,21,7,21,brute
+28,44,45,Utah,UT,19.6,R,D,D,1,1,17,11,17,11,brute
+28,45,46,Vermont,VT,19.1,D,D,D,0,0,15,13,16,12,brute
+28,46,47,Virginia,VA,22.9,R,R,R,0,0,12,16,12,16,brute
+28,47,48,Washington,WA,21.7,D,R,R,1,1,12,16,12,16,brute
+28,48,49,West Virginia,WV,27.6,R,R,R,0,0,7,21,7,21,brute
+28,49,50,Wisconsin,WI,21.9,D,R,R,1,1,13,15,13,15,brute
+28,50,51,Wyoming,WY,20.1,R,D,D,1,1,17,11,17,11,brute
+29,0,1,Alabama,AL,27.7,R,R,R,0,0,8,21,8,21,brute
+29,1,2,Alaska,AK,23.5,R,R,R,0,0,10,19,11,18,brute
+29,2,3,Arizona,AZ,20.3,R,D,D,1,1,17,12,17,12,brute
+29,3,4,Arkansas,AR,25.0,R,R,R,0,0,8,21,8,21,brute
+29,4,5,California,CA,21.5,D,R,R,1,1,12,17,12,17,brute
+29,5,6,Colorado,CO,16.4,R,D,D,1,1,17,12,17,12,brute
+29,6,7,Connecticut,CT,18.9,D,D,D,0,0,16,13,16,13,brute
+29,7,8,Delaware,DE,22.5,D,R,R,1,1,12,17,12,17,brute
+29,8,9,DC,DC,21.2,D,D,D,0,0,15,14,15,14,brute
+29,9,10,Florida,FL,20.7,R,D,D,1,1,16,13,16,13,brute
+29,10,11,Georgia,GA,24.5,R,R,R,0,0,10,19,9,20,brute
+29,11,12,Hawaii,HI,15.7,R,D,D,1,1,17,12,17,12,brute
+29,12,13,Idaho,ID,20.9,R,D,D,1,1,16,13,16,13,brute
+29,13,14,Illinois,IL,22.9,D,R,R,1,1,11,18,11,18,brute
+29,14,15,Indiana,IN,25.2,R,R,R,0,0,8,21,8,21,brute
+29,15,16,Iowa,IA,23.4,R,R,R,0,0,12,17,12,17,brute
+29,16,17,Kansas,KS,22.9,R,R,R,0,0,12,17,12,17,brute
+29,17,18,Kentucky,KY,25.3,R,R,R,0,0,8,21,8,21,brute
+29,18,19,Louisiana,LA,25.8,R,R,R,0,0,8,21,8,21,brute
+29,19,20,Maine,ME,21.3,D,R,R,1,1,14,15,14,15,brute
+29,20,21,Maryland,MD,21.7,D,R,R,1,1,13,16,13,16,brute
+29,21,22,Massachusetts,MA,17.8,D,D,D,0,0,16,13,16,13,brute
+29,22,23,Michigan,MI,25.3,D,R,R,1,1,7,22,7,22,brute
+29,23,24,Minnesota,MN,22.6,D,R,R,1,1,12,17,12,17,brute
+29,24,25,Mississippi,MS,28.1,R,R,R,0,0,8,21,8,21,brute
+29,25,26,Missouri,MO,23.9,R,R,R,0,0,10,19,10,19,brute
+29,26,27,Montana,MT,19.1,R,D,D,1,1,17,12,17,12,brute
+29,27,28,Nebraska,NE,23.4,R,R,R,0,0,12,17,12,17,brute
+29,28,29,Nevada,NV,21.3,R,D,D,1,1,15,14,15,14,brute
+29,29,30,New Hampshire,NH,19.9,D,D,D,0,0,16,13,16,13,brute
+29,30,31,New Jersey,NJ,20.3,D,D,D,0,0,16,13,16,13,brute
+29,31,32,New Mexico,NM,20.5,R,D,D,1,1,17,12,17,12,brute
+29,32,33,New York,NY,21.2,D,D,D,0,0,15,14,15,14,brute
+29,33,34,North Carolina,NC,23.9,R,R,R,0,0,10,19,10,19,brute
+29,34,35,North Dakota,ND,23.9,R,R,R,0,0,10,19,10,19,brute
+29,35,36,Ohio,OH,24.4,R,R,R,0,0,10,19,10,19,brute
+29,36,37,Oklahoma,OK,24.1,R,R,R,0,0,10,19,10,19,brute
+29,37,38,Oregon,OR,21.0,D,D,D,0,0,15,14,15,14,brute
+29,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,9,20,9,20,brute
+29,39,40,Rhode Island,RI,18.6,D,D,D,0,0,16,13,16,13,brute
+29,40,41,South Carolina,SC,25.1,R,R,R,0,0,8,21,8,21,brute
+29,41,42,South Dakota,SD,22.6,R,R,R,0,0,13,16,13,16,brute
+29,42,43,Tennessee,TN,25.6,R,R,R,0,0,8,21,8,21,brute
+29,43,44,Texas,TX,25.3,R,R,R,0,0,8,21,8,21,brute
+29,44,45,Utah,UT,19.6,R,D,D,1,1,17,12,17,12,brute
+29,45,46,Vermont,VT,19.1,D,D,D,0,0,16,13,16,13,brute
+29,46,47,Virginia,VA,22.9,R,R,R,0,0,12,17,12,17,brute
+29,47,48,Washington,WA,21.7,D,R,R,1,1,13,16,13,16,brute
+29,48,49,West Virginia,WV,27.6,R,R,R,0,0,8,21,8,21,brute
+29,49,50,Wisconsin,WI,21.9,D,R,R,1,1,13,16,13,16,brute
+29,50,51,Wyoming,WY,20.1,R,D,D,1,1,17,12,17,12,brute
+30,0,1,Alabama,AL,27.7,R,R,R,0,0,9,21,9,21,brute
+30,1,2,Alaska,AK,23.5,R,R,R,0,0,11,19,11,19,brute
+30,2,3,Arizona,AZ,20.3,R,D,D,1,1,17,13,17,13,brute
+30,3,4,Arkansas,AR,25.0,R,R,R,0,0,9,21,9,21,brute
+30,4,5,California,CA,21.5,D,R,R,1,1,13,17,13,17,brute
+30,5,6,Colorado,CO,16.4,R,D,D,1,1,17,13,17,13,brute
+30,6,7,Connecticut,CT,18.9,D,D,D,0,0,16,14,16,14,brute
+30,7,8,Delaware,DE,22.5,D,R,R,1,1,12,18,12,18,brute
+30,8,9,DC,DC,21.2,D,D,R,0,1,15,15,15,15,brute
+30,9,10,Florida,FL,20.7,R,D,D,1,1,17,13,17,13,brute
+30,10,11,Georgia,GA,24.5,R,R,R,0,0,10,20,10,20,brute
+30,11,12,Hawaii,HI,15.7,R,D,D,1,1,17,13,17,13,brute
+30,12,13,Idaho,ID,20.9,R,D,D,1,1,16,14,16,14,brute
+30,13,14,Illinois,IL,22.9,D,R,R,1,1,12,18,11,19,brute
+30,14,15,Indiana,IN,25.2,R,R,R,0,0,9,21,9,21,brute
+30,15,16,Iowa,IA,23.4,R,R,R,0,0,12,18,12,18,brute
+30,16,17,Kansas,KS,22.9,R,R,R,0,0,13,17,12,18,brute
+30,17,18,Kentucky,KY,25.3,R,R,R,0,0,9,21,9,21,brute
+30,18,19,Louisiana,LA,25.8,R,R,R,0,0,9,21,9,21,brute
+30,19,20,Maine,ME,21.3,D,R,R,1,1,14,16,14,16,brute
+30,20,21,Maryland,MD,21.7,D,R,R,1,1,13,17,13,17,brute
+30,21,22,Massachusetts,MA,17.8,D,D,D,0,0,16,14,16,14,brute
+30,22,23,Michigan,MI,25.3,D,R,R,1,1,8,22,8,22,brute
+30,23,24,Minnesota,MN,22.6,D,R,R,1,1,12,18,12,18,brute
+30,24,25,Mississippi,MS,28.1,R,R,R,0,0,9,21,9,21,brute
+30,25,26,Missouri,MO,23.9,R,R,R,0,0,11,19,11,19,brute
+30,26,27,Montana,MT,19.1,R,D,D,1,1,17,13,17,13,brute
+30,27,28,Nebraska,NE,23.4,R,R,R,0,0,12,18,12,18,brute
+30,28,29,Nevada,NV,21.3,R,D,R,1,0,15,15,15,15,brute
+30,29,30,New Hampshire,NH,19.9,D,D,D,0,0,16,14,16,14,brute
+30,30,31,New Jersey,NJ,20.3,D,D,D,0,0,16,14,16,14,brute
+30,31,32,New Mexico,NM,20.5,R,D,D,1,1,17,13,17,13,brute
+30,32,33,New York,NY,21.2,D,D,R,0,1,15,15,15,15,brute
+30,33,34,North Carolina,NC,23.9,R,R,R,0,0,11,19,11,19,brute
+30,34,35,North Dakota,ND,23.9,R,R,R,0,0,11,19,11,19,brute
+30,35,36,Ohio,OH,24.4,R,R,R,0,0,11,19,11,19,brute
+30,36,37,Oklahoma,OK,24.1,R,R,R,0,0,11,19,11,19,brute
+30,37,38,Oregon,OR,21.0,D,D,R,0,1,15,15,15,15,brute
+30,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,10,20,10,20,brute
+30,39,40,Rhode Island,RI,18.6,D,D,D,0,0,16,14,16,14,brute
+30,40,41,South Carolina,SC,25.1,R,R,R,0,0,9,21,9,21,brute
+30,41,42,South Dakota,SD,22.6,R,R,R,0,0,13,17,13,17,brute
+30,42,43,Tennessee,TN,25.6,R,R,R,0,0,9,21,9,21,brute
+30,43,44,Texas,TX,25.3,R,R,R,0,0,9,21,9,21,brute
+30,44,45,Utah,UT,19.6,R,D,D,1,1,17,13,17,13,brute
+30,45,46,Vermont,VT,19.1,D,D,D,0,0,16,14,16,14,brute
+30,46,47,Virginia,VA,22.9,R,R,R,0,0,13,17,12,18,brute
+30,47,48,Washington,WA,21.7,D,R,R,1,1,13,17,13,17,brute
+30,48,49,West Virginia,WV,27.6,R,R,R,0,0,9,21,9,21,brute
+30,49,50,Wisconsin,WI,21.9,D,R,R,1,1,13,17,13,17,brute
+30,50,51,Wyoming,WY,20.1,R,D,D,1,1,17,13,17,13,brute
+31,0,1,Alabama,AL,27.7,R,R,R,0,0,9,22,10,21,brute
+31,1,2,Alaska,AK,23.5,R,R,R,0,0,12,19,12,19,brute
+31,2,3,Arizona,AZ,20.3,R,D,D,1,1,17,14,17,14,brute
+31,3,4,Arkansas,AR,25.0,R,R,R,0,0,9,22,10,21,brute
+31,4,5,California,CA,21.5,D,R,R,1,1,14,17,14,17,brute
+31,5,6,Colorado,CO,16.4,R,D,D,1,1,17,14,17,14,brute
+31,6,7,Connecticut,CT,18.9,D,D,D,0,0,16,15,16,15,brute
+31,7,8,Delaware,DE,22.5,D,R,R,1,1,12,19,12,19,brute
+31,8,9,DC,DC,21.2,D,R,R,1,1,15,16,15,16,brute
+31,9,10,Florida,FL,20.7,R,D,D,1,1,17,14,17,14,brute
+31,10,11,Georgia,GA,24.5,R,R,R,0,0,10,21,10,21,brute
+31,11,12,Hawaii,HI,15.7,R,D,D,1,1,17,14,17,14,brute
+31,12,13,Idaho,ID,20.9,R,D,D,1,1,16,15,16,15,brute
+31,13,14,Illinois,IL,22.9,D,R,R,1,1,12,19,12,19,brute
+31,14,15,Indiana,IN,25.2,R,R,R,0,0,9,22,10,21,brute
+31,15,16,Iowa,IA,23.4,R,R,R,0,0,12,19,12,19,brute
+31,16,17,Kansas,KS,22.9,R,R,R,0,0,13,18,13,18,brute
+31,17,18,Kentucky,KY,25.3,R,R,R,0,0,9,22,10,21,brute
+31,18,19,Louisiana,LA,25.8,R,R,R,0,0,9,22,10,21,brute
+31,19,20,Maine,ME,21.3,D,R,R,1,1,14,17,14,17,brute
+31,20,21,Maryland,MD,21.7,D,R,R,1,1,13,18,13,18,brute
+31,21,22,Massachusetts,MA,17.8,D,D,D,0,0,16,15,16,15,brute
+31,22,23,Michigan,MI,25.3,D,R,R,1,1,8,23,9,22,brute
+31,23,24,Minnesota,MN,22.6,D,R,R,1,1,12,19,12,19,brute
+31,24,25,Mississippi,MS,28.1,R,R,R,0,0,9,22,10,21,brute
+31,25,26,Missouri,MO,23.9,R,R,R,0,0,12,19,12,19,brute
+31,26,27,Montana,MT,19.1,R,D,D,1,1,17,14,17,14,brute
+31,27,28,Nebraska,NE,23.4,R,R,R,0,0,12,19,12,19,brute
+31,28,29,Nevada,NV,21.3,R,R,R,0,0,15,16,15,16,brute
+31,29,30,New Hampshire,NH,19.9,D,D,D,0,0,16,15,16,15,brute
+31,30,31,New Jersey,NJ,20.3,D,D,D,0,0,16,15,16,15,brute
+31,31,32,New Mexico,NM,20.5,R,D,D,1,1,17,14,17,14,brute
+31,32,33,New York,NY,21.2,D,R,R,1,1,15,16,15,16,brute
+31,33,34,North Carolina,NC,23.9,R,R,R,0,0,12,19,12,19,brute
+31,34,35,North Dakota,ND,23.9,R,R,R,0,0,12,19,12,19,brute
+31,35,36,Ohio,OH,24.4,R,R,R,0,0,12,19,12,19,brute
+31,36,37,Oklahoma,OK,24.1,R,R,R,0,0,12,19,12,19,brute
+31,37,38,Oregon,OR,21.0,D,R,R,1,1,15,16,15,16,brute
+31,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,11,20,11,20,brute
+31,39,40,Rhode Island,RI,18.6,D,D,D,0,0,16,15,16,15,brute
+31,40,41,South Carolina,SC,25.1,R,R,R,0,0,9,22,10,21,brute
+31,41,42,South Dakota,SD,22.6,R,R,R,0,0,13,18,13,18,brute
+31,42,43,Tennessee,TN,25.6,R,R,R,0,0,9,22,10,21,brute
+31,43,44,Texas,TX,25.3,R,R,R,0,0,9,22,10,21,brute
+31,44,45,Utah,UT,19.6,R,D,D,1,1,17,14,17,14,brute
+31,45,46,Vermont,VT,19.1,D,D,D,0,0,16,15,16,15,brute
+31,46,47,Virginia,VA,22.9,R,R,R,0,0,13,18,13,18,brute
+31,47,48,Washington,WA,21.7,D,R,R,1,1,13,18,13,18,brute
+31,48,49,West Virginia,WV,27.6,R,R,R,0,0,9,22,10,21,brute
+31,49,50,Wisconsin,WI,21.9,D,R,R,1,1,13,18,13,18,brute
+31,50,51,Wyoming,WY,20.1,R,D,D,1,1,17,14,17,14,brute
+32,0,1,Alabama,AL,27.7,R,R,R,0,0,10,22,10,22,brute
+32,1,2,Alaska,AK,23.5,R,R,R,0,0,13,19,13,19,brute
+32,2,3,Arizona,AZ,20.3,R,D,D,1,1,17,15,17,15,brute
+32,3,4,Arkansas,AR,25.0,R,R,R,0,0,10,22,10,22,brute
+32,4,5,California,CA,21.5,D,R,R,1,1,15,17,15,17,brute
+32,5,6,Colorado,CO,16.4,R,D,D,1,1,17,15,17,15,brute
+32,6,7,Connecticut,CT,18.9,D,D,R,0,1,16,16,16,16,brute
+32,7,8,Delaware,DE,22.5,D,R,R,1,1,13,19,13,19,brute
+32,8,9,DC,DC,21.2,D,R,R,1,1,15,17,15,17,brute
+32,9,10,Florida,FL,20.7,R,D,D,1,1,17,15,17,15,brute
+32,10,11,Georgia,GA,24.5,R,R,R,0,0,11,21,11,21,brute
+32,11,12,Hawaii,HI,15.7,R,D,D,1,1,17,15,17,15,brute
+32,12,13,Idaho,ID,20.9,R,D,R,1,0,16,16,16,16,brute
+32,13,14,Illinois,IL,22.9,D,R,R,1,1,12,20,12,20,brute
+32,14,15,Indiana,IN,25.2,R,R,R,0,0,10,22,10,22,brute
+32,15,16,Iowa,IA,23.4,R,R,R,0,0,13,19,13,19,brute
+32,16,17,Kansas,KS,22.9,R,R,R,0,0,13,19,13,19,brute
+32,17,18,Kentucky,KY,25.3,R,R,R,0,0,10,22,10,22,brute
+32,18,19,Louisiana,LA,25.8,R,R,R,0,0,10,22,10,22,brute
+32,19,20,Maine,ME,21.3,D,R,R,1,1,15,17,15,17,brute
+32,20,21,Maryland,MD,21.7,D,R,R,1,1,14,18,14,18,brute
+32,21,22,Massachusetts,MA,17.8,D,D,R,0,1,16,16,16,16,brute
+32,22,23,Michigan,MI,25.3,D,R,R,1,1,9,23,9,23,brute
+32,23,24,Minnesota,MN,22.6,D,R,R,1,1,12,20,12,20,brute
+32,24,25,Mississippi,MS,28.1,R,R,R,0,0,10,22,10,22,brute
+32,25,26,Missouri,MO,23.9,R,R,R,0,0,13,19,13,19,brute
+32,26,27,Montana,MT,19.1,R,D,D,1,1,17,15,17,15,brute
+32,27,28,Nebraska,NE,23.4,R,R,R,0,0,13,19,13,19,brute
+32,28,29,Nevada,NV,21.3,R,D,R,1,0,16,16,16,16,brute
+32,29,30,New Hampshire,NH,19.9,D,D,R,0,1,16,16,16,16,brute
+32,30,31,New Jersey,NJ,20.3,D,D,R,0,1,16,16,16,16,brute
+32,31,32,New Mexico,NM,20.5,R,D,D,1,1,17,15,17,15,brute
+32,32,33,New York,NY,21.2,D,R,R,1,1,15,17,15,17,brute
+32,33,34,North Carolina,NC,23.9,R,R,R,0,0,13,19,13,19,brute
+32,34,35,North Dakota,ND,23.9,R,R,R,0,0,13,19,13,19,brute
+32,35,36,Ohio,OH,24.4,R,R,R,0,0,12,20,12,20,brute
+32,36,37,Oklahoma,OK,24.1,R,R,R,0,0,13,19,13,19,brute
+32,37,38,Oregon,OR,21.0,D,R,R,1,1,15,17,15,17,brute
+32,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,12,20,12,20,brute
+32,39,40,Rhode Island,RI,18.6,D,D,R,0,1,16,16,16,16,brute
+32,40,41,South Carolina,SC,25.1,R,R,R,0,0,10,22,10,22,brute
+32,41,42,South Dakota,SD,22.6,R,R,R,0,0,13,19,13,19,brute
+32,42,43,Tennessee,TN,25.6,R,R,R,0,0,10,22,10,22,brute
+32,43,44,Texas,TX,25.3,R,R,R,0,0,10,22,10,22,brute
+32,44,45,Utah,UT,19.6,R,D,D,1,1,17,15,17,15,brute
+32,45,46,Vermont,VT,19.1,D,D,R,0,1,16,16,16,16,brute
+32,46,47,Virginia,VA,22.9,R,R,R,0,0,13,19,13,19,brute
+32,47,48,Washington,WA,21.7,D,R,R,1,1,14,18,14,18,brute
+32,48,49,West Virginia,WV,27.6,R,R,R,0,0,10,22,10,22,brute
+32,49,50,Wisconsin,WI,21.9,D,R,R,1,1,13,19,13,19,brute
+32,50,51,Wyoming,WY,20.1,R,D,D,1,1,17,15,17,15,brute
+33,0,1,Alabama,AL,27.7,R,R,R,0,0,11,22,11,22,brute
+33,1,2,Alaska,AK,23.5,R,R,R,0,0,13,20,13,20,brute
+33,2,3,Arizona,AZ,20.3,R,D,D,1,1,17,16,17,16,brute
+33,3,4,Arkansas,AR,25.0,R,R,R,0,0,11,22,11,22,brute
+33,4,5,California,CA,21.5,D,R,R,1,1,15,18,15,18,brute
+33,5,6,Colorado,CO,16.4,R,D,D,1,1,17,16,17,16,brute
+33,6,7,Connecticut,CT,18.9,D,R,R,1,1,16,17,16,17,brute
+33,7,8,Delaware,DE,22.5,D,R,R,1,1,13,20,13,20,brute
+33,8,9,DC,DC,21.2,D,R,R,1,1,16,17,16,17,brute
+33,9,10,Florida,FL,20.7,R,D,D,1,1,17,16,17,16,brute
+33,10,11,Georgia,GA,24.5,R,R,R,0,0,12,21,12,21,brute
+33,11,12,Hawaii,HI,15.7,R,D,D,1,1,17,16,17,16,brute
+33,12,13,Idaho,ID,20.9,R,D,D,1,1,17,16,17,16,brute
+33,13,14,Illinois,IL,22.9,D,R,R,1,1,12,21,12,21,brute
+33,14,15,Indiana,IN,25.2,R,R,R,0,0,11,22,11,22,brute
+33,15,16,Iowa,IA,23.4,R,R,R,0,0,13,20,13,20,brute
+33,16,17,Kansas,KS,22.9,R,R,R,0,0,13,20,13,20,brute
+33,17,18,Kentucky,KY,25.3,R,R,R,0,0,11,22,11,22,brute
+33,18,19,Louisiana,LA,25.8,R,R,R,0,0,11,22,11,22,brute
+33,19,20,Maine,ME,21.3,D,R,R,1,1,16,17,16,17,brute
+33,20,21,Maryland,MD,21.7,D,R,R,1,1,14,19,14,19,brute
+33,21,22,Massachusetts,MA,17.8,D,R,R,1,1,16,17,16,17,brute
+33,22,23,Michigan,MI,25.3,D,R,R,1,1,10,23,10,23,brute
+33,23,24,Minnesota,MN,22.6,D,R,R,1,1,12,21,12,21,brute
+33,24,25,Mississippi,MS,28.1,R,R,R,0,0,11,22,11,22,brute
+33,25,26,Missouri,MO,23.9,R,R,R,0,0,13,20,13,20,brute
+33,26,27,Montana,MT,19.1,R,D,D,1,1,17,16,17,16,brute
+33,27,28,Nebraska,NE,23.4,R,R,R,0,0,13,20,13,20,brute
+33,28,29,Nevada,NV,21.3,R,D,D,1,1,17,16,17,16,brute
+33,29,30,New Hampshire,NH,19.9,D,R,R,1,1,16,17,16,17,brute
+33,30,31,New Jersey,NJ,20.3,D,R,R,1,1,16,17,16,17,brute
+33,31,32,New Mexico,NM,20.5,R,D,D,1,1,17,16,17,16,brute
+33,32,33,New York,NY,21.2,D,R,R,1,1,16,17,16,17,brute
+33,33,34,North Carolina,NC,23.9,R,R,R,0,0,13,20,13,20,brute
+33,34,35,North Dakota,ND,23.9,R,R,R,0,0,13,20,13,20,brute
+33,35,36,Ohio,OH,24.4,R,R,R,0,0,12,21,12,21,brute
+33,36,37,Oklahoma,OK,24.1,R,R,R,0,0,13,20,13,20,brute
+33,37,38,Oregon,OR,21.0,D,R,R,1,1,16,17,16,17,brute
+33,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,12,21,12,21,brute
+33,39,40,Rhode Island,RI,18.6,D,R,R,1,1,16,17,16,17,brute
+33,40,41,South Carolina,SC,25.1,R,R,R,0,0,11,22,11,22,brute
+33,41,42,South Dakota,SD,22.6,R,R,R,0,0,13,20,13,20,brute
+33,42,43,Tennessee,TN,25.6,R,R,R,0,0,11,22,11,22,brute
+33,43,44,Texas,TX,25.3,R,R,R,0,0,11,22,11,22,brute
+33,44,45,Utah,UT,19.6,R,D,D,1,1,17,16,17,16,brute
+33,45,46,Vermont,VT,19.1,D,R,R,1,1,16,17,16,17,brute
+33,46,47,Virginia,VA,22.9,R,R,R,0,0,13,20,13,20,brute
+33,47,48,Washington,WA,21.7,D,R,R,1,1,14,19,14,19,brute
+33,48,49,West Virginia,WV,27.6,R,R,R,0,0,11,22,11,22,brute
+33,49,50,Wisconsin,WI,21.9,D,R,R,1,1,13,20,13,20,brute
+33,50,51,Wyoming,WY,20.1,R,D,D,1,1,17,16,17,16,brute
+34,0,1,Alabama,AL,27.7,R,R,R,0,0,12,22,12,22,brute
+34,1,2,Alaska,AK,23.5,R,R,R,0,0,13,21,13,21,brute
+34,2,3,Arizona,AZ,20.3,R,D,D,1,1,18,16,18,16,brute
+34,3,4,Arkansas,AR,25.0,R,R,R,0,0,12,22,12,22,brute
+34,4,5,California,CA,21.5,D,R,R,1,1,15,19,15,19,brute
+34,5,6,Colorado,CO,16.4,R,D,R,1,0,17,17,17,17,brute
+34,6,7,Connecticut,CT,18.9,D,R,R,1,1,16,18,16,18,brute
+34,7,8,Delaware,DE,22.5,D,R,R,1,1,13,21,13,21,brute
+34,8,9,DC,DC,21.2,D,R,R,1,1,16,18,16,18,brute
+34,9,10,Florida,FL,20.7,R,D,D,1,1,18,16,18,16,brute
+34,10,11,Georgia,GA,24.5,R,R,R,0,0,13,21,13,21,brute
+34,11,12,Hawaii,HI,15.7,R,D,R,1,0,17,17,17,17,brute
+34,12,13,Idaho,ID,20.9,R,D,D,1,1,18,16,18,16,brute
+34,13,14,Illinois,IL,22.9,D,R,R,1,1,13,21,12,22,brute
+34,14,15,Indiana,IN,25.2,R,R,R,0,0,12,22,12,22,brute
+34,15,16,Iowa,IA,23.4,R,R,R,0,0,13,21,13,21,brute
+34,16,17,Kansas,KS,22.9,R,R,R,0,0,14,20,13,21,brute
+34,17,18,Kentucky,KY,25.3,R,R,R,0,0,12,22,12,22,brute
+34,18,19,Louisiana,LA,25.8,R,R,R,0,0,12,22,12,22,brute
+34,19,20,Maine,ME,21.3,D,R,R,1,1,16,18,16,18,brute
+34,20,21,Maryland,MD,21.7,D,R,R,1,1,14,20,15,19,brute
+34,21,22,Massachusetts,MA,17.8,D,R,R,1,1,16,18,16,18,brute
+34,22,23,Michigan,MI,25.3,D,R,R,1,1,11,23,11,23,brute
+34,23,24,Minnesota,MN,22.6,D,R,R,1,1,12,22,12,22,brute
+34,24,25,Mississippi,MS,28.1,R,R,R,0,0,12,22,12,22,brute
+34,25,26,Missouri,MO,23.9,R,R,R,0,0,13,21,13,21,brute
+34,26,27,Montana,MT,19.1,R,D,R,1,0,17,17,17,17,brute
+34,27,28,Nebraska,NE,23.4,R,R,R,0,0,13,21,13,21,brute
+34,28,29,Nevada,NV,21.3,R,D,R,1,0,17,17,17,17,brute
+34,29,30,New Hampshire,NH,19.9,D,R,R,1,1,16,18,16,18,brute
+34,30,31,New Jersey,NJ,20.3,D,D,R,0,1,17,17,17,17,brute
+34,31,32,New Mexico,NM,20.5,R,D,D,1,1,18,16,18,16,brute
+34,32,33,New York,NY,21.2,D,R,R,1,1,16,18,16,18,brute
+34,33,34,North Carolina,NC,23.9,R,R,R,0,0,13,21,13,21,brute
+34,34,35,North Dakota,ND,23.9,R,R,R,0,0,13,21,13,21,brute
+34,35,36,Ohio,OH,24.4,R,R,R,0,0,13,21,13,21,brute
+34,36,37,Oklahoma,OK,24.1,R,R,R,0,0,13,21,13,21,brute
+34,37,38,Oregon,OR,21.0,D,R,R,1,1,16,18,16,18,brute
+34,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,12,22,12,22,brute
+34,39,40,Rhode Island,RI,18.6,D,R,R,1,1,16,18,16,18,brute
+34,40,41,South Carolina,SC,25.1,R,R,R,0,0,12,22,12,22,brute
+34,41,42,South Dakota,SD,22.6,R,R,R,0,0,13,21,13,21,brute
+34,42,43,Tennessee,TN,25.6,R,R,R,0,0,12,22,12,22,brute
+34,43,44,Texas,TX,25.3,R,R,R,0,0,12,22,12,22,brute
+34,44,45,Utah,UT,19.6,R,D,R,1,0,17,17,17,17,brute
+34,45,46,Vermont,VT,19.1,D,R,R,1,1,16,18,16,18,brute
+34,46,47,Virginia,VA,22.9,R,R,R,0,0,14,20,13,21,brute
+34,47,48,Washington,WA,21.7,D,R,R,1,1,14,20,15,19,brute
+34,48,49,West Virginia,WV,27.6,R,R,R,0,0,12,22,12,22,brute
+34,49,50,Wisconsin,WI,21.9,D,R,R,1,1,14,20,14,20,brute
+34,50,51,Wyoming,WY,20.1,R,D,R,1,0,17,17,17,17,brute
+35,0,1,Alabama,AL,27.7,R,R,R,0,0,13,22,13,22,brute
+35,1,2,Alaska,AK,23.5,R,R,R,0,0,13,22,13,22,brute
+35,2,3,Arizona,AZ,20.3,R,D,D,1,1,18,17,18,17,brute
+35,3,4,Arkansas,AR,25.0,R,R,R,0,0,13,22,13,22,brute
+35,4,5,California,CA,21.5,D,R,R,1,1,16,19,16,19,brute
+35,5,6,Colorado,CO,16.4,R,R,R,0,0,17,18,17,18,brute
+35,6,7,Connecticut,CT,18.9,D,R,R,1,1,16,19,16,19,brute
+35,7,8,Delaware,DE,22.5,D,R,R,1,1,14,21,13,22,brute
+35,8,9,DC,DC,21.2,D,R,R,1,1,16,19,16,19,brute
+35,9,10,Florida,FL,20.7,R,D,D,1,1,18,17,18,17,brute
+35,10,11,Georgia,GA,24.5,R,R,R,0,0,13,22,13,22,brute
+35,11,12,Hawaii,HI,15.7,R,R,R,0,0,17,18,17,18,brute
+35,12,13,Idaho,ID,20.9,R,D,D,1,1,18,17,18,17,brute
+35,13,14,Illinois,IL,22.9,D,R,R,1,1,13,22,13,22,brute
+35,14,15,Indiana,IN,25.2,R,R,R,0,0,13,22,13,22,brute
+35,15,16,Iowa,IA,23.4,R,R,R,0,0,13,22,13,22,brute
+35,16,17,Kansas,KS,22.9,R,R,R,0,0,14,21,14,21,brute
+35,17,18,Kentucky,KY,25.3,R,R,R,0,0,13,22,13,22,brute
+35,18,19,Louisiana,LA,25.8,R,R,R,0,0,13,22,13,22,brute
+35,19,20,Maine,ME,21.3,D,R,R,1,1,16,19,16,19,brute
+35,20,21,Maryland,MD,21.7,D,R,R,1,1,15,20,15,20,brute
+35,21,22,Massachusetts,MA,17.8,D,R,R,1,1,16,19,16,19,brute
+35,22,23,Michigan,MI,25.3,D,R,R,1,1,12,23,12,23,brute
+35,23,24,Minnesota,MN,22.6,D,R,R,1,1,13,22,13,22,brute
+35,24,25,Mississippi,MS,28.1,R,R,R,0,0,13,22,13,22,brute
+35,25,26,Missouri,MO,23.9,R,R,R,0,0,13,22,13,22,brute
+35,26,27,Montana,MT,19.1,R,R,R,0,0,17,18,17,18,brute
+35,27,28,Nebraska,NE,23.4,R,R,R,0,0,13,22,13,22,brute
+35,28,29,Nevada,NV,21.3,R,R,R,0,0,17,18,17,18,brute
+35,29,30,New Hampshire,NH,19.9,D,R,R,1,1,17,18,17,18,brute
+35,30,31,New Jersey,NJ,20.3,D,R,R,1,1,17,18,17,18,brute
+35,31,32,New Mexico,NM,20.5,R,D,D,1,1,18,17,18,17,brute
+35,32,33,New York,NY,21.2,D,R,R,1,1,16,19,16,19,brute
+35,33,34,North Carolina,NC,23.9,R,R,R,0,0,13,22,13,22,brute
+35,34,35,North Dakota,ND,23.9,R,R,R,0,0,13,22,13,22,brute
+35,35,36,Ohio,OH,24.4,R,R,R,0,0,13,22,13,22,brute
+35,36,37,Oklahoma,OK,24.1,R,R,R,0,0,13,22,13,22,brute
+35,37,38,Oregon,OR,21.0,D,R,R,1,1,17,18,17,18,brute
+35,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,12,23,12,23,brute
+35,39,40,Rhode Island,RI,18.6,D,R,R,1,1,16,19,16,19,brute
+35,40,41,South Carolina,SC,25.1,R,R,R,0,0,13,22,13,22,brute
+35,41,42,South Dakota,SD,22.6,R,R,R,0,0,14,21,14,21,brute
+35,42,43,Tennessee,TN,25.6,R,R,R,0,0,13,22,13,22,brute
+35,43,44,Texas,TX,25.3,R,R,R,0,0,13,22,13,22,brute
+35,44,45,Utah,UT,19.6,R,R,R,0,0,17,18,17,18,brute
+35,45,46,Vermont,VT,19.1,D,R,R,1,1,16,19,16,19,brute
+35,46,47,Virginia,VA,22.9,R,R,R,0,0,14,21,14,21,brute
+35,47,48,Washington,WA,21.7,D,R,R,1,1,15,20,15,20,brute
+35,48,49,West Virginia,WV,27.6,R,R,R,0,0,13,22,13,22,brute
+35,49,50,Wisconsin,WI,21.9,D,R,R,1,1,15,20,15,20,brute
+35,50,51,Wyoming,WY,20.1,R,D,D,1,1,18,17,18,17,brute
+36,0,1,Alabama,AL,27.7,R,R,R,0,0,13,23,13,23,brute
+36,1,2,Alaska,AK,23.5,R,R,R,0,0,14,22,13,23,brute
+36,2,3,Arizona,AZ,20.3,R,D,R,1,0,18,18,18,18,brute
+36,3,4,Arkansas,AR,25.0,R,R,R,0,0,13,23,13,23,brute
+36,4,5,California,CA,21.5,D,R,R,1,1,16,20,16,20,brute
+36,5,6,Colorado,CO,16.4,R,D,R,1,0,18,18,18,18,brute
+36,6,7,Connecticut,CT,18.9,D,R,R,1,1,17,19,17,19,brute
+36,7,8,Delaware,DE,22.5,D,R,R,1,1,14,22,14,22,brute
+36,8,9,DC,DC,21.2,D,R,R,1,1,16,20,16,20,brute
+36,9,10,Florida,FL,20.7,R,D,R,1,0,18,18,18,18,brute
+36,10,11,Georgia,GA,24.5,R,R,R,0,0,13,23,13,23,brute
+36,11,12,Hawaii,HI,15.7,R,D,R,1,0,18,18,18,18,brute
+36,12,13,Idaho,ID,20.9,R,D,R,1,0,18,18,18,18,brute
+36,13,14,Illinois,IL,22.9,D,R,R,1,1,13,23,13,23,brute
+36,14,15,Indiana,IN,25.2,R,R,R,0,0,13,23,13,23,brute
+36,15,16,Iowa,IA,23.4,R,R,R,0,0,14,22,13,23,brute
+36,16,17,Kansas,KS,22.9,R,R,R,0,0,14,22,14,22,brute
+36,17,18,Kentucky,KY,25.3,R,R,R,0,0,13,23,13,23,brute
+36,18,19,Louisiana,LA,25.8,R,R,R,0,0,13,23,13,23,brute
+36,19,20,Maine,ME,21.3,D,R,R,1,1,16,20,16,20,brute
+36,20,21,Maryland,MD,21.7,D,R,R,1,1,16,20,16,20,brute
+36,21,22,Massachusetts,MA,17.8,D,R,R,1,1,17,19,17,19,brute
+36,22,23,Michigan,MI,25.3,D,R,R,1,1,12,24,12,24,brute
+36,23,24,Minnesota,MN,22.6,D,R,R,1,1,13,23,14,22,brute
+36,24,25,Mississippi,MS,28.1,R,R,R,0,0,13,23,13,23,brute
+36,25,26,Missouri,MO,23.9,R,R,R,0,0,14,22,13,23,brute
+36,26,27,Montana,MT,19.1,R,D,R,1,0,18,18,18,18,brute
+36,27,28,Nebraska,NE,23.4,R,R,R,0,0,14,22,13,23,brute
+36,28,29,Nevada,NV,21.3,R,R,R,0,0,17,19,17,19,brute
+36,29,30,New Hampshire,NH,19.9,D,R,R,1,1,17,19,17,19,brute
+36,30,31,New Jersey,NJ,20.3,D,R,R,1,1,17,19,17,19,brute
+36,31,32,New Mexico,NM,20.5,R,D,R,1,0,18,18,18,18,brute
+36,32,33,New York,NY,21.2,D,R,R,1,1,16,20,16,20,brute
+36,33,34,North Carolina,NC,23.9,R,R,R,0,0,14,22,13,23,brute
+36,34,35,North Dakota,ND,23.9,R,R,R,0,0,14,22,13,23,brute
+36,35,36,Ohio,OH,24.4,R,R,R,0,0,13,23,13,23,brute
+36,36,37,Oklahoma,OK,24.1,R,R,R,0,0,13,23,13,23,brute
+36,37,38,Oregon,OR,21.0,D,R,R,1,1,17,19,17,19,brute
+36,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,12,24,12,24,brute
+36,39,40,Rhode Island,RI,18.6,D,R,R,1,1,17,19,17,19,brute
+36,40,41,South Carolina,SC,25.1,R,R,R,0,0,13,23,13,23,brute
+36,41,42,South Dakota,SD,22.6,R,R,R,0,0,14,22,15,21,brute
+36,42,43,Tennessee,TN,25.6,R,R,R,0,0,13,23,13,23,brute
+36,43,44,Texas,TX,25.3,R,R,R,0,0,13,23,13,23,brute
+36,44,45,Utah,UT,19.6,R,D,R,1,0,18,18,18,18,brute
+36,45,46,Vermont,VT,19.1,D,R,R,1,1,17,19,17,19,brute
+36,46,47,Virginia,VA,22.9,R,R,R,0,0,14,22,14,22,brute
+36,47,48,Washington,WA,21.7,D,R,R,1,1,16,20,16,20,brute
+36,48,49,West Virginia,WV,27.6,R,R,R,0,0,13,23,13,23,brute
+36,49,50,Wisconsin,WI,21.9,D,R,R,1,1,15,21,15,21,brute
+36,50,51,Wyoming,WY,20.1,R,D,R,1,0,18,18,18,18,brute
+37,0,1,Alabama,AL,27.7,R,R,R,0,0,13,24,13,24,brute
+37,1,2,Alaska,AK,23.5,R,R,R,0,0,14,23,14,23,brute
+37,2,3,Arizona,AZ,20.3,R,R,R,0,0,18,19,18,19,brute
+37,3,4,Arkansas,AR,25.0,R,R,R,0,0,13,24,13,24,brute
+37,4,5,California,CA,21.5,D,R,R,1,1,16,21,16,21,brute
+37,5,6,Colorado,CO,16.4,R,R,R,0,0,18,19,18,19,brute
+37,6,7,Connecticut,CT,18.9,D,R,R,1,1,17,20,17,20,brute
+37,7,8,Delaware,DE,22.5,D,R,R,1,1,14,23,14,23,brute
+37,8,9,DC,DC,21.2,D,R,R,1,1,17,20,17,20,brute
+37,9,10,Florida,FL,20.7,R,R,R,0,0,18,19,18,19,brute
+37,10,11,Georgia,GA,24.5,R,R,R,0,0,13,24,13,24,brute
+37,11,12,Hawaii,HI,15.7,R,R,R,0,0,18,19,18,19,brute
+37,12,13,Idaho,ID,20.9,R,R,R,0,0,18,19,18,19,brute
+37,13,14,Illinois,IL,22.9,D,R,R,1,1,13,24,13,24,brute
+37,14,15,Indiana,IN,25.2,R,R,R,0,0,13,24,13,24,brute
+37,15,16,Iowa,IA,23.4,R,R,R,0,0,14,23,14,23,brute
+37,16,17,Kansas,KS,22.9,R,R,R,0,0,14,23,14,23,brute
+37,17,18,Kentucky,KY,25.3,R,R,R,0,0,13,24,13,24,brute
+37,18,19,Louisiana,LA,25.8,R,R,R,0,0,13,24,13,24,brute
+37,19,20,Maine,ME,21.3,D,R,R,1,1,17,20,17,20,brute
+37,20,21,Maryland,MD,21.7,D,R,R,1,1,16,21,16,21,brute
+37,21,22,Massachusetts,MA,17.8,D,R,R,1,1,17,20,17,20,brute
+37,22,23,Michigan,MI,25.3,D,R,R,1,1,12,25,12,25,brute
+37,23,24,Minnesota,MN,22.6,D,R,R,1,1,14,23,14,23,brute
+37,24,25,Mississippi,MS,28.1,R,R,R,0,0,13,24,13,24,brute
+37,25,26,Missouri,MO,23.9,R,R,R,0,0,14,23,14,23,brute
+37,26,27,Montana,MT,19.1,R,R,R,0,0,18,19,18,19,brute
+37,27,28,Nebraska,NE,23.4,R,R,R,0,0,14,23,14,23,brute
+37,28,29,Nevada,NV,21.3,R,R,R,0,0,18,19,18,19,brute
+37,29,30,New Hampshire,NH,19.9,D,R,R,1,1,17,20,17,20,brute
+37,30,31,New Jersey,NJ,20.3,D,R,R,1,1,17,20,17,20,brute
+37,31,32,New Mexico,NM,20.5,R,R,R,0,0,18,19,18,19,brute
+37,32,33,New York,NY,21.2,D,R,R,1,1,17,20,17,20,brute
+37,33,34,North Carolina,NC,23.9,R,R,R,0,0,14,23,14,23,brute
+37,34,35,North Dakota,ND,23.9,R,R,R,0,0,14,23,14,23,brute
+37,35,36,Ohio,OH,24.4,R,R,R,0,0,13,24,13,24,brute
+37,36,37,Oklahoma,OK,24.1,R,R,R,0,0,13,24,13,24,brute
+37,37,38,Oregon,OR,21.0,D,R,R,1,1,17,20,17,20,brute
+37,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,13,24,12,25,brute
+37,39,40,Rhode Island,RI,18.6,D,R,R,1,1,17,20,17,20,brute
+37,40,41,South Carolina,SC,25.1,R,R,R,0,0,13,24,13,24,brute
+37,41,42,South Dakota,SD,22.6,R,R,R,0,0,15,22,15,22,brute
+37,42,43,Tennessee,TN,25.6,R,R,R,0,0,13,24,13,24,brute
+37,43,44,Texas,TX,25.3,R,R,R,0,0,13,24,13,24,brute
+37,44,45,Utah,UT,19.6,R,R,R,0,0,18,19,18,19,brute
+37,45,46,Vermont,VT,19.1,D,R,R,1,1,17,20,17,20,brute
+37,46,47,Virginia,VA,22.9,R,R,R,0,0,14,23,14,23,brute
+37,47,48,Washington,WA,21.7,D,R,R,1,1,16,21,16,21,brute
+37,48,49,West Virginia,WV,27.6,R,R,R,0,0,13,24,13,24,brute
+37,49,50,Wisconsin,WI,21.9,D,R,R,1,1,15,22,15,22,brute
+37,50,51,Wyoming,WY,20.1,R,R,R,0,0,18,19,18,19,brute
+38,0,1,Alabama,AL,27.7,R,R,R,0,0,13,25,13,25,brute
+38,1,2,Alaska,AK,23.5,R,R,R,0,0,14,24,14,24,brute
+38,2,3,Arizona,AZ,20.3,R,R,R,0,0,18,20,18,20,brute
+38,3,4,Arkansas,AR,25.0,R,R,R,0,0,13,25,13,25,brute
+38,4,5,California,CA,21.5,D,R,R,1,1,16,22,16,22,brute
+38,5,6,Colorado,CO,16.4,R,R,R,0,0,18,20,18,20,brute
+38,6,7,Connecticut,CT,18.9,D,R,R,1,1,17,21,17,21,brute
+38,7,8,Delaware,DE,22.5,D,R,R,1,1,14,24,14,24,brute
+38,8,9,DC,DC,21.2,D,R,R,1,1,17,21,17,21,brute
+38,9,10,Florida,FL,20.7,R,R,R,0,0,18,20,18,20,brute
+38,10,11,Georgia,GA,24.5,R,R,R,0,0,13,25,13,25,brute
+38,11,12,Hawaii,HI,15.7,R,R,R,0,0,18,20,18,20,brute
+38,12,13,Idaho,ID,20.9,R,R,R,0,0,18,20,18,20,brute
+38,13,14,Illinois,IL,22.9,D,R,R,1,1,13,25,13,25,brute
+38,14,15,Indiana,IN,25.2,R,R,R,0,0,13,25,13,25,brute
+38,15,16,Iowa,IA,23.4,R,R,R,0,0,14,24,14,24,brute
+38,16,17,Kansas,KS,22.9,R,R,R,0,0,14,24,14,24,brute
+38,17,18,Kentucky,KY,25.3,R,R,R,0,0,13,25,13,25,brute
+38,18,19,Louisiana,LA,25.8,R,R,R,0,0,13,25,13,25,brute
+38,19,20,Maine,ME,21.3,D,R,R,1,1,17,21,17,21,brute
+38,20,21,Maryland,MD,21.7,D,R,R,1,1,16,22,16,22,brute
+38,21,22,Massachusetts,MA,17.8,D,R,R,1,1,17,21,17,21,brute
+38,22,23,Michigan,MI,25.3,D,R,R,1,1,12,26,12,26,brute
+38,23,24,Minnesota,MN,22.6,D,R,R,1,1,14,24,14,24,brute
+38,24,25,Mississippi,MS,28.1,R,R,R,0,0,13,25,13,25,brute
+38,25,26,Missouri,MO,23.9,R,R,R,0,0,14,24,14,24,brute
+38,26,27,Montana,MT,19.1,R,R,R,0,0,18,20,18,20,brute
+38,27,28,Nebraska,NE,23.4,R,R,R,0,0,14,24,14,24,brute
+38,28,29,Nevada,NV,21.3,R,R,R,0,0,18,20,18,20,brute
+38,29,30,New Hampshire,NH,19.9,D,R,R,1,1,17,21,17,21,brute
+38,30,31,New Jersey,NJ,20.3,D,R,R,1,1,17,21,17,21,brute
+38,31,32,New Mexico,NM,20.5,R,R,R,0,0,18,20,18,20,brute
+38,32,33,New York,NY,21.2,D,R,R,1,1,17,21,17,21,brute
+38,33,34,North Carolina,NC,23.9,R,R,R,0,0,14,24,14,24,brute
+38,34,35,North Dakota,ND,23.9,R,R,R,0,0,14,24,14,24,brute
+38,35,36,Ohio,OH,24.4,R,R,R,0,0,13,25,13,25,brute
+38,36,37,Oklahoma,OK,24.1,R,R,R,0,0,14,24,13,25,brute
+38,37,38,Oregon,OR,21.0,D,R,R,1,1,17,21,17,21,brute
+38,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,13,25,12,26,brute
+38,39,40,Rhode Island,RI,18.6,D,R,R,1,1,17,21,17,21,brute
+38,40,41,South Carolina,SC,25.1,R,R,R,0,0,13,25,13,25,brute
+38,41,42,South Dakota,SD,22.6,R,R,R,0,0,15,23,15,23,brute
+38,42,43,Tennessee,TN,25.6,R,R,R,0,0,13,25,13,25,brute
+38,43,44,Texas,TX,25.3,R,R,R,0,0,13,25,13,25,brute
+38,44,45,Utah,UT,19.6,R,R,R,0,0,18,20,18,20,brute
+38,45,46,Vermont,VT,19.1,D,R,R,1,1,17,21,17,21,brute
+38,46,47,Virginia,VA,22.9,R,R,R,0,0,14,24,14,24,brute
+38,47,48,Washington,WA,21.7,D,R,R,1,1,16,22,16,22,brute
+38,48,49,West Virginia,WV,27.6,R,R,R,0,0,13,25,13,25,brute
+38,49,50,Wisconsin,WI,21.9,D,R,R,1,1,15,23,15,23,brute
+38,50,51,Wyoming,WY,20.1,R,R,R,0,0,18,20,18,20,brute
+39,0,1,Alabama,AL,27.7,R,R,R,0,0,14,25,13,26,brute
+39,1,2,Alaska,AK,23.5,R,R,R,0,0,15,24,15,24,brute
+39,2,3,Arizona,AZ,20.3,R,R,R,0,0,18,21,18,21,brute
+39,3,4,Arkansas,AR,25.0,R,R,R,0,0,14,25,13,26,brute
+39,4,5,California,CA,21.5,D,R,R,1,1,17,22,16,23,brute
+39,5,6,Colorado,CO,16.4,R,R,R,0,0,18,21,18,21,brute
+39,6,7,Connecticut,CT,18.9,D,R,R,1,1,17,22,17,22,brute
+39,7,8,Delaware,DE,22.5,D,R,R,1,1,14,25,14,25,brute
+39,8,9,DC,DC,21.2,D,R,R,1,1,17,22,17,22,brute
+39,9,10,Florida,FL,20.7,R,R,R,0,0,18,21,18,21,brute
+39,10,11,Georgia,GA,24.5,R,R,R,0,0,14,25,13,26,brute
+39,11,12,Hawaii,HI,15.7,R,R,R,0,0,18,21,18,21,brute
+39,12,13,Idaho,ID,20.9,R,R,R,0,0,18,21,18,21,brute
+39,13,14,Illinois,IL,22.9,D,R,R,1,1,14,25,14,25,brute
+39,14,15,Indiana,IN,25.2,R,R,R,0,0,14,25,13,26,brute
+39,15,16,Iowa,IA,23.4,R,R,R,0,0,15,24,15,24,brute
+39,16,17,Kansas,KS,22.9,R,R,R,0,0,15,24,15,24,brute
+39,17,18,Kentucky,KY,25.3,R,R,R,0,0,14,25,13,26,brute
+39,18,19,Louisiana,LA,25.8,R,R,R,0,0,14,25,13,26,brute
+39,19,20,Maine,ME,21.3,D,R,R,1,1,17,22,17,22,brute
+39,20,21,Maryland,MD,21.7,D,R,R,1,1,16,23,16,23,brute
+39,21,22,Massachusetts,MA,17.8,D,R,R,1,1,17,22,17,22,brute
+39,22,23,Michigan,MI,25.3,D,R,R,1,1,13,26,12,27,brute
+39,23,24,Minnesota,MN,22.6,D,R,R,1,1,14,25,14,25,brute
+39,24,25,Mississippi,MS,28.1,R,R,R,0,0,14,25,13,26,brute
+39,25,26,Missouri,MO,23.9,R,R,R,0,0,14,25,14,25,brute
+39,26,27,Montana,MT,19.1,R,R,R,0,0,18,21,18,21,brute
+39,27,28,Nebraska,NE,23.4,R,R,R,0,0,15,24,15,24,brute
+39,28,29,Nevada,NV,21.3,R,R,R,0,0,18,21,18,21,brute
+39,29,30,New Hampshire,NH,19.9,D,R,R,1,1,17,22,17,22,brute
+39,30,31,New Jersey,NJ,20.3,D,R,R,1,1,17,22,17,22,brute
+39,31,32,New Mexico,NM,20.5,R,R,R,0,0,18,21,18,21,brute
+39,32,33,New York,NY,21.2,D,R,R,1,1,17,22,17,22,brute
+39,33,34,North Carolina,NC,23.9,R,R,R,0,0,14,25,14,25,brute
+39,34,35,North Dakota,ND,23.9,R,R,R,0,0,14,25,14,25,brute
+39,35,36,Ohio,OH,24.4,R,R,R,0,0,14,25,13,26,brute
+39,36,37,Oklahoma,OK,24.1,R,R,R,0,0,14,25,14,25,brute
+39,37,38,Oregon,OR,21.0,D,R,R,1,1,17,22,17,22,brute
+39,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,13,26,13,26,brute
+39,39,40,Rhode Island,RI,18.6,D,R,R,1,1,17,22,17,22,brute
+39,40,41,South Carolina,SC,25.1,R,R,R,0,0,14,25,13,26,brute
+39,41,42,South Dakota,SD,22.6,R,R,R,0,0,15,24,15,24,brute
+39,42,43,Tennessee,TN,25.6,R,R,R,0,0,14,25,13,26,brute
+39,43,44,Texas,TX,25.3,R,R,R,0,0,14,25,13,26,brute
+39,44,45,Utah,UT,19.6,R,R,R,0,0,18,21,18,21,brute
+39,45,46,Vermont,VT,19.1,D,R,R,1,1,17,22,17,22,brute
+39,46,47,Virginia,VA,22.9,R,R,R,0,0,15,24,15,24,brute
+39,47,48,Washington,WA,21.7,D,R,R,1,1,16,23,16,23,brute
+39,48,49,West Virginia,WV,27.6,R,R,R,0,0,14,25,13,26,brute
+39,49,50,Wisconsin,WI,21.9,D,R,R,1,1,16,23,16,23,brute
+39,50,51,Wyoming,WY,20.1,R,R,R,0,0,18,21,18,21,brute
+40,0,1,Alabama,AL,27.7,R,R,R,0,0,14,26,14,26,brute
+40,1,2,Alaska,AK,23.5,R,R,R,0,0,15,25,15,25,brute
+40,2,3,Arizona,AZ,20.3,R,R,R,0,0,18,22,18,22,brute
+40,3,4,Arkansas,AR,25.0,R,R,R,0,0,14,26,14,26,brute
+40,4,5,California,CA,21.5,D,R,R,1,1,17,23,17,23,brute
+40,5,6,Colorado,CO,16.4,R,R,R,0,0,18,22,18,22,brute
+40,6,7,Connecticut,CT,18.9,D,R,R,1,1,17,23,17,23,brute
+40,7,8,Delaware,DE,22.5,D,R,R,1,1,14,26,14,26,brute
+40,8,9,DC,DC,21.2,D,R,R,1,1,17,23,17,23,brute
+40,9,10,Florida,FL,20.7,R,R,R,0,0,18,22,18,22,brute
+40,10,11,Georgia,GA,24.5,R,R,R,0,0,14,26,14,26,brute
+40,11,12,Hawaii,HI,15.7,R,R,R,0,0,18,22,18,22,brute
+40,12,13,Idaho,ID,20.9,R,R,R,0,0,18,22,18,22,brute
+40,13,14,Illinois,IL,22.9,D,R,R,1,1,14,26,14,26,brute
+40,14,15,Indiana,IN,25.2,R,R,R,0,0,14,26,14,26,brute
+40,15,16,Iowa,IA,23.4,R,R,R,0,0,15,25,15,25,brute
+40,16,17,Kansas,KS,22.9,R,R,R,0,0,15,25,15,25,brute
+40,17,18,Kentucky,KY,25.3,R,R,R,0,0,14,26,14,26,brute
+40,18,19,Louisiana,LA,25.8,R,R,R,0,0,14,26,14,26,brute
+40,19,20,Maine,ME,21.3,D,R,R,1,1,17,23,17,23,brute
+40,20,21,Maryland,MD,21.7,D,R,R,1,1,17,23,16,24,brute
+40,21,22,Massachusetts,MA,17.8,D,R,R,1,1,17,23,17,23,brute
+40,22,23,Michigan,MI,25.3,D,R,R,1,1,13,27,13,27,brute
+40,23,24,Minnesota,MN,22.6,D,R,R,1,1,14,26,14,26,brute
+40,24,25,Mississippi,MS,28.1,R,R,R,0,0,14,26,14,26,brute
+40,25,26,Missouri,MO,23.9,R,R,R,0,0,14,26,14,26,brute
+40,26,27,Montana,MT,19.1,R,R,R,0,0,18,22,18,22,brute
+40,27,28,Nebraska,NE,23.4,R,R,R,0,0,15,25,15,25,brute
+40,28,29,Nevada,NV,21.3,R,R,R,0,0,18,22,18,22,brute
+40,29,30,New Hampshire,NH,19.9,D,R,R,1,1,17,23,17,23,brute
+40,30,31,New Jersey,NJ,20.3,D,R,R,1,1,17,23,17,23,brute
+40,31,32,New Mexico,NM,20.5,R,R,R,0,0,18,22,18,22,brute
+40,32,33,New York,NY,21.2,D,R,R,1,1,17,23,17,23,brute
+40,33,34,North Carolina,NC,23.9,R,R,R,0,0,14,26,14,26,brute
+40,34,35,North Dakota,ND,23.9,R,R,R,0,0,14,26,14,26,brute
+40,35,36,Ohio,OH,24.4,R,R,R,0,0,14,26,14,26,brute
+40,36,37,Oklahoma,OK,24.1,R,R,R,0,0,14,26,14,26,brute
+40,37,38,Oregon,OR,21.0,D,R,R,1,1,17,23,17,23,brute
+40,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,13,27,13,27,brute
+40,39,40,Rhode Island,RI,18.6,D,R,R,1,1,17,23,17,23,brute
+40,40,41,South Carolina,SC,25.1,R,R,R,0,0,14,26,14,26,brute
+40,41,42,South Dakota,SD,22.6,R,R,R,0,0,15,25,15,25,brute
+40,42,43,Tennessee,TN,25.6,R,R,R,0,0,14,26,14,26,brute
+40,43,44,Texas,TX,25.3,R,R,R,0,0,14,26,14,26,brute
+40,44,45,Utah,UT,19.6,R,R,R,0,0,18,22,18,22,brute
+40,45,46,Vermont,VT,19.1,D,R,R,1,1,17,23,17,23,brute
+40,46,47,Virginia,VA,22.9,R,R,R,0,0,15,25,15,25,brute
+40,47,48,Washington,WA,21.7,D,R,R,1,1,16,24,16,24,brute
+40,48,49,West Virginia,WV,27.6,R,R,R,0,0,14,26,14,26,brute
+40,49,50,Wisconsin,WI,21.9,D,R,R,1,1,17,23,16,24,brute
+40,50,51,Wyoming,WY,20.1,R,R,R,0,0,18,22,18,22,brute
+41,0,1,Alabama,AL,27.7,R,R,R,0,0,14,27,14,27,brute
+41,1,2,Alaska,AK,23.5,R,R,R,0,0,15,26,15,26,brute
+41,2,3,Arizona,AZ,20.3,R,R,R,0,0,18,23,18,23,brute
+41,3,4,Arkansas,AR,25.0,R,R,R,0,0,14,27,14,27,brute
+41,4,5,California,CA,21.5,D,R,R,1,1,18,23,17,24,brute
+41,5,6,Colorado,CO,16.4,R,R,R,0,0,18,23,18,23,brute
+41,6,7,Connecticut,CT,18.9,D,R,R,1,1,17,24,17,24,brute
+41,7,8,Delaware,DE,22.5,D,R,R,1,1,14,27,14,27,brute
+41,8,9,DC,DC,21.2,D,R,R,1,1,18,23,17,24,brute
+41,9,10,Florida,FL,20.7,R,R,R,0,0,18,23,18,23,brute
+41,10,11,Georgia,GA,24.5,R,R,R,0,0,14,27,14,27,brute
+41,11,12,Hawaii,HI,15.7,R,R,R,0,0,18,23,18,23,brute
+41,12,13,Idaho,ID,20.9,R,R,R,0,0,19,22,18,23,brute
+41,13,14,Illinois,IL,22.9,D,R,R,1,1,14,27,14,27,brute
+41,14,15,Indiana,IN,25.2,R,R,R,0,0,14,27,14,27,brute
+41,15,16,Iowa,IA,23.4,R,R,R,0,0,15,26,15,26,brute
+41,16,17,Kansas,KS,22.9,R,R,R,0,0,15,26,15,26,brute
+41,17,18,Kentucky,KY,25.3,R,R,R,0,0,14,27,14,27,brute
+41,18,19,Louisiana,LA,25.8,R,R,R,0,0,14,27,14,27,brute
+41,19,20,Maine,ME,21.3,D,R,R,1,1,18,23,17,24,brute
+41,20,21,Maryland,MD,21.7,D,R,R,1,1,17,24,17,24,brute
+41,21,22,Massachusetts,MA,17.8,D,R,R,1,1,17,24,17,24,brute
+41,22,23,Michigan,MI,25.3,D,R,R,1,1,13,28,13,28,brute
+41,23,24,Minnesota,MN,22.6,D,R,R,1,1,14,27,14,27,brute
+41,24,25,Mississippi,MS,28.1,R,R,R,0,0,14,27,14,27,brute
+41,25,26,Missouri,MO,23.9,R,R,R,0,0,15,26,15,26,brute
+41,26,27,Montana,MT,19.1,R,R,R,0,0,18,23,18,23,brute
+41,27,28,Nebraska,NE,23.4,R,R,R,0,0,15,26,15,26,brute
+41,28,29,Nevada,NV,21.3,R,R,R,0,0,19,22,18,23,brute
+41,29,30,New Hampshire,NH,19.9,D,R,R,1,1,17,24,17,24,brute
+41,30,31,New Jersey,NJ,20.3,D,R,R,1,1,17,24,17,24,brute
+41,31,32,New Mexico,NM,20.5,R,R,R,0,0,18,23,18,23,brute
+41,32,33,New York,NY,21.2,D,R,R,1,1,18,23,17,24,brute
+41,33,34,North Carolina,NC,23.9,R,R,R,0,0,15,26,15,26,brute
+41,34,35,North Dakota,ND,23.9,R,R,R,0,0,15,26,15,26,brute
+41,35,36,Ohio,OH,24.4,R,R,R,0,0,14,27,14,27,brute
+41,36,37,Oklahoma,OK,24.1,R,R,R,0,0,14,27,14,27,brute
+41,37,38,Oregon,OR,21.0,D,R,R,1,1,18,23,17,24,brute
+41,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,13,28,13,28,brute
+41,39,40,Rhode Island,RI,18.6,D,R,R,1,1,17,24,17,24,brute
+41,40,41,South Carolina,SC,25.1,R,R,R,0,0,14,27,14,27,brute
+41,41,42,South Dakota,SD,22.6,R,R,R,0,0,15,26,15,26,brute
+41,42,43,Tennessee,TN,25.6,R,R,R,0,0,14,27,14,27,brute
+41,43,44,Texas,TX,25.3,R,R,R,0,0,14,27,14,27,brute
+41,44,45,Utah,UT,19.6,R,R,R,0,0,18,23,18,23,brute
+41,45,46,Vermont,VT,19.1,D,R,R,1,1,17,24,17,24,brute
+41,46,47,Virginia,VA,22.9,R,R,R,0,0,15,26,15,26,brute
+41,47,48,Washington,WA,21.7,D,R,R,1,1,17,24,17,24,brute
+41,48,49,West Virginia,WV,27.6,R,R,R,0,0,14,27,14,27,brute
+41,49,50,Wisconsin,WI,21.9,D,R,R,1,1,17,24,17,24,brute
+41,50,51,Wyoming,WY,20.1,R,R,R,0,0,18,23,18,23,brute
+42,0,1,Alabama,AL,27.7,R,R,R,0,0,15,27,15,27,brute
+42,1,2,Alaska,AK,23.5,R,R,R,0,0,15,27,15,27,brute
+42,2,3,Arizona,AZ,20.3,R,R,R,0,0,18,24,18,24,brute
+42,3,4,Arkansas,AR,25.0,R,R,R,0,0,15,27,15,27,brute
+42,4,5,California,CA,21.5,D,R,R,1,1,18,24,18,24,brute
+42,5,6,Colorado,CO,16.4,R,R,R,0,0,18,24,18,24,brute
+42,6,7,Connecticut,CT,18.9,D,R,R,1,1,17,25,17,25,brute
+42,7,8,Delaware,DE,22.5,D,R,R,1,1,15,27,15,27,brute
+42,8,9,DC,DC,21.2,D,R,R,1,1,18,24,18,24,brute
+42,9,10,Florida,FL,20.7,R,R,R,0,0,19,23,18,24,brute
+42,10,11,Georgia,GA,24.5,R,R,R,0,0,15,27,15,27,brute
+42,11,12,Hawaii,HI,15.7,R,R,R,0,0,18,24,18,24,brute
+42,12,13,Idaho,ID,20.9,R,R,R,0,0,19,23,19,23,brute
+42,13,14,Illinois,IL,22.9,D,R,R,1,1,15,27,15,27,brute
+42,14,15,Indiana,IN,25.2,R,R,R,0,0,15,27,15,27,brute
+42,15,16,Iowa,IA,23.4,R,R,R,0,0,16,26,15,27,brute
+42,16,17,Kansas,KS,22.9,R,R,R,0,0,16,26,16,26,brute
+42,17,18,Kentucky,KY,25.3,R,R,R,0,0,15,27,15,27,brute
+42,18,19,Louisiana,LA,25.8,R,R,R,0,0,15,27,15,27,brute
+42,19,20,Maine,ME,21.3,D,R,R,1,1,18,24,18,24,brute
+42,20,21,Maryland,MD,21.7,D,R,R,1,1,17,25,17,25,brute
+42,21,22,Massachusetts,MA,17.8,D,R,R,1,1,17,25,17,25,brute
+42,22,23,Michigan,MI,25.3,D,R,R,1,1,14,28,14,28,brute
+42,23,24,Minnesota,MN,22.6,D,R,R,1,1,15,27,15,27,brute
+42,24,25,Mississippi,MS,28.1,R,R,R,0,0,15,27,15,27,brute
+42,25,26,Missouri,MO,23.9,R,R,R,0,0,15,27,15,27,brute
+42,26,27,Montana,MT,19.1,R,R,R,0,0,18,24,18,24,brute
+42,27,28,Nebraska,NE,23.4,R,R,R,0,0,15,27,15,27,brute
+42,28,29,Nevada,NV,21.3,R,R,R,0,0,19,23,19,23,brute
+42,29,30,New Hampshire,NH,19.9,D,R,R,1,1,17,25,17,25,brute
+42,30,31,New Jersey,NJ,20.3,D,R,R,1,1,17,25,17,25,brute
+42,31,32,New Mexico,NM,20.5,R,R,R,0,0,18,24,18,24,brute
+42,32,33,New York,NY,21.2,D,R,R,1,1,18,24,18,24,brute
+42,33,34,North Carolina,NC,23.9,R,R,R,0,0,15,27,15,27,brute
+42,34,35,North Dakota,ND,23.9,R,R,R,0,0,15,27,15,27,brute
+42,35,36,Ohio,OH,24.4,R,R,R,0,0,15,27,15,27,brute
+42,36,37,Oklahoma,OK,24.1,R,R,R,0,0,15,27,15,27,brute
+42,37,38,Oregon,OR,21.0,D,R,R,1,1,18,24,18,24,brute
+42,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,14,28,14,28,brute
+42,39,40,Rhode Island,RI,18.6,D,R,R,1,1,17,25,17,25,brute
+42,40,41,South Carolina,SC,25.1,R,R,R,0,0,15,27,15,27,brute
+42,41,42,South Dakota,SD,22.6,R,R,R,0,0,16,26,16,26,brute
+42,42,43,Tennessee,TN,25.6,R,R,R,0,0,15,27,15,27,brute
+42,43,44,Texas,TX,25.3,R,R,R,0,0,15,27,15,27,brute
+42,44,45,Utah,UT,19.6,R,R,R,0,0,18,24,18,24,brute
+42,45,46,Vermont,VT,19.1,D,R,R,1,1,17,25,17,25,brute
+42,46,47,Virginia,VA,22.9,R,R,R,0,0,16,26,16,26,brute
+42,47,48,Washington,WA,21.7,D,R,R,1,1,17,25,17,25,brute
+42,48,49,West Virginia,WV,27.6,R,R,R,0,0,15,27,15,27,brute
+42,49,50,Wisconsin,WI,21.9,D,R,R,1,1,17,25,17,25,brute
+42,50,51,Wyoming,WY,20.1,R,R,R,0,0,18,24,18,24,brute
+43,0,1,Alabama,AL,27.7,R,R,R,0,0,15,28,15,28,brute
+43,1,2,Alaska,AK,23.5,R,R,R,0,0,15,28,15,28,brute
+43,2,3,Arizona,AZ,20.3,R,R,R,0,0,18,25,18,25,brute
+43,3,4,Arkansas,AR,25.0,R,R,R,0,0,15,28,15,28,brute
+43,4,5,California,CA,21.5,D,R,R,1,1,18,25,18,25,brute
+43,5,6,Colorado,CO,16.4,R,R,R,0,0,18,25,18,25,brute
+43,6,7,Connecticut,CT,18.9,D,R,R,1,1,17,26,17,26,brute
+43,7,8,Delaware,DE,22.5,D,R,R,1,1,16,27,16,27,brute
+43,8,9,DC,DC,21.2,D,R,R,1,1,18,25,18,25,brute
+43,9,10,Florida,FL,20.7,R,R,R,0,0,19,24,19,24,brute
+43,10,11,Georgia,GA,24.5,R,R,R,0,0,15,28,15,28,brute
+43,11,12,Hawaii,HI,15.7,R,R,R,0,0,18,25,18,25,brute
+43,12,13,Idaho,ID,20.9,R,R,R,0,0,19,24,19,24,brute
+43,13,14,Illinois,IL,22.9,D,R,R,1,1,16,27,16,27,brute
+43,14,15,Indiana,IN,25.2,R,R,R,0,0,15,28,15,28,brute
+43,15,16,Iowa,IA,23.4,R,R,R,0,0,16,27,15,28,brute
+43,16,17,Kansas,KS,22.9,R,R,R,0,0,17,26,17,26,brute
+43,17,18,Kentucky,KY,25.3,R,R,R,0,0,15,28,15,28,brute
+43,18,19,Louisiana,LA,25.8,R,R,R,0,0,15,28,15,28,brute
+43,19,20,Maine,ME,21.3,D,R,R,1,1,18,25,18,25,brute
+43,20,21,Maryland,MD,21.7,D,R,R,1,1,18,25,18,25,brute
+43,21,22,Massachusetts,MA,17.8,D,R,R,1,1,18,25,17,26,brute
+43,22,23,Michigan,MI,25.3,D,R,R,1,1,14,29,14,29,brute
+43,23,24,Minnesota,MN,22.6,D,R,R,1,1,16,27,16,27,brute
+43,24,25,Mississippi,MS,28.1,R,R,R,0,0,15,28,15,28,brute
+43,25,26,Missouri,MO,23.9,R,R,R,0,0,15,28,15,28,brute
+43,26,27,Montana,MT,19.1,R,R,R,0,0,19,24,18,25,brute
+43,27,28,Nebraska,NE,23.4,R,R,R,0,0,16,27,15,28,brute
+43,28,29,Nevada,NV,21.3,R,R,R,0,0,19,24,19,24,brute
+43,29,30,New Hampshire,NH,19.9,D,R,R,1,1,18,25,17,26,brute
+43,30,31,New Jersey,NJ,20.3,D,R,R,1,1,18,25,17,26,brute
+43,31,32,New Mexico,NM,20.5,R,R,R,0,0,19,24,18,25,brute
+43,32,33,New York,NY,21.2,D,R,R,1,1,18,25,18,25,brute
+43,33,34,North Carolina,NC,23.9,R,R,R,0,0,15,28,15,28,brute
+43,34,35,North Dakota,ND,23.9,R,R,R,0,0,15,28,15,28,brute
+43,35,36,Ohio,OH,24.4,R,R,R,0,0,15,28,15,28,brute
+43,36,37,Oklahoma,OK,24.1,R,R,R,0,0,15,28,15,28,brute
+43,37,38,Oregon,OR,21.0,D,R,R,1,1,18,25,18,25,brute
+43,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,14,29,14,29,brute
+43,39,40,Rhode Island,RI,18.6,D,R,R,1,1,18,25,17,26,brute
+43,40,41,South Carolina,SC,25.1,R,R,R,0,0,15,28,15,28,brute
+43,41,42,South Dakota,SD,22.6,R,R,R,0,0,17,26,17,26,brute
+43,42,43,Tennessee,TN,25.6,R,R,R,0,0,15,28,15,28,brute
+43,43,44,Texas,TX,25.3,R,R,R,0,0,15,28,15,28,brute
+43,44,45,Utah,UT,19.6,R,R,R,0,0,19,24,18,25,brute
+43,45,46,Vermont,VT,19.1,D,R,R,1,1,18,25,17,26,brute
+43,46,47,Virginia,VA,22.9,R,R,R,0,0,17,26,17,26,brute
+43,47,48,Washington,WA,21.7,D,R,R,1,1,18,25,18,25,brute
+43,48,49,West Virginia,WV,27.6,R,R,R,0,0,15,28,15,28,brute
+43,49,50,Wisconsin,WI,21.9,D,R,R,1,1,17,26,17,26,brute
+43,50,51,Wyoming,WY,20.1,R,R,R,0,0,19,24,18,25,brute
+44,0,1,Alabama,AL,27.7,R,R,R,0,0,15,29,15,29,brute
+44,1,2,Alaska,AK,23.5,R,R,R,0,0,16,28,16,28,brute
+44,2,3,Arizona,AZ,20.3,R,R,R,0,0,18,26,19,25,brute
+44,3,4,Arkansas,AR,25.0,R,R,R,0,0,15,29,15,29,brute
+44,4,5,California,CA,21.5,D,R,R,1,1,18,26,18,26,brute
+44,5,6,Colorado,CO,16.4,R,R,R,0,0,18,26,19,25,brute
+44,6,7,Connecticut,CT,18.9,D,R,R,1,1,17,27,18,26,brute
+44,7,8,Delaware,DE,22.5,D,R,R,1,1,17,27,17,27,brute
+44,8,9,DC,DC,21.2,D,R,R,1,1,18,26,18,26,brute
+44,9,10,Florida,FL,20.7,R,R,R,0,0,19,25,19,25,brute
+44,10,11,Georgia,GA,24.5,R,R,R,0,0,15,29,15,29,brute
+44,11,12,Hawaii,HI,15.7,R,R,R,0,0,18,26,19,25,brute
+44,12,13,Idaho,ID,20.9,R,R,R,0,0,19,25,19,25,brute
+44,13,14,Illinois,IL,22.9,D,R,R,1,1,17,27,17,27,brute
+44,14,15,Indiana,IN,25.2,R,R,R,0,0,15,29,15,29,brute
+44,15,16,Iowa,IA,23.4,R,R,R,0,0,16,28,16,28,brute
+44,16,17,Kansas,KS,22.9,R,R,R,0,0,18,26,18,26,brute
+44,17,18,Kentucky,KY,25.3,R,R,R,0,0,15,29,15,29,brute
+44,18,19,Louisiana,LA,25.8,R,R,R,0,0,15,29,15,29,brute
+44,19,20,Maine,ME,21.3,D,R,R,1,1,18,26,18,26,brute
+44,20,21,Maryland,MD,21.7,D,R,R,1,1,18,26,18,26,brute
+44,21,22,Massachusetts,MA,17.8,D,R,R,1,1,18,26,18,26,brute
+44,22,23,Michigan,MI,25.3,D,R,R,1,1,14,30,14,30,brute
+44,23,24,Minnesota,MN,22.6,D,R,R,1,1,17,27,17,27,brute
+44,24,25,Mississippi,MS,28.1,R,R,R,0,0,15,29,15,29,brute
+44,25,26,Missouri,MO,23.9,R,R,R,0,0,15,29,15,29,brute
+44,26,27,Montana,MT,19.1,R,R,R,0,0,19,25,19,25,brute
+44,27,28,Nebraska,NE,23.4,R,R,R,0,0,16,28,16,28,brute
+44,28,29,Nevada,NV,21.3,R,R,R,0,0,19,25,19,25,brute
+44,29,30,New Hampshire,NH,19.9,D,R,R,1,1,18,26,18,26,brute
+44,30,31,New Jersey,NJ,20.3,D,R,R,1,1,18,26,18,26,brute
+44,31,32,New Mexico,NM,20.5,R,R,R,0,0,19,25,19,25,brute
+44,32,33,New York,NY,21.2,D,R,R,1,1,18,26,18,26,brute
+44,33,34,North Carolina,NC,23.9,R,R,R,0,0,15,29,15,29,brute
+44,34,35,North Dakota,ND,23.9,R,R,R,0,0,15,29,15,29,brute
+44,35,36,Ohio,OH,24.4,R,R,R,0,0,15,29,15,29,brute
+44,36,37,Oklahoma,OK,24.1,R,R,R,0,0,15,29,15,29,brute
+44,37,38,Oregon,OR,21.0,D,R,R,1,1,18,26,18,26,brute
+44,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,14,30,14,30,brute
+44,39,40,Rhode Island,RI,18.6,D,R,R,1,1,18,26,18,26,brute
+44,40,41,South Carolina,SC,25.1,R,R,R,0,0,15,29,15,29,brute
+44,41,42,South Dakota,SD,22.6,R,R,R,0,0,18,26,18,26,brute
+44,42,43,Tennessee,TN,25.6,R,R,R,0,0,15,29,15,29,brute
+44,43,44,Texas,TX,25.3,R,R,R,0,0,15,29,15,29,brute
+44,44,45,Utah,UT,19.6,R,R,R,0,0,19,25,19,25,brute
+44,45,46,Vermont,VT,19.1,D,R,R,1,1,18,26,18,26,brute
+44,46,47,Virginia,VA,22.9,R,R,R,0,0,18,26,18,26,brute
+44,47,48,Washington,WA,21.7,D,R,R,1,1,18,26,18,26,brute
+44,48,49,West Virginia,WV,27.6,R,R,R,0,0,15,29,15,29,brute
+44,49,50,Wisconsin,WI,21.9,D,R,R,1,1,17,27,17,27,brute
+44,50,51,Wyoming,WY,20.1,R,R,R,0,0,19,25,19,25,brute
+45,0,1,Alabama,AL,27.7,R,R,R,0,0,16,29,16,29,brute
+45,1,2,Alaska,AK,23.5,R,R,R,0,0,17,28,17,28,brute
+45,2,3,Arizona,AZ,20.3,R,R,R,0,0,19,26,19,26,brute
+45,3,4,Arkansas,AR,25.0,R,R,R,0,0,16,29,16,29,brute
+45,4,5,California,CA,21.5,D,R,R,1,1,18,27,18,27,brute
+45,5,6,Colorado,CO,16.4,R,R,R,0,0,19,26,19,26,brute
+45,6,7,Connecticut,CT,18.9,D,R,R,1,1,18,27,18,27,brute
+45,7,8,Delaware,DE,22.5,D,R,R,1,1,18,27,18,27,brute
+45,8,9,DC,DC,21.2,D,R,R,1,1,18,27,18,27,brute
+45,9,10,Florida,FL,20.7,R,R,R,0,0,19,26,19,26,brute
+45,10,11,Georgia,GA,24.5,R,R,R,0,0,16,29,16,29,brute
+45,11,12,Hawaii,HI,15.7,R,R,R,0,0,19,26,19,26,brute
+45,12,13,Idaho,ID,20.9,R,R,R,0,0,19,26,19,26,brute
+45,13,14,Illinois,IL,22.9,D,R,R,1,1,17,28,17,28,brute
+45,14,15,Indiana,IN,25.2,R,R,R,0,0,16,29,16,29,brute
+45,15,16,Iowa,IA,23.4,R,R,R,0,0,17,28,17,28,brute
+45,16,17,Kansas,KS,22.9,R,R,R,0,0,18,27,18,27,brute
+45,17,18,Kentucky,KY,25.3,R,R,R,0,0,16,29,16,29,brute
+45,18,19,Louisiana,LA,25.8,R,R,R,0,0,16,29,16,29,brute
+45,19,20,Maine,ME,21.3,D,R,R,1,1,18,27,18,27,brute
+45,20,21,Maryland,MD,21.7,D,R,R,1,1,18,27,18,27,brute
+45,21,22,Massachusetts,MA,17.8,D,R,R,1,1,18,27,18,27,brute
+45,22,23,Michigan,MI,25.3,D,R,R,1,1,15,30,15,30,brute
+45,23,24,Minnesota,MN,22.6,D,R,R,1,1,18,27,18,27,brute
+45,24,25,Mississippi,MS,28.1,R,R,R,0,0,16,29,16,29,brute
+45,25,26,Missouri,MO,23.9,R,R,R,0,0,16,29,16,29,brute
+45,26,27,Montana,MT,19.1,R,R,R,0,0,19,26,19,26,brute
+45,27,28,Nebraska,NE,23.4,R,R,R,0,0,17,28,17,28,brute
+45,28,29,Nevada,NV,21.3,R,R,R,0,0,19,26,19,26,brute
+45,29,30,New Hampshire,NH,19.9,D,R,R,1,1,18,27,18,27,brute
+45,30,31,New Jersey,NJ,20.3,D,R,R,1,1,18,27,18,27,brute
+45,31,32,New Mexico,NM,20.5,R,R,R,0,0,19,26,19,26,brute
+45,32,33,New York,NY,21.2,D,R,R,1,1,18,27,18,27,brute
+45,33,34,North Carolina,NC,23.9,R,R,R,0,0,16,29,16,29,brute
+45,34,35,North Dakota,ND,23.9,R,R,R,0,0,16,29,16,29,brute
+45,35,36,Ohio,OH,24.4,R,R,R,0,0,16,29,16,29,brute
+45,36,37,Oklahoma,OK,24.1,R,R,R,0,0,16,29,16,29,brute
+45,37,38,Oregon,OR,21.0,D,R,R,1,1,18,27,18,27,brute
+45,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,15,30,15,30,brute
+45,39,40,Rhode Island,RI,18.6,D,R,R,1,1,18,27,18,27,brute
+45,40,41,South Carolina,SC,25.1,R,R,R,0,0,16,29,16,29,brute
+45,41,42,South Dakota,SD,22.6,R,R,R,0,0,19,26,19,26,brute
+45,42,43,Tennessee,TN,25.6,R,R,R,0,0,16,29,16,29,brute
+45,43,44,Texas,TX,25.3,R,R,R,0,0,16,29,16,29,brute
+45,44,45,Utah,UT,19.6,R,R,R,0,0,19,26,19,26,brute
+45,45,46,Vermont,VT,19.1,D,R,R,1,1,18,27,18,27,brute
+45,46,47,Virginia,VA,22.9,R,R,R,0,0,18,27,18,27,brute
+45,47,48,Washington,WA,21.7,D,R,R,1,1,18,27,18,27,brute
+45,48,49,West Virginia,WV,27.6,R,R,R,0,0,16,29,16,29,brute
+45,49,50,Wisconsin,WI,21.9,D,R,R,1,1,18,27,18,27,brute
+45,50,51,Wyoming,WY,20.1,R,R,R,0,0,19,26,19,26,brute
+46,0,1,Alabama,AL,27.7,R,R,R,0,0,17,29,17,29,brute
+46,1,2,Alaska,AK,23.5,R,R,R,0,0,17,29,17,29,brute
+46,2,3,Arizona,AZ,20.3,R,R,R,0,0,19,27,19,27,brute
+46,3,4,Arkansas,AR,25.0,R,R,R,0,0,17,29,17,29,brute
+46,4,5,California,CA,21.5,D,R,R,1,1,18,28,18,28,brute
+46,5,6,Colorado,CO,16.4,R,R,R,0,0,19,27,19,27,brute
+46,6,7,Connecticut,CT,18.9,D,R,R,1,1,18,28,18,28,brute
+46,7,8,Delaware,DE,22.5,D,R,R,1,1,18,28,18,28,brute
+46,8,9,DC,DC,21.2,D,R,R,1,1,18,28,18,28,brute
+46,9,10,Florida,FL,20.7,R,R,R,0,0,19,27,19,27,brute
+46,10,11,Georgia,GA,24.5,R,R,R,0,0,17,29,17,29,brute
+46,11,12,Hawaii,HI,15.7,R,R,R,0,0,19,27,19,27,brute
+46,12,13,Idaho,ID,20.9,R,R,R,0,0,19,27,19,27,brute
+46,13,14,Illinois,IL,22.9,D,R,R,1,1,17,29,17,29,brute
+46,14,15,Indiana,IN,25.2,R,R,R,0,0,17,29,17,29,brute
+46,15,16,Iowa,IA,23.4,R,R,R,0,0,17,29,17,29,brute
+46,16,17,Kansas,KS,22.9,R,R,R,0,0,18,28,18,28,brute
+46,17,18,Kentucky,KY,25.3,R,R,R,0,0,17,29,17,29,brute
+46,18,19,Louisiana,LA,25.8,R,R,R,0,0,17,29,17,29,brute
+46,19,20,Maine,ME,21.3,D,R,R,1,1,18,28,18,28,brute
+46,20,21,Maryland,MD,21.7,D,R,R,1,1,18,28,18,28,brute
+46,21,22,Massachusetts,MA,17.8,D,R,R,1,1,18,28,18,28,brute
+46,22,23,Michigan,MI,25.3,D,R,R,1,1,16,30,16,30,brute
+46,23,24,Minnesota,MN,22.6,D,R,R,1,1,18,28,18,28,brute
+46,24,25,Mississippi,MS,28.1,R,R,R,0,0,17,29,17,29,brute
+46,25,26,Missouri,MO,23.9,R,R,R,0,0,17,29,17,29,brute
+46,26,27,Montana,MT,19.1,R,R,R,0,0,19,27,19,27,brute
+46,27,28,Nebraska,NE,23.4,R,R,R,0,0,17,29,17,29,brute
+46,28,29,Nevada,NV,21.3,R,R,R,0,0,19,27,19,27,brute
+46,29,30,New Hampshire,NH,19.9,D,R,R,1,1,18,28,18,28,brute
+46,30,31,New Jersey,NJ,20.3,D,R,R,1,1,18,28,18,28,brute
+46,31,32,New Mexico,NM,20.5,R,R,R,0,0,19,27,19,27,brute
+46,32,33,New York,NY,21.2,D,R,R,1,1,18,28,18,28,brute
+46,33,34,North Carolina,NC,23.9,R,R,R,0,0,17,29,17,29,brute
+46,34,35,North Dakota,ND,23.9,R,R,R,0,0,17,29,17,29,brute
+46,35,36,Ohio,OH,24.4,R,R,R,0,0,17,29,17,29,brute
+46,36,37,Oklahoma,OK,24.1,R,R,R,0,0,17,29,17,29,brute
+46,37,38,Oregon,OR,21.0,D,R,R,1,1,18,28,18,28,brute
+46,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,16,30,16,30,brute
+46,39,40,Rhode Island,RI,18.6,D,R,R,1,1,18,28,18,28,brute
+46,40,41,South Carolina,SC,25.1,R,R,R,0,0,17,29,17,29,brute
+46,41,42,South Dakota,SD,22.6,R,R,R,0,0,19,27,19,27,brute
+46,42,43,Tennessee,TN,25.6,R,R,R,0,0,17,29,17,29,brute
+46,43,44,Texas,TX,25.3,R,R,R,0,0,17,29,17,29,brute
+46,44,45,Utah,UT,19.6,R,R,R,0,0,19,27,19,27,brute
+46,45,46,Vermont,VT,19.1,D,R,R,1,1,18,28,18,28,brute
+46,46,47,Virginia,VA,22.9,R,R,R,0,0,18,28,18,28,brute
+46,47,48,Washington,WA,21.7,D,R,R,1,1,18,28,18,28,brute
+46,48,49,West Virginia,WV,27.6,R,R,R,0,0,17,29,17,29,brute
+46,49,50,Wisconsin,WI,21.9,D,R,R,1,1,18,28,18,28,brute
+46,50,51,Wyoming,WY,20.1,R,R,R,0,0,19,27,19,27,brute
+47,0,1,Alabama,AL,27.7,R,R,R,0,0,18,29,18,29,brute
+47,1,2,Alaska,AK,23.5,R,R,R,0,0,18,29,18,29,brute
+47,2,3,Arizona,AZ,20.3,R,R,R,0,0,19,28,19,28,brute
+47,3,4,Arkansas,AR,25.0,R,R,R,0,0,18,29,18,29,brute
+47,4,5,California,CA,21.5,D,R,R,1,1,18,29,18,29,brute
+47,5,6,Colorado,CO,16.4,R,R,R,0,0,19,28,19,28,brute
+47,6,7,Connecticut,CT,18.9,D,R,R,1,1,18,29,18,29,brute
+47,7,8,Delaware,DE,22.5,D,R,R,1,1,18,29,18,29,brute
+47,8,9,DC,DC,21.2,D,R,R,1,1,18,29,18,29,brute
+47,9,10,Florida,FL,20.7,R,R,R,0,0,19,28,19,28,brute
+47,10,11,Georgia,GA,24.5,R,R,R,0,0,18,29,18,29,brute
+47,11,12,Hawaii,HI,15.7,R,R,R,0,0,19,28,19,28,brute
+47,12,13,Idaho,ID,20.9,R,R,R,0,0,19,28,19,28,brute
+47,13,14,Illinois,IL,22.9,D,R,R,1,1,18,29,18,29,brute
+47,14,15,Indiana,IN,25.2,R,R,R,0,0,18,29,18,29,brute
+47,15,16,Iowa,IA,23.4,R,R,R,0,0,18,29,18,29,brute
+47,16,17,Kansas,KS,22.9,R,R,R,0,0,19,28,19,28,brute
+47,17,18,Kentucky,KY,25.3,R,R,R,0,0,18,29,18,29,brute
+47,18,19,Louisiana,LA,25.8,R,R,R,0,0,18,29,18,29,brute
+47,19,20,Maine,ME,21.3,D,R,R,1,1,18,29,18,29,brute
+47,20,21,Maryland,MD,21.7,D,R,R,1,1,18,29,18,29,brute
+47,21,22,Massachusetts,MA,17.8,D,R,R,1,1,18,29,18,29,brute
+47,22,23,Michigan,MI,25.3,D,R,R,1,1,17,30,17,30,brute
+47,23,24,Minnesota,MN,22.6,D,R,R,1,1,18,29,18,29,brute
+47,24,25,Mississippi,MS,28.1,R,R,R,0,0,18,29,18,29,brute
+47,25,26,Missouri,MO,23.9,R,R,R,0,0,18,29,18,29,brute
+47,26,27,Montana,MT,19.1,R,R,R,0,0,19,28,19,28,brute
+47,27,28,Nebraska,NE,23.4,R,R,R,0,0,18,29,18,29,brute
+47,28,29,Nevada,NV,21.3,R,R,R,0,0,19,28,19,28,brute
+47,29,30,New Hampshire,NH,19.9,D,R,R,1,1,18,29,18,29,brute
+47,30,31,New Jersey,NJ,20.3,D,R,R,1,1,18,29,18,29,brute
+47,31,32,New Mexico,NM,20.5,R,R,R,0,0,19,28,19,28,brute
+47,32,33,New York,NY,21.2,D,R,R,1,1,18,29,18,29,brute
+47,33,34,North Carolina,NC,23.9,R,R,R,0,0,18,29,18,29,brute
+47,34,35,North Dakota,ND,23.9,R,R,R,0,0,18,29,18,29,brute
+47,35,36,Ohio,OH,24.4,R,R,R,0,0,18,29,18,29,brute
+47,36,37,Oklahoma,OK,24.1,R,R,R,0,0,18,29,18,29,brute
+47,37,38,Oregon,OR,21.0,D,R,R,1,1,18,29,18,29,brute
+47,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,17,30,17,30,brute
+47,39,40,Rhode Island,RI,18.6,D,R,R,1,1,18,29,18,29,brute
+47,40,41,South Carolina,SC,25.1,R,R,R,0,0,18,29,18,29,brute
+47,41,42,South Dakota,SD,22.6,R,R,R,0,0,19,28,19,28,brute
+47,42,43,Tennessee,TN,25.6,R,R,R,0,0,18,29,18,29,brute
+47,43,44,Texas,TX,25.3,R,R,R,0,0,18,29,18,29,brute
+47,44,45,Utah,UT,19.6,R,R,R,0,0,19,28,19,28,brute
+47,45,46,Vermont,VT,19.1,D,R,R,1,1,18,29,18,29,brute
+47,46,47,Virginia,VA,22.9,R,R,R,0,0,19,28,19,28,brute
+47,47,48,Washington,WA,21.7,D,R,R,1,1,18,29,18,29,brute
+47,48,49,West Virginia,WV,27.6,R,R,R,0,0,18,29,18,29,brute
+47,49,50,Wisconsin,WI,21.9,D,R,R,1,1,18,29,18,29,brute
+47,50,51,Wyoming,WY,20.1,R,R,R,0,0,19,28,19,28,brute
+48,0,1,Alabama,AL,27.7,R,R,R,0,0,19,29,19,29,brute
+48,1,2,Alaska,AK,23.5,R,R,R,0,0,19,29,19,29,brute
+48,2,3,Arizona,AZ,20.3,R,R,R,0,0,19,29,19,29,brute
+48,3,4,Arkansas,AR,25.0,R,R,R,0,0,19,29,19,29,brute
+48,4,5,California,CA,21.5,D,R,R,1,1,18,30,18,30,brute
+48,5,6,Colorado,CO,16.4,R,R,R,0,0,19,29,19,29,brute
+48,6,7,Connecticut,CT,18.9,D,R,R,1,1,18,30,18,30,brute
+48,7,8,Delaware,DE,22.5,D,R,R,1,1,18,30,18,30,brute
+48,8,9,DC,DC,21.2,D,R,R,1,1,18,30,18,30,brute
+48,9,10,Florida,FL,20.7,R,R,R,0,0,19,29,19,29,brute
+48,10,11,Georgia,GA,24.5,R,R,R,0,0,19,29,19,29,brute
+48,11,12,Hawaii,HI,15.7,R,R,R,0,0,19,29,19,29,brute
+48,12,13,Idaho,ID,20.9,R,R,R,0,0,19,29,19,29,brute
+48,13,14,Illinois,IL,22.9,D,R,R,1,1,18,30,18,30,brute
+48,14,15,Indiana,IN,25.2,R,R,R,0,0,19,29,19,29,brute
+48,15,16,Iowa,IA,23.4,R,R,R,0,0,19,29,19,29,brute
+48,16,17,Kansas,KS,22.9,R,R,R,0,0,19,29,19,29,brute
+48,17,18,Kentucky,KY,25.3,R,R,R,0,0,19,29,19,29,brute
+48,18,19,Louisiana,LA,25.8,R,R,R,0,0,19,29,19,29,brute
+48,19,20,Maine,ME,21.3,D,R,R,1,1,18,30,18,30,brute
+48,20,21,Maryland,MD,21.7,D,R,R,1,1,18,30,18,30,brute
+48,21,22,Massachusetts,MA,17.8,D,R,R,1,1,18,30,18,30,brute
+48,22,23,Michigan,MI,25.3,D,R,R,1,1,18,30,18,30,brute
+48,23,24,Minnesota,MN,22.6,D,R,R,1,1,18,30,18,30,brute
+48,24,25,Mississippi,MS,28.1,R,R,R,0,0,19,29,19,29,brute
+48,25,26,Missouri,MO,23.9,R,R,R,0,0,19,29,19,29,brute
+48,26,27,Montana,MT,19.1,R,R,R,0,0,19,29,19,29,brute
+48,27,28,Nebraska,NE,23.4,R,R,R,0,0,19,29,19,29,brute
+48,28,29,Nevada,NV,21.3,R,R,R,0,0,19,29,19,29,brute
+48,29,30,New Hampshire,NH,19.9,D,R,R,1,1,18,30,18,30,brute
+48,30,31,New Jersey,NJ,20.3,D,R,R,1,1,18,30,18,30,brute
+48,31,32,New Mexico,NM,20.5,R,R,R,0,0,19,29,19,29,brute
+48,32,33,New York,NY,21.2,D,R,R,1,1,18,30,18,30,brute
+48,33,34,North Carolina,NC,23.9,R,R,R,0,0,19,29,19,29,brute
+48,34,35,North Dakota,ND,23.9,R,R,R,0,0,19,29,19,29,brute
+48,35,36,Ohio,OH,24.4,R,R,R,0,0,19,29,19,29,brute
+48,36,37,Oklahoma,OK,24.1,R,R,R,0,0,19,29,19,29,brute
+48,37,38,Oregon,OR,21.0,D,R,R,1,1,18,30,18,30,brute
+48,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,18,30,18,30,brute
+48,39,40,Rhode Island,RI,18.6,D,R,R,1,1,18,30,18,30,brute
+48,40,41,South Carolina,SC,25.1,R,R,R,0,0,19,29,19,29,brute
+48,41,42,South Dakota,SD,22.6,R,R,R,0,0,19,29,19,29,brute
+48,42,43,Tennessee,TN,25.6,R,R,R,0,0,19,29,19,29,brute
+48,43,44,Texas,TX,25.3,R,R,R,0,0,19,29,19,29,brute
+48,44,45,Utah,UT,19.6,R,R,R,0,0,19,29,19,29,brute
+48,45,46,Vermont,VT,19.1,D,R,R,1,1,18,30,18,30,brute
+48,46,47,Virginia,VA,22.9,R,R,R,0,0,19,29,19,29,brute
+48,47,48,Washington,WA,21.7,D,R,R,1,1,18,30,18,30,brute
+48,48,49,West Virginia,WV,27.6,R,R,R,0,0,19,29,19,29,brute
+48,49,50,Wisconsin,WI,21.9,D,R,R,1,1,18,30,18,30,brute
+48,50,51,Wyoming,WY,20.1,R,R,R,0,0,19,29,19,29,brute
+49,0,1,Alabama,AL,27.7,R,R,R,0,0,19,30,19,30,brute
+49,1,2,Alaska,AK,23.5,R,R,R,0,0,19,30,19,30,brute
+49,2,3,Arizona,AZ,20.3,R,R,R,0,0,19,30,19,30,brute
+49,3,4,Arkansas,AR,25.0,R,R,R,0,0,19,30,19,30,brute
+49,4,5,California,CA,21.5,D,R,R,1,1,18,31,18,31,brute
+49,5,6,Colorado,CO,16.4,R,R,R,0,0,19,30,19,30,brute
+49,6,7,Connecticut,CT,18.9,D,R,R,1,1,18,31,18,31,brute
+49,7,8,Delaware,DE,22.5,D,R,R,1,1,18,31,18,31,brute
+49,8,9,DC,DC,21.2,D,R,R,1,1,18,31,18,31,brute
+49,9,10,Florida,FL,20.7,R,R,R,0,0,19,30,19,30,brute
+49,10,11,Georgia,GA,24.5,R,R,R,0,0,19,30,19,30,brute
+49,11,12,Hawaii,HI,15.7,R,R,R,0,0,19,30,19,30,brute
+49,12,13,Idaho,ID,20.9,R,R,R,0,0,19,30,19,30,brute
+49,13,14,Illinois,IL,22.9,D,R,R,1,1,18,31,18,31,brute
+49,14,15,Indiana,IN,25.2,R,R,R,0,0,19,30,19,30,brute
+49,15,16,Iowa,IA,23.4,R,R,R,0,0,19,30,19,30,brute
+49,16,17,Kansas,KS,22.9,R,R,R,0,0,19,30,19,30,brute
+49,17,18,Kentucky,KY,25.3,R,R,R,0,0,19,30,19,30,brute
+49,18,19,Louisiana,LA,25.8,R,R,R,0,0,19,30,19,30,brute
+49,19,20,Maine,ME,21.3,D,R,R,1,1,18,31,18,31,brute
+49,20,21,Maryland,MD,21.7,D,R,R,1,1,18,31,18,31,brute
+49,21,22,Massachusetts,MA,17.8,D,R,R,1,1,18,31,18,31,brute
+49,22,23,Michigan,MI,25.3,D,R,R,1,1,18,31,18,31,brute
+49,23,24,Minnesota,MN,22.6,D,R,R,1,1,18,31,18,31,brute
+49,24,25,Mississippi,MS,28.1,R,R,R,0,0,19,30,19,30,brute
+49,25,26,Missouri,MO,23.9,R,R,R,0,0,19,30,19,30,brute
+49,26,27,Montana,MT,19.1,R,R,R,0,0,19,30,19,30,brute
+49,27,28,Nebraska,NE,23.4,R,R,R,0,0,19,30,19,30,brute
+49,28,29,Nevada,NV,21.3,R,R,R,0,0,19,30,19,30,brute
+49,29,30,New Hampshire,NH,19.9,D,R,R,1,1,18,31,18,31,brute
+49,30,31,New Jersey,NJ,20.3,D,R,R,1,1,18,31,18,31,brute
+49,31,32,New Mexico,NM,20.5,R,R,R,0,0,19,30,19,30,brute
+49,32,33,New York,NY,21.2,D,R,R,1,1,18,31,18,31,brute
+49,33,34,North Carolina,NC,23.9,R,R,R,0,0,19,30,19,30,brute
+49,34,35,North Dakota,ND,23.9,R,R,R,0,0,19,30,19,30,brute
+49,35,36,Ohio,OH,24.4,R,R,R,0,0,19,30,19,30,brute
+49,36,37,Oklahoma,OK,24.1,R,R,R,0,0,19,30,19,30,brute
+49,37,38,Oregon,OR,21.0,D,R,R,1,1,18,31,18,31,brute
+49,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,18,31,18,31,brute
+49,39,40,Rhode Island,RI,18.6,D,R,R,1,1,18,31,18,31,brute
+49,40,41,South Carolina,SC,25.1,R,R,R,0,0,19,30,19,30,brute
+49,41,42,South Dakota,SD,22.6,R,R,R,0,0,19,30,19,30,brute
+49,42,43,Tennessee,TN,25.6,R,R,R,0,0,19,30,19,30,brute
+49,43,44,Texas,TX,25.3,R,R,R,0,0,19,30,19,30,brute
+49,44,45,Utah,UT,19.6,R,R,R,0,0,19,30,19,30,brute
+49,45,46,Vermont,VT,19.1,D,R,R,1,1,18,31,18,31,brute
+49,46,47,Virginia,VA,22.9,R,R,R,0,0,19,30,19,30,brute
+49,47,48,Washington,WA,21.7,D,R,R,1,1,18,31,18,31,brute
+49,48,49,West Virginia,WV,27.6,R,R,R,0,0,19,30,19,30,brute
+49,49,50,Wisconsin,WI,21.9,D,R,R,1,1,18,31,18,31,brute
+49,50,51,Wyoming,WY,20.1,R,R,R,0,0,19,30,19,30,brute
+50,0,1,Alabama,AL,27.7,R,R,R,0,0,19,31,19,31,brute
+50,1,2,Alaska,AK,23.5,R,R,R,0,0,19,31,19,31,brute
+50,2,3,Arizona,AZ,20.3,R,R,R,0,0,19,31,19,31,brute
+50,3,4,Arkansas,AR,25.0,R,R,R,0,0,19,31,19,31,brute
+50,4,5,California,CA,21.5,D,R,R,1,1,18,32,18,32,brute
+50,5,6,Colorado,CO,16.4,R,R,R,0,0,19,31,19,31,brute
+50,6,7,Connecticut,CT,18.9,D,R,R,1,1,18,32,18,32,brute
+50,7,8,Delaware,DE,22.5,D,R,R,1,1,18,32,18,32,brute
+50,8,9,DC,DC,21.2,D,R,R,1,1,18,32,18,32,brute
+50,9,10,Florida,FL,20.7,R,R,R,0,0,19,31,19,31,brute
+50,10,11,Georgia,GA,24.5,R,R,R,0,0,19,31,19,31,brute
+50,11,12,Hawaii,HI,15.7,R,R,R,0,0,19,31,19,31,brute
+50,12,13,Idaho,ID,20.9,R,R,R,0,0,19,31,19,31,brute
+50,13,14,Illinois,IL,22.9,D,R,R,1,1,18,32,18,32,brute
+50,14,15,Indiana,IN,25.2,R,R,R,0,0,19,31,19,31,brute
+50,15,16,Iowa,IA,23.4,R,R,R,0,0,19,31,19,31,brute
+50,16,17,Kansas,KS,22.9,R,R,R,0,0,19,31,19,31,brute
+50,17,18,Kentucky,KY,25.3,R,R,R,0,0,19,31,19,31,brute
+50,18,19,Louisiana,LA,25.8,R,R,R,0,0,19,31,19,31,brute
+50,19,20,Maine,ME,21.3,D,R,R,1,1,18,32,18,32,brute
+50,20,21,Maryland,MD,21.7,D,R,R,1,1,18,32,18,32,brute
+50,21,22,Massachusetts,MA,17.8,D,R,R,1,1,18,32,18,32,brute
+50,22,23,Michigan,MI,25.3,D,R,R,1,1,18,32,18,32,brute
+50,23,24,Minnesota,MN,22.6,D,R,R,1,1,18,32,18,32,brute
+50,24,25,Mississippi,MS,28.1,R,R,R,0,0,19,31,19,31,brute
+50,25,26,Missouri,MO,23.9,R,R,R,0,0,19,31,19,31,brute
+50,26,27,Montana,MT,19.1,R,R,R,0,0,19,31,19,31,brute
+50,27,28,Nebraska,NE,23.4,R,R,R,0,0,19,31,19,31,brute
+50,28,29,Nevada,NV,21.3,R,R,R,0,0,19,31,19,31,brute
+50,29,30,New Hampshire,NH,19.9,D,R,R,1,1,18,32,18,32,brute
+50,30,31,New Jersey,NJ,20.3,D,R,R,1,1,18,32,18,32,brute
+50,31,32,New Mexico,NM,20.5,R,R,R,0,0,19,31,19,31,brute
+50,32,33,New York,NY,21.2,D,R,R,1,1,18,32,18,32,brute
+50,33,34,North Carolina,NC,23.9,R,R,R,0,0,19,31,19,31,brute
+50,34,35,North Dakota,ND,23.9,R,R,R,0,0,19,31,19,31,brute
+50,35,36,Ohio,OH,24.4,R,R,R,0,0,19,31,19,31,brute
+50,36,37,Oklahoma,OK,24.1,R,R,R,0,0,19,31,19,31,brute
+50,37,38,Oregon,OR,21.0,D,R,R,1,1,18,32,18,32,brute
+50,38,39,Pennsylvania,PA,24.0,D,R,R,1,1,18,32,18,32,brute
+50,39,40,Rhode Island,RI,18.6,D,R,R,1,1,18,32,18,32,brute
+50,40,41,South Carolina,SC,25.1,R,R,R,0,0,19,31,19,31,brute
+50,41,42,South Dakota,SD,22.6,R,R,R,0,0,19,31,19,31,brute
+50,42,43,Tennessee,TN,25.6,R,R,R,0,0,19,31,19,31,brute
+50,43,44,Texas,TX,25.3,R,R,R,0,0,19,31,19,31,brute
+50,44,45,Utah,UT,19.6,R,R,R,0,0,19,31,19,31,brute
+50,45,46,Vermont,VT,19.1,D,R,R,1,1,18,32,18,32,brute
+50,46,47,Virginia,VA,22.9,R,R,R,0,0,19,31,19,31,brute
+50,47,48,Washington,WA,21.7,D,R,R,1,1,18,32,18,32,brute
+50,48,49,West Virginia,WV,27.6,R,R,R,0,0,19,31,19,31,brute
+50,49,50,Wisconsin,WI,21.9,D,R,R,1,1,18,32,18,32,brute
+50,50,51,Wyoming,WY,20.1,R,R,R,0,0,19,31,19,31,brute

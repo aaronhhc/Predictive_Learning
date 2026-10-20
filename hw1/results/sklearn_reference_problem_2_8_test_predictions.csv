@@ -1,0 +1,307 @@
+k,state,code,actual,predicted,mistake
+16,Alabama,AL,R,R,0
+16,Alaska,AK,R,R,0
+16,Arizona,AZ,R,R,0
+16,Arkansas,AR,R,R,0
+16,California,CA,D,R,1
+16,Colorado,CO,R,D,1
+16,Connecticut,CT,D,D,0
+16,Delaware,DE,D,R,1
+16,DC,DC,D,R,1
+16,Florida,FL,R,R,0
+16,Georgia,GA,R,R,0
+16,Hawaii,HI,R,D,1
+16,Idaho,ID,R,R,0
+16,Illinois,IL,D,R,1
+16,Indiana,IN,R,R,0
+16,Iowa,IA,R,R,0
+16,Kansas,KS,R,R,0
+16,Kentucky,KY,R,R,0
+16,Louisiana,LA,R,R,0
+16,Maine,ME,D,R,1
+16,Maryland,MD,D,R,1
+16,Massachusetts,MA,D,D,0
+16,Michigan,MI,D,R,1
+16,Minnesota,MN,D,R,1
+16,Mississippi,MS,R,R,0
+16,Missouri,MO,R,R,0
+16,Montana,MT,R,D,1
+16,Nebraska,NE,R,R,0
+16,Nevada,NV,R,R,0
+16,New Hampshire,NH,D,R,1
+16,New Jersey,NJ,D,R,1
+16,New Mexico,NM,R,R,0
+16,New York,NY,D,R,1
+16,North Carolina,NC,R,R,0
+16,North Dakota,ND,R,R,0
+16,Ohio,OH,R,R,0
+16,Oklahoma,OK,R,R,0
+16,Oregon,OR,D,R,1
+16,Pennsylvania,PA,D,R,1
+16,Rhode Island,RI,D,D,0
+16,South Carolina,SC,R,R,0
+16,South Dakota,SD,R,R,0
+16,Tennessee,TN,R,R,0
+16,Texas,TX,R,R,0
+16,Utah,UT,R,D,1
+16,Vermont,VT,D,D,0
+16,Virginia,VA,R,R,0
+16,Washington,WA,D,R,1
+16,West Virginia,WV,R,R,0
+16,Wisconsin,WI,D,R,1
+16,Wyoming,WY,R,R,0
+24,Alabama,AL,R,R,0
+24,Alaska,AK,R,R,0
+24,Arizona,AZ,R,R,0
+24,Arkansas,AR,R,R,0
+24,California,CA,D,R,1
+24,Colorado,CO,R,D,1
+24,Connecticut,CT,D,D,0
+24,Delaware,DE,D,R,1
+24,DC,DC,D,R,1
+24,Florida,FL,R,R,0
+24,Georgia,GA,R,R,0
+24,Hawaii,HI,R,D,1
+24,Idaho,ID,R,R,0
+24,Illinois,IL,D,R,1
+24,Indiana,IN,R,R,0
+24,Iowa,IA,R,R,0
+24,Kansas,KS,R,R,0
+24,Kentucky,KY,R,R,0
+24,Louisiana,LA,R,R,0
+24,Maine,ME,D,R,1
+24,Maryland,MD,D,R,1
+24,Massachusetts,MA,D,D,0
+24,Michigan,MI,D,R,1
+24,Minnesota,MN,D,R,1
+24,Mississippi,MS,R,R,0
+24,Missouri,MO,R,R,0
+24,Montana,MT,R,R,0
+24,Nebraska,NE,R,R,0
+24,Nevada,NV,R,R,0
+24,New Hampshire,NH,D,R,1
+24,New Jersey,NJ,D,R,1
+24,New Mexico,NM,R,R,0
+24,New York,NY,D,R,1
+24,North Carolina,NC,R,R,0
+24,North Dakota,ND,R,R,0
+24,Ohio,OH,R,R,0
+24,Oklahoma,OK,R,R,0
+24,Oregon,OR,D,R,1
+24,Pennsylvania,PA,D,R,1
+24,Rhode Island,RI,D,D,0
+24,South Carolina,SC,R,R,0
+24,South Dakota,SD,R,R,0
+24,Tennessee,TN,R,R,0
+24,Texas,TX,R,R,0
+24,Utah,UT,R,R,0
+24,Vermont,VT,D,R,1
+24,Virginia,VA,R,R,0
+24,Washington,WA,D,R,1
+24,West Virginia,WV,R,R,0
+24,Wisconsin,WI,D,R,1
+24,Wyoming,WY,R,R,0
+25,Alabama,AL,R,R,0
+25,Alaska,AK,R,R,0
+25,Arizona,AZ,R,R,0
+25,Arkansas,AR,R,R,0
+25,California,CA,D,R,1
+25,Colorado,CO,R,D,1
+25,Connecticut,CT,D,D,0
+25,Delaware,DE,D,R,1
+25,DC,DC,D,R,1
+25,Florida,FL,R,R,0
+25,Georgia,GA,R,R,0
+25,Hawaii,HI,R,D,1
+25,Idaho,ID,R,R,0
+25,Illinois,IL,D,R,1
+25,Indiana,IN,R,R,0
+25,Iowa,IA,R,R,0
+25,Kansas,KS,R,R,0
+25,Kentucky,KY,R,R,0
+25,Louisiana,LA,R,R,0
+25,Maine,ME,D,R,1
+25,Maryland,MD,D,R,1
+25,Massachusetts,MA,D,D,0
+25,Michigan,MI,D,R,1
+25,Minnesota,MN,D,R,1
+25,Mississippi,MS,R,R,0
+25,Missouri,MO,R,R,0
+25,Montana,MT,R,R,0
+25,Nebraska,NE,R,R,0
+25,Nevada,NV,R,R,0
+25,New Hampshire,NH,D,R,1
+25,New Jersey,NJ,D,R,1
+25,New Mexico,NM,R,R,0
+25,New York,NY,D,R,1
+25,North Carolina,NC,R,R,0
+25,North Dakota,ND,R,R,0
+25,Ohio,OH,R,R,0
+25,Oklahoma,OK,R,R,0
+25,Oregon,OR,D,R,1
+25,Pennsylvania,PA,D,R,1
+25,Rhode Island,RI,D,D,0
+25,South Carolina,SC,R,R,0
+25,South Dakota,SD,R,R,0
+25,Tennessee,TN,R,R,0
+25,Texas,TX,R,R,0
+25,Utah,UT,R,R,0
+25,Vermont,VT,D,R,1
+25,Virginia,VA,R,R,0
+25,Washington,WA,D,R,1
+25,West Virginia,WV,R,R,0
+25,Wisconsin,WI,D,R,1
+25,Wyoming,WY,R,R,0
+26,Alabama,AL,R,R,0
+26,Alaska,AK,R,R,0
+26,Arizona,AZ,R,R,0
+26,Arkansas,AR,R,R,0
+26,California,CA,D,R,1
+26,Colorado,CO,R,D,1
+26,Connecticut,CT,D,D,0
+26,Delaware,DE,D,R,1
+26,DC,DC,D,R,1
+26,Florida,FL,R,R,0
+26,Georgia,GA,R,R,0
+26,Hawaii,HI,R,D,1
+26,Idaho,ID,R,R,0
+26,Illinois,IL,D,R,1
+26,Indiana,IN,R,R,0
+26,Iowa,IA,R,R,0
+26,Kansas,KS,R,R,0
+26,Kentucky,KY,R,R,0
+26,Louisiana,LA,R,R,0
+26,Maine,ME,D,R,1
+26,Maryland,MD,D,R,1
+26,Massachusetts,MA,D,D,0
+26,Michigan,MI,D,R,1
+26,Minnesota,MN,D,R,1
+26,Mississippi,MS,R,R,0
+26,Missouri,MO,R,R,0
+26,Montana,MT,R,R,0
+26,Nebraska,NE,R,R,0
+26,Nevada,NV,R,R,0
+26,New Hampshire,NH,D,R,1
+26,New Jersey,NJ,D,R,1
+26,New Mexico,NM,R,R,0
+26,New York,NY,D,R,1
+26,North Carolina,NC,R,R,0
+26,North Dakota,ND,R,R,0
+26,Ohio,OH,R,R,0
+26,Oklahoma,OK,R,R,0
+26,Oregon,OR,D,R,1
+26,Pennsylvania,PA,D,R,1
+26,Rhode Island,RI,D,D,0
+26,South Carolina,SC,R,R,0
+26,South Dakota,SD,R,R,0
+26,Tennessee,TN,R,R,0
+26,Texas,TX,R,R,0
+26,Utah,UT,R,R,0
+26,Vermont,VT,D,R,1
+26,Virginia,VA,R,R,0
+26,Washington,WA,D,R,1
+26,West Virginia,WV,R,R,0
+26,Wisconsin,WI,D,R,1
+26,Wyoming,WY,R,R,0
+27,Alabama,AL,R,R,0
+27,Alaska,AK,R,R,0
+27,Arizona,AZ,R,R,0
+27,Arkansas,AR,R,R,0
+27,California,CA,D,R,1
+27,Colorado,CO,R,D,1
+27,Connecticut,CT,D,D,0
+27,Delaware,DE,D,R,1
+27,DC,DC,D,R,1
+27,Florida,FL,R,R,0
+27,Georgia,GA,R,R,0
+27,Hawaii,HI,R,D,1
+27,Idaho,ID,R,R,0
+27,Illinois,IL,D,R,1
+27,Indiana,IN,R,R,0
+27,Iowa,IA,R,R,0
+27,Kansas,KS,R,R,0
+27,Kentucky,KY,R,R,0
+27,Louisiana,LA,R,R,0
+27,Maine,ME,D,R,1
+27,Maryland,MD,D,R,1
+27,Massachusetts,MA,D,D,0
+27,Michigan,MI,D,R,1
+27,Minnesota,MN,D,R,1
+27,Mississippi,MS,R,R,0
+27,Missouri,MO,R,R,0
+27,Montana,MT,R,R,0
+27,Nebraska,NE,R,R,0
+27,Nevada,NV,R,R,0
+27,New Hampshire,NH,D,R,1
+27,New Jersey,NJ,D,R,1
+27,New Mexico,NM,R,R,0
+27,New York,NY,D,R,1
+27,North Carolina,NC,R,R,0
+27,North Dakota,ND,R,R,0
+27,Ohio,OH,R,R,0
+27,Oklahoma,OK,R,R,0
+27,Oregon,OR,D,R,1
+27,Pennsylvania,PA,D,R,1
+27,Rhode Island,RI,D,D,0
+27,South Carolina,SC,R,R,0
+27,South Dakota,SD,R,R,0
+27,Tennessee,TN,R,R,0
+27,Texas,TX,R,R,0
+27,Utah,UT,R,R,0
+27,Vermont,VT,D,R,1
+27,Virginia,VA,R,R,0
+27,Washington,WA,D,R,1
+27,West Virginia,WV,R,R,0
+27,Wisconsin,WI,D,R,1
+27,Wyoming,WY,R,R,0
+28,Alabama,AL,R,R,0
+28,Alaska,AK,R,R,0
+28,Arizona,AZ,R,R,0
+28,Arkansas,AR,R,R,0
+28,California,CA,D,R,1
+28,Colorado,CO,R,D,1
+28,Connecticut,CT,D,D,0
+28,Delaware,DE,D,R,1
+28,DC,DC,D,R,1
+28,Florida,FL,R,R,0
+28,Georgia,GA,R,R,0
+28,Hawaii,HI,R,D,1
+28,Idaho,ID,R,R,0
+28,Illinois,IL,D,R,1
+28,Indiana,IN,R,R,0
+28,Iowa,IA,R,R,0
+28,Kansas,KS,R,R,0
+28,Kentucky,KY,R,R,0
+28,Louisiana,LA,R,R,0
+28,Maine,ME,D,R,1
+28,Maryland,MD,D,R,1
+28,Massachusetts,MA,D,D,0
+28,Michigan,MI,D,R,1
+28,Minnesota,MN,D,R,1
+28,Mississippi,MS,R,R,0
+28,Missouri,MO,R,R,0
+28,Montana,MT,R,R,0
+28,Nebraska,NE,R,R,0
+28,Nevada,NV,R,R,0
+28,New Hampshire,NH,D,R,1
+28,New Jersey,NJ,D,R,1
+28,New Mexico,NM,R,R,0
+28,New York,NY,D,R,1
+28,North Carolina,NC,R,R,0
+28,North Dakota,ND,R,R,0
+28,Ohio,OH,R,R,0
+28,Oklahoma,OK,R,R,0
+28,Oregon,OR,D,R,1
+28,Pennsylvania,PA,D,R,1
+28,Rhode Island,RI,D,D,0
+28,South Carolina,SC,R,R,0
+28,South Dakota,SD,R,R,0
+28,Tennessee,TN,R,R,0
+28,Texas,TX,R,R,0
+28,Utah,UT,R,R,0
+28,Vermont,VT,D,R,1
+28,Virginia,VA,R,R,0
+28,Washington,WA,D,R,1
+28,West Virginia,WV,R,R,0
+28,Wisconsin,WI,D,R,1
+28,Wyoming,WY,R,R,0

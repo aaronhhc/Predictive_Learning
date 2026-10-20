@@ -1,0 +1,244 @@
+{
+  "sklearn_version": "1.9.1",
+  "numpy_version": "2.5.3",
+  "class_order": [
+    "D",
+    "R"
+  ],
+  "training_samples": 51,
+  "test_samples": 51,
+  "training_class_counts": {
+    "R": 32,
+    "D": 19
+  },
+  "predictor": "obesity percentage, float64 in percentage-point units",
+  "csv_order": "original supplied order; zero-based index; csv_row is one-based",
+  "estimator": "KNeighborsClassifier(n_neighbors=k), all other settings default",
+  "minimum_loocv_mistakes": 14,
+  "minimum_loocv_error_rate": 0.27450980392156865,
+  "all_minimizing_k": [
+    7,
+    9,
+    20,
+    22
+  ],
+  "test_errors": [
+    {
+      "k": 7,
+      "test_mistakes": 27,
+      "samples": 51,
+      "test_error_rate": 0.5294117647058824
+    },
+    {
+      "k": 9,
+      "test_mistakes": 25,
+      "samples": 51,
+      "test_error_rate": 0.49019607843137253
+    },
+    {
+      "k": 20,
+      "test_mistakes": 28,
+      "samples": 51,
+      "test_error_rate": 0.5490196078431373
+    },
+    {
+      "k": 22,
+      "test_mistakes": 28,
+      "samples": 51,
+      "test_error_rate": 0.5490196078431373
+    }
+  ],
+  "requested_k_scores": [
+    {
+      "k": 2,
+      "sklearn_loocv_mistakes": 19,
+      "samples": 51,
+      "sklearn_loocv_error_rate": 0.37254901960784315,
+      "existing_custom_loocv_mistakes": 15,
+      "existing_custom_loocv_error_rate": 0.29411764705882354,
+      "prediction_disagreements": 18
+    },
+    {
+      "k": 3,
+      "sklearn_loocv_mistakes": 16,
+      "samples": 51,
+      "sklearn_loocv_error_rate": 0.3137254901960784,
+      "existing_custom_loocv_mistakes": 15,
+      "existing_custom_loocv_error_rate": 0.29411764705882354,
+      "prediction_disagreements": 1
+    },
+    {
+      "k": 5,
+      "sklearn_loocv_mistakes": 15,
+      "samples": 51,
+      "sklearn_loocv_error_rate": 0.29411764705882354,
+      "existing_custom_loocv_mistakes": 15,
+      "existing_custom_loocv_error_rate": 0.29411764705882354,
+      "prediction_disagreements": 0
+    },
+    {
+      "k": 12,
+      "sklearn_loocv_mistakes": 20,
+      "samples": 51,
+      "sklearn_loocv_error_rate": 0.39215686274509803,
+      "existing_custom_loocv_mistakes": 15,
+      "existing_custom_loocv_error_rate": 0.29411764705882354,
+      "prediction_disagreements": 9
+    },
+    {
+      "k": 17,
+      "sklearn_loocv_mistakes": 15,
+      "samples": 51,
+      "sklearn_loocv_error_rate": 0.29411764705882354,
+      "existing_custom_loocv_mistakes": 15,
+      "existing_custom_loocv_error_rate": 0.29411764705882354,
+      "prediction_disagreements": 0
+    },
+    {
+      "k": 20,
+      "sklearn_loocv_mistakes": 14,
+      "samples": 51,
+      "sklearn_loocv_error_rate": 0.27450980392156865,
+      "existing_custom_loocv_mistakes": 19,
+      "existing_custom_loocv_error_rate": 0.37254901960784315,
+      "prediction_disagreements": 5
+    },
+    {
+      "k": 22,
+      "sklearn_loocv_mistakes": 14,
+      "samples": 51,
+      "sklearn_loocv_error_rate": 0.27450980392156865,
+      "existing_custom_loocv_mistakes": 19,
+      "existing_custom_loocv_error_rate": 0.37254901960784315,
+      "prediction_disagreements": 5
+    }
+  ],
+  "first_prediction_disagreement": {
+    "k": 2,
+    "held_out_index": 2,
+    "csv_row": 3,
+    "state": "Arizona",
+    "code": "AZ",
+    "obesity_percent": 20.3,
+    "actual": "R",
+    "sklearn_prediction": "D",
+    "custom_policy_prediction": "R",
+    "sklearn_mistake": 1,
+    "custom_mistake": 0,
+    "sklearn_D_votes": 1,
+    "sklearn_R_votes": 1,
+    "custom_D_votes": 1,
+    "custom_R_votes": 1,
+    "algorithm_used": "kd_tree",
+    "same_neighbor_set": true,
+    "custom_neighbors_with_sklearn_vote": "D",
+    "class_vote_tie": true,
+    "exact_boundary_tie_crosses_cutoff": true,
+    "boundary_tied_observations": [
+      {
+        "index": 31,
+        "state": "New Mexico",
+        "code": "NM",
+        "label": "R",
+        "obesity_percent": 20.5,
+        "exact_distance_percent": "0.2",
+        "float_distance_percent": "0.1999999999999993"
+      },
+      {
+        "index": 50,
+        "state": "Wyoming",
+        "code": "WY",
+        "label": "R",
+        "obesity_percent": 20.1,
+        "exact_distance_percent": "0.2",
+        "float_distance_percent": "0.1999999999999993"
+      }
+    ],
+    "sklearn_neighbors": [
+      {
+        "index": 30,
+        "state": "New Jersey",
+        "code": "NJ",
+        "label": "D",
+        "obesity_percent": 20.3,
+        "exact_distance_percent": "0",
+        "float_distance_percent": "0.0"
+      },
+      {
+        "index": 31,
+        "state": "New Mexico",
+        "code": "NM",
+        "label": "R",
+        "obesity_percent": 20.5,
+        "exact_distance_percent": "0.2",
+        "float_distance_percent": "0.1999999999999993"
+      }
+    ],
+    "custom_neighbors": [
+      {
+        "index": 30,
+        "state": "New Jersey",
+        "code": "NJ",
+        "label": "D",
+        "obesity_percent": 20.3,
+        "exact_distance_percent": "0",
+        "float_distance_percent": "0.0"
+      },
+      {
+        "index": 31,
+        "state": "New Mexico",
+        "code": "NM",
+        "label": "R",
+        "obesity_percent": 20.5,
+        "exact_distance_percent": "0.2",
+        "float_distance_percent": "0.1999999999999993"
+      }
+    ]
+  },
+  "disagreement_count": 147,
+  "custom_policy_audit_matches_all_50_saved_scores": true,
+  "original_file_sha256": {
+    "regression_report.md": "d6b3d5daceaf236bd5b185ac221f7076af0ec690967914cd03cf914eeb79451c",
+    "requirements.txt": "12a0a7bc6e1b1254c2f593a250e6ccff4dbd3cf0b27d6819696a9db86f4e530d",
+    "solve_classification.py": "7743d14b60b62b7dec989c04a3b7891ade5eed8f13d7cb8d469024382a8690fe",
+    "Homework1_61547048S_\u9ec3\u7ad1\u5586.pdf": "ac0cc0ccd96e83b03244ddc169f576c9d5d3b7f63aa9e2d789882095e11f01de",
+    "classification_report.md": "766c415ab82a16a9452ef4b3d4291c71b9d7fb0bf59e03dad3af87830faa790e",
+    "Homework1.pdf": "5a9e8da0da91ef126610661b7d481d364a6d20a04e1f815194ea405ddcdd4db6",
+    "sensitivity_report.md": "fdc6ed364e73150737cd36330b383a179a869f587923170c58d10b5de88be5dd",
+    ".gitignore": "57a8ad0e62346f7b0f2e261d59a7b90f1310043424bcb9d229208f183f1940d9",
+    "obesity_election_2000.csv": "781864e47b6144ff7416594e6e5f210c2044fc8e049a7d238f7ef3dba4d08bf9",
+    "requirements-lock.txt": "d9b99c015074df5d87c1875cde7c4729dd917d5e5a2c2a5c242439989d96b658",
+    "solve_regression.py": "5fbb48978775e2f5e9795b9e51ca0ab67c21c711a71f48460c1adc2a526687f2",
+    "test_classification.py": "837ebf979633153989f9fa91cd6986f3e101fc53d32df5ecbd7affd0399bd35b",
+    "obesity_election_2004.csv": "fcbb3ce3d0c3a0765326848b79e39ac5f414d0b8a2c9a2478a7f861f7ce1067d",
+    "test_regression.py": "059fb43eaf40cd45e7495cc00d9978cf4f234dc097ff3ee1605a6c3ac5793441",
+    "results/summary.csv": "c487ad4ebba5115e6ba017415bba448342e7471b02d4e7a51eec3b73509b1472",
+    "results/problem_2_11_algebraic.svg": "903f1b8dcd77e54f40f5c3d3a0486449faa72c2b0b159bea2b6cfa3c2f4c257d",
+    "results/problem_2_12_cv.png": "68cca2798cc8f7ff440c7f767ef5d5dc8d5bfeb481ac09054911e7f8d47ddfb2",
+    "results/loocv_errors.png": "47a94780a8e72aecd10095bc8bafe1df1359a3c8d5b9121bef8bb7016034aa5b",
+    "results/problem_2_11_trigonometric.pdf": "6dba9b9aded0c088f0c9be6a073ef1fd42a89b5b63b015796e0c236b84c5f04f",
+    "results/problem_2_12_cv.pdf": "09634746c2581b1cd5fc543c725cd900734e43014aed3597cef38df188380f8d",
+    "results/loocv_errors.pdf": "1734f90f50ad9c6db4d5e27f163be5cda2e0b8aead739b0e3687bdffc0f8f963",
+    "results/problem_2_11_trigonometric.png": "ba27d312bb9fc10d31a36d4c2bfbbd9314f447ee6c11da779cb30aca0b303fbf",
+    "results/problem_2_11_trigonometric.svg": "8e6c7760bef31f15f7b87315e8128b4ae5203e59c8e1fea40561b06fc339d013",
+    "results/loocv_errors.svg": "cf3e3ea75e05d8a5df2637972a2da75c2f87f37e5cd39f65b361d81fc1b79c89",
+    "results/problem_2_12_cv.svg": "84e0000714d5be7699a315d3ce3ca71a7edfd1824fff5eda5c01b43242cbec4b",
+    "results/results.json": "45ed2b06bed0213589c663c692bff03ba842749e9a467ac2e1c38729b96b8ae0",
+    "results/example_2_6_simulated.csv": "c5567b7f1fe0ea3acb21b81966368c66cb3ae535fae101e0b5c36ebe5712eab9",
+    "results/problem_2_12_predictions.csv": "276a0d8d6645e448b80ea2c6210f6c8f4b5a143c6ea2366e2f48563dd0838909",
+    "results/problem_2_12_candidates.csv": "1f941e4c8db512ea721bd9f62f83f28d8d77cacf9f3905c58a9d36dfaafca55a",
+    "results/problem_2_11_algebraic.png": "1b2387cdbed5ba87b3d930b7c8ad9bd105f711055608e896a7a366e1f37a8c72",
+    "results/problem_2_12_folds.csv": "ee507ef6853d71725af136639cf2c399702dfc71647a0dba9d01a3b159101e67",
+    "results/problem_2_11_algebraic.pdf": "5602ca8773a90479fa6b87761bb09127224ae91de5d3030ae74bce6535e53a98",
+    "results/regression_validation.txt": "f8aa771d94b23f5334b0b2ce6c1d4311352e10744f7465f0bd02b8ba7619d791",
+    "results/regression_results.json": "8ef1c7774314d1c306eaf217b920c073dac5d9d80896fdabe311ca61d458e41b",
+    "results/sensitivity_comparison.csv": "31c86e3dc8a3cbcbfed54ef98245b5d5c551715525c6b8f35e32a4e9def4e193",
+    "results/test_predictions.csv": "7af95fc6304ac525890f462fc14f69a5378c03e1d4ec3a16a5f9d55d1404f186",
+    "results/problem_2_11_algebraic.csv": "d2371f2d8711b211de8e66621662748472fbc58c0f8397efb51e52233548b3bf",
+    "results/loocv_scores.csv": "5233d32758b17800c58199b4472dc120e2273e8c431fb02838e4d74720071dc9",
+    "results/problem_2_11_trigonometric.csv": "34eaeb9638e17a51211825ad3d57d5d1e20d1492b2ffe7d656791c25dc50608d",
+    "results/regression_summary.csv": "0914f976264d28b344ce2a0dca06eff9e4bd98f3dc24a4f336ecb82b05e8f4a6",
+    "report/final_homework1.md": "41e0b9b8742f6581513b38eb4a045f868b435c826aa72120034e09a637b6762a"
+  },
+  "all_existing_files_unchanged": true
+}

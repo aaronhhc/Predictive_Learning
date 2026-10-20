@@ -1,0 +1,205 @@
+k,state,code,actual,predicted,mistake
+7,Alabama,AL,R,D,1
+7,Alaska,AK,R,D,1
+7,Arizona,AZ,R,D,1
+7,Arkansas,AR,R,D,1
+7,California,CA,D,D,0
+7,Colorado,CO,R,D,1
+7,Connecticut,CT,D,D,0
+7,Delaware,DE,D,D,0
+7,DC,DC,D,R,1
+7,Florida,FL,R,D,1
+7,Georgia,GA,R,R,0
+7,Hawaii,HI,D,D,0
+7,Idaho,ID,R,D,1
+7,Illinois,IL,D,R,1
+7,Indiana,IN,R,R,0
+7,Iowa,IA,D,D,0
+7,Kansas,KS,R,D,1
+7,Kentucky,KY,R,D,1
+7,Louisiana,LA,R,D,1
+7,Maine,ME,D,D,0
+7,Maryland,MD,D,R,1
+7,Massachusetts,MA,D,D,0
+7,Michigan,MI,D,D,0
+7,Minnesota,MN,D,D,0
+7,Mississippi,MS,R,R,0
+7,Missouri,MO,R,D,1
+7,Montana,MT,R,D,1
+7,Nebraska,NE,R,R,0
+7,Nevada,NV,R,D,1
+7,New Hampshire,NH,R,D,1
+7,New Jersey,NJ,D,D,0
+7,New Mexico,NM,D,D,0
+7,New York,NY,D,D,0
+7,North Carolina,NC,R,D,1
+7,North Dakota,ND,R,R,0
+7,Ohio,OH,R,R,0
+7,Oklahoma,OK,R,R,0
+7,Oregon,OR,D,R,1
+7,Pennsylvania,PA,D,R,1
+7,Rhode Island,RI,D,D,0
+7,South Carolina,SC,R,D,1
+7,South Dakota,SD,R,D,1
+7,Tennessee,TN,R,D,1
+7,Texas,TX,R,D,1
+7,Utah,UT,R,D,1
+7,Vermont,VT,D,D,0
+7,Virginia,VA,R,D,1
+7,Washington,WA,D,D,0
+7,West Virginia,WV,R,R,0
+7,Wisconsin,WI,D,D,0
+7,Wyoming,WY,R,D,1
+9,Alabama,AL,R,R,0
+9,Alaska,AK,R,D,1
+9,Arizona,AZ,R,D,1
+9,Arkansas,AR,R,D,1
+9,California,CA,D,D,0
+9,Colorado,CO,R,D,1
+9,Connecticut,CT,D,D,0
+9,Delaware,DE,D,D,0
+9,DC,DC,D,R,1
+9,Florida,FL,R,D,1
+9,Georgia,GA,R,R,0
+9,Hawaii,HI,D,D,0
+9,Idaho,ID,R,D,1
+9,Illinois,IL,D,R,1
+9,Indiana,IN,R,R,0
+9,Iowa,IA,D,D,0
+9,Kansas,KS,R,D,1
+9,Kentucky,KY,R,D,1
+9,Louisiana,LA,R,R,0
+9,Maine,ME,D,D,0
+9,Maryland,MD,D,R,1
+9,Massachusetts,MA,D,D,0
+9,Michigan,MI,D,D,0
+9,Minnesota,MN,D,D,0
+9,Mississippi,MS,R,R,0
+9,Missouri,MO,R,D,1
+9,Montana,MT,R,D,1
+9,Nebraska,NE,R,R,0
+9,Nevada,NV,R,D,1
+9,New Hampshire,NH,R,D,1
+9,New Jersey,NJ,D,D,0
+9,New Mexico,NM,D,D,0
+9,New York,NY,D,D,0
+9,North Carolina,NC,R,D,1
+9,North Dakota,ND,R,R,0
+9,Ohio,OH,R,R,0
+9,Oklahoma,OK,R,R,0
+9,Oregon,OR,D,R,1
+9,Pennsylvania,PA,D,R,1
+9,Rhode Island,RI,D,D,0
+9,South Carolina,SC,R,D,1
+9,South Dakota,SD,R,D,1
+9,Tennessee,TN,R,D,1
+9,Texas,TX,R,D,1
+9,Utah,UT,R,D,1
+9,Vermont,VT,D,D,0
+9,Virginia,VA,R,D,1
+9,Washington,WA,D,D,0
+9,West Virginia,WV,R,R,0
+9,Wisconsin,WI,D,D,0
+9,Wyoming,WY,R,D,1
+20,Alabama,AL,R,D,1
+20,Alaska,AK,R,D,1
+20,Arizona,AZ,R,D,1
+20,Arkansas,AR,R,D,1
+20,California,CA,D,D,0
+20,Colorado,CO,R,D,1
+20,Connecticut,CT,D,D,0
+20,Delaware,DE,D,D,0
+20,DC,DC,D,D,0
+20,Florida,FL,R,D,1
+20,Georgia,GA,R,D,1
+20,Hawaii,HI,D,D,0
+20,Idaho,ID,R,D,1
+20,Illinois,IL,D,D,0
+20,Indiana,IN,R,D,1
+20,Iowa,IA,D,D,0
+20,Kansas,KS,R,D,1
+20,Kentucky,KY,R,D,1
+20,Louisiana,LA,R,D,1
+20,Maine,ME,D,D,0
+20,Maryland,MD,D,D,0
+20,Massachusetts,MA,D,D,0
+20,Michigan,MI,D,D,0
+20,Minnesota,MN,D,D,0
+20,Mississippi,MS,R,R,0
+20,Missouri,MO,R,D,1
+20,Montana,MT,R,D,1
+20,Nebraska,NE,R,D,1
+20,Nevada,NV,R,D,1
+20,New Hampshire,NH,R,D,1
+20,New Jersey,NJ,D,D,0
+20,New Mexico,NM,D,D,0
+20,New York,NY,D,D,0
+20,North Carolina,NC,R,D,1
+20,North Dakota,ND,R,D,1
+20,Ohio,OH,R,D,1
+20,Oklahoma,OK,R,D,1
+20,Oregon,OR,D,D,0
+20,Pennsylvania,PA,D,D,0
+20,Rhode Island,RI,D,D,0
+20,South Carolina,SC,R,D,1
+20,South Dakota,SD,R,D,1
+20,Tennessee,TN,R,D,1
+20,Texas,TX,R,D,1
+20,Utah,UT,R,D,1
+20,Vermont,VT,D,D,0
+20,Virginia,VA,R,D,1
+20,Washington,WA,D,D,0
+20,West Virginia,WV,R,R,0
+20,Wisconsin,WI,D,D,0
+20,Wyoming,WY,R,D,1
+22,Alabama,AL,R,D,1
+22,Alaska,AK,R,D,1
+22,Arizona,AZ,R,D,1
+22,Arkansas,AR,R,D,1
+22,California,CA,D,D,0
+22,Colorado,CO,R,D,1
+22,Connecticut,CT,D,D,0
+22,Delaware,DE,D,D,0
+22,DC,DC,D,D,0
+22,Florida,FL,R,D,1
+22,Georgia,GA,R,D,1
+22,Hawaii,HI,D,D,0
+22,Idaho,ID,R,D,1
+22,Illinois,IL,D,D,0
+22,Indiana,IN,R,D,1
+22,Iowa,IA,D,D,0
+22,Kansas,KS,R,D,1
+22,Kentucky,KY,R,D,1
+22,Louisiana,LA,R,D,1
+22,Maine,ME,D,D,0
+22,Maryland,MD,D,D,0
+22,Massachusetts,MA,D,D,0
+22,Michigan,MI,D,D,0
+22,Minnesota,MN,D,D,0
+22,Mississippi,MS,R,R,0
+22,Missouri,MO,R,D,1
+22,Montana,MT,R,D,1
+22,Nebraska,NE,R,D,1
+22,Nevada,NV,R,D,1
+22,New Hampshire,NH,R,D,1
+22,New Jersey,NJ,D,D,0
+22,New Mexico,NM,D,D,0
+22,New York,NY,D,D,0
+22,North Carolina,NC,R,D,1
+22,North Dakota,ND,R,D,1
+22,Ohio,OH,R,D,1
+22,Oklahoma,OK,R,D,1
+22,Oregon,OR,D,D,0
+22,Pennsylvania,PA,D,D,0
+22,Rhode Island,RI,D,D,0
+22,South Carolina,SC,R,D,1
+22,South Dakota,SD,R,D,1
+22,Tennessee,TN,R,D,1
+22,Texas,TX,R,D,1
+22,Utah,UT,R,D,1
+22,Vermont,VT,D,D,0
+22,Virginia,VA,R,D,1
+22,Washington,WA,D,D,0
+22,West Virginia,WV,R,R,0
+22,Wisconsin,WI,D,D,0
+22,Wyoming,WY,R,D,1

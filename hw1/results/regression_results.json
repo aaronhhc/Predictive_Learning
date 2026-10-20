@@ -1,0 +1,3181 @@
+{
+  "data_provenance": "Simulated homework distribution; not original Example 2.6 observations",
+  "data_seed": 20261006,
+  "fold_seed": 212,
+  "rng": "NumPy Generator(PCG64)",
+  "draw_order": "10 Uniform(0,1) draws, then 10 Normal(0,0.5 standard deviation) draws",
+  "data_sha256": "c5567b7f1fe0ea3acb21b81966368c66cb3ae535fae101e0b5c36ebe5712eab9",
+  "versions": {
+    "python": "3.13.14",
+    "numpy": "2.5.3",
+    "matplotlib": "3.10.8"
+  },
+  "criterion": "R_hat = (1 + (p/(1-p))*ln(n))*R_emp; p=(m+1)/n",
+  "selection_tie": "smallest m",
+  "folds": [
+    [
+      3,
+      1
+    ],
+    [
+      7,
+      6
+    ],
+    [
+      9,
+      5
+    ],
+    [
+      8,
+      0
+    ],
+    [
+      2,
+      4
+    ]
+  ],
+  "problem_2_11": {
+    "trigonometric": {
+      "selected": {
+        "family": "trigonometric",
+        "m": 4,
+        "dof": 5,
+        "n": 10,
+        "p": 0.5,
+        "training_mse": 0.05844113231143354,
+        "schwarz_multiplier": 3.302585092994046,
+        "estimated_risk": 0.19300681238943307,
+        "rank": 5,
+        "condition_number": 2.02500061917688,
+        "fit_basis_coefficients": [
+          0.7050421007917571,
+          0.39792720626380396,
+          0.38805848370309637,
+          0.005457622694776967,
+          -0.47474444121217496
+        ],
+        "assignment_basis_weights": [
+          0.7050421007917571,
+          0.39792720626380396,
+          0.38805848370309637,
+          0.005457622694776967,
+          -0.47474444121217496
+        ]
+      },
+      "candidates": [
+        {
+          "family": "trigonometric",
+          "m": 0,
+          "dof": 1,
+          "n": 10,
+          "p": 0.1,
+          "training_mse": 0.35472568438661123,
+          "schwarz_multiplier": 1.2558427881104497,
+          "estimated_risk": 0.4454796924944693,
+          "rank": 1,
+          "condition_number": 1.0,
+          "fit_basis_coefficients": [
+            0.6434504045476356
+          ],
+          "assignment_basis_weights": [
+            0.6434504045476356
+          ]
+        },
+        {
+          "family": "trigonometric",
+          "m": 1,
+          "dof": 2,
+          "n": 10,
+          "p": 0.2,
+          "training_mse": 0.2841748577484049,
+          "schwarz_multiplier": 1.5756462732485115,
+          "estimated_risk": 0.4477590555622001,
+          "rank": 2,
+          "condition_number": 1.56195610258883,
+          "fit_basis_coefficients": [
+            0.6016829237068724,
+            0.4075314976584299
+          ],
+          "assignment_basis_weights": [
+            0.6016829237068724,
+            0.4075314976584299
+          ]
+        },
+        {
+          "family": "trigonometric",
+          "m": 2,
+          "dof": 3,
+          "n": 10,
+          "p": 0.3,
+          "training_mse": 0.15140684843107338,
+          "schwarz_multiplier": 1.986822182711734,
+          "estimated_risk": 0.3008184850773299,
+          "rank": 3,
+          "condition_number": 1.6019739105338062,
+          "fit_basis_coefficients": [
+            0.6686944842904844,
+            0.3817471307296269,
+            0.4974364791053458
+          ],
+          "assignment_basis_weights": [
+            0.6686944842904844,
+            0.3817471307296269,
+            0.4974364791053458
+          ]
+        },
+        {
+          "family": "trigonometric",
+          "m": 3,
+          "dof": 4,
+          "n": 10,
+          "p": 0.4,
+          "training_mse": 0.14727447749257472,
+          "schwarz_multiplier": 2.5350567286626973,
+          "estimated_risk": 0.3733491551278345,
+          "rank": 4,
+          "condition_number": 1.7273811060101036,
+          "fit_basis_coefficients": [
+            0.6627444760065857,
+            0.3803649852068122,
+            0.5169794874814512,
+            -0.10144778939354933
+          ],
+          "assignment_basis_weights": [
+            0.6627444760065857,
+            0.3803649852068122,
+            0.5169794874814512,
+            -0.10144778939354933
+          ]
+        },
+        {
+          "family": "trigonometric",
+          "m": 4,
+          "dof": 5,
+          "n": 10,
+          "p": 0.5,
+          "training_mse": 0.05844113231143354,
+          "schwarz_multiplier": 3.302585092994046,
+          "estimated_risk": 0.19300681238943307,
+          "rank": 5,
+          "condition_number": 2.02500061917688,
+          "fit_basis_coefficients": [
+            0.7050421007917571,
+            0.39792720626380396,
+            0.38805848370309637,
+            0.005457622694776967,
+            -0.47474444121217496
+          ],
+          "assignment_basis_weights": [
+            0.7050421007917571,
+            0.39792720626380396,
+            0.38805848370309637,
+            0.005457622694776967,
+            -0.47474444121217496
+          ]
+        },
+        {
+          "family": "trigonometric",
+          "m": 5,
+          "dof": 6,
+          "n": 10,
+          "p": 0.6,
+          "training_mse": 0.04729239115921533,
+          "schwarz_multiplier": 4.453877639491068,
+          "estimated_risk": 0.21063452350209425,
+          "rank": 6,
+          "condition_number": 2.630532950886323,
+          "fit_basis_coefficients": [
+            0.7133583994561195,
+            0.3829775902095773,
+            0.4184641976756011,
+            -0.05514538700146279,
+            -0.36955465782573743,
+            -0.15430892568952542
+          ],
+          "assignment_basis_weights": [
+            0.7133583994561195,
+            0.3829775902095773,
+            0.4184641976756011,
+            -0.05514538700146279,
+            -0.36955465782573743,
+            -0.15430892568952542
+          ]
+        },
+        {
+          "family": "trigonometric",
+          "m": 6,
+          "dof": 7,
+          "n": 10,
+          "p": 0.7,
+          "training_mse": 0.039081232767472815,
+          "schwarz_multiplier": 6.3726985503194395,
+          "estimated_risk": 0.24905291540197058,
+          "rank": 7,
+          "condition_number": 2.7885594508212086,
+          "fit_basis_coefficients": [
+            0.7405645403491711,
+            0.34971586427989637,
+            0.4311704153945615,
+            -0.12252870355595415,
+            -0.38196793091290426,
+            -0.19370908133264317,
+            0.15111794552693242
+          ],
+          "assignment_basis_weights": [
+            0.7405645403491711,
+            0.34971586427989637,
+            0.4311704153945615,
+            -0.12252870355595415,
+            -0.38196793091290426,
+            -0.19370908133264317,
+            0.15111794552693242
+          ]
+        },
+        {
+          "family": "trigonometric",
+          "m": 7,
+          "dof": 8,
+          "n": 10,
+          "p": 0.8,
+          "training_mse": 0.0369839102397843,
+          "schwarz_multiplier": 10.210340371976185,
+          "estimated_risk": 0.3776183118348131,
+          "rank": 8,
+          "condition_number": 3.3574823831424374,
+          "fit_basis_coefficients": [
+            0.7536297333780227,
+            0.3180174086944083,
+            0.4821048627376885,
+            -0.07771290254689248,
+            -0.36041180835706804,
+            -0.20130765451742064,
+            0.14758836525059058,
+            -0.10396739021262871
+          ],
+          "assignment_basis_weights": [
+            0.7536297333780227,
+            0.3180174086944083,
+            0.4821048627376885,
+            -0.07771290254689248,
+            -0.36041180835706804,
+            -0.20130765451742064,
+            0.14758836525059058,
+            -0.10396739021262871
+          ]
+        },
+        {
+          "family": "trigonometric",
+          "m": 8,
+          "dof": 9,
+          "n": 10,
+          "p": 0.9,
+          "training_mse": 0.01912787665719278,
+          "schwarz_multiplier": 21.723265836946418,
+          "estimated_risk": 0.4155199495205208,
+          "rank": 9,
+          "condition_number": 6.544535339473088,
+          "fit_basis_coefficients": [
+            0.6188265076966163,
+            0.7017907772626898,
+            0.42646387951170295,
+            0.019691036852834527,
+            -0.26854933174627066,
+            -0.16510195632104618,
+            -0.09827780954742202,
+            0.1610015211496189,
+            -0.4787926953777908
+          ],
+          "assignment_basis_weights": [
+            0.6188265076966163,
+            0.7017907772626898,
+            0.42646387951170295,
+            0.019691036852834527,
+            -0.26854933174627066,
+            -0.16510195632104618,
+            -0.09827780954742202,
+            0.1610015211496189,
+            -0.4787926953777908
+          ]
+        }
+      ]
+    },
+    "algebraic": {
+      "selected": {
+        "family": "algebraic",
+        "m": 7,
+        "dof": 8,
+        "n": 10,
+        "p": 0.8,
+        "training_mse": 0.016643210983760436,
+        "schwarz_multiplier": 10.210340371976185,
+        "estimated_risk": 0.16993284902680666,
+        "rank": 8,
+        "condition_number": 495.8728805183632,
+        "fit_basis_coefficients": [
+          11.55312620270846,
+          -28.9846806495597,
+          40.70031287905447,
+          -41.44872841929438,
+          35.478170630514214,
+          -24.21647937416392,
+          11.88557672964012,
+          -4.4245151858239415
+        ],
+        "assignment_basis_weights": [
+          198.69159007075928,
+          -2982.580846491207,
+          18103.035462105614,
+          -57907.879592445635,
+          106282.57104449219,
+          -112637.90806747554,
+          64129.54931030466,
+          -15184.93611774777
+        ]
+      },
+      "candidates": [
+        {
+          "family": "algebraic",
+          "m": 0,
+          "dof": 1,
+          "n": 10,
+          "p": 0.1,
+          "training_mse": 0.35472568438661123,
+          "schwarz_multiplier": 1.2558427881104497,
+          "estimated_risk": 0.4454796924944693,
+          "rank": 1,
+          "condition_number": 1.0,
+          "fit_basis_coefficients": [
+            0.6434504045476356
+          ],
+          "assignment_basis_weights": [
+            0.6434504045476356
+          ]
+        },
+        {
+          "family": "algebraic",
+          "m": 1,
+          "dof": 2,
+          "n": 10,
+          "p": 0.2,
+          "training_mse": 0.1321965081508569,
+          "schwarz_multiplier": 1.5756462732485115,
+          "estimated_risk": 0.20829493540436414,
+          "rank": 2,
+          "condition_number": 1.7699994801980803,
+          "fit_basis_coefficients": [
+            0.5194393413906966,
+            0.8064809131336032
+          ],
+          "assignment_basis_weights": [
+            -0.28704157174290656,
+            1.6129618262672063
+          ]
+        },
+        {
+          "family": "algebraic",
+          "m": 2,
+          "dof": 3,
+          "n": 10,
+          "p": 0.3,
+          "training_mse": 0.13200639760273977,
+          "schwarz_multiplier": 1.986822182711734,
+          "estimated_risk": 0.26227323901698846,
+          "rank": 3,
+          "condition_number": 3.709624971668031,
+          "fit_basis_coefficients": [
+            0.5181486074695891,
+            0.8285671383491011,
+            -0.04325831646401897
+          ],
+          "assignment_basis_weights": [
+            -0.3536768473435309,
+            1.9166841754823158,
+            -0.25954989878411383
+          ]
+        },
+        {
+          "family": "algebraic",
+          "m": 3,
+          "dof": 4,
+          "n": 10,
+          "p": 0.4,
+          "training_mse": 0.13141185115468385,
+          "schwarz_multiplier": 2.5350567286626973,
+          "estimated_risk": 0.3331364974957021,
+          "rank": 4,
+          "condition_number": 8.51037188496139,
+          "fit_basis_coefficients": [
+            0.5480188575829513,
+            0.7568153934579814,
+            0.07412466393997792,
+            -0.12208006970262995
+          ],
+          "assignment_basis_weights": [
+            -0.012591802232422178,
+            -0.3960780331554643,
+            4.107150074718766,
+            -2.4416013940525993
+          ]
+        },
+        {
+          "family": "algebraic",
+          "m": 4,
+          "dof": 5,
+          "n": 10,
+          "p": 0.5,
+          "training_mse": 0.11799306849027205,
+          "schwarz_multiplier": 3.302585092994046,
+          "estimated_risk": 0.38968214907259796,
+          "rank": 5,
+          "condition_number": 18.808322383241176,
+          "fit_basis_coefficients": [
+            0.22806078527105417,
+            1.5902591739063123,
+            -0.9984284309771649,
+            0.956678106141672,
+            -0.6706090513432292
+          ],
+          "assignment_basis_weights": [
+            -3.987913977097324,
+            34.06340723424027,
+            -95.0457283910038,
+            113.01882931088556,
+            -46.94263359402605
+          ]
+        },
+        {
+          "family": "algebraic",
+          "m": 5,
+          "dof": 6,
+          "n": 10,
+          "p": 0.6,
+          "training_mse": 0.03878013043865845,
+          "schwarz_multiplier": 4.453877639491068,
+          "estimated_risk": 0.17272195581728783,
+          "rank": 6,
+          "condition_number": 52.73067529202973,
+          "fit_basis_coefficients": [
+            2.261820793469418,
+            -4.083097747234601,
+            6.2578485870197165,
+            -5.4700803243681255,
+            5.313600671290721,
+            -3.540876403887295
+          ],
+          "assignment_basis_weights": [
+            26.927324527269878,
+            -323.8525564514383,
+            1423.457606485659,
+            -2836.196486644949,
+            2602.7041814393465,
+            -892.3008537795984
+          ]
+        },
+        {
+          "family": "algebraic",
+          "m": 6,
+          "dof": 7,
+          "n": 10,
+          "p": 0.7,
+          "training_mse": 0.03209081121830236,
+          "schwarz_multiplier": 6.3726985503194395,
+          "estimated_risk": 0.20450506612945024,
+          "rank": 7,
+          "condition_number": 189.59204801118474,
+          "fit_basis_coefficients": [
+            4.368697100416354,
+            -9.72076786525779,
+            13.641958865060342,
+            -12.916553508397893,
+            11.42234838061883,
+            -7.508574937885112,
+            1.5302991311098468
+          ],
+          "assignment_basis_weights": [
+            61.10919978874617,
+            -774.2687102771957,
+            3716.8860847200026,
+            -8633.164348934799,
+            10350.408860506956,
+            -6134.150075783543,
+            1413.9963971454986
+          ]
+        },
+        {
+          "family": "algebraic",
+          "m": 7,
+          "dof": 8,
+          "n": 10,
+          "p": 0.8,
+          "training_mse": 0.016643210983760436,
+          "schwarz_multiplier": 10.210340371976185,
+          "estimated_risk": 0.16993284902680666,
+          "rank": 8,
+          "condition_number": 495.8728805183632,
+          "fit_basis_coefficients": [
+            11.55312620270846,
+            -28.9846806495597,
+            40.70031287905447,
+            -41.44872841929438,
+            35.478170630514214,
+            -24.21647937416392,
+            11.88557672964012,
+            -4.4245151858239415
+          ],
+          "assignment_basis_weights": [
+            198.69159007075928,
+            -2982.580846491207,
+            18103.035462105614,
+            -57907.879592445635,
+            106282.57104449219,
+            -112637.90806747554,
+            64129.54931030466,
+            -15184.93611774777
+          ]
+        },
+        {
+          "family": "algebraic",
+          "m": 8,
+          "dof": 9,
+          "n": 10,
+          "p": 0.9,
+          "training_mse": 0.01470902144296383,
+          "schwarz_multiplier": 21.723265836946418,
+          "estimated_risk": 0.3195279830068485,
+          "rank": 9,
+          "condition_number": 1687.4836886062644,
+          "fit_basis_coefficients": [
+            19.571437050743466,
+            -51.519592911409354,
+            72.36182574438924,
+            -75.66333555865937,
+            65.97762207202834,
+            -47.56529275089105,
+            26.789631357915013,
+            -12.199978600475127,
+            3.072191952386431
+          ],
+          "assignment_basis_weights": [
+            374.7209079988974,
+            -6221.242530191226,
+            42976.5593376862,
+            -162020.24218509955,
+            366333.1107412132,
+            -510576.37437286216,
+            429621.9504480814,
+            -200026.7682656841,
+            39539.11042721337
+          ]
+        }
+      ]
+    }
+  },
+  "problem_2_12": {
+    "fold_results": [
+      {
+        "family": "trigonometric",
+        "fold": 1,
+        "training_sample_ids": [
+          0,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "held_out_sample_ids": [
+          3,
+          1
+        ],
+        "selected_m": 6,
+        "dof": 7,
+        "n": 8,
+        "selected_training_mse": 0.003279293450165927,
+        "selected_estimated_risk": 0.05101298664360129,
+        "fold_sse": 3.1117668088689303,
+        "fold_mse": 1.5558834044344652
+      },
+      {
+        "family": "algebraic",
+        "fold": 1,
+        "training_sample_ids": [
+          0,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "held_out_sample_ids": [
+          3,
+          1
+        ],
+        "selected_m": 5,
+        "dof": 6,
+        "n": 8,
+        "selected_training_mse": 0.0038851625188656997,
+        "selected_estimated_risk": 0.02812206753258611,
+        "fold_sse": 0.6164025222304083,
+        "fold_mse": 0.30820126111520413
+      },
+      {
+        "family": "trigonometric",
+        "fold": 2,
+        "training_sample_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          8,
+          9
+        ],
+        "held_out_sample_ids": [
+          7,
+          6
+        ],
+        "selected_m": 6,
+        "dof": 7,
+        "n": 8,
+        "selected_training_mse": 0.007922484393188859,
+        "selected_estimated_risk": 0.1232428865167384,
+        "fold_sse": 222.92054526687158,
+        "fold_mse": 111.46027263343579
+      },
+      {
+        "family": "algebraic",
+        "fold": 2,
+        "training_sample_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          8,
+          9
+        ],
+        "held_out_sample_ids": [
+          7,
+          6
+        ],
+        "selected_m": 6,
+        "dof": 7,
+        "n": 8,
+        "selected_training_mse": 0.008522181362031277,
+        "selected_estimated_risk": 0.13257182701159365,
+        "fold_sse": 1.6599664619642023,
+        "fold_mse": 0.8299832309821011
+      },
+      {
+        "family": "trigonometric",
+        "fold": 3,
+        "training_sample_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8
+        ],
+        "held_out_sample_ids": [
+          9,
+          5
+        ],
+        "selected_m": 6,
+        "dof": 7,
+        "n": 8,
+        "selected_training_mse": 0.012979956597902305,
+        "selected_estimated_risk": 0.20191738331005757,
+        "fold_sse": 0.4770863411413251,
+        "fold_mse": 0.23854317057066254
+      },
+      {
+        "family": "algebraic",
+        "fold": 3,
+        "training_sample_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8
+        ],
+        "held_out_sample_ids": [
+          9,
+          5
+        ],
+        "selected_m": 5,
+        "dof": 6,
+        "n": 8,
+        "selected_training_mse": 0.0010123433080031319,
+        "selected_estimated_risk": 0.007327669495313023,
+        "fold_sse": 1.0933269099193659,
+        "fold_mse": 0.5466634549596829
+      },
+      {
+        "family": "trigonometric",
+        "fold": 4,
+        "training_sample_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "held_out_sample_ids": [
+          8,
+          0
+        ],
+        "selected_m": 4,
+        "dof": 5,
+        "n": 8,
+        "selected_training_mse": 0.06724445412479677,
+        "selected_estimated_risk": 0.30029597304927413,
+        "fold_sse": 0.09364368652529424,
+        "fold_mse": 0.04682184326264712
+      },
+      {
+        "family": "algebraic",
+        "fold": 4,
+        "training_sample_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "held_out_sample_ids": [
+          8,
+          0
+        ],
+        "selected_m": 1,
+        "dof": 2,
+        "n": 8,
+        "selected_training_mse": 0.13696587524584963,
+        "selected_estimated_risk": 0.2319033855054355,
+        "fold_sse": 0.2380320850078832,
+        "fold_mse": 0.1190160425039416
+      },
+      {
+        "family": "trigonometric",
+        "fold": 5,
+        "training_sample_ids": [
+          0,
+          1,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "held_out_sample_ids": [
+          2,
+          4
+        ],
+        "selected_m": 2,
+        "dof": 3,
+        "n": 8,
+        "selected_training_mse": 0.0912998604656804,
+        "selected_estimated_risk": 0.20521149402682543,
+        "fold_sse": 1.721005839816947,
+        "fold_mse": 0.8605029199084735
+      },
+      {
+        "family": "algebraic",
+        "fold": 5,
+        "training_sample_ids": [
+          0,
+          1,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "held_out_sample_ids": [
+          2,
+          4
+        ],
+        "selected_m": 1,
+        "dof": 2,
+        "n": 8,
+        "selected_training_mse": 0.13970604062940428,
+        "selected_estimated_risk": 0.236542888798869,
+        "fold_sse": 0.2880160815976592,
+        "fold_mse": 0.1440080407988296
+      }
+    ],
+    "predictions": [
+      {
+        "family": "trigonometric",
+        "fold": 1,
+        "sample_id": 3,
+        "x": 0.22323690074192803,
+        "actual_y": -0.4538941076803727,
+        "predicted_y": 0.5203849543425629,
+        "squared_error": 0.9492196906962911
+      },
+      {
+        "family": "trigonometric",
+        "fold": 1,
+        "sample_id": 1,
+        "x": 0.32242515505783975,
+        "actual_y": 0.5778475708272043,
+        "predicted_y": -0.8927125667301277,
+        "squared_error": 2.1625471181726392
+      },
+      {
+        "family": "algebraic",
+        "fold": 1,
+        "sample_id": 3,
+        "x": 0.22323690074192803,
+        "actual_y": -0.4538941076803727,
+        "predicted_y": 0.25092274992292013,
+        "squared_error": 0.49676680276178037
+      },
+      {
+        "family": "algebraic",
+        "fold": 1,
+        "sample_id": 1,
+        "x": 0.32242515505783975,
+        "actual_y": 0.5778475708272043,
+        "predicted_y": 0.2319636026115208,
+        "squared_error": 0.11963571946862793
+      },
+      {
+        "family": "trigonometric",
+        "fold": 2,
+        "sample_id": 7,
+        "x": 0.2707395834904839,
+        "actual_y": -0.02754104343580549,
+        "predicted_y": -4.04986856289609,
+        "squared_error": 16.179118673807523
+      },
+      {
+        "family": "trigonometric",
+        "fold": 2,
+        "sample_id": 6,
+        "x": 0.5899998082309823,
+        "actual_y": 0.5208651654249733,
+        "predicted_y": 14.899370880312876,
+        "squared_error": 206.74142659306406
+      },
+      {
+        "family": "algebraic",
+        "fold": 2,
+        "sample_id": 7,
+        "x": 0.2707395834904839,
+        "actual_y": -0.02754104343580549,
+        "predicted_y": -1.0062078973935713,
+        "squared_error": 0.957788811035591
+      },
+      {
+        "family": "algebraic",
+        "fold": 2,
+        "sample_id": 6,
+        "x": 0.5899998082309823,
+        "actual_y": 0.5208651654249733,
+        "predicted_y": -0.31709524588847954,
+        "squared_error": 0.7021776509286112
+      },
+      {
+        "family": "trigonometric",
+        "fold": 3,
+        "sample_id": 9,
+        "x": 0.9095684992406197,
+        "actual_y": 1.7548602858779114,
+        "predicted_y": 1.2743769479758418,
+        "squared_error": 0.23086423800151445
+      },
+      {
+        "family": "trigonometric",
+        "fold": 3,
+        "sample_id": 5,
+        "x": 0.21068083286686834,
+        "actual_y": 0.4728091468147774,
+        "predicted_y": -0.023398574950826173,
+        "squared_error": 0.24622210313981066
+      },
+      {
+        "family": "algebraic",
+        "fold": 3,
+        "sample_id": 9,
+        "x": 0.9095684992406197,
+        "actual_y": 1.7548602858779114,
+        "predicted_y": 1.4868641397267988,
+        "squared_error": 0.07182193435184854
+      },
+      {
+        "family": "algebraic",
+        "fold": 3,
+        "sample_id": 5,
+        "x": 0.21068083286686834,
+        "actual_y": 0.4728091468147774,
+        "predicted_y": -0.5378861463213473,
+        "squared_error": 1.0215049755675174
+      },
+      {
+        "family": "trigonometric",
+        "fold": 4,
+        "sample_id": 8,
+        "x": 0.8881301256116383,
+        "actual_y": 1.3634272641359029,
+        "predicted_y": 1.6688560424519068,
+        "squared_error": 0.09328673862360666
+      },
+      {
+        "family": "trigonometric",
+        "fold": 4,
+        "sample_id": 0,
+        "x": 0.8112622310246608,
+        "actual_y": 0.6076940131615471,
+        "predicted_y": 0.6265870780713914,
+        "squared_error": 0.0003569479016875868
+      },
+      {
+        "family": "algebraic",
+        "fold": 4,
+        "sample_id": 8,
+        "x": 0.8881301256116383,
+        "actual_y": 1.3634272641359029,
+        "predicted_y": 1.1941664539612467,
+        "squared_error": 0.028649221860981004
+      },
+      {
+        "family": "algebraic",
+        "fold": 4,
+        "sample_id": 0,
+        "x": 0.8112622310246608,
+        "actual_y": 0.6076940131615471,
+        "predicted_y": 1.065277735716122,
+        "squared_error": 0.2093828631469022
+      },
+      {
+        "family": "trigonometric",
+        "fold": 5,
+        "sample_id": 2,
+        "x": 0.9942944435292075,
+        "actual_y": 0.9407058970176551,
+        "predicted_y": 2.217354057893428,
+        "squared_error": 1.6298305266674935
+      },
+      {
+        "family": "trigonometric",
+        "fold": 5,
+        "sample_id": 4,
+        "x": 0.5485030780403813,
+        "actual_y": 0.677729853332562,
+        "predicted_y": 0.9796823548116085,
+        "squared_error": 0.09117531314945358
+      },
+      {
+        "family": "algebraic",
+        "fold": 5,
+        "sample_id": 2,
+        "x": 0.9942944435292075,
+        "actual_y": 0.9407058970176551,
+        "predicted_y": 1.4760480373242162,
+        "squared_error": 0.2865912071880098
+      },
+      {
+        "family": "algebraic",
+        "fold": 5,
+        "sample_id": 4,
+        "x": 0.5485030780403813,
+        "actual_y": 0.677729853332562,
+        "predicted_y": 0.639982344677693,
+        "squared_error": 0.0014248744096494084
+      }
+    ],
+    "candidates": [
+      {
+        "family": "trigonometric",
+        "m": 0,
+        "dof": 1,
+        "n": 8,
+        "p": 0.125,
+        "training_mse": 0.2712165396719963,
+        "schwarz_multiplier": 1.2970630773828336,
+        "estimated_risk": 0.3517849595840829,
+        "rank": 1,
+        "condition_number": 1.0,
+        "fit_basis_coefficients": [
+          0.7888188227911903
+        ],
+        "assignment_basis_weights": [
+          0.7888188227911903
+        ],
+        "fold": 1
+      },
+      {
+        "family": "trigonometric",
+        "m": 1,
+        "dof": 2,
+        "n": 8,
+        "p": 0.25,
+        "training_mse": 0.17937264936417996,
+        "schwarz_multiplier": 1.6931471805599452,
+        "estimated_risk": 0.30370429554052897,
+        "rank": 2,
+        "condition_number": 1.4987538756369994,
+        "fit_basis_coefficients": [
+          0.7186399272049914,
+          0.4328556016955799
+        ],
+        "assignment_basis_weights": [
+          0.7186399272049914,
+          0.4328556016955799
+        ],
+        "fold": 1
+      },
+      {
+        "family": "trigonometric",
+        "m": 2,
+        "dof": 3,
+        "n": 8,
+        "p": 0.375,
+        "training_mse": 0.0973505448082091,
+        "schwarz_multiplier": 2.2476649250079017,
+        "estimated_risk": 0.21881140499582166,
+        "rank": 3,
+        "condition_number": 1.5037362152968268,
+        "fit_basis_coefficients": [
+          0.704633470094049,
+          0.43954464004374844,
+          0.3921484694627761
+        ],
+        "assignment_basis_weights": [
+          0.704633470094049,
+          0.43954464004374844,
+          0.3921484694627761
+        ],
+        "fold": 1
+      },
+      {
+        "family": "trigonometric",
+        "m": 3,
+        "dof": 4,
+        "n": 8,
+        "p": 0.5,
+        "training_mse": 0.04745319567543715,
+        "schwarz_multiplier": 3.0794415416798357,
+        "estimated_risk": 0.14612934204840308,
+        "rank": 4,
+        "condition_number": 2.1883767672491143,
+        "fit_basis_coefficients": [
+          0.6199431283252096,
+          0.5076811744473506,
+          0.521906442232646,
+          -0.4124903490725776
+        ],
+        "assignment_basis_weights": [
+          0.6199431283252096,
+          0.5076811744473506,
+          0.521906442232646,
+          -0.4124903490725776
+        ],
+        "fold": 1
+      },
+      {
+        "family": "trigonometric",
+        "m": 4,
+        "dof": 5,
+        "n": 8,
+        "p": 0.625,
+        "training_mse": 0.01985635984050546,
+        "schwarz_multiplier": 4.465735902799727,
+        "estimated_risk": 0.0886732590386559,
+        "rank": 5,
+        "condition_number": 2.8899852814513802,
+        "fit_basis_coefficients": [
+          0.6826829205364322,
+          0.46598758130723367,
+          0.4078777282601184,
+          -0.2207675640024289,
+          -0.28874213443088614
+        ],
+        "assignment_basis_weights": [
+          0.6826829205364322,
+          0.46598758130723367,
+          0.4078777282601184,
+          -0.2207675640024289,
+          -0.28874213443088614
+        ],
+        "fold": 1
+      },
+      {
+        "family": "trigonometric",
+        "m": 5,
+        "dof": 6,
+        "n": 8,
+        "p": 0.75,
+        "training_mse": 0.01269219903818589,
+        "schwarz_multiplier": 7.238324625039507,
+        "estimated_risk": 0.09187025684400367,
+        "rank": 6,
+        "condition_number": 3.0459235799172295,
+        "fit_basis_coefficients": [
+          0.6953319615020518,
+          0.4476075414118641,
+          0.42122309359379073,
+          -0.24203194732362457,
+          -0.22714595234405377,
+          -0.11239372916260965
+        ],
+        "assignment_basis_weights": [
+          0.6953319615020518,
+          0.4476075414118641,
+          0.42122309359379073,
+          -0.24203194732362457,
+          -0.22714595234405377,
+          -0.11239372916260965
+        ],
+        "fold": 1
+      },
+      {
+        "family": "trigonometric",
+        "m": 6,
+        "dof": 7,
+        "n": 8,
+        "p": 0.875,
+        "training_mse": 0.003279293450165927,
+        "schwarz_multiplier": 15.55609079175885,
+        "estimated_risk": 0.05101298664360129,
+        "rank": 7,
+        "condition_number": 6.704388055463726,
+        "fit_basis_coefficients": [
+          0.5054544680679605,
+          0.6550152113736758,
+          0.545986779716887,
+          -0.42429519683521283,
+          -0.006220636980657838,
+          0.03450512960310756,
+          -0.36559937154456745
+        ],
+        "assignment_basis_weights": [
+          0.5054544680679605,
+          0.6550152113736758,
+          0.545986779716887,
+          -0.42429519683521283,
+          -0.006220636980657838,
+          0.03450512960310756,
+          -0.36559937154456745
+        ],
+        "fold": 1
+      },
+      {
+        "family": "algebraic",
+        "m": 0,
+        "dof": 1,
+        "n": 8,
+        "p": 0.125,
+        "training_mse": 0.2712165396719963,
+        "schwarz_multiplier": 1.2970630773828336,
+        "estimated_risk": 0.3517849595840829,
+        "rank": 1,
+        "condition_number": 1.0,
+        "fit_basis_coefficients": [
+          0.7888188227911903
+        ],
+        "assignment_basis_weights": [
+          0.7888188227911903
+        ],
+        "fold": 1
+      },
+      {
+        "family": "algebraic",
+        "m": 1,
+        "dof": 2,
+        "n": 8,
+        "p": 0.25,
+        "training_mse": 0.11260590393232245,
+        "schwarz_multiplier": 1.6931471805599452,
+        "estimated_risk": 0.1906583687574158,
+        "rank": 2,
+        "condition_number": 2.028630693588984,
+        "fit_basis_coefficients": [
+          0.5699618351059256,
+          0.7156992031128762
+        ],
+        "assignment_basis_weights": [
+          -0.14573736800695059,
+          1.4313984062257523
+        ],
+        "fold": 1
+      },
+      {
+        "family": "algebraic",
+        "m": 2,
+        "dof": 3,
+        "n": 8,
+        "p": 0.375,
+        "training_mse": 0.10941792598839326,
+        "schwarz_multiplier": 2.2476649250079017,
+        "estimated_risk": 0.24593483441122208,
+        "rank": 3,
+        "condition_number": 3.8596258430534762,
+        "fit_basis_coefficients": [
+          0.5819890871170855,
+          0.6192432095551038,
+          0.16677826228340847
+        ],
+        "assignment_basis_weights": [
+          0.12952413984539024,
+          0.23781684540975667,
+          1.000669573700451
+        ],
+        "fold": 1
+      },
+      {
+        "family": "algebraic",
+        "m": 3,
+        "dof": 4,
+        "n": 8,
+        "p": 0.5,
+        "training_mse": 0.09209260502700885,
+        "schwarz_multiplier": 3.0794415416798357,
+        "estimated_risk": 0.2835937936016843,
+        "rank": 4,
+        "condition_number": 9.272668012291835,
+        "fit_basis_coefficients": [
+          0.7320949072038513,
+          0.21930719605146848,
+          0.853699501218672,
+          -0.6740505554524083
+        ],
+        "assignment_basis_weights": [
+          2.0405377678234635,
+          -12.772189280637996,
+          25.343713670884284,
+          -13.481011109048168
+        ],
+        "fold": 1
+      },
+      {
+        "family": "algebraic",
+        "m": 4,
+        "dof": 5,
+        "n": 8,
+        "p": 0.625,
+        "training_mse": 0.0920868297995058,
+        "schwarz_multiplier": 4.465735902799727,
+        "estimated_risk": 0.41123546201066086,
+        "rank": 5,
+        "condition_number": 26.21978864282266,
+        "fit_basis_coefficients": [
+          0.7236658874493062,
+          0.24252509886372098,
+          0.8213339011600927,
+          -0.642330276154555,
+          -0.01652213937226259
+        ],
+        "assignment_basis_weights": [
+          1.92828282652797,
+          -11.820473735642521,
+          22.71091914809357,
+          -10.533506010974335,
+          -1.1565497560583815
+        ],
+        "fold": 1
+      },
+      {
+        "family": "algebraic",
+        "m": 5,
+        "dof": 6,
+        "n": 8,
+        "p": 0.75,
+        "training_mse": 0.0038851625188656997,
+        "schwarz_multiplier": 7.238324625039507,
+        "estimated_risk": 0.02812206753258611,
+        "rank": 6,
+        "condition_number": 51.479125528547456,
+        "fit_basis_coefficients": [
+          2.575637450307993,
+          -4.918176029684857,
+          7.382471325611093,
+          -6.437026561414451,
+          5.531640808691072,
+          -3.3584472819500597
+        ],
+        "assignment_basis_weights": [
+          30.203399457659522,
+          -342.76173338233286,
+          1440.527226787809,
+          -2783.9007223370727,
+          2503.0366442369127,
+          -846.3287150514151
+        ],
+        "fold": 1
+      },
+      {
+        "family": "algebraic",
+        "m": 6,
+        "dof": 7,
+        "n": 8,
+        "p": 0.875,
+        "training_mse": 0.0023536131340752336,
+        "schwarz_multiplier": 15.55609079175885,
+        "estimated_risk": 0.03661301960235043,
+        "rank": 7,
+        "condition_number": 295.59290444641186,
+        "fit_basis_coefficients": [
+          1.0428201780641027,
+          -0.8469064987856195,
+          2.131905145524747,
+          -1.1197218696373776,
+          0.9077475580499624,
+          -0.18579435836218708,
+          -1.198206496423665
+        ],
+        "assignment_basis_weights": [
+          5.036689112000331,
+          -1.3260153684391778,
+          -336.14954605511355,
+          1759.46297778919,
+          -3593.7576889028696,
+          3274.608229779128,
+          -1107.1428026954663
+        ],
+        "fold": 1
+      },
+      {
+        "family": "trigonometric",
+        "m": 0,
+        "dof": 1,
+        "n": 8,
+        "p": 0.125,
+        "training_mse": 0.3754099606198311,
+        "schwarz_multiplier": 1.2970630773828336,
+        "estimated_risk": 0.4869303988017265,
+        "rank": 1,
+        "condition_number": 1.0,
+        "fit_basis_coefficients": [
+          0.7426474904358983
+        ],
+        "assignment_basis_weights": [
+          0.7426474904358983
+        ],
+        "fold": 2
+      },
+      {
+        "family": "trigonometric",
+        "m": 1,
+        "dof": 2,
+        "n": 8,
+        "p": 0.25,
+        "training_mse": 0.30332153783630345,
+        "schwarz_multiplier": 1.6931471805599452,
+        "estimated_risk": 0.5135680065906439,
+        "rank": 2,
+        "condition_number": 1.7555181251225909,
+        "fit_basis_coefficients": [
+          0.6352720147944471,
+          0.42968228990110163
+        ],
+        "assignment_basis_weights": [
+          0.6352720147944471,
+          0.42968228990110163
+        ],
+        "fold": 2
+      },
+      {
+        "family": "trigonometric",
+        "m": 2,
+        "dof": 3,
+        "n": 8,
+        "p": 0.375,
+        "training_mse": 0.18421926485766782,
+        "schwarz_multiplier": 2.2476649250079017,
+        "estimated_risk": 0.4140631801313207,
+        "rank": 3,
+        "condition_number": 1.8255920523361775,
+        "fit_basis_coefficients": [
+          0.6989948192870478,
+          0.35263111428694216,
+          0.4720825236904196
+        ],
+        "assignment_basis_weights": [
+          0.6989948192870478,
+          0.35263111428694216,
+          0.4720825236904196
+        ],
+        "fold": 2
+      },
+      {
+        "family": "trigonometric",
+        "m": 3,
+        "dof": 4,
+        "n": 8,
+        "p": 0.5,
+        "training_mse": 0.18178865598606397,
+        "schwarz_multiplier": 3.0794415416798357,
+        "estimated_risk": 0.5598075390496301,
+        "rank": 4,
+        "condition_number": 1.8841617203640744,
+        "fit_basis_coefficients": [
+          0.6869547485167327,
+          0.35839832565488644,
+          0.49424196732960246,
+          -0.07483748834061221
+        ],
+        "assignment_basis_weights": [
+          0.6869547485167327,
+          0.35839832565488644,
+          0.49424196732960246,
+          -0.07483748834061221
+        ],
+        "fold": 2
+      },
+      {
+        "family": "trigonometric",
+        "m": 4,
+        "dof": 5,
+        "n": 8,
+        "p": 0.625,
+        "training_mse": 0.0471378368984604,
+        "schwarz_multiplier": 4.465735902799727,
+        "estimated_risk": 0.21050513061777232,
+        "rank": 5,
+        "condition_number": 2.0707928247857805,
+        "fit_basis_coefficients": [
+          0.783391519830073,
+          0.27193506002174,
+          0.4529842705211858,
+          0.018644243144038616,
+          -0.5854207897413725
+        ],
+        "assignment_basis_weights": [
+          0.783391519830073,
+          0.27193506002174,
+          0.4529842705211858,
+          0.018644243144038616,
+          -0.5854207897413725
+        ],
+        "fold": 2
+      },
+      {
+        "family": "trigonometric",
+        "m": 5,
+        "dof": 6,
+        "n": 8,
+        "p": 0.75,
+        "training_mse": 0.041141848082103284,
+        "schwarz_multiplier": 7.238324625039507,
+        "estimated_risk": 0.29779805209232263,
+        "rank": 6,
+        "condition_number": 7.615396827513077,
+        "fit_basis_coefficients": [
+          0.8358300790633159,
+          0.1682102585667499,
+          0.508311428816232,
+          0.11886129320497411,
+          -0.9483169789876597,
+          0.30263424084131213
+        ],
+        "assignment_basis_weights": [
+          0.8358300790633159,
+          0.1682102585667499,
+          0.508311428816232,
+          0.11886129320497411,
+          -0.9483169789876597,
+          0.30263424084131213
+        ],
+        "fold": 2
+      },
+      {
+        "family": "trigonometric",
+        "m": 6,
+        "dof": 7,
+        "n": 8,
+        "p": 0.875,
+        "training_mse": 0.007922484393188859,
+        "schwarz_multiplier": 15.55609079175885,
+        "estimated_risk": 0.1232428865167384,
+        "rank": 7,
+        "condition_number": 52.243250211571336,
+        "fit_basis_coefficients": [
+          1.9038292230370948,
+          -1.6616533254300783,
+          0.8997555828540389,
+          3.080322584533686,
+          -5.92049688512001,
+          4.991147865955093,
+          -2.377391977224009
+        ],
+        "assignment_basis_weights": [
+          1.9038292230370948,
+          -1.6616533254300783,
+          0.8997555828540389,
+          3.080322584533686,
+          -5.92049688512001,
+          4.991147865955093,
+          -2.377391977224009
+        ],
+        "fold": 2
+      },
+      {
+        "family": "algebraic",
+        "m": 0,
+        "dof": 1,
+        "n": 8,
+        "p": 0.125,
+        "training_mse": 0.3754099606198311,
+        "schwarz_multiplier": 1.2970630773828336,
+        "estimated_risk": 0.4869303988017265,
+        "rank": 1,
+        "condition_number": 1.0,
+        "fit_basis_coefficients": [
+          0.7426474904358983
+        ],
+        "assignment_basis_weights": [
+          0.7426474904358983
+        ],
+        "fold": 2
+      },
+      {
+        "family": "algebraic",
+        "m": 1,
+        "dof": 2,
+        "n": 8,
+        "p": 0.25,
+        "training_mse": 0.15644449880346942,
+        "schwarz_multiplier": 1.6931471805599452,
+        "estimated_risk": 0.26488356206320796,
+        "rank": 2,
+        "condition_number": 1.7612199829141706,
+        "fit_basis_coefficients": [
+          0.5692507582917866,
+          0.7637770747145189
+        ],
+        "assignment_basis_weights": [
+          -0.19452631642273233,
+          1.5275541494290379
+        ],
+        "fold": 2
+      },
+      {
+        "family": "algebraic",
+        "m": 2,
+        "dof": 3,
+        "n": 8,
+        "p": 0.375,
+        "training_mse": 0.153959058603251,
+        "schwarz_multiplier": 2.2476649250079017,
+        "estimated_risk": 0.3460483759097633,
+        "rank": 3,
+        "condition_number": 4.07782798740528,
+        "fit_basis_coefficients": [
+          0.5729257496634573,
+          0.8501676227947567,
+          -0.16593456879351237
+        ],
+        "assignment_basis_weights": [
+          -0.44317644192481176,
+          2.6959426583505874,
+          -0.9956074127610742
+        ],
+        "fold": 2
+      },
+      {
+        "family": "algebraic",
+        "m": 3,
+        "dof": 4,
+        "n": 8,
+        "p": 0.5,
+        "training_mse": 0.1539192386473283,
+        "schwarz_multiplier": 3.0794415416798357,
+        "estimated_risk": 0.4739852975543152,
+        "rank": 4,
+        "condition_number": 8.353381030883849,
+        "fit_basis_coefficients": [
+          0.5792820648509094,
+          0.8334975408534839,
+          -0.1373292086232111,
+          -0.02895684097318888
+        ],
+        "assignment_basis_weights": [
+          -0.3625878436525968,
+          2.143488241767968,
+          0.04472997745639973,
+          -0.5791368194637776
+        ],
+        "fold": 2
+      },
+      {
+        "family": "algebraic",
+        "m": 4,
+        "dof": 5,
+        "n": 8,
+        "p": 0.625,
+        "training_mse": 0.13145618992279962,
+        "schwarz_multiplier": 4.465735902799727,
+        "estimated_risk": 0.5870486269835059,
+        "rank": 5,
+        "condition_number": 20.309277354181088,
+        "fit_basis_coefficients": [
+          0.12175859461253247,
+          1.91463022031146,
+          -1.5326599077714091,
+          1.5333148793011109,
+          -0.9520229628719612
+        ],
+        "assignment_basis_weights": [
+          -5.810869375643408,
+          50.46545769630393,
+          -140.8774724841383,
+          163.9495123880968,
+          -66.64160740103729
+        ],
+        "fold": 2
+      },
+      {
+        "family": "algebraic",
+        "m": 5,
+        "dof": 6,
+        "n": 8,
+        "p": 0.75,
+        "training_mse": 0.047143460011638466,
+        "schwarz_multiplier": 7.238324625039507,
+        "estimated_risk": 0.341239667511808,
+        "rank": 6,
+        "condition_number": 56.129869739947374,
+        "fit_basis_coefficients": [
+          2.2094450255819944,
+          -4.0141136138428335,
+          6.186090070483501,
+          -5.3170800567988525,
+          5.226436198072153,
+          -3.5600116246953553
+        ],
+        "assignment_basis_weights": [
+          26.51317658947469,
+          -320.27880103447666,
+          1414.610641139385,
+          -2831.6491786954775,
+          2608.657857423125,
+          -897.1229294232295
+        ],
+        "fold": 2
+      },
+      {
+        "family": "algebraic",
+        "m": 6,
+        "dof": 7,
+        "n": 8,
+        "p": 0.875,
+        "training_mse": 0.008522181362031277,
+        "schwarz_multiplier": 15.55609079175885,
+        "estimated_risk": 0.13257182701159365,
+        "rank": 7,
+        "condition_number": 368.38118768882254,
+        "fit_basis_coefficients": [
+          11.76781482809575,
+          -30.13138080076892,
+          40.701627451691735,
+          -39.47698269906166,
+          33.215296135201335,
+          -21.479640149505904,
+          6.323577553481044
+        ],
+        "assignment_basis_weights": [
+          183.0963196178063,
+          -2352.4817031358357,
+          11584.522901708398,
+          -28091.88988648088,
+          35776.51331711811,
+          -22941.826295924948,
+          5842.985659416485
+        ],
+        "fold": 2
+      },
+      {
+        "family": "trigonometric",
+        "m": 0,
+        "dof": 1,
+        "n": 8,
+        "p": 0.125,
+        "training_mse": 0.2715344725392137,
+        "schwarz_multiplier": 1.2970630773828336,
+        "estimated_risk": 0.352197338567237,
+        "rank": 1,
+        "condition_number": 1.0,
+        "fit_basis_coefficients": [
+          0.5258543265979583
+        ],
+        "assignment_basis_weights": [
+          0.5258543265979583
+        ],
+        "fold": 3
+      },
+      {
+        "family": "trigonometric",
+        "m": 1,
+        "dof": 2,
+        "n": 8,
+        "p": 0.25,
+        "training_mse": 0.24756685075171275,
+        "schwarz_multiplier": 1.6931471805599452,
+        "estimated_risk": 0.4191671153503672,
+        "rank": 2,
+        "condition_number": 1.494561910508718,
+        "fit_basis_coefficients": [
+          0.5276625566903609,
+          0.23135471017159867
+        ],
+        "assignment_basis_weights": [
+          0.5276625566903609,
+          0.23135471017159867
+        ],
+        "fold": 3
+      },
+      {
+        "family": "trigonometric",
+        "m": 2,
+        "dof": 3,
+        "n": 8,
+        "p": 0.375,
+        "training_mse": 0.13023746942392286,
+        "schwarz_multiplier": 2.2476649250079017,
+        "estimated_risk": 0.29273019194594047,
+        "rank": 3,
+        "condition_number": 1.5134806254297881,
+        "fit_basis_coefficients": [
+          0.575338131470666,
+          0.2387960922971377,
+          0.45649690742615934
+        ],
+        "assignment_basis_weights": [
+          0.575338131470666,
+          0.2387960922971377,
+          0.45649690742615934
+        ],
+        "fold": 3
+      },
+      {
+        "family": "trigonometric",
+        "m": 3,
+        "dof": 4,
+        "n": 8,
+        "p": 0.5,
+        "training_mse": 0.1290637336857734,
+        "schwarz_multiplier": 3.0794415416798357,
+        "estimated_risk": 0.3974442230362738,
+        "rank": 4,
+        "condition_number": 1.5707804035000472,
+        "fit_basis_coefficients": [
+          0.5758007569499195,
+          0.24135423986112292,
+          0.4632207290196667,
+          -0.050216995068699
+        ],
+        "assignment_basis_weights": [
+          0.5758007569499195,
+          0.24135423986112292,
+          0.4632207290196667,
+          -0.050216995068699
+        ],
+        "fold": 3
+      },
+      {
+        "family": "trigonometric",
+        "m": 4,
+        "dof": 5,
+        "n": 8,
+        "p": 0.625,
+        "training_mse": 0.04687706408551244,
+        "schwarz_multiplier": 4.465735902799727,
+        "estimated_risk": 0.20934058810451656,
+        "rank": 5,
+        "condition_number": 1.8666313753597932,
+        "fit_basis_coefficients": [
+          0.6368682789786012,
+          0.3131870271414238,
+          0.4019271220721452,
+          0.058015404705531216,
+          -0.4480805983450643
+        ],
+        "assignment_basis_weights": [
+          0.6368682789786012,
+          0.3131870271414238,
+          0.4019271220721452,
+          0.058015404705531216,
+          -0.4480805983450643
+        ],
+        "fold": 3
+      },
+      {
+        "family": "trigonometric",
+        "m": 5,
+        "dof": 6,
+        "n": 8,
+        "p": 0.75,
+        "training_mse": 0.03293149848983637,
+        "schwarz_multiplier": 7.238324625039507,
+        "estimated_risk": 0.2383688764584339,
+        "rank": 6,
+        "condition_number": 2.3187685869072068,
+        "fit_basis_coefficients": [
+          0.6577136343692845,
+          0.32258983791924567,
+          0.4560015445974089,
+          0.004476559097087394,
+          -0.36784381877277933,
+          -0.17166652869163204
+        ],
+        "assignment_basis_weights": [
+          0.6577136343692845,
+          0.32258983791924567,
+          0.4560015445974089,
+          0.004476559097087394,
+          -0.36784381877277933,
+          -0.17166652869163204
+        ],
+        "fold": 3
+      },
+      {
+        "family": "trigonometric",
+        "m": 6,
+        "dof": 7,
+        "n": 8,
+        "p": 0.875,
+        "training_mse": 0.012979956597902305,
+        "schwarz_multiplier": 15.55609079175885,
+        "estimated_risk": 0.20191738331005757,
+        "rank": 7,
+        "condition_number": 2.4622179997577303,
+        "fit_basis_coefficients": [
+          0.6715765461197293,
+          0.23193564266318328,
+          0.45317711814842243,
+          -0.08646083604659012,
+          -0.3699569157391195,
+          -0.19814624384971455,
+          0.23134403774899898
+        ],
+        "assignment_basis_weights": [
+          0.6715765461197293,
+          0.23193564266318328,
+          0.45317711814842243,
+          -0.08646083604659012,
+          -0.3699569157391195,
+          -0.19814624384971455,
+          0.23134403774899898
+        ],
+        "fold": 3
+      },
+      {
+        "family": "algebraic",
+        "m": 0,
+        "dof": 1,
+        "n": 8,
+        "p": 0.125,
+        "training_mse": 0.2715344725392137,
+        "schwarz_multiplier": 1.2970630773828336,
+        "estimated_risk": 0.352197338567237,
+        "rank": 1,
+        "condition_number": 1.0,
+        "fit_basis_coefficients": [
+          0.5258543265979583
+        ],
+        "assignment_basis_weights": [
+          0.5258543265979583
+        ],
+        "fold": 3
+      },
+      {
+        "family": "algebraic",
+        "m": 1,
+        "dof": 2,
+        "n": 8,
+        "p": 0.25,
+        "training_mse": 0.08620241698591587,
+        "schwarz_multiplier": 1.6931471805599452,
+        "estimated_risk": 0.14595337927715618,
+        "rank": 2,
+        "condition_number": 1.8775308713313492,
+        "fit_basis_coefficients": [
+          0.39950046379540305,
+          0.7792510185726131
+        ],
+        "assignment_basis_weights": [
+          -0.3797505547772101,
+          1.5585020371452263
+        ],
+        "fold": 3
+      },
+      {
+        "family": "algebraic",
+        "m": 2,
+        "dof": 3,
+        "n": 8,
+        "p": 0.375,
+        "training_mse": 0.07307524239215024,
+        "schwarz_multiplier": 2.2476649250079017,
+        "estimated_risk": 0.16424865921128662,
+        "rank": 3,
+        "condition_number": 3.756428263885394,
+        "fit_basis_coefficients": [
+          0.3657556809785382,
+          0.9814308429473945,
+          -0.34969938929831196
+        ],
+        "assignment_basis_weights": [
+          -0.9653745512671682,
+          4.06105802168466,
+          -2.0981963357898716
+        ],
+        "fold": 3
+      },
+      {
+        "family": "algebraic",
+        "m": 3,
+        "dof": 4,
+        "n": 8,
+        "p": 0.5,
+        "training_mse": 0.061967924589408654,
+        "schwarz_multiplier": 3.0794415416798357,
+        "estimated_risk": 0.19082660123230838,
+        "rank": 4,
+        "condition_number": 9.136375645314832,
+        "fit_basis_coefficients": [
+          0.20763308544878784,
+          1.3448701301056956,
+          -0.9187962162831457,
+          0.5269900915741887
+        ],
+        "assignment_basis_weights": [
+          -2.583023352514242,
+          14.526398656800529,
+          -21.322480044924532,
+          10.539801831483775
+        ],
+        "fold": 3
+      },
+      {
+        "family": "algebraic",
+        "m": 4,
+        "dof": 5,
+        "n": 8,
+        "p": 0.625,
+        "training_mse": 0.025006160281390955,
+        "schwarz_multiplier": 4.465735902799727,
+        "estimated_risk": 0.1116709077597721,
+        "rank": 5,
+        "condition_number": 21.956151920210633,
+        "fit_basis_coefficients": [
+          -0.44213072144433097,
+          3.0960443817041767,
+          -3.0807606062031976,
+          2.5962220155084386,
+          -1.187960655570724
+        ],
+        "assignment_basis_weights": [
+          -10.403118380430872,
+          79.5905296981433,
+          -203.28768310383754,
+          218.23893209007014,
+          -83.1572458899507
+        ],
+        "fold": 3
+      },
+      {
+        "family": "algebraic",
+        "m": 5,
+        "dof": 6,
+        "n": 8,
+        "p": 0.75,
+        "training_mse": 0.0010123433080031319,
+        "schwarz_multiplier": 7.238324625039507,
+        "estimated_risk": 0.007327669495313023,
+        "rank": 6,
+        "condition_number": 62.816803518951936,
+        "fit_basis_coefficients": [
+          0.9518115029082844,
+          -0.6413218621680945,
+          1.8139512337509007,
+          -1.6616264400382095,
+          2.5765609861086842,
+          -2.2350648210225854
+        ],
+        "assignment_basis_weights": [
+          9.880336845996762,
+          -150.6890327601514,
+          761.9866017681763,
+          -1645.587366628628,
+          1588.4501062718366,
+          -563.2363348976916
+        ],
+        "fold": 3
+      },
+      {
+        "family": "algebraic",
+        "m": 6,
+        "dof": 7,
+        "n": 8,
+        "p": 0.875,
+        "training_mse": 0.0009701904053373595,
+        "schwarz_multiplier": 15.55609079175885,
+        "estimated_risk": 0.015092370030721284,
+        "rank": 7,
+        "condition_number": 230.02972372423784,
+        "fit_basis_coefficients": [
+          0.7475012924490457,
+          -0.09238688847631554,
+          1.100597488248671,
+          -0.9464685411022099,
+          2.0024719432589517,
+          -1.8735540575268785,
+          -0.14083961644545437
+        ],
+        "assignment_basis_weights": [
+          6.622140594616618,
+          -108.4867778999475,
+          549.5138292294178,
+          -1111.8551594649862,
+          876.867300466879,
+          -81.72820570997399,
+          -130.13580559559983
+        ],
+        "fold": 3
+      },
+      {
+        "family": "trigonometric",
+        "m": 0,
+        "dof": 1,
+        "n": 8,
+        "p": 0.125,
+        "training_mse": 0.37113649248252767,
+        "schwarz_multiplier": 1.2970630773828336,
+        "estimated_risk": 0.4813874410684582,
+        "rank": 1,
+        "condition_number": 1.0,
+        "fit_basis_coefficients": [
+          0.5579228460223631
+        ],
+        "assignment_basis_weights": [
+          0.5579228460223631
+        ],
+        "fold": 4
+      },
+      {
+        "family": "trigonometric",
+        "m": 1,
+        "dof": 2,
+        "n": 8,
+        "p": 0.25,
+        "training_mse": 0.3227122991806228,
+        "schwarz_multiplier": 1.6931471805599452,
+        "estimated_risk": 0.546399419489689,
+        "rank": 2,
+        "condition_number": 1.4854414676996872,
+        "fit_basis_coefficients": [
+          0.5625615257121425,
+          0.3267583230748695
+        ],
+        "assignment_basis_weights": [
+          0.5625615257121425,
+          0.3267583230748695
+        ],
+        "fold": 4
+      },
+      {
+        "family": "trigonometric",
+        "m": 2,
+        "dof": 3,
+        "n": 8,
+        "p": 0.375,
+        "training_mse": 0.1665494481135505,
+        "schwarz_multiplier": 2.2476649250079017,
+        "estimated_risk": 0.3743473528042509,
+        "rank": 3,
+        "condition_number": 1.509000447032074,
+        "fit_basis_coefficients": [
+          0.6087523358806398,
+          0.29601636442093815,
+          0.5039116332926499
+        ],
+        "assignment_basis_weights": [
+          0.6087523358806398,
+          0.29601636442093815,
+          0.5039116332926499
+        ],
+        "fold": 4
+      },
+      {
+        "family": "trigonometric",
+        "m": 3,
+        "dof": 4,
+        "n": 8,
+        "p": 0.5,
+        "training_mse": 0.16653635382778842,
+        "schwarz_multiplier": 3.0794415416798357,
+        "estimated_risk": 0.5128389661771834,
+        "rank": 4,
+        "condition_number": 1.7761233687451345,
+        "fit_basis_coefficients": [
+          0.6092609993425255,
+          0.29702200770405496,
+          0.5046180190636212,
+          -0.005945446248625086
+        ],
+        "assignment_basis_weights": [
+          0.6092609993425255,
+          0.29702200770405496,
+          0.5046180190636212,
+          -0.005945446248625086
+        ],
+        "fold": 4
+      },
+      {
+        "family": "trigonometric",
+        "m": 4,
+        "dof": 5,
+        "n": 8,
+        "p": 0.625,
+        "training_mse": 0.06724445412479677,
+        "schwarz_multiplier": 4.465735902799727,
+        "estimated_risk": 0.30029597304927413,
+        "rank": 5,
+        "condition_number": 2.151347935709642,
+        "fit_basis_coefficients": [
+          0.7381337708174474,
+          0.4480374030438083,
+          0.389218570462797,
+          -0.01819211158876248,
+          -0.5450413012827365
+        ],
+        "assignment_basis_weights": [
+          0.7381337708174474,
+          0.4480374030438083,
+          0.389218570462797,
+          -0.01819211158876248,
+          -0.5450413012827365
+        ],
+        "fold": 4
+      },
+      {
+        "family": "trigonometric",
+        "m": 5,
+        "dof": 6,
+        "n": 8,
+        "p": 0.75,
+        "training_mse": 0.0429241897232154,
+        "schwarz_multiplier": 7.238324625039507,
+        "estimated_risk": 0.3106992194834178,
+        "rank": 6,
+        "condition_number": 2.502897922505673,
+        "fit_basis_coefficients": [
+          0.7527830394206311,
+          0.4368489050974589,
+          0.4497419180755193,
+          -0.08511827524258204,
+          -0.42133432118230846,
+          -0.22562909889701702
+        ],
+        "assignment_basis_weights": [
+          0.7527830394206311,
+          0.4368489050974589,
+          0.4497419180755193,
+          -0.08511827524258204,
+          -0.42133432118230846,
+          -0.22562909889701702
+        ],
+        "fold": 4
+      },
+      {
+        "family": "trigonometric",
+        "m": 6,
+        "dof": 7,
+        "n": 8,
+        "p": 0.875,
+        "training_mse": 0.030916669357673704,
+        "schwarz_multiplier": 15.55609079175885,
+        "estimated_risk": 0.4809425155067609,
+        "rank": 7,
+        "condition_number": 3.2787252942271827,
+        "fit_basis_coefficients": [
+          0.829549105647896,
+          0.44121153983775335,
+          0.43307638236807094,
+          -0.23824600854323735,
+          -0.5029300096775314,
+          -0.2461843073472377,
+          0.2143291261085163
+        ],
+        "assignment_basis_weights": [
+          0.829549105647896,
+          0.44121153983775335,
+          0.43307638236807094,
+          -0.23824600854323735,
+          -0.5029300096775314,
+          -0.2461843073472377,
+          0.2143291261085163
+        ],
+        "fold": 4
+      },
+      {
+        "family": "algebraic",
+        "m": 0,
+        "dof": 1,
+        "n": 8,
+        "p": 0.125,
+        "training_mse": 0.37113649248252767,
+        "schwarz_multiplier": 1.2970630773828336,
+        "estimated_risk": 0.4813874410684582,
+        "rank": 1,
+        "condition_number": 1.0,
+        "fit_basis_coefficients": [
+          0.5579228460223631
+        ],
+        "assignment_basis_weights": [
+          0.5579228460223631
+        ],
+        "fold": 4
+      },
+      {
+        "family": "algebraic",
+        "m": 1,
+        "dof": 2,
+        "n": 8,
+        "p": 0.25,
+        "training_mse": 0.13696587524584963,
+        "schwarz_multiplier": 1.6931471805599452,
+        "estimated_risk": 0.2319033855054355,
+        "rank": 2,
+        "condition_number": 1.7332849050620323,
+        "fit_basis_coefficients": [
+          0.5433668623866607,
+          0.8383780961977864
+        ],
+        "assignment_basis_weights": [
+          -0.2950112338111257,
+          1.6767561923955727
+        ],
+        "fold": 4
+      },
+      {
+        "family": "algebraic",
+        "m": 2,
+        "dof": 3,
+        "n": 8,
+        "p": 0.375,
+        "training_mse": 0.13424708888388076,
+        "schwarz_multiplier": 2.2476649250079017,
+        "estimated_risk": 0.301742472968717,
+        "rank": 3,
+        "condition_number": 3.411977336566591,
+        "fit_basis_coefficients": [
+          0.5419700398000458,
+          0.9204895056208405,
+          -0.15015201118328622
+        ],
+        "assignment_basis_weights": [
+          -0.528671477004081,
+          2.741891078341398,
+          -0.9009120670997173
+        ],
+        "fold": 4
+      },
+      {
+        "family": "algebraic",
+        "m": 3,
+        "dof": 4,
+        "n": 8,
+        "p": 0.5,
+        "training_mse": 0.11926934731567339,
+        "schwarz_multiplier": 3.0794415416798357,
+        "estimated_risk": 0.36728298277292504,
+        "rank": 4,
+        "condition_number": 9.421208682387185,
+        "fit_basis_coefficients": [
+          0.7629802113506834,
+          0.601829024639953,
+          0.5031379411994704,
+          -0.7381610176385232
+        ],
+        "assignment_basis_weights": [
+          1.402450145548724,
+          -10.673101809579194,
+          25.16365817635252,
+          -14.763220352770464
+        ],
+        "fold": 4
+      },
+      {
+        "family": "algebraic",
+        "m": 4,
+        "dof": 5,
+        "n": 8,
+        "p": 0.625,
+        "training_mse": 0.085091950030295,
+        "schwarz_multiplier": 4.465735902799727,
+        "estimated_risk": 0.3799981762895287,
+        "rank": 5,
+        "condition_number": 17.176085869856152,
+        "fit_basis_coefficients": [
+          0.380397855926351,
+          1.852612258277044,
+          -0.9239388993243209,
+          0.6420874061553521,
+          -1.0711583538707656
+        ],
+        "assignment_basis_weights": [
+          -4.109399061701131,
+          38.37707386377956,
+          -121.2105074289754,
+          162.80391766501424,
+          -74.9810847709536
+        ],
+        "fold": 4
+      },
+      {
+        "family": "algebraic",
+        "m": 5,
+        "dof": 6,
+        "n": 8,
+        "p": 0.75,
+        "training_mse": 0.04317732140864076,
+        "schwarz_multiplier": 7.238324625039507,
+        "estimated_risk": 0.3125314687954099,
+        "rank": 6,
+        "condition_number": 87.64524036228528,
+        "fit_basis_coefficients": [
+          2.729143292719973,
+          -5.476645382156818,
+          8.016298001884453,
+          -6.9439495365116075,
+          6.831934758448794,
+          -4.451138498242164
+        ],
+        "assignment_basis_weights": [
+          34.44910946996381,
+          -412.55132333000046,
+          1806.029486997901,
+          -3587.9874159286755,
+          3282.452686983979,
+          -1121.6869015570255
+        ],
+        "fold": 4
+      },
+      {
+        "family": "algebraic",
+        "m": 6,
+        "dof": 7,
+        "n": 8,
+        "p": 0.875,
+        "training_mse": 0.024523560833165765,
+        "schwarz_multiplier": 15.55609079175885,
+        "estimated_risk": 0.38149073885794793,
+        "rank": 7,
+        "condition_number": 260.35180961822164,
+        "fit_basis_coefficients": [
+          7.588357524138207,
+          -16.69324597585754,
+          23.838661021784862,
+          -24.861436337220752,
+          18.96117927852584,
+          -13.38162851213293,
+          5.60952142399184
+        ],
+        "assignment_basis_weights": [
+          110.934030073652,
+          -1491.0280348712354,
+          7761.522176939146,
+          -20069.50178483877,
+          27427.700997714855,
+          -18921.763772362876,
+          5183.197795768459
+        ],
+        "fold": 4
+      },
+      {
+        "family": "trigonometric",
+        "m": 0,
+        "dof": 1,
+        "n": 8,
+        "p": 0.125,
+        "training_mse": 0.4304976885368006,
+        "schwarz_multiplier": 1.2970630773828336,
+        "estimated_risk": 0.5583826566997392,
+        "rank": 1,
+        "condition_number": 1.0,
+        "fit_basis_coefficients": [
+          0.6020085368907672
+        ],
+        "assignment_basis_weights": [
+          0.6020085368907672
+        ],
+        "fold": 5
+      },
+      {
+        "family": "trigonometric",
+        "m": 1,
+        "dof": 2,
+        "n": 8,
+        "p": 0.25,
+        "training_mse": 0.30830166616726445,
+        "schwarz_multiplier": 1.6931471805599452,
+        "estimated_risk": 0.5220000968330373,
+        "rank": 2,
+        "condition_number": 1.894066721516751,
+        "fit_basis_coefficients": [
+          0.5226100921555483,
+          0.6485125498003154
+        ],
+        "assignment_basis_weights": [
+          0.5226100921555483,
+          0.6485125498003154
+        ],
+        "fold": 5
+      },
+      {
+        "family": "trigonometric",
+        "m": 2,
+        "dof": 3,
+        "n": 8,
+        "p": 0.375,
+        "training_mse": 0.0912998604656804,
+        "schwarz_multiplier": 2.2476649250079017,
+        "estimated_risk": 0.20521149402682543,
+        "rank": 3,
+        "condition_number": 2.261774438097008,
+        "fit_basis_coefficients": [
+          0.848865998707838,
+          0.5599407794414799,
+          0.8109906524933144
+        ],
+        "assignment_basis_weights": [
+          0.848865998707838,
+          0.5599407794414799,
+          0.8109906524933144
+        ],
+        "fold": 5
+      },
+      {
+        "family": "trigonometric",
+        "m": 3,
+        "dof": 4,
+        "n": 8,
+        "p": 0.5,
+        "training_mse": 0.07347444262262112,
+        "schwarz_multiplier": 3.0794415416798357,
+        "estimated_risk": 0.22626025086387103,
+        "rank": 4,
+        "condition_number": 3.301796382511442,
+        "fit_basis_coefficients": [
+          0.8553004943748516,
+          0.7549822059694503,
+          0.7737058049675346,
+          0.29062673850823756
+        ],
+        "assignment_basis_weights": [
+          0.8553004943748516,
+          0.7549822059694503,
+          0.7737058049675346,
+          0.29062673850823756
+        ],
+        "fold": 5
+      },
+      {
+        "family": "trigonometric",
+        "m": 4,
+        "dof": 5,
+        "n": 8,
+        "p": 0.625,
+        "training_mse": 0.048726682513096774,
+        "schwarz_multiplier": 4.465735902799727,
+        "estimated_risk": 0.21760049552305988,
+        "rank": 5,
+        "condition_number": 6.249163789638969,
+        "fit_basis_coefficients": [
+          0.6195149556667034,
+          0.6760938405729855,
+          0.20969351224292035,
+          0.23342154866173978,
+          -0.5629044373334613
+        ],
+        "assignment_basis_weights": [
+          0.6195149556667034,
+          0.6760938405729855,
+          0.20969351224292035,
+          0.23342154866173978,
+          -0.5629044373334613
+        ],
+        "fold": 5
+      },
+      {
+        "family": "trigonometric",
+        "m": 5,
+        "dof": 6,
+        "n": 8,
+        "p": 0.75,
+        "training_mse": 0.04374820763974793,
+        "schwarz_multiplier": 7.238324625039507,
+        "estimated_risk": 0.31666372866012893,
+        "rank": 6,
+        "condition_number": 13.003814870161534,
+        "fit_basis_coefficients": [
+          0.6198949681345833,
+          1.159489961757997,
+          0.2023605103508937,
+          0.7332343873781231,
+          -0.6286498156652518,
+          0.3123502679443786
+        ],
+        "assignment_basis_weights": [
+          0.6198949681345833,
+          1.159489961757997,
+          0.2023605103508937,
+          0.7332343873781231,
+          -0.6286498156652518,
+          0.3123502679443786
+        ],
+        "fold": 5
+      },
+      {
+        "family": "trigonometric",
+        "m": 6,
+        "dof": 7,
+        "n": 8,
+        "p": 0.875,
+        "training_mse": 0.027567245090451335,
+        "schwarz_multiplier": 15.55609079175885,
+        "estimated_risk": 0.42883856750572935,
+        "rank": 7,
+        "condition_number": 42.491114361686634,
+        "fit_basis_coefficients": [
+          1.9901228433593168,
+          -0.1036114248115619,
+          2.9030226013308367,
+          -0.7707229552111594,
+          1.6219953803919736,
+          -0.6520434006826183,
+          1.0762888341819195
+        ],
+        "assignment_basis_weights": [
+          1.9901228433593168,
+          -0.1036114248115619,
+          2.9030226013308367,
+          -0.7707229552111594,
+          1.6219953803919736,
+          -0.6520434006826183,
+          1.0762888341819195
+        ],
+        "fold": 5
+      },
+      {
+        "family": "algebraic",
+        "m": 0,
+        "dof": 1,
+        "n": 8,
+        "p": 0.125,
+        "training_mse": 0.4304976885368006,
+        "schwarz_multiplier": 1.2970630773828336,
+        "estimated_risk": 0.5583826566997392,
+        "rank": 1,
+        "condition_number": 1.0,
+        "fit_basis_coefficients": [
+          0.6020085368907672
+        ],
+        "assignment_basis_weights": [
+          0.6020085368907672
+        ],
+        "fold": 5
+      },
+      {
+        "family": "algebraic",
+        "m": 1,
+        "dof": 2,
+        "n": 8,
+        "p": 0.25,
+        "training_mse": 0.13970604062940428,
+        "schwarz_multiplier": 1.6931471805599452,
+        "estimated_risk": 0.236542888798869,
+        "rank": 2,
+        "condition_number": 1.7472304798260172,
+        "fit_basis_coefficients": [
+          0.5490165640981312,
+          0.937732039437044
+        ],
+        "assignment_basis_weights": [
+          -0.3887154753389128,
+          1.875464078874088
+        ],
+        "fold": 5
+      },
+      {
+        "family": "algebraic",
+        "m": 2,
+        "dof": 3,
+        "n": 8,
+        "p": 0.375,
+        "training_mse": 0.12385969553459135,
+        "schwarz_multiplier": 2.2476649250079017,
+        "estimated_risk": 0.2783950932752588,
+        "rank": 3,
+        "condition_number": 4.529373079124017,
+        "fit_basis_coefficients": [
+          0.5589676045154508,
+          0.7538275415122367,
+          0.5326020819730826
+        ],
+        "assignment_basis_weights": [
+          0.3377421449762966,
+          -1.687957408814022,
+          3.1956124918384954
+        ],
+        "fold": 5
+      },
+      {
+        "family": "algebraic",
+        "m": 3,
+        "dof": 4,
+        "n": 8,
+        "p": 0.5,
+        "training_mse": 0.08676988225986423,
+        "schwarz_multiplier": 3.0794415416798357,
+        "estimated_risk": 0.26720277999769415,
+        "rank": 4,
+        "condition_number": 10.425872911030742,
+        "fit_basis_coefficients": [
+          0.2944967202257953,
+          1.5987379937439774,
+          -0.35698465437191024,
+          1.4239745821966359
+        ],
+        "assignment_basis_weights": [
+          -3.085200510086728,
+          22.427078900079046,
+          -44.86114539213054,
+          28.479491643932718
+        ],
+        "fold": 5
+      },
+      {
+        "family": "algebraic",
+        "m": 4,
+        "dof": 5,
+        "n": 8,
+        "p": 0.625,
+        "training_mse": 0.06854878420059413,
+        "schwarz_multiplier": 4.465735902799727,
+        "estimated_risk": 0.30612076669786387,
+        "rank": 5,
+        "condition_number": 20.19809156747744,
+        "fit_basis_coefficients": [
+          0.7458911912792017,
+          0.739934816971685,
+          1.1029887208560707,
+          0.5428765629844728,
+          1.3207679021497563
+        ],
+        "assignment_basis_weights": [
+          1.8868364343288706,
+          -25.038901978374508,
+          109.20074662908031,
+          -174.04997504127644,
+          92.45375315048294
+        ],
+        "fold": 5
+      },
+      {
+        "family": "algebraic",
+        "m": 5,
+        "dof": 6,
+        "n": 8,
+        "p": 0.75,
+        "training_mse": 0.039860849935000935,
+        "schwarz_multiplier": 7.238324625039507,
+        "estimated_risk": 0.2885257716595217,
+        "rank": 6,
+        "condition_number": 118.3174719995856,
+        "fit_basis_coefficients": [
+          3.476060558349933,
+          -7.670363068242741,
+          10.048818590982703,
+          -10.013030839851917,
+          8.479521582824852,
+          -6.092688259635954
+        ],
+        "assignment_basis_weights": [
+          45.78048289988811,
+          -548.1610872061804,
+          2403.305313719241,
+          -4799.299063788651,
+          4431.96011436839,
+          -1535.3574414282605
+        ],
+        "fold": 5
+      },
+      {
+        "family": "algebraic",
+        "m": 6,
+        "dof": 7,
+        "n": 8,
+        "p": 0.875,
+        "training_mse": 0.025964882587119445,
+        "schwarz_multiplier": 15.55609079175885,
+        "estimated_risk": 0.4039120709225885,
+        "rank": 7,
+        "condition_number": 213.60663057497797,
+        "fit_basis_coefficients": [
+          6.6152297225236545,
+          -14.337529731846576,
+          21.614101096501,
+          -19.282799189564347,
+          18.63188483350338,
+          -10.281936719984428,
+          4.482048585181548
+        ],
+        "assignment_basis_weights": [
+          95.24552987910492,
+          -1259.0950951646969,
+          6426.705334254221,
+          -16281.846046778042,
+          21900.305115257306,
+          -15015.286731559328,
+          4141.412892707751
+        ],
+        "fold": 5
+      }
+    ],
+    "selected_models": [
+      {
+        "family": "trigonometric",
+        "m": 6,
+        "dof": 7,
+        "n": 8,
+        "p": 0.875,
+        "training_mse": 0.003279293450165927,
+        "schwarz_multiplier": 15.55609079175885,
+        "estimated_risk": 0.05101298664360129,
+        "rank": 7,
+        "condition_number": 6.704388055463726,
+        "fit_basis_coefficients": [
+          0.5054544680679605,
+          0.6550152113736758,
+          0.545986779716887,
+          -0.42429519683521283,
+          -0.006220636980657838,
+          0.03450512960310756,
+          -0.36559937154456745
+        ],
+        "assignment_basis_weights": [
+          0.5054544680679605,
+          0.6550152113736758,
+          0.545986779716887,
+          -0.42429519683521283,
+          -0.006220636980657838,
+          0.03450512960310756,
+          -0.36559937154456745
+        ],
+        "fold": 1,
+        "training_sample_ids": [
+          0,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "held_out_sample_ids": [
+          3,
+          1
+        ]
+      },
+      {
+        "family": "algebraic",
+        "m": 5,
+        "dof": 6,
+        "n": 8,
+        "p": 0.75,
+        "training_mse": 0.0038851625188656997,
+        "schwarz_multiplier": 7.238324625039507,
+        "estimated_risk": 0.02812206753258611,
+        "rank": 6,
+        "condition_number": 51.479125528547456,
+        "fit_basis_coefficients": [
+          2.575637450307993,
+          -4.918176029684857,
+          7.382471325611093,
+          -6.437026561414451,
+          5.531640808691072,
+          -3.3584472819500597
+        ],
+        "assignment_basis_weights": [
+          30.203399457659522,
+          -342.76173338233286,
+          1440.527226787809,
+          -2783.9007223370727,
+          2503.0366442369127,
+          -846.3287150514151
+        ],
+        "fold": 1,
+        "training_sample_ids": [
+          0,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "held_out_sample_ids": [
+          3,
+          1
+        ]
+      },
+      {
+        "family": "trigonometric",
+        "m": 6,
+        "dof": 7,
+        "n": 8,
+        "p": 0.875,
+        "training_mse": 0.007922484393188859,
+        "schwarz_multiplier": 15.55609079175885,
+        "estimated_risk": 0.1232428865167384,
+        "rank": 7,
+        "condition_number": 52.243250211571336,
+        "fit_basis_coefficients": [
+          1.9038292230370948,
+          -1.6616533254300783,
+          0.8997555828540389,
+          3.080322584533686,
+          -5.92049688512001,
+          4.991147865955093,
+          -2.377391977224009
+        ],
+        "assignment_basis_weights": [
+          1.9038292230370948,
+          -1.6616533254300783,
+          0.8997555828540389,
+          3.080322584533686,
+          -5.92049688512001,
+          4.991147865955093,
+          -2.377391977224009
+        ],
+        "fold": 2,
+        "training_sample_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          8,
+          9
+        ],
+        "held_out_sample_ids": [
+          7,
+          6
+        ]
+      },
+      {
+        "family": "algebraic",
+        "m": 6,
+        "dof": 7,
+        "n": 8,
+        "p": 0.875,
+        "training_mse": 0.008522181362031277,
+        "schwarz_multiplier": 15.55609079175885,
+        "estimated_risk": 0.13257182701159365,
+        "rank": 7,
+        "condition_number": 368.38118768882254,
+        "fit_basis_coefficients": [
+          11.76781482809575,
+          -30.13138080076892,
+          40.701627451691735,
+          -39.47698269906166,
+          33.215296135201335,
+          -21.479640149505904,
+          6.323577553481044
+        ],
+        "assignment_basis_weights": [
+          183.0963196178063,
+          -2352.4817031358357,
+          11584.522901708398,
+          -28091.88988648088,
+          35776.51331711811,
+          -22941.826295924948,
+          5842.985659416485
+        ],
+        "fold": 2,
+        "training_sample_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          8,
+          9
+        ],
+        "held_out_sample_ids": [
+          7,
+          6
+        ]
+      },
+      {
+        "family": "trigonometric",
+        "m": 6,
+        "dof": 7,
+        "n": 8,
+        "p": 0.875,
+        "training_mse": 0.012979956597902305,
+        "schwarz_multiplier": 15.55609079175885,
+        "estimated_risk": 0.20191738331005757,
+        "rank": 7,
+        "condition_number": 2.4622179997577303,
+        "fit_basis_coefficients": [
+          0.6715765461197293,
+          0.23193564266318328,
+          0.45317711814842243,
+          -0.08646083604659012,
+          -0.3699569157391195,
+          -0.19814624384971455,
+          0.23134403774899898
+        ],
+        "assignment_basis_weights": [
+          0.6715765461197293,
+          0.23193564266318328,
+          0.45317711814842243,
+          -0.08646083604659012,
+          -0.3699569157391195,
+          -0.19814624384971455,
+          0.23134403774899898
+        ],
+        "fold": 3,
+        "training_sample_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8
+        ],
+        "held_out_sample_ids": [
+          9,
+          5
+        ]
+      },
+      {
+        "family": "algebraic",
+        "m": 5,
+        "dof": 6,
+        "n": 8,
+        "p": 0.75,
+        "training_mse": 0.0010123433080031319,
+        "schwarz_multiplier": 7.238324625039507,
+        "estimated_risk": 0.007327669495313023,
+        "rank": 6,
+        "condition_number": 62.816803518951936,
+        "fit_basis_coefficients": [
+          0.9518115029082844,
+          -0.6413218621680945,
+          1.8139512337509007,
+          -1.6616264400382095,
+          2.5765609861086842,
+          -2.2350648210225854
+        ],
+        "assignment_basis_weights": [
+          9.880336845996762,
+          -150.6890327601514,
+          761.9866017681763,
+          -1645.587366628628,
+          1588.4501062718366,
+          -563.2363348976916
+        ],
+        "fold": 3,
+        "training_sample_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8
+        ],
+        "held_out_sample_ids": [
+          9,
+          5
+        ]
+      },
+      {
+        "family": "trigonometric",
+        "m": 4,
+        "dof": 5,
+        "n": 8,
+        "p": 0.625,
+        "training_mse": 0.06724445412479677,
+        "schwarz_multiplier": 4.465735902799727,
+        "estimated_risk": 0.30029597304927413,
+        "rank": 5,
+        "condition_number": 2.151347935709642,
+        "fit_basis_coefficients": [
+          0.7381337708174474,
+          0.4480374030438083,
+          0.389218570462797,
+          -0.01819211158876248,
+          -0.5450413012827365
+        ],
+        "assignment_basis_weights": [
+          0.7381337708174474,
+          0.4480374030438083,
+          0.389218570462797,
+          -0.01819211158876248,
+          -0.5450413012827365
+        ],
+        "fold": 4,
+        "training_sample_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "held_out_sample_ids": [
+          8,
+          0
+        ]
+      },
+      {
+        "family": "algebraic",
+        "m": 1,
+        "dof": 2,
+        "n": 8,
+        "p": 0.25,
+        "training_mse": 0.13696587524584963,
+        "schwarz_multiplier": 1.6931471805599452,
+        "estimated_risk": 0.2319033855054355,
+        "rank": 2,
+        "condition_number": 1.7332849050620323,
+        "fit_basis_coefficients": [
+          0.5433668623866607,
+          0.8383780961977864
+        ],
+        "assignment_basis_weights": [
+          -0.2950112338111257,
+          1.6767561923955727
+        ],
+        "fold": 4,
+        "training_sample_ids": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "held_out_sample_ids": [
+          8,
+          0
+        ]
+      },
+      {
+        "family": "trigonometric",
+        "m": 2,
+        "dof": 3,
+        "n": 8,
+        "p": 0.375,
+        "training_mse": 0.0912998604656804,
+        "schwarz_multiplier": 2.2476649250079017,
+        "estimated_risk": 0.20521149402682543,
+        "rank": 3,
+        "condition_number": 2.261774438097008,
+        "fit_basis_coefficients": [
+          0.848865998707838,
+          0.5599407794414799,
+          0.8109906524933144
+        ],
+        "assignment_basis_weights": [
+          0.848865998707838,
+          0.5599407794414799,
+          0.8109906524933144
+        ],
+        "fold": 5,
+        "training_sample_ids": [
+          0,
+          1,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "held_out_sample_ids": [
+          2,
+          4
+        ]
+      },
+      {
+        "family": "algebraic",
+        "m": 1,
+        "dof": 2,
+        "n": 8,
+        "p": 0.25,
+        "training_mse": 0.13970604062940428,
+        "schwarz_multiplier": 1.6931471805599452,
+        "estimated_risk": 0.236542888798869,
+        "rank": 2,
+        "condition_number": 1.7472304798260172,
+        "fit_basis_coefficients": [
+          0.5490165640981312,
+          0.937732039437044
+        ],
+        "assignment_basis_weights": [
+          -0.3887154753389128,
+          1.875464078874088
+        ],
+        "fold": 5,
+        "training_sample_ids": [
+          0,
+          1,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "held_out_sample_ids": [
+          2,
+          4
+        ]
+      }
+    ],
+    "cv_mse": {
+      "trigonometric": 22.832404794322407,
+      "algebraic": 0.3895744060719519
+    }
+  }
+}

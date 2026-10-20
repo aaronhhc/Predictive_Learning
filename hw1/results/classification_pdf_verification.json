@@ -1,0 +1,20 @@
+{
+  "pdf": "/Users/huanghungche/Documents/NTNU/Courses/Predictive_Learning/hw1/Homework1_61547048S_\u9ec3\u7ad1\u5586.pdf",
+  "pages": 3,
+  "classification_body_font_size": 10.5,
+  "classification_height": 524.9961000000001,
+  "regression_render_sha256_before": [
+    "474853d0d7cb8a2152e9f6a4e603af130e47cc7809231c54c250bbec4c857738",
+    "78215099f5a5004bb4722bb3283917d0f137afaaccc621f06f75be7c4baf2f2b",
+    "7aab569738027f967bc1bb58ec0623ff515bd156613de50f4f33d383d2a84734"
+  ],
+  "regression_render_sha256_after": [
+    "474853d0d7cb8a2152e9f6a4e603af130e47cc7809231c54c250bbec4c857738",
+    "78215099f5a5004bb4722bb3283917d0f137afaaccc621f06f75be7c4baf2f2b",
+    "7aab569738027f967bc1bb58ec0623ff515bd156613de50f4f33d383d2a84734"
+  ],
+  "regression_text_and_rendering_unchanged": true,
+  "visual_review": "All three rendered pages inspected: classification results are correct; text and tables fit; regression pages retain their original appearance.",
+  "classification_tests": "4 tests passed; all 100 LOOCV counts and 102 final test predictions match independent references",
+  "original_datasets_and_regression_file_hashes_unchanged": true
+}

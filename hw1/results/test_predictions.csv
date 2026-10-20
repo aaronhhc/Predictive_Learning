@@ -1,0 +1,103 @@
+problem,test_year,jurisdiction,code,obesity_percent,actual,predicted,correct
+2.7,2000,Alabama,AL,22.60,R,D,False
+2.7,2000,Alaska,AK,20.90,R,D,False
+2.7,2000,Arizona,AZ,14.90,R,D,False
+2.7,2000,Arkansas,AR,21.90,R,D,False
+2.7,2000,California,CA,18.70,D,D,True
+2.7,2000,Colorado,CO,14.50,R,D,False
+2.7,2000,Connecticut,CT,16.00,D,D,True
+2.7,2000,Delaware,DE,17.10,D,D,True
+2.7,2000,DC,DC,20.10,D,R,False
+2.7,2000,Florida,FL,18.40,R,D,False
+2.7,2000,Georgia,GA,20.60,R,R,True
+2.7,2000,Hawaii,HI,15.70,D,D,True
+2.7,2000,Idaho,ID,18.40,R,D,False
+2.7,2000,Illinois,IL,20.40,D,R,False
+2.7,2000,Indiana,IN,20.50,R,R,True
+2.7,2000,Iowa,IA,20.90,D,D,True
+2.7,2000,Kansas,KS,19.10,R,D,False
+2.7,2000,Kentucky,KY,21.70,R,D,False
+2.7,2000,Louisiana,LA,22.60,R,D,False
+2.7,2000,Maine,ME,18.90,D,D,True
+2.7,2000,Maryland,MD,19.60,D,R,False
+2.7,2000,Massachusetts,MA,15.30,D,D,True
+2.7,2000,Michigan,MI,22.10,D,D,True
+2.7,2000,Minnesota,MN,16.40,D,D,True
+2.7,2000,Mississippi,MS,23.70,R,R,True
+2.7,2000,Missouri,MO,21.40,R,D,False
+2.7,2000,Montana,MT,15.60,R,D,False
+2.7,2000,Nebraska,NE,20.10,R,R,True
+2.7,2000,Nevada,NV,16.00,R,D,False
+2.7,2000,New Hampshire,NH,16.10,R,D,False
+2.7,2000,New Jersey,NJ,17.00,D,D,True
+2.7,2000,New Mexico,NM,17.40,D,D,True
+2.7,2000,New York,NY,17.10,D,D,True
+2.7,2000,North Carolina,NC,20.90,R,D,False
+2.7,2000,North Dakota,ND,20.50,R,R,True
+2.7,2000,Ohio,OH,20.60,R,R,True
+2.7,2000,Oklahoma,OK,20.10,R,R,True
+2.7,2000,Oregon,OR,19.90,D,R,False
+2.7,2000,Pennsylvania,PA,20.30,D,R,False
+2.7,2000,Rhode Island,RI,16.90,D,D,True
+2.7,2000,South Carolina,SC,21.10,R,D,False
+2.7,2000,South Dakota,SD,18.40,R,D,False
+2.7,2000,Tennessee,TN,20.90,R,D,False
+2.7,2000,Texas,TX,21.70,R,D,False
+2.7,2000,Utah,UT,17.30,R,D,False
+2.7,2000,Vermont,VT,17.00,D,D,True
+2.7,2000,Virginia,VA,18.70,R,D,False
+2.7,2000,Washington,WA,18.40,D,D,True
+2.7,2000,West Virginia,WV,23.90,R,R,True
+2.7,2000,Wisconsin,WI,19.40,D,D,True
+2.7,2000,Wyoming,WY,16.60,R,D,False
+2.8,2004,Alabama,AL,27.70,R,R,True
+2.8,2004,Alaska,AK,23.50,R,R,True
+2.8,2004,Arizona,AZ,20.30,R,R,True
+2.8,2004,Arkansas,AR,25.00,R,R,True
+2.8,2004,California,CA,21.50,D,R,False
+2.8,2004,Colorado,CO,16.40,R,D,False
+2.8,2004,Connecticut,CT,18.90,D,D,True
+2.8,2004,Delaware,DE,22.50,D,R,False
+2.8,2004,DC,DC,21.20,D,R,False
+2.8,2004,Florida,FL,20.70,R,R,True
+2.8,2004,Georgia,GA,24.50,R,R,True
+2.8,2004,Hawaii,HI,15.70,R,D,False
+2.8,2004,Idaho,ID,20.90,R,R,True
+2.8,2004,Illinois,IL,22.90,D,R,False
+2.8,2004,Indiana,IN,25.20,R,R,True
+2.8,2004,Iowa,IA,23.40,R,R,True
+2.8,2004,Kansas,KS,22.90,R,R,True
+2.8,2004,Kentucky,KY,25.30,R,R,True
+2.8,2004,Louisiana,LA,25.80,R,R,True
+2.8,2004,Maine,ME,21.30,D,R,False
+2.8,2004,Maryland,MD,21.70,D,R,False
+2.8,2004,Massachusetts,MA,17.80,D,D,True
+2.8,2004,Michigan,MI,25.30,D,R,False
+2.8,2004,Minnesota,MN,22.60,D,R,False
+2.8,2004,Mississippi,MS,28.10,R,R,True
+2.8,2004,Missouri,MO,23.90,R,R,True
+2.8,2004,Montana,MT,19.10,R,D,False
+2.8,2004,Nebraska,NE,23.40,R,R,True
+2.8,2004,Nevada,NV,21.30,R,R,True
+2.8,2004,New Hampshire,NH,19.90,D,R,False
+2.8,2004,New Jersey,NJ,20.30,D,R,False
+2.8,2004,New Mexico,NM,20.50,R,R,True
+2.8,2004,New York,NY,21.20,D,R,False
+2.8,2004,North Carolina,NC,23.90,R,R,True
+2.8,2004,North Dakota,ND,23.90,R,R,True
+2.8,2004,Ohio,OH,24.40,R,R,True
+2.8,2004,Oklahoma,OK,24.10,R,R,True
+2.8,2004,Oregon,OR,21.00,D,R,False
+2.8,2004,Pennsylvania,PA,24.00,D,R,False
+2.8,2004,Rhode Island,RI,18.60,D,D,True
+2.8,2004,South Carolina,SC,25.10,R,R,True
+2.8,2004,South Dakota,SD,22.60,R,R,True
+2.8,2004,Tennessee,TN,25.60,R,R,True
+2.8,2004,Texas,TX,25.30,R,R,True
+2.8,2004,Utah,UT,19.60,R,D,False
+2.8,2004,Vermont,VT,19.10,D,D,True
+2.8,2004,Virginia,VA,22.90,R,R,True
+2.8,2004,Washington,WA,21.70,D,R,False
+2.8,2004,West Virginia,WV,27.60,R,R,True
+2.8,2004,Wisconsin,WI,21.90,D,R,False
+2.8,2004,Wyoming,WY,20.10,R,R,True

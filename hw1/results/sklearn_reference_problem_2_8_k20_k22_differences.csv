@@ -1,0 +1,11 @@
+k,held_out_index,csv_row,state,code,obesity_percent,actual,sklearn_prediction,custom_policy_prediction,sklearn_mistake,custom_mistake,sklearn_D_votes,sklearn_R_votes,custom_D_votes,custom_R_votes,algorithm_used
+20,6,7,Connecticut,CT,16.0,D,D,R,0,1,10,10,10,10,kd_tree
+20,11,12,Hawaii,HI,15.7,D,D,R,0,1,10,10,10,10,kd_tree
+20,16,17,Kansas,KS,19.1,R,D,R,1,0,10,10,10,10,kd_tree
+20,21,22,Massachusetts,MA,15.3,D,D,R,0,1,10,10,10,10,kd_tree
+20,23,24,Minnesota,MN,16.4,D,D,R,0,1,10,10,10,10,kd_tree
+22,6,7,Connecticut,CT,16.0,D,D,R,0,1,11,11,11,11,kd_tree
+22,11,12,Hawaii,HI,15.7,D,D,R,0,1,11,11,11,11,kd_tree
+22,16,17,Kansas,KS,19.1,R,D,R,1,0,11,11,11,11,kd_tree
+22,21,22,Massachusetts,MA,15.3,D,D,R,0,1,11,11,11,11,kd_tree
+22,23,24,Minnesota,MN,16.4,D,D,R,0,1,11,11,11,11,kd_tree

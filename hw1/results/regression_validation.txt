@@ -1,0 +1,12 @@
+test_course_equation_and_domain (test_regression.RegressionTests.test_course_equation_and_domain) ... ok
+test_data_provenance_exact_reproduction_and_reuse (test_regression.RegressionTests.test_data_provenance_exact_reproduction_and_reuse) ... ok
+test_held_out_inputs_and_labels_cannot_influence_fold_selection (test_regression.RegressionTests.test_held_out_inputs_and_labels_cannot_influence_fold_selection) ... ok
+test_original_inputs_unchanged (test_regression.RegressionTests.test_original_inputs_unchanged) ... ok
+test_problem_2_11_all_candidates_and_selected_models (test_regression.RegressionTests.test_problem_2_11_all_candidates_and_selected_models) ... ok
+test_problem_2_12_folds_candidates_predictions_and_aggregation (test_regression.RegressionTests.test_problem_2_12_folds_candidates_predictions_and_aggregation) ... ok
+test_saved_csv_tables_match_full_precision_json (test_regression.RegressionTests.test_saved_csv_tables_match_full_precision_json) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.106s
+
+OK
