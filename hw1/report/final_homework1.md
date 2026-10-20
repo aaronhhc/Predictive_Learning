@@ -8,33 +8,31 @@ Topics: Risk Minimization + Model Selection
 
 ## Problem 2.7
 
-The task is binary classification of presidential election outcomes (Republican or Democrat) using obesity percentage as the sole predictor. Each supplied dataset contains the 50 states plus the District of Columbia, giving 51 observations. The 2004 data are used for training and the 2000 data for evaluation; the supplied labels and original row order are retained.
+The task is to classify the presidential election outcome (Republican or Democrat) using obesity percentage as the only predictor. Each dataset has 51 observations (50 states and the District of Columbia). I trained on the 2004 data and tested on the 2000 data.
 
-The analysis uses scikit-learn's standard `KNeighborsClassifier` with default uniform weighting and all other estimator settings at their defaults (scikit-learn 1.9.1). `LeaveOneOut` evaluates k = 1,…,50 on the training year: each classifier is fitted on exactly 50 observations and predicts the one held-out observation. Resampling error is the fraction of incorrect predictions. The selected classifier is then fitted to all 51 training observations and evaluated on the other year. Test-year labels are never used for model selection.
-
-If multiple k values achieve the minimum LOOCV error, the smallest minimizing k is selected as an **implementation convention**.
+I used scikit-learn's `KNeighborsClassifier` with default settings and `LeaveOneOut` on the 2004 data for k = 1,…,50. The resampling error is the fraction of misclassified held-out points. If several k values tie for the minimum, I took the smallest one. The chosen model was then fitted to all 2004 samples and evaluated on the 2000 data.
 
 | Training → evaluation | Selected k | Resampling error (LOOCV) | Test error |
 |---|---:|---:|---:|
 | 2004 → 2000 | **7** | **14/51 = 27.45%** | **27/51 = 52.94%** |
 
-The minimum LOOCV error is 14/51 = 27.45%. Using the stated convention of selecting the smallest minimizing k, **k = 7** is selected. The complete set of tied minimizing k values can depend on how exact-distance neighbor ties are resolved, but this does not change the selected k = 7 for the supplied analysis. The substantially higher test error indicates poor cross-year generalization. Identical obesity values sometimes have opposite voting labels, limiting classification with this single predictor. Changes in obesity distributions and voting outcomes also make a stable relationship across years questionable. LOOCV evaluates prediction within 2004, whereas the test evaluates transfer to 2000. These datasets revisit the same jurisdictions, so this is cross-year evaluation rather than evaluation on new independent jurisdictions.
+The minimum LOOCV error is 14/51 = 27.45%, so k = 7 is selected. After fitting the model on all 2004 samples, the test error on the 2000 data is 27/51 = 52.94%. The larger test error suggests that obesity percentage alone does not generalize well across the two election years. (The set of tied k values can depend on how equal-distance neighbors are ordered, but k = 7 is unchanged.)
 
 ## Problem 2.8
 
-The same scikit-learn classifier, uniform weighting, LeaveOneOut procedure, candidate range, and smallest-k convention are applied with the years reversed: training uses 2000 and evaluation uses 2004. All k = 1,…,50 are recomputed, and model selection uses only the 2000 observations and labels.
+I repeated the procedure with the years reversed: LOOCV on the 2000 data to select k, then testing on the 2004 data.
 
 | Training → evaluation | Selected k | Resampling error (LOOCV) | Test error |
 |---|---:|---:|---:|
 | 2000 → 2004 | **16** | **19/51 = 37.25%** | **19/51 = 37.25%** |
 
-The minimum LOOCV error is 19/51 = 37.25%. Using the stated convention of selecting the smallest minimizing k, **k = 16** is selected for the supplied analysis. Its minimum resampling error is higher than that of Problem 2.7, while its test error is lower and equals its resampling error. For context, always predicting the training majority class, Republican, yields test errors of 41.18% in Problem 2.7 and 37.25% here. Thus the selected kNN model is worse than that baseline in Problem 2.7 and matches it in Problem 2.8. These results provide limited evidence for cross-year prediction from obesity alone. The minimum LOOCV error is used for model selection and is not an independent post-selection estimate.
+The minimum LOOCV error is 19/51 = 37.25%, so k = 16 is selected. The test error on the 2004 data is also 19/51 = 37.25%. Compared with Problem 2.7, the LOOCV error is higher but the test error is lower, so training on 2000 and testing on 2004 gives the better result. Obesity percentage alone remains a weak predictor.
 
 ## Problem 2.11
 
-Since the homework specifies the data-generating process but does not provide the numerical realization, a reproducible n = 10 realization was generated with random seed 20261006 and reused in Problems 2.11 and 2.12.
+The homework gives the data-generating process but not the data, so I generated one n = 10 sample with random seed 20261006 and used it in both Problems 2.11 and 2.12.
 
-The ten observations were generated according to
+The data were generated as
 
 $$
 x\sim\operatorname{Uniform}[0,1],\qquad
@@ -42,9 +40,9 @@ y=x^2+0.1x+\varepsilon,\qquad
 \varepsilon\sim N(0,0.25).
 $$
 
-The noise variance is 0.25 and its standard deviation is 0.5.
+The noise variance is 0.25 (standard deviation 0.5).
 
-The course-specific analytic Schwartz criterion is
+I used the Schwartz criterion in the form
 
 $$
 \widehat R=r(p,n)R_{\mathrm{emp}},\qquad
@@ -58,7 +56,7 @@ $$
 R_{\mathrm{emp}}=\frac{1}{n}\sum_{j=1}^{n}\bigl(y_j-\widehat f_m(x_j)\bigr)^2.
 $$
 
-Both model families have DoF = m + 1. For n = 10, the condition DoF < n gives candidates m = 0,…,8. Each candidate is fitted by numerically stable least squares, and the model minimizing the Schwartz-estimated risk is selected. Table entries below are rounded to six decimal places.
+Both model families have DoF = m + 1. For n = 10, the condition DoF < n gives candidates m = 0,…,8. Each model is fitted by least squares, and the m with the smallest estimated risk is selected. Table entries are rounded to six decimal places.
 
 ### Trigonometric polynomial
 
@@ -80,7 +78,7 @@ $$
 | 7 | 8 | 0.036984 | 10.210340 | 0.377618 |
 | 8 | 9 | 0.019128 | 21.723266 | 0.415520 |
 
-The selected order is **m = 4**, with DoF = 5. Although training MSE continues to decrease, the increasing complexity multiplier raises the estimated risk beyond this order.
+The selected order is **m = 4** (DoF = 5). Although the training MSE keeps decreasing, the Schwartz penalty increases with model complexity, giving the minimum estimated risk at m = 4.
 
 ### Algebraic polynomial
 
@@ -102,17 +100,17 @@ $$
 | **7** | **8** | **0.016643** | **10.210340** | **0.169933** |
 | 8 | 9 | 0.014709 | 21.723266 | 0.319528 |
 
-The selected degree is **m = 7**, with DoF = 8. Degree 8 reduces training error further, but its larger multiplier produces a higher estimated risk.
+The selected degree is **m = 7** (DoF = 8). Degree 8 has a lower training MSE, but its larger penalty gives a higher estimated risk.
 
 ### Conceptual question
 
-**The two separate Schwartz minima do not by themselves establish which model family has better predictive accuracy.** They select complexity within each family using estimated risk rather than independently observed prediction errors. Predictive comparison requires the held-out evaluation in Problem 2.12.
+No. The Schwartz criterion selects the model order within each family, but does not directly compare their predictive accuracy. A held-out evaluation is needed, which is done in Problem 2.12.
 
 ## Problem 2.12
 
-Five-fold cross-validation compares the two model families using the same ten observations. Both families use **identical folds**, with two held-out observations per fold. The fold partition is fixed using random seed 212; sample IDs in the table index the simulated realization used in Problems 2.11 and 2.12.
+I compared the two families with 5-fold cross-validation on the same ten observations. Both families use the same folds (random seed 212), with two held-out samples per fold; the sample IDs index the data from Problem 2.11.
 
-For each outer fold, the remaining eight observations form the training set. Models with m = 0,…,6 are fitted and selected by Schwartz using **only those training observations**, with n = 8 and DoF = m + 1 < 8. The selected model predicts the two held-out observations, and their squared prediction errors are recorded. **Held-out data are never used for model selection within their fold.** The ten held-out squared errors are pooled to calculate
+In each fold, the other eight samples form the training set. I fitted m = 0,…,6 (so DoF = m + 1 < 8, with n = 8), selected m by the Schwartz criterion using only these training samples, and predicted the two held-out samples. The ten squared errors are pooled:
 
 $$
 \operatorname{MSE}_{\mathrm{CV}}
@@ -134,8 +132,4 @@ $$
 | Trigonometric | **22.8324047943** |
 | Algebraic | **0.3895744061** |
 
-**Algebraic models perform better for this simulated realization and this fold partition.** However, n = 10 is extremely small, and the trigonometric error is dominated by fold 2. The algebraic full-data fit is also unstable near x = 0, where this realization has no observations. Consequently, these results do not establish universal superiority over the entire input domain or across other random realizations.
-
-## Final concise conclusion
-
-Model selection balances training fit against complexity, but neither a low training error nor a minimum estimated risk guarantees predictive accuracy. Resampling guides complexity selection, while test error and held-out prediction errors assess generalization. The classification examples show that within-year resampling can underestimate cross-year error. The regression comparison shows that complexity control and predictive evaluation serve distinct purposes: Schwartz selects model order within each family, and cross-validation compares the resulting prediction procedures, subject to the limitations of a very small sample.
+The algebraic models have a much smaller 5-fold CV MSE for this dataset. However, only 10 samples are used and the trigonometric error is strongly affected by fold 2, so the comparison should be interpreted cautiously.
