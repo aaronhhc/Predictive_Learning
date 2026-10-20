@@ -136,8 +136,7 @@ def report(results: list[dict]) -> str:
         "|---|---|---:|---:|---:|"]
     for r in results:
         lines.append(f'| {r["problem"]} | {r["training_year"]} → {r["test_year"]} | {r["selected_k"]} | {r["loocv_errors"]}/51 ({100*r["loocv_error"]:.2f}%) | {r["test_errors"]}/51 ({100*r["test_error"]:.2f}%) |')
-    for r in results:
-        lines += ["", f'Problem {r["problem"]}: all minimizing k values are ' + ", ".join(map(str, r["all_minimizing_k"])) + "."]
+    lines += ["", "The selected k is the smallest k attaining the minimum LOOCV error. The complete set of tied minimizing k values can depend on how exact-distance neighbor ties are resolved, so it is recorded only as a diagnostic in `results/results.json`; it does not change the selected k."]
     lines += ["", "![LOOCV errors](results/loocv_errors.png)", "",
         "## Discussion", "",
         "Within-year LOOCV error is lower than cross-year test error in Problem 2.7. Problem 2.8 has equal LOOCV and test error. Always predicting the training majority class (R) gives test errors of 21/51 (41.18%) and 19/51 (37.25%), respectively: the selected model is worse than this baseline in Problem 2.7 and matches it in Problem 2.8. Identical obesity values can have opposite labels, and changes across years limit prediction from this sole predictor. These tests evaluate transfer across years for the same jurisdictions. Minimum LOOCV error is used for selection and is not an independent post-selection estimate.", "",

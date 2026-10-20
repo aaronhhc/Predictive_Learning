@@ -147,7 +147,7 @@ def figures(x, y, full, cv):
         candidates = full[family]["candidates"]
         fig, axes = plt.subplots(1, 3, figsize=(13.5, 3.7))
         axes[0].plot([r["m"] for r in candidates], [r["training_mse"] for r in candidates], "o-", label="Training MSE")
-        axes[0].plot([r["m"] for r in candidates], [r["estimated_risk"] for r in candidates], "s-", label="Schwarz estimated risk")
+        axes[0].plot([r["m"] for r in candidates], [r["estimated_risk"] for r in candidates], "s-", label="Schwartz estimated risk")
         axes[0].axvline(selected["m"], color="#777777", linestyle="--", label=f'Selected m={selected["m"]}')
         axes[0].set(xlabel="Order / degree m", ylabel="Mean squared error / estimated risk", xticks=range(9))
         axes[0].legend(frameon=False, fontsize=8)
@@ -193,9 +193,8 @@ def figures(x, y, full, cv):
 
 def report(full, cv, folds):
     lines = ["# Homework 1 — Problems 2.11 and 2.12", "",
-        "The original ten observations from Example 2.6 were unavailable in the Moodle materials. "
-        "All numerical results below use one reproducible realization generated from the distribution "
-        "explicitly specified in the homework. These are not the textbook's original ten observations.", "",
+        "Since the homework specifies the data-generating process but does not provide the numerical realization, "
+        "a reproducible n = 10 realization was generated with random seed 20261006 and reused in Problems 2.11 and 2.12.", "",
         f"Dataset: n = 10, x ~ Uniform[0,1], y = x² + 0.1x + ε, ε ~ N(0,0.25). "
         f"Noise standard deviation is 0.5. NumPy Generator(PCG64), seed {DATA_SEED}, draws all ten x values "
         "first and then ten independent noise values. The saved `results/example_2_6_simulated.csv` "
@@ -223,7 +222,7 @@ def report(full, cv, folds):
         lines += ["", f'Selected m = **{chosen["m"]}**, DoF = {chosen["dof"]}, '
                   f'estimated risk = {chosen["estimated_risk"]:.9g}.', "",
                   f"![{family.capitalize()} model selection and selected fit](results/problem_2_11_{family}.png)", ""]
-    lines += ["The minimum Schwarz values can be compared as estimates under the supplied criterion, "
+    lines += ["The minimum Schwartz values can be compared as estimates under the supplied criterion, "
         "but two within-family selections alone do not establish which family has the lowest true predictive risk. "
         "Selection uses the same small training dataset, and the risk estimates depend on the criterion's assumptions. "
         "Independent predictive evaluation is needed to support a family comparison; Problem 2.12 supplies held-out predictions.", "",
@@ -245,7 +244,7 @@ def report(full, cv, folds):
     better = min(FAMILIES, key=lambda family: cv["cv_mse"][family])
     difference = abs(cv["cv_mse"]["trigonometric"] - cv["cv_mse"]["algebraic"])
     lines += ["", f"**{better.capitalize()} models perform better on this realization and fold partition**, "
-        f"with CV MSE lower by {difference:.9g}. This evaluates each family's complete Schwarz-selection "
+        f"with CV MSE lower by {difference:.9g}. This evaluates each family's complete Schwartz-selection "
         "procedure rather than a degree chosen using all ten observations. The folds were fixed before "
         "looking at predictive errors. No outer held-out observation was used to fit or select a model "
         "within its fold; the pooled held-out errors are used to compare the families.", "",

@@ -1,6 +1,6 @@
 # Homework 1 — Problems 2.11 and 2.12
 
-The original ten observations from Example 2.6 were unavailable in the Moodle materials. All numerical results below use one reproducible realization generated from the distribution explicitly specified in the homework. These are not the textbook's original ten observations.
+Since the homework specifies the data-generating process but does not provide the numerical realization, a reproducible n = 10 realization was generated with random seed 20261006 and reused in Problems 2.11 and 2.12.
 
 Dataset: n = 10, x ~ Uniform[0,1], y = x² + 0.1x + ε, ε ~ N(0,0.25). Noise standard deviation is 0.5. NumPy Generator(PCG64), seed 20261006, draws all ten x values first and then ten independent noise values. The saved `results/example_2_6_simulated.csv` is reused unchanged for both problems and on subsequent runs.
 
@@ -52,7 +52,7 @@ Selected m = **7**, DoF = 8, estimated risk = 0.169932849.
 
 ![Algebraic model selection and selected fit](results/problem_2_11_algebraic.png)
 
-The minimum Schwarz values can be compared as estimates under the supplied criterion, but two within-family selections alone do not establish which family has the lowest true predictive risk. Selection uses the same small training dataset, and the risk estimates depend on the criterion's assumptions. Independent predictive evaluation is needed to support a family comparison; Problem 2.12 supplies held-out predictions.
+The minimum Schwartz values can be compared as estimates under the supplied criterion, but two within-family selections alone do not establish which family has the lowest true predictive risk. Selection uses the same small training dataset, and the risk estimates depend on the criterion's assumptions. Independent predictive evaluation is needed to support a family comparison; Problem 2.12 supplies held-out predictions.
 
 ## Problem 2.12
 
@@ -71,7 +71,7 @@ A separate PCG64 generator with seed 212 permutes sample IDs 0,…,9 and groups 
 | Trigonometric | 22.8324048 |
 | Algebraic | 0.389574406 |
 
-**Algebraic models perform better on this realization and fold partition**, with CV MSE lower by 22.4428304. This evaluates each family's complete Schwarz-selection procedure rather than a degree chosen using all ten observations. The folds were fixed before looking at predictive errors. No outer held-out observation was used to fit or select a model within its fold; the pooled held-out errors are used to compare the families.
+**Algebraic models perform better on this realization and fold partition**, with CV MSE lower by 22.4428304. This evaluates each family's complete Schwartz-selection procedure rather than a degree chosen using all ten observations. The folds were fixed before looking at predictive errors. No outer held-out observation was used to fit or select a model within its fold; the pooled held-out errors are used to compare the families.
 
 ![Five-fold results](results/problem_2_12_cv.png)
 

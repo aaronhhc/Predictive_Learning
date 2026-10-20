@@ -13,9 +13,7 @@ The classifier is scikit-learn's standard KNeighborsClassifier with default unif
 | 2.7 | 2004 → 2000 | 7 | 14/51 (27.45%) | 27/51 (52.94%) |
 | 2.8 | 2000 → 2004 | 16 | 19/51 (37.25%) | 19/51 (37.25%) |
 
-Problem 2.7: all minimizing k values are 7, 9, 20, 22.
-
-Problem 2.8: all minimizing k values are 16, 24, 25, 26, 27, 28.
+The selected k is the smallest k attaining the minimum LOOCV error. The complete set of tied minimizing k values can depend on how exact-distance neighbor ties are resolved, so it is recorded only as a diagnostic in `results/results.json`; it does not change the selected k.
 
 ![LOOCV errors](results/loocv_errors.png)
 

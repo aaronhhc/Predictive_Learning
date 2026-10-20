@@ -1,7 +1,8 @@
 # Homework 1
 
 Name: 黃竑喆  
-Student ID: 61547048S
+Student ID: 61547048S  
+Repository: [https://github.com/aaronhhc/Predictive_Learning/tree/main/hw1](https://github.com/aaronhhc/Predictive_Learning/tree/main/hw1)
 
 Topics: Risk Minimization + Model Selection
 
@@ -17,7 +18,7 @@ If multiple k values achieve the minimum LOOCV error, the smallest minimizing k 
 |---|---:|---:|---:|
 | 2004 → 2000 | **7** | **14/51 = 27.45%** | **27/51 = 52.94%** |
 
-The LOOCV minimum is attained at **k = 7, 9, 20, and 22**, so k = 7 is selected by the stated convention. The substantially higher test error indicates poor cross-year generalization. Identical obesity values sometimes have opposite voting labels, limiting classification with this single predictor. Changes in obesity distributions and voting outcomes also make a stable relationship across years questionable. LOOCV evaluates prediction within 2004, whereas the test evaluates transfer to 2000. These datasets revisit the same jurisdictions, so this is cross-year evaluation rather than evaluation on new independent jurisdictions.
+The minimum LOOCV error is 14/51 = 27.45%. Using the stated convention of selecting the smallest minimizing k, **k = 7** is selected. The complete set of tied minimizing k values can depend on how exact-distance neighbor ties are resolved, but this does not change the selected k = 7 for the supplied analysis. The substantially higher test error indicates poor cross-year generalization. Identical obesity values sometimes have opposite voting labels, limiting classification with this single predictor. Changes in obesity distributions and voting outcomes also make a stable relationship across years questionable. LOOCV evaluates prediction within 2004, whereas the test evaluates transfer to 2000. These datasets revisit the same jurisdictions, so this is cross-year evaluation rather than evaluation on new independent jurisdictions.
 
 ## Problem 2.8
 
@@ -31,9 +32,9 @@ The LOOCV minimum is attained at **k = 16, 24, 25, 26, 27, and 28**, so k = 16 i
 
 ## Problem 2.11
 
-The numerical realization used in textbook Example 2.6 was not provided in the available course materials. Therefore, a reproducible realization with random seed 20261006 was generated from the data-generating process explicitly specified in Homework 1, and the same realization is reused in Problems 2.11 and 2.12.
+Since the homework specifies the data-generating process but does not provide the numerical realization, a reproducible n = 10 realization was generated with random seed 20261006 and reused in Problems 2.11 and 2.12.
 
-The ten observations follow
+The ten observations were generated according to
 
 $$
 x\sim\operatorname{Uniform}[0,1],\qquad
@@ -109,7 +110,7 @@ The selected degree is **m = 7**, with DoF = 8. Degree 8 reduces training error 
 
 ## Problem 2.12
 
-Five-fold cross-validation compares the two model families using the same ten observations. Both families use **identical folds**, with two held-out observations per fold. The fold partition is fixed using random seed 212; Sample IDs in the table index the simulated realization used in Problems 2.11 and 2.12.
+Five-fold cross-validation compares the two model families using the same ten observations. Both families use **identical folds**, with two held-out observations per fold. The fold partition is fixed using random seed 212; sample IDs in the table index the simulated realization used in Problems 2.11 and 2.12.
 
 For each outer fold, the remaining eight observations form the training set. Models with m = 0,…,6 are fitted and selected by Schwartz using **only those training observations**, with n = 8 and DoF = m + 1 < 8. The selected model predicts the two held-out observations, and their squared prediction errors are recorded. **Held-out data are never used for model selection within their fold.** The ten held-out squared errors are pooled to calculate
 

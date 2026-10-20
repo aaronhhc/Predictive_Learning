@@ -16,10 +16,11 @@ Lecture materials (`Materials/`) are kept local and not tracked.
 | Problems | Topic | Script | Report |
 | --- | --- | --- | --- |
 | 2.7, 2.8 | kNN classification of US election outcomes from obesity %, k chosen by leave-one-out CV | `solve_classification.py` | `classification_report.md` |
-| 2.11, 2.12 | Polynomial regression (trigonometric and algebraic families) with cross-validated model selection on simulated data | `solve_regression.py` | `regression_report.md` |
-| Extra | Odd-k sensitivity analysis for kNN | | `sensitivity_report.md` |
+| 2.11, 2.12 | Polynomial regression (trigonometric and algebraic families) with Schwartz-criterion and cross-validated model selection on simulated data | `solve_regression.py` | `regression_report.md` |
 
-The combined write-up is in `hw1/report/final_homework1.md`, and the submitted PDF is in `hw1/`.
+- Submission PDF: `hw1/Homework1_61547048S_黃竑喆.pdf`
+- Report source: `hw1/report/final_homework1.md` (rebuild the PDF with `uv run --no-project --with markdown python report/build_pdf.py`; requires Google Chrome)
+- Diagnostic sklearn reference checks: `sklearn_reference_check.py`, `sklearn_reference_problem_2_8_check.py`
 
 ### Setup
 
