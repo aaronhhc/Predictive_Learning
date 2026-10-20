@@ -4,7 +4,7 @@ Coursework for Predictive Learning at NTNU.
 
 ## Structure
 
-```
+```text
 Predictive_Learning/
 └── hw1/    Homework 1: Risk Minimization + Model Selection
 ```
@@ -14,7 +14,7 @@ Lecture materials (`Materials/`) are kept local and not tracked.
 ## Homework 1
 
 | Problems | Topic | Script | Report |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 2.7, 2.8 | kNN classification of US election outcomes from obesity %, k chosen by leave-one-out CV | `solve_classification.py` | `classification_report.md` |
 | 2.11, 2.12 | Polynomial regression (trigonometric and algebraic families) with cross-validated model selection on simulated data | `solve_regression.py` | `regression_report.md` |
 | Extra | Odd-k sensitivity analysis for kNN | | `sensitivity_report.md` |
