@@ -28,7 +28,7 @@ The same scikit-learn classifier, uniform weighting, LeaveOneOut procedure, cand
 |---|---:|---:|---:|
 | 2000 → 2004 | **16** | **19/51 = 37.25%** | **19/51 = 37.25%** |
 
-The LOOCV minimum is attained at **k = 16, 24, 25, 26, 27, and 28**, so k = 16 is selected. Its minimum resampling error is higher than that of Problem 2.7, while its test error is lower and equals its resampling error. For context, always predicting the training majority class, Republican, yields test errors of 41.18% in Problem 2.7 and 37.25% here. Thus the selected kNN model is worse than that baseline in Problem 2.7 and matches it in Problem 2.8. These results provide limited evidence for cross-year prediction from obesity alone. The minimum LOOCV error is used for model selection and is not an independent post-selection estimate.
+The minimum LOOCV error is 19/51 = 37.25%. Using the stated convention of selecting the smallest minimizing k, **k = 16** is selected for the supplied analysis. Its minimum resampling error is higher than that of Problem 2.7, while its test error is lower and equals its resampling error. For context, always predicting the training majority class, Republican, yields test errors of 41.18% in Problem 2.7 and 37.25% here. Thus the selected kNN model is worse than that baseline in Problem 2.7 and matches it in Problem 2.8. These results provide limited evidence for cross-year prediction from obesity alone. The minimum LOOCV error is used for model selection and is not an independent post-selection estimate.
 
 ## Problem 2.11
 
