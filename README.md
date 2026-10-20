@@ -45,8 +45,3 @@ uv run --with pytest pytest test_classification.py test_regression.py
 uv run sklearn_reference_check.py
 uv run sklearn_reference_problem_2_8_check.py
 ```
-
-### Notes
-
-- The original ten observations from Example 2.6 were unavailable, so the regression problems use a reproducible simulated realization (seed `20261006`), saved in `hw1/results/example_2_6_simulated.csv`.
-- Requires scikit-learn 1.9.1 and matplotlib 3.10.8 (see `requirements.txt`).
