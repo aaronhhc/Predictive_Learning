@@ -25,15 +25,15 @@ The combined write-up is in `hw1/report/final_homework1.md`, and the submitted P
 
 ```bash
 cd hw1
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt   # or requirements-lock.txt for exact versions
+uv venv
+uv pip install -r requirements.txt   # or requirements-lock.txt for exact versions
 ```
 
 ### Run
 
 ```bash
-python solve_classification.py   # Problems 2.7 and 2.8
-python solve_regression.py       # Problems 2.11 and 2.12
+uv run solve_classification.py   # Problems 2.7 and 2.8
+uv run solve_regression.py       # Problems 2.11 and 2.12
 ```
 
 Outputs (CSV, JSON, and figures) are written to `hw1/results/`.
@@ -41,19 +41,10 @@ Outputs (CSV, JSON, and figures) are written to `hw1/results/`.
 ### Tests and checks
 
 ```bash
-python -m pytest test_classification.py test_regression.py
-python sklearn_reference_check.py
-python sklearn_reference_problem_2_8_check.py
+uv run --with pytest pytest test_classification.py test_regression.py
+uv run sklearn_reference_check.py
+uv run sklearn_reference_problem_2_8_check.py
 ```
-
-### Key results (kNN, 51 states and DC)
-
-| Problem | Train → test | Selected k | LOOCV error | Test error |
-|---|---|---:|---:|---:|
-| 2.7 | 2004 → 2000 | 7 | 27.45% | 52.94% |
-| 2.8 | 2000 → 2004 | 16 | 37.25% | 37.25% |
-
-Ties in minimum LOOCV error are broken by choosing the smallest k.
 
 ### Notes
 
