@@ -1,0 +1,9 @@
+/* Cover-slide layout only; theme.scss is untouched and drives every content slide.
+   Left 60% holds all text; the right 40% is intentionally empty (photo is added later in PowerPoint). */
+.reveal .cover { position:absolute; left:-27px; top:15px; width:1280px; height:800px; background:#fff; text-align:left; }
+.reveal .cover .bar { position:absolute; left:0; top:0; width:22px; height:800px; background:#0b5cad; }
+.reveal .cover .kicker { position:absolute; left:86px; top:166px; font-size:22px; font-weight:700; letter-spacing:.14em; color:#0b5cad; }
+.reveal .cover h1 { position:absolute; left:86px; top:237px; width:807px; margin:0; font-size:48px; line-height:1.15; font-weight:800; color:#0b2545; }
+.reveal .cover .course { position:absolute; left:86px; top:540px; font-size:26px; font-weight:700; color:#0b2545; }
+.reveal .cover .inst { position:absolute; left:86px; top:590px; width:672px; font-size:22px; line-height:1.55; color:#1f2328; }
+.reveal .cover .members { position:absolute; left:86px; top:700px; width:672px; font-size:20px; color:#6b7280; }

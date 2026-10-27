@@ -1,0 +1,35 @@
+% t168
+\[ \tau - 168\,\mathrm{h} \]
+
+% t24
+\[ \tau - 24\,\mathrm{h} \]
+
+% t1
+\[ \tau - 1\,\mathrm{h} \]
+
+% wPrev
+\[ W_{\tau-1\mathrm{h}} \]
+
+% wTarget
+\[ W_\tau \]
+
+% yTarget
+\[ y_\tau \]
+
+% ridge
+\[ \min_{\mathbf{w},b} \sum_{i=1}^{n} \left(y_i-b-\mathbf{x}_i^\top\mathbf{w}\right)^2 + \alpha\lVert\mathbf{w}\rVert_2^2 \]
+
+% gain
+\[ \mathrm{Gain}_{\mathrm{history}} = \mathrm{MAE}(\mathrm{E1}) - \mathrm{MAE}(\mathrm{E2}) \]
+
+% gap
+\[ \mathrm{Gap}_{\mathrm{oracle}} = \mathrm{MAE}(\mathrm{E2}) - \mathrm{MAE}(\mathrm{E3}) \]
+
+% ablate
+\[ \Delta\mathrm{MAE}_{\mathrm{remove}}(G) = \mathrm{MAE}(-G) - \mathrm{MAE}(\mathrm{Full\ E2}) \]
+
+% mae
+\[ \mathrm{MAE} = \frac{1}{n} \sum_{i=1}^{n} \left|y_i-\hat{y}_i\right| \]
+
+% rmse
+\[ \mathrm{RMSE} = \sqrt{ \frac{1}{n} \sum_{i=1}^{n} \left(y_i-\hat{y}_i\right)^2 } \]

@@ -1,0 +1,30 @@
+// Replaces ONLY ppt/slides/slide1.xml (and the title in docProps) of ../presentation.pptx; slides 2-14 stay byte-identical.
+import pptxgen from 'pptxgenjs';
+import JSZip from 'jszip';
+import { readFileSync, writeFileSync } from 'node:fs';
+const TITLE = 'Impact of Weather Information Availability on One-Hour-Ahead Bike-Sharing Demand Forecasting: A Cross-Model Study';
+const F='Arial', NAVY='0B2545', BLUE='0B5CAD', TEXT='1F2328', MUTED='6B7280';
+const p = new pptxgen(); p.defineLayout({ name:'W', width:13.333, height:8.333 }); p.layout='W';
+const s = p.addSlide(); s.background = { color:'FFFFFF' };
+const t = (txt,o)=>s.addText(txt, Object.assign({ fontFace:F, color:TEXT, valign:'top', align:'left', margin:0 }, o));
+const X=0.9, W=7.0; // left 60% = 0..8.0 in
+s.addShape(p.ShapeType.rect,{ x:0,y:0,w:0.28,h:8.333,fill:{color:BLUE},line:{color:BLUE,width:0} });
+t('MIDTERM RESEARCH PROPOSAL',{ x:X,y:0.8,w:W,h:0.4,fontSize:16.5,bold:true,color:BLUE,charSpacing:3 });
+t(TITLE,{ x:X,y:1.45,w:W,h:3.9,fontSize:36,bold:true,color:NAVY,lineSpacingMultiple:1.05 });
+t('Predictive Learning',{ x:X,y:5.65,w:W,h:0.4,fontSize:19.5,bold:true,color:NAVY });
+t('Department of Computer Science and Information Engineering',{ x:X,y:6.1,w:W,h:0.35,fontSize:16.5 });
+t('National Taiwan Normal University',{ x:X,y:6.45,w:W,h:0.35,fontSize:16.5 });
+t('October 27, 2026',{ x:X,y:6.8,w:W,h:0.35,fontSize:16.5 });
+t('Group Members:  [Member A]  ·  [Member B]  ·  [Member C]  ·  [Member D]',{ x:X,y:7.3,w:W,h:0.35,fontSize:15,color:MUTED });
+const nz = await JSZip.loadAsync(await p.write({ outputType:'nodebuffer' }));
+const zip = await JSZip.loadAsync(readFileSync('../presentation.pptx'));
+const oldRels = await zip.file('ppt/slides/_rels/slide1.xml.rels').async('string');
+const newRels = await nz.file('ppt/slides/_rels/slide1.xml.rels').async('string');
+const norm = r => (r.match(/<Relationship [^>]*\/>/g)||[]).map(x=>x.replace(/\s+/g,' ')).sort().join('');
+if (norm(oldRels) !== norm(newRels)) throw new Error('slide1 rels differ; refusing to transplant');
+zip.file('ppt/slides/slide1.xml', await nz.file('ppt/slides/slide1.xml').async('string'));
+let core = await zip.file('docProps/core.xml').async('string');
+core = core.replace(/<dc:title>[\s\S]*?<\/dc:title>/, `<dc:title>${TITLE}</dc:title>`);
+zip.file('docProps/core.xml', core);
+writeFileSync('../presentation.pptx', await zip.generateAsync({ type:'nodebuffer', compression:'DEFLATE' }));
+console.log('slide 1 replaced');

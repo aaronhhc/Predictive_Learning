@@ -1,0 +1,769 @@
+/*-- scss:defaults --*/
+
+// ═══════════════════════════════════════════════════════════════
+// 字級系統：五級
+// ═══════════════════════════════════════════════════════════════
+// 錨在內文 26px，級距約 1.2。**全部用 deck 內的絕對 px。**
+// reveal 會把整個 1280×800 畫布等比縮到投影機，所以在 .slides 之內
+// px 是可預測的；用 em 才會與祖先疊乘。唯一的例外是 .footer 與
+// .slide-number，它們畫在縮放容器「之外」，必須用 vw（見 rules 段）。
+//
+// | 級 | token        | px | 給誰                                   |
+// |----|--------------|----|----------------------------------------|
+// | T1 | $fs-title    | 42 | h2 投影片標題（章節頁 h1 另有 $fs-section）|
+// | T2 | $fs-lead     | 31 | .claim：一張投影片的那句話               |
+// | T3 | $fs-body     | 26 | bullet、段落、display math，預設值        |
+// | T4 | $fs-support  | 22 | 表格、程式碼、.small                     |
+// | T5 | $fs-meta     | 18 | .cite、.tag、.footer、.audio-label、.lab |
+//
+// **兩條使用規則，比數字重要：**
+// 1. 一張投影片最多用四級。
+// 2. **T2 一張最多出現一次。** 版面溢出的成因幾乎都是一張表格（T4）
+//    後面疊了兩個 .claim（T2）。
+//
+// NLP-LLM 的 nlp_llm/slides/theme.scss 用同一套五級與同樣的五個數字，
+// 但**那是兩個各自獨立的檔案**（Quarto 的 `theme:` 走相對路徑，抽共用檔
+// 會讓投影片正本不能獨立 render）。**改了這裡要手動同步過去**，
+// 下面五個 $fs-* 與五個 $lh-* 的數值兩門課必須一致，diff 一下就看得出漂了沒有
+// （註解表格裡的「給誰」欄不同是正常的：各課有自己的類別）。
+$fs-title:   42px !default;
+$fs-lead:    31px !default;
+$fs-body:    26px !default;
+$fs-support: 22px !default;
+$fs-meta:    18px !default;
+$fs-section: 52px !default;   // 章節分隔頁的 h1，自成一級
+
+// 行高與字級反向：字越大行距越緊
+$lh-title:   1.20 !default;
+$lh-lead:    1.35 !default;
+$lh-body:    1.42 !default;
+$lh-support: 1.34 !default;
+$lh-meta:    1.30 !default;
+
+// 與課程網站同一組色票，讓網站與投影片看起來是同一套系統
+$presentation-font-size-root: $fs-body !default;
+$presentation-h1-font-size:   $fs-section !default;
+$presentation-h2-font-size:   $fs-title !default;
+$presentation-h3-font-size:   $fs-lead !default;
+$presentation-heading-font-weight: 700 !default;
+$presentation-heading-color: #111827 !default;
+$presentation-line-height:  $lh-body !default;
+
+$body-color: #1f2328 !default;
+$body-bg:    #ffffff !default;
+$link-color: #0b5cad !default;
+$code-block-font-size: .85em !default;   // 26 × .85 ≈ T4
+
+$font-family-sans-serif:
+  -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+  "PingFang TC", "Noto Sans TC", sans-serif !default;
+
+/*-- scss:rules --*/
+
+$c-user:  #0b5cad;
+$c-model: #b45309;
+$c-warn:  #dc2626;
+$c-ok:    #15803d;
+$c-muted: #6b7280;
+
+.reveal .slides section {
+  text-align: left;
+}
+
+// 投影機後排看得到：標題留白收緊，換取內容字級
+.reveal h2 {                       // T1
+  margin-bottom: .55em;
+  padding-bottom: .22em;
+  border-bottom: 2px solid #e5e7eb;
+  line-height: $lh-title;
+}
+.reveal h3 {                       // T2（W1 沒有用到 ###，留給後面的週次）
+  color: #374151;
+  margin-bottom: .4em;
+  line-height: $lh-lead;
+}
+// T3 內文由 $presentation-font-size-root 提供，不必在這裡重申。
+// 需要在某一段落局部降級時用 .small（T4）或 .meta（T5）。
+.reveal .small { font-size: $fs-support; line-height: $lh-support; }
+.reveal .meta  { font-size: $fs-meta;    line-height: $lh-meta; color: $c-muted; }
+
+// **`.mid` / `.big` / `.bigger` 已於 2026-09-15 移除。** 它們是三個絕對 px
+// 的逃生口（28 / 32 / 36），存在的唯一理由是把 Quarto `{.smaller}` 縮掉的
+// 內文救回來。`.smaller` 是 0.7em **但會把標題除回去**（calc(1.24em/0.7)），
+// 所以舊版是「內文 23.8px、標題 42px」——內文被縮、標題沒被縮。
+// 內文回到 T3 26px 之後三個逃生口就沒有用途了，**不要再加回來**。
+// display math 一律裸放，跟著 T3，與 NLP-LLM 一致。
+
+// ── 主張框：一張投影片只有一句話時用 ────────────────────────
+.reveal .claim {
+  border-left: 6px solid $link-color;
+  background: #f8fafc;
+  padding: .7em .95em;             // T2 放大後把內距收一點，淨高度幾乎不變
+  margin: .78em 0;
+  font-size: $fs-lead;             // T2
+  line-height: $lh-lead;
+  strong { color: $link-color; }
+}
+.reveal .claim.warn {
+  border-left-color: $c-warn;
+  background: #fef2f2;
+  strong { color: $c-warn; }        // 警示框裡的強調要跟著警示色，不要留藍色
+}
+.reveal .claim.ok   { border-left-color: $c-ok;   background: #f0fdf4; }
+
+// ── 量測數字卡 ──────────────────────────────────────────────
+.reveal .metrics {
+  display: flex;
+  gap: 1.1em;
+  margin: .7em 0;
+  .metric {
+    flex: 1;
+    border: 1.5px solid #e5e7eb;
+    border-radius: 7px;
+    padding: .5em .7em;
+    background: #fff;
+  }
+  // 數字卡不另開一級：數字用 T1、標籤用 T5
+  .num { display: block; font-size: $fs-title; font-weight: 700; line-height: 1.1; }
+  .lab { display: block; font-size: $fs-meta; line-height: $lh-meta; color: $c-muted; margin-top: .25em; }
+  .bad  .num { color: $c-warn; }
+  .good .num { color: $c-ok; }
+}
+
+// ── 提問slide：留白讓學生先答 ────────────────────────────────
+// .ask 是**給教室的指令**（「先預測再看」「自己寫下來」），不是投影片的論點，
+// 所以它是 T3 而不是 T2——靠顏色與字重分辨，不靠字級。
+// 這樣一張投影片裡的 T2 就能真的只有 .claim 一個，那條規則才守得住。
+.reveal .ask {
+  font-size: $fs-body;             // T3
+  line-height: $lh-body;
+  font-weight: 600;
+  color: $link-color;
+  margin: 1.2em 0 .6em;
+}
+
+// ── 表格 ────────────────────────────────────────────────────
+// **一個表格只有一個字級**，由它的角色決定是哪一級：
+//   預設         T4 $fs-support —— 資料與佐證（數字、標籤、短語）
+//   `::: {.prose}` T3 $fs-body   —— 格子是整句話、而且表格就是這張的內容
+// th 刻意不另給字級：字重、底色、下框線已經夠分辨，多一級只是讓系統變六級。
+//
+// **明確覆寫 th/td**，避免任何祖先的 em 疊乘——這正是 2026-09 以前表格大小
+// 會漂的原因（W1 曾經全部縮到 19.5px）。從 2026-09-15 起 deck 不再使用
+// Quarto 的 .smaller，疊乘的來源本身也拿掉了。
+.reveal table {
+  border-collapse: collapse;
+  font-size: $fs-support;
+
+  th, td {
+    font-size: $fs-support;
+    line-height: $lh-support;
+    padding: .42em .62em;
+    vertical-align: top;
+  }
+  th {
+    background: #f6f8fa;
+    font-weight: 650;
+    border-bottom: 2px solid #d1d5db;
+  }
+  tbody tr + tr td { border-top: 1px solid #eef1f4; }
+
+  // 第一欄通常是短標籤，不換行讀起來更整齊。
+  // 注意：首欄變長時這條會把表格推寬，W1 目前最長的首欄是 30 字元，安全。
+  td:first-child, th:first-child { white-space: nowrap; }
+}
+
+// 論述型表格：格子是句子，而且這張投影片的內容就是這個表格。
+// 它不是佐證，是內文，所以給 T3。W1 只有一張符合（三條主軸）。
+.reveal .prose table {
+  font-size: $fs-body;
+  th, td { font-size: $fs-body; line-height: $lh-body; }
+  // 論述型表格的首欄是軸名，允許它換行，否則長標籤會把表格推寬
+  td:first-child, th:first-child { white-space: normal; }
+}
+
+// ── 引用與出處 ──────────────────────────────────────────────
+.reveal .cite {                    // T5
+  font-size: $fs-meta;
+  color: $c-muted;
+  line-height: $lh-meta;
+}
+
+// .footer 與頁碼由 reveal 畫在「縮放容器之外」的頁面層，transform 不會作用到它們。
+// 用 em 的話，桌機 scale=1 看起來正常，但手機橫向 scale≈0.51 時就等於放大兩倍，
+// 會蓋住頁碼與板書按鈕。改用 vw 讓它隨視窗寬度縮放。
+.reveal .footer {
+  box-sizing: border-box;     // 少了這行，padding 會加在 100% 寬之外而衝出畫面
+  left: 16% !important;       // 讓出左下角的控制列
+  right: 16% !important;      // 讓出右下角的頁碼；與 left 相同才會真的置中（2026-09-29 前是 12%，整體偏右 2%；NLP-LLM 09-23 已改，這裡漏了）
+  bottom: 1.1em !important;
+  padding: 0 !important;
+  text-align: center;
+  white-space: normal !important;   // Quarto 預設 nowrap，長引用會溢出盒子外
+
+  // 目標是在 1280px 寬的視窗下落在 T5（18px）附近：1280 × 1.45% ≈ 18.6px。
+  // 這是整份 theme 唯一不能用 $fs-meta 的地方。
+  font-size: clamp(10px, 1.45vw, 19px) !important;
+  color: $c-muted;
+  line-height: $lh-meta;
+}
+.reveal .slide-number {
+  // 刻意低於 T5：它是介面，不是內容。
+  font-size: clamp(9px, 1.1vw, 15px) !important;
+}
+.reveal .dim   { color: $c-muted; }
+.reveal .tag {
+  display: inline-block;
+  font-size: $fs-meta;             // T5
+  font-weight: 650;
+  padding: .12em .5em;
+  border-radius: 20px;
+  background: #eef2ff;
+  color: #3730a3;
+  vertical-align: middle;
+}
+
+// ── 音訊播放器：教室裡要一眼看到、一鍵按到 ──────────────────
+// 這一段是本課專屬，NLP-LLM 的 theme 沒有。
+.reveal audio {
+  width: 100%;
+  height: 48px;
+  margin: .35em 0 .1em;
+}
+.reveal .audio-label {
+  font-size: $fs-meta;             // T5
+  font-weight: 650;
+  color: $c-muted;
+  margin-top: .5em;
+}
+
+// 圖片不要被 reveal 的預設邊框與陰影干擾
+.reveal section img { border: none; box-shadow: none; margin: .3em 0; background: none; }
+
+// ── 章節分隔頁 ──────────────────────────────────────────────
+.reveal .section-title h1 {
+  border-left: 10px solid $link-color;
+  padding-left: .5em;
+  font-size: $fs-section;
+  line-height: $lh-title;
+}
+.reveal .section-title { padding-top: 1.2em; }
+
+// 兩欄
+.reveal .columns { align-items: flex-start; }
+
+// Paper presentation helpers
+
+.reveal .paper-table {
+  width: 82%;
+  margin: 1.1em auto 0 auto;
+}
+
+.reveal .paper-table table {
+  width: 100%;
+  margin: 0;
+}
+
+/* Table note: centered under the table */
+.reveal .paper-note {
+  width: 82%;
+  margin: .45em auto 0 auto;
+
+  font-size: 18px;
+  line-height: 1.35;
+  color: #6b7280;
+
+  text-align: center;
+}
+
+/* Source: centered at the very bottom of the slide */
+.reveal .paper-source {
+  position: absolute;
+
+  left: 0;
+  right: 0;
+  bottom: 12px;
+
+  font-size: 18px;
+  line-height: 1.35;
+  color: #6b7280;
+
+  text-align: center;
+}
+
+// ── Paper report: compact background layout ─────────────────
+
+.reveal .bg-grid {
+  display: grid;
+  grid-template-columns: 31% 65%;
+  gap: .5em 4%;
+  align-items: start;
+  margin-top: .2em;
+}
+
+.reveal .bg-label {
+  font-size: $fs-support;
+  font-weight: 700;
+  color: #374151;
+  margin-bottom: .55em;
+}
+
+.reveal .bg-tree {
+  font-size: $fs-body;
+  line-height: 1.55;
+}
+
+.reveal .bg-tree .sub {
+  margin-left: 1.15em;
+  color: #374151;
+}
+
+.reveal .bg-tree .sub2 { margin-left: 2.3em; color: #374151; }
+.reveal .bg-tree .sub3 { margin-left: 3.45em; color: #374151; }
+.reveal .bg-motivation { margin-top: .8em; padding-top: 0; }
+.reveal .bg-motivation ul { margin: 0 0 0 1.1em !important; }
+.reveal .bg-motivation li { font-size: 24px; line-height: 1.3; margin-bottom: 0; }
+.reveal .bg-motivation .bg-dir-h { margin: .55em 0 .15em 0; }
+.reveal .bg-motivation .bg-label { margin-bottom: 0; }
+.reveal .bg-dir-h { font-size: $fs-support; font-weight: 700; color: #374151; margin-bottom: .2em; }
+.reveal .bg-dir { border-top: 1px solid #d1d5db; padding-top: .6em; margin-top: .3em; }
+.reveal .bg-dir ul { margin: 0 0 0 1.1em; }
+.reveal .bg-fig { display: flex; flex-direction: column; }
+.reveal .bg-fig { height: 100%; }
+.reveal .bg-fig p, .reveal .bg-fig figure { margin: 0; flex: 1; display: flex; align-items: center; }
+.reveal .bg-fig img { margin: 0; max-height: none; width: 100%; }
+.reveal .bg-fig .figcap { margin-bottom: .2em; }
+.reveal .bg-dir li { font-size: 26px; line-height: 1.4; margin-bottom: .3em; }
+.reveal .bg-why-label { margin-top: 1.1em; padding-top: .5em; border-top: 1px solid #d1d5db; }
+.reveal .bg-takeaway {
+  position: absolute; left: 0; right: 0; bottom: 48px;
+  text-align: center; font-size: 22px; font-style: italic; color: #4b5563;
+}
+.reveal .bg-tree pre.tax {
+  width: 100%; margin: 0; box-shadow: none; background: none;
+  font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 22px; line-height: 1.55; color: #374151;
+}
+.reveal .bg-tree pre.tax b { color: #111827; }
+.reveal .bg-tree .focus {
+  color: $link-color;
+  font-weight: 700;
+}
+
+.reveal .nar-pipeline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .38em;
+  margin-top: 1.15em;
+}
+
+.reveal .nar-node {
+  border: 2px solid #d1d5db;
+  padding: .72em .55em;
+  min-width: 118px;
+  text-align: center;
+  font-size: $fs-support;
+  line-height: 1.2;
+  background: #fff;
+}
+
+.reveal .nar-node.semantic {
+  border-color: $link-color;
+  background: #eff6ff;
+}
+
+.reveal .nar-arrow {
+  font-size: 30px;
+  color: $c-muted;
+}
+
+.reveal .stage-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  margin-top: .8em;
+  font-size: $fs-meta;
+  color: $c-muted;
+  text-align: center;
+}
+
+.reveal .bg-note {
+  margin-top: .8em;
+  font-size: $fs-support;
+  color: #374151;
+}
+
+// ── P2: TTS taxonomy tree ───────────────────────────────────
+
+.reveal .tts-tree {
+  width: 95%;
+  margin: .25em auto 0 auto;
+  text-align: center;
+}
+
+.reveal .tree-root {
+  width: 145px;
+  margin: 0 auto;
+  padding: .45em .7em;
+
+  border: 2px solid #374151;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.reveal .tree-branch-symbol,
+.reveal .tree-sub-symbol {
+  font-size: 27px;
+  line-height: 1;
+  color: #9ca3af;
+  margin: .15em 0;
+}
+
+.reveal .tree-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .75em;
+  align-items: center;
+}
+
+.reveal .tree-node {
+  padding: .55em .35em;
+
+  border: 2px solid #d1d5db;
+  background: #fff;
+
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 650;
+}
+
+.reveal .tree-nar {
+  border-color: #6b7280;
+}
+
+.reveal .tree-muted {
+  color: #4b5563;
+}
+
+.reveal .tree-focus {
+  position: relative;
+  border: 3px solid #1670c5;
+  background: #eff6ff;
+  color: #0b5fb3;
+}
+
+.reveal .tree-tag {
+  position: absolute;
+  right: -8px;
+  top: -16px;
+
+  padding: .15em .45em;
+  background: #1670c5;
+  color: #fff;
+
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.reveal .tree-nar-features {
+  width: 48%;
+  margin: .42em 0 .1em auto;
+
+  display: flex;
+  justify-content: center;
+  gap: .35em;
+  flex-wrap: wrap;
+}
+
+.reveal .tree-nar-features span {
+  padding: .18em .45em;
+  background: #f3f4f6;
+  color: #4b5563;
+
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+// ── P3 Pain point ───────────────────────────────────────────
+
+.reveal .pain-error,
+.reveal .pain-bottleneck {
+  color: #dc2626;
+  font-weight: 700;
+}
+
+.reveal .pain-distinction {
+  margin-top: .65em;
+  padding: .55em .7em;
+  background: #f8fafc;
+  border-left: 5px solid #94a3b8;
+  font-size: 22px;
+  line-height: 1.45;
+}
+
+// ── P4 Architecture ────────────────────────────────────────
+
+.reveal .arch-top {
+  margin-top: .2em;
+}
+
+.reveal .arch-summary {
+  font-size: 22px;
+  line-height: 1.4;
+}
+
+.reveal .arch-summary ul {
+  margin-top: .35em;
+}
+
+.reveal .arch-summary li {
+  margin-bottom: .4em;
+}
+
+.reveal .arch-details {
+  margin-top: .6em;
+  padding-top: .55em;
+  border-top: 1px solid #d1d5db;
+}
+
+.reveal .arch-details h3 {
+  font-size: 22px;
+  margin-bottom: .3em;
+}
+
+.reveal .arch-details p,
+.reveal .arch-details li {
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.reveal .arch-equation {
+  text-align: center;
+  margin: .45em 0 .25em 0;
+}
+// ── Paper deck helpers (OmniVoice rebuild) ──────────────────
+.reveal .compact table th,
+.reveal .compact table td { padding: .26em .55em; }
+.reveal .compact table { margin: .3em 0; }
+.reveal .tight li { margin-bottom: .15em; }
+.reveal .figcap { font-size: $fs-meta; color: $c-muted; line-height: $lh-meta; margin-top: .1em; }
+.reveal .center-img { text-align: center; }
+
+.reveal .bg-motivation .bg-dir-h p { margin: 0; }
+
+.reveal .arch-list ul { margin: .2em 0 0 .2em; }
+.reveal .arch-list li { font-size: 23px; line-height: 1.45; margin-bottom: 1em !important; }
+
+.reveal .loss-eq { font-size: 22px; margin: .3em 0 .5em 0; }
+.reveal .loss-eq p { margin: 0; }
+.reveal .loss-eq .katex-display { margin: .15em 0 0 0; font-size: .85em; }
+
+.reveal .tflow { font-size: 22px; line-height: 1.35; margin-top: .6em; }
+.reveal .tflow p { margin: 0 0 .3em 0; }
+.reveal .tflow ol { margin: 0 0 0 1.3em; }
+.reveal .tflow li { font-size: 22px; margin-bottom: .2em; }
+.reveal .train-setup { margin-top: .4em; }
+.reveal .train-setup p { margin: 0 0 .2em 0; font-size: 22px; }
+
+.reveal .tflow, .reveal .tflow li { font-size: 22px; }
+.reveal .tflow li { margin-bottom: .1em; }
+.reveal .train li { font-size: 23px; line-height: 1.3; margin-bottom: .12em; }
+.reveal .train > .column > p { margin: .5em 0 .2em 0; }
+.reveal .train .katex-display { margin: .3em 0; }
+.reveal .train .train-setup .compact table { font-size: 20px; }
+
+.reveal .train .train-setup .compact td, .reveal .train .train-setup .compact th { white-space: nowrap; padding: .15em .5em; }
+
+.reveal .tflow, .reveal .tflow li { font-size: 20px; }
+.reveal .arch-list li { font-size: 24px; margin-bottom: 1.3em !important; }
+
+/* Training slide hierarchy */
+.reveal .train-h1 { font-size: 30px; font-weight: 700; color: #111827; margin: .1em 0 .15em 0; }
+.reveal .train-h2 { font-size: 25px; font-weight: 700; color: #374151; margin: .3em 0 .1em 0; }
+.reveal .train-setup { margin-top: .2em; padding-top: .25em; border-top: 1px solid #e5e7eb; color: #4b5563; }
+.reveal .train-setup p { font-size: 19px; margin: 0 0 .2em 0; }
+.reveal .train-setup table { font-size: 19px; margin: 0; }
+.reveal .train-setup td, .reveal .train-setup th { padding: .12em .6em; white-space: nowrap; }
+
+.reveal .hl { color: #0b5cad; font-weight: 700; }
+.reveal .loss-eq p { text-align: center; color: #4b5563; }
+
+/* Training slide: give the setup block breathing room above the footer */
+.reveal .train li { margin-bottom: .04em; line-height: 1.25; }
+.reveal .train .loss-eq { margin: .1em 0 .25em 0; }
+.reveal .train-h2 { margin: .15em 0 0 0; }
+.reveal .train .katex-display { margin: .15em 0; }
+.reveal .train-setup { margin-top: .1em; padding-top: .35em; line-height: 1.5; }
+.reveal .train-setup p { font-size: 19px; line-height: 1.55; margin: 0; }
+
+.reveal .train.columns, .reveal .columns.train { margin-top: -.6em; }
+.reveal .train .figcap { margin-top: 0; }
+
+/* Inference slide: balanced results table */
+.reveal .inf-table table { width: 78%; margin: .3em auto 0 auto; table-layout: fixed; }
+.reveal .inf-table th, .reveal .inf-table td { text-align: center; padding: .26em .4em; width: 25%; white-space: nowrap; }
+.reveal .inf-table-note { width: 78%; margin: 0 auto .4em auto; text-align: left; font-size: 18px; color: #6b7280; }
+.reveal .inf-table-note p { width: 78%; margin: 0 auto .4em auto; text-align: left; font-size: 18px; color: #6b7280; }
+
+/* Inference slides (3 consecutive): shared roles = same font size */
+.reveal .inf { font-size: 21px; }
+.reveal .inf-sub { font-size: 22px; color: #4b5563; margin: -.5em 0 .3em 0; font-style: italic; }
+.reveal .inf-sub p { margin: 0; }
+.reveal .inf-h { font-size: 24px; font-weight: 700; color: #111827; margin: .25em 0 0 0; }
+.reveal .inf-h p { margin: 0; }
+.reveal .inf p { font-size: 21px; line-height: 1.35; margin: .15em 0; }
+.reveal .inf .katex-display { margin: .2em 0; font-size: .92em; }
+.reveal .inf .katex { font-size: 1em; }
+.reveal .inf-b ul { margin: .1em 0 0 .2em; }
+.reveal .inf-b li { font-size: 21px; line-height: 1.32; margin-bottom: .12em; }
+.reveal .inf-chain { margin-top: .35em; padding-top: .3em; border-top: 1px solid #e5e7eb; }
+.reveal .inf-chain p { font-size: 22px; margin: 0; }
+.reveal .inf-tab table { font-size: 19px; width: 100%; margin: .2em 0 .3em 0; }
+.reveal .inf-tab th, .reveal .inf-tab td { padding: .12em .5em; }
+.reveal .inf .inf-table table { width: 100%; font-size: 21px; }
+.reveal .inf .inf-table-note, .reveal .inf .inf-table-note p { width: 100%; }
+.reveal .inf-tag { font-size: 18px; font-weight: 400; color: #6b7280; }
+.reveal .inf-tab table { font-size: 19px; table-layout: auto; }
+.reveal .inf-tab td, .reveal .inf-tab th { padding: .08em .5em; white-space: nowrap; }
+.reveal .inf-tab code { font-size: .88em; }
+.reveal .inf-tab td, .reveal .inf-tab th { padding: .16em .5em; }
+.reveal .inf .column > .inf-table { margin-right: 1em; }
+.reveal .inf-note, .reveal .inf-note p { font-size: 19px; color: #6b7280; margin: .1em 0; }
+.reveal .inf-callout, .reveal .inf-callout p { font-size: 23px; margin: .5em 0 .1em 0; }
+.reveal .inf-big .katex-display { font-size: 1.12em; margin: .3em 0; }
+.reveal .inf-big .inf-note, .reveal .inf-big .inf-note p { font-size: 20px; }
+/* Inference slide 3: widen the RTF column so its header fits */
+.reveal .inf .inf-table th:nth-child(1), .reveal .inf .inf-table td:nth-child(1) { width: 16%; }
+.reveal .inf .inf-table th:nth-child(2), .reveal .inf .inf-table td:nth-child(2) { width: 26%; }
+.reveal .inf .inf-table th:nth-child(3), .reveal .inf .inf-table td:nth-child(3) { width: 22%; }
+.reveal .inf .inf-table th:nth-child(4), .reveal .inf .inf-table td:nth-child(4) { width: 36%; }
+.reveal .inf-tab2 table { font-size: 20px; width: 100%; margin: .2em 0; }
+.reveal .inf-tab2 th, .reveal .inf-tab2 td { padding: .04em .4em; text-align: center; white-space: nowrap; }
+.reveal .inf .column table { font-size: 20px; margin: .2em 0; width: 100%; }
+.reveal .inf .column th, .reveal .inf .column td { padding: .1em .4em; text-align: center; }
+.reveal .inf .inf-calc p { font-size: 27px; margin: .1em 0; }
+.reveal .inf .inf-calc .katex-display { margin: .15em 0; font-size: 1em; }
+
+/* Main results / Ablation: hierarchy helpers */
+.reveal .main-tab table td, .reveal .main-tab table th { padding: .34em .55em; }
+.reveal .main-tab tbody tr:nth-child(-n+4) td { background: #f5f8fc; }
+.reveal .main-tab tbody tr:nth-child(4) td { border-bottom: 2px solid #9ca3af; }
+.reveal .sec-tab table { font-size: 20px; color: #4b5563; }
+.reveal .sec-tab table td, .reveal .sec-tab table th { padding: .2em .55em; }
+.reveal .syn-line, .reveal .syn-line p { font-size: 21px; font-weight: 600; color: #374151; margin: .2em 0; }
+.reveal .syn-line { border-top: 1px solid #e5e7eb; padding-top: .25em; }
+.reveal .key-line, .reveal .key-line p { font-size: 25px; font-weight: 700; color: #111827; line-height: 1.3; margin: .3em 0; }
+.reveal .main-tab table td, .reveal .main-tab table th { padding: .27em .55em; }
+.reveal .sec-tab table { font-size: 19px; }
+.reveal .sec-tab table td, .reveal .sec-tab table th { padding: .12em .55em; }
+.reveal .abl table { font-size: 21px; margin: .2em 0; }
+.reveal .abl table td, .reveal .abl table th { padding: .14em .5em; }
+.reveal .abl-key, .reveal .abl-key p { font-size: 22px; font-weight: 700; color: #111827; line-height: 1.3; margin: .2em 0; }
+.reveal .abl-key .katex { font-size: 1.05em; }
+.reveal .abl { font-size: 24px; }
+.reveal .abl .figcap { font-size: 17px; }
+
+/* Trace one example (hybrid): compact flow + numerical trace */
+.reveal .trace p { font-size: 21px; line-height: 1.3; margin: .1em 0; }
+.reveal .trace .katex-display { margin: .12em 0; font-size: .95em; }
+.reveal .tr-note, .reveal .tr-note p { font-size: 18px; color: #6b7280; margin: .05em 0; }
+.reveal .tr-h, .reveal .tr-h p { font-size: 23px; font-weight: 700; color: #111827; margin: .1em 0 .05em 0; }
+.reveal .tr-sm, .reveal .tr-sm p { font-size: 18px; color: #6b7280; line-height: 1.3; margin: .05em 0; }
+.reveal .tr-chain { border-top: 1px solid #e5e7eb; margin-top: .2em; padding-top: .2em; }
+.reveal .tr-chain p { font-size: 22px; margin: 0; }
+.reveal .trace p { font-size: 22px; }
+.reveal .trace .katex-display { margin: .18em 0; font-size: 1.02em; }
+.reveal .tr-cols { margin-top: .3em; }
+.reveal .tr-res, .reveal .tr-res p { font-size: 26px; font-weight: 700; color: #0b5cad; margin: .3em 0 0 0; }
+.reveal .trace .katex-display { margin: .3em 0; font-size: 1.2em; }
+.reveal .trace .tr-sm, .reveal .trace .tr-sm p { font-size: 21px; }
+.reveal .trace .tr-chain p { font-size: 24px; }
+.reveal .trace .tr-chain { margin-top: .6em; }
+.reveal .trace .katex-display { font-size: 1.07em; }
+
+/* Trace slide v3: more whitespace */
+.reveal .trace .tr-cols { margin-top: .9em; }
+.reveal .trace .tr-cols .column { padding: 0 1.3em; box-sizing: border-box; }
+.reveal .trace .tr-res-row { margin-top: .5em; }
+.reveal .trace .katex-display { margin: .4em 0; font-size: 1.07em; }
+.reveal .tr-focus, .reveal .tr-focus p { font-size: 28px; color: #0b5cad; font-weight: 700; margin: .5em 0; text-align: center; }
+.reveal .trace .tr-res, .reveal .trace .tr-res p { text-align: center; }
+.reveal .trace .tr-sm, .reveal .trace .tr-sm p { text-align: center; }
+.reveal .trace .tr-chain { margin-top: 1.1em; border-top: none; }
+.reveal .trace .tr-chain p { font-size: 25px; text-align: center; }
+.reveal .trace .paper-source p { font-size: 14.5px; line-height: 1.35; margin: 0 0 .15em 0; }
+.reveal .trace .tr-h { text-align: left; }
+.reveal .trace .column > p img, .reveal .trace .column img { display: block; margin: .3em auto; }
+
+/* Trace slide: three flashcard-style sections */
+.reveal .trace .tr-cols { align-items: stretch; }
+.reveal .trace .tr-cols .column { display: flex; padding: 0 .55em; box-sizing: border-box; }
+.reveal .trace .tr-card { flex: 1; display: flex; flex-direction: column; border: 1.5px solid #d1d5db; border-radius: 12px; background: #fff; padding: .55em 1em .6em 1em; }
+.reveal .trace .tr-card .tr-bottom { margin-top: auto; }
+.reveal .trace .tr-card .katex-display { margin: .3em 0; font-size: 1.02em; }
+.reveal .trace .tr-card .tr-res p { margin: .25em 0 0 0; }
+.reveal .trace .tr-cols .column { display: block; }
+.reveal .trace .tr-card { height: 100%; }
+.reveal .trace .columns.tr-cols { display: flex; flex-direction: row; align-items: stretch; gap: 0; }
+.reveal .trace .tr-cols .column { display: flex; }
+.reveal .trace .tr-card { height: auto; }
+.reveal .trace .tr-cols .column { min-width: 0; padding: 0 .5em; }
+.reveal .trace .tr-card { min-width: 0; padding: .55em .8em .6em .8em; }
+.reveal .trace .tr-card .katex-display { font-size: .95em; }
+.reveal .trace .tr-card .katex-display > .katex { white-space: normal; }
+.reveal .trace .tr-card { min-height: 397px; box-sizing: border-box; }
+.reveal .why .compact table td, .reveal .why .compact table th { padding: .12em .55em; }
+.reveal .why > p { margin: .25em 0; }
+.reveal .why table { margin: .15em 0; }
+
+/* My assessment / Takeaways */
+.reveal .as-row { margin: .5em 0 .9em 0; }
+.reveal .as-h, .reveal .as-h p { font-size: 22px; font-weight: 700; color: #6b7280; line-height: 1.3; margin: .25em 0 0 0; }
+.reveal .as-t, .reveal .as-t p { font-size: 28px; font-weight: 700; color: #111827; line-height: 1.3; margin: 0 0 .2em 0; }
+.reveal .as-b, .reveal .as-b p { font-size: 22px; line-height: 1.4; color: #374151; margin: 0; }
+.reveal .as-claim { border-left: 5px solid #0b5cad; padding: .35em .9em; margin: .8em 0 .4em 0; }
+.reveal .as-claim p { font-size: 26px; font-weight: 600; line-height: 1.35; color: #111827; margin: 0; }
+.reveal .tk-chain, .reveal .tk-chain p { font-size: 20px; color: #6b7280; margin: .25em 0; }
+.reveal .tk-take, .reveal .tk-take p { font-size: 25px; font-weight: 700; color: #111827; margin: .5em 0 0 0; }
+.reveal .as-row { margin: .8em 0 1.3em 0; }
+.reveal .as-h, .reveal .as-h p { font-size: 24px; margin-top: .3em; }
+.reveal .as-t, .reveal .as-t p { font-size: 30px; }
+.reveal .as-b, .reveal .as-b p { font-size: 24px; }
+.reveal .as-claim { margin-top: 1.6em; }
+.reveal .as-claim p { font-size: 29px; }
+
+/* Architecture section (A1–A5) */
+.reveal .arch-sub { font-size: 22px; color: #4b5563; margin: -.5em 0 .3em 0; font-style: italic; }
+.reveal .arch-sub p { margin: 0; }
+.reveal .arch-key { margin-top: .2em; padding-top: .25em; border-top: 1px solid #e5e7eb; }
+.reveal .arch-key p { font-size: 22px; margin: 0; }
+.reveal .arch-tags { display: flex; gap: 1.2em; margin-top: .3em; }
+.reveal .arch-tags > div { flex: 1; border-top: 3px solid #0b5cad; padding-top: .15em; }
+.reveal .arch-tags p { font-size: 24px; margin: 0; }
+
+/* Training section */
+.reveal .tr-tab table { font-size: 22px; width: 100%; margin: .2em 0 .3em 0; }
+.reveal .tr-tab th, .reveal .tr-tab td { padding: .14em .5em; white-space: normal; line-height: 1.3; }
+.reveal .tr-tab code { font-size: .86em; }
+.reveal .tr-pt, .reveal .tr-pt p, .reveal .tr-pt li { font-size: 21px; line-height: 1.35; }
+.reveal .tr-pt ul { margin: .1em 0 0 1.1em; }
+.reveal .tr-tab.nw td:nth-child(n+2):nth-child(-n+3) { white-space: nowrap; }
+
+/* ---- Final main deck (Phase 2B) ---- */
+.reveal .m-sub { font-size: 34px; font-weight: 700; color: #0b3d7a; margin: -.35em 0 .25em 0; }
+.reveal .m-sub p { margin: 0; }
+.reveal .m-key { margin-top: .2em; padding-top: .25em; border-top: 1px solid #e5e7eb; }
+.reveal .m-key p { font-size: 30px; margin: 0; }
+.reveal .m-pt, .reveal .m-pt p, .reveal .m-pt li { font-size: 27px; line-height: 1.35; }
+.reveal .m-pt ul { margin: .1em 0 0 1.1em; }
+.reveal .m-tab table { font-size: 28px; width: 100%; margin: .3em 0 .3em 0; }
+.reveal .m-tab th, .reveal .m-tab td { padding: .4em .6em; text-align: left; white-space: normal; line-height: 1.25; vertical-align: top; }
+.reveal .m-tab th { background: #f5f9fd; color: #0b3d7a; }
+.reveal .lvl-direct { color: #1b7f4a; font-weight: 700; }
+.reveal .lvl-indirect { color: #b45309; font-weight: 700; }
+.reveal .lvl-outcome { color: #4b5563; font-weight: 700; }
+.reveal .m-eq { font-size: 30px; margin: .1em 0 0 0; text-align: center; }
+.reveal .tr-tab.big table { font-size: 28px; }
+.reveal .tr-tab.big td { padding: .4em .5em; }
